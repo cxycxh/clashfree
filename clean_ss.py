@@ -1,6 +1,6 @@
 import yaml
 
-with open('clash.yaml', 'r',encoding="utf-8") as f:
+with open('/tmp/clash.yaml', 'r',encoding="utf-8") as f:
     clash_profile = yaml.safe_load(f)
     
 proxies = clash_profile['proxies']
