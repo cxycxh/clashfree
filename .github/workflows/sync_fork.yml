@@ -29,17 +29,11 @@ jobs:
     - name: Commit files
       id: commit-files
       run: |
-          if [ -n "$(git status --porcelain clash.yml)" ]; then
-            git config --local user.email "github-actions[bot]@users.noreply.github.com"
-            git config --local user.name "github-actions[bot]"
-            git commit -a -m "pull newest yaml"
-            echo "hasChange=true" >> $GITHUB_OUTPUT
-          else
-            echo "No changes detected"
-          fi       
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -a -m "pull newest yaml"     
     - name: Push changes
       uses: ad-m/github-push-action@master
-      if: ${{ steps.commit-files.outputs.hasChange == 'true' }}
       with:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         branch: 'main'
