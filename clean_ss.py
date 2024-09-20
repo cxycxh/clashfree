@@ -11,7 +11,7 @@ with open('clash.yml', 'r',encoding="utf-8") as f:
         if proxies:
             new_proxies = []
             for proxy in proxies:
-                if proxy['cipher']=='ss':
+                if proxy.get('cipher','')=='ss':
                     ss_names.append(proxy['name'])
                 else:
                     new_proxies.append(proxy)
