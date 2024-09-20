@@ -17,7 +17,7 @@ jobs:
       uses: actions/checkout@master
     - name: download the clash profile
       run: |
-        wget -q -o clash.yaml https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash.yml
+        wget -q -o /tmp/clash.yaml https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash.yml
     - name: setup python
       uses: actions/setup-python@v5
       with:
