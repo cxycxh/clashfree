@@ -24,6 +24,7 @@ jobs:
     - name: download the clash profile
       run: |
         wget -q -o /tmp/clash.yaml https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash.yml
+        cat /tmp/clash.yaml
     - name: remove ss's
       run: python clean_ss.py
     - name: Commit files
