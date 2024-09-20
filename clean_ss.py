@@ -1,7 +1,7 @@
 import yaml
 
 clash_profile = None
-with open('clash.yml', 'r',encoding="utf-8") as f:
+with open('clash.yaml', 'r',encoding="utf-8") as f:
     clash_profile = yaml.safe_load(f)
     if clash_profile:
         proxies = clash_profile['proxies']
