@@ -13,17 +13,17 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
-    - name: checkout
-      uses: actions/checkout@master
-    - name: download the clash profile
-      run: |
-        wget -q -o /tmp/clash.yaml https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash.yml
     - name: setup python
       uses: actions/setup-python@v5
       with:
         python-version: '3.10' 
     - name: install deps
       run: pip install pyyaml
+    - name: checkout
+      uses: actions/checkout@master
+    - name: download the clash profile
+      run: |
+        wget -q -o /tmp/clash.yaml https://raw.githubusercontent.com/aiboboxx/clashfree/refs/heads/main/clash.yml
     - name: remove ss's
       run: python clean_ss.py
     - name: Commit files
@@ -32,8 +32,7 @@ jobs:
           if [ -n "$(git status --porcelain clash.yml)" ]; then
             git config --local user.email "github-actions[bot]@users.noreply.github.com"
             git config --local user.name "github-actions[bot]"
-            git add .
-            git commit -m "pull newest yaml"
+            git commit -a -m "pull newest yaml"
             echo "hasChange=true" >> $GITHUB_OUTPUT
           else
             echo "No changes detected"
