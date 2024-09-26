@@ -22,114 +22,10 @@ proxies:
   server: 127.0.0.1
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-29
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 43.207.207.206
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-30
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 54.64.148.82
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-33
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 23.247.137.165
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-34
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 95.174.71.29
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-35
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 95.174.71.28
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-55
-  network: ws
-  port: 2086
-  server: russia.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-65
-  network: ws
-  port: 2086
-  server: malaysia.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-70
-  network: ws
-  port: 2086
-  server: ip.sb
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-71
-  network: ws
-  port: 2086
-  server: 172.64.175.213
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-73
+  name: 0|-https://t.me/MrXbin-26
   network: ws
   port: 2086
   server: 172.64.167.5
@@ -145,10 +41,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-74
+  name: 0|-https://t.me/MrXbin-28
   network: ws
   port: 2086
-  server: 172.64.166.22
+  server: japan.com
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -156,23 +52,7 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-82
-  network: ws
-  port: 2086
-  server: 172.64.166.28
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
+      Host: ip1.1789034.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -189,22 +69,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip1.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-95
-  network: ws
-  port: 2086
-  server: 23.227.38.3
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -6604,20 +6468,9 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-29
-  - 0|-https://t.me/MrXbin-30
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-34
-  - 0|-https://t.me/MrXbin-35
-  - 0|-https://t.me/MrXbin-55
-  - 0|-https://t.me/MrXbin-65
-  - 0|-https://t.me/MrXbin-70
-  - 0|-https://t.me/MrXbin-71
-  - 0|-https://t.me/MrXbin-73
-  - 0|-https://t.me/MrXbin-74
-  - 0|-https://t.me/MrXbin-82
+  - 0|-https://t.me/MrXbin-26
+  - 0|-https://t.me/MrXbin-28
   - "\U0001F1FA\U0001F1F8 0,13,14|\u7F8E\u56FD|@ripaojiedian"
-  - 0|-https://t.me/MrXbin-95
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -7057,20 +6910,9 @@ proxy-groups:
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-29
-  - 0|-https://t.me/MrXbin-30
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-34
-  - 0|-https://t.me/MrXbin-35
-  - 0|-https://t.me/MrXbin-55
-  - 0|-https://t.me/MrXbin-65
-  - 0|-https://t.me/MrXbin-70
-  - 0|-https://t.me/MrXbin-71
-  - 0|-https://t.me/MrXbin-73
-  - 0|-https://t.me/MrXbin-74
-  - 0|-https://t.me/MrXbin-82
+  - 0|-https://t.me/MrXbin-26
+  - 0|-https://t.me/MrXbin-28
   - "\U0001F1FA\U0001F1F8 0,13,14|\u7F8E\u56FD|@ripaojiedian"
-  - 0|-https://t.me/MrXbin-95
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -7513,20 +7355,9 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-29
-  - 0|-https://t.me/MrXbin-30
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-34
-  - 0|-https://t.me/MrXbin-35
-  - 0|-https://t.me/MrXbin-55
-  - 0|-https://t.me/MrXbin-65
-  - 0|-https://t.me/MrXbin-70
-  - 0|-https://t.me/MrXbin-71
-  - 0|-https://t.me/MrXbin-73
-  - 0|-https://t.me/MrXbin-74
-  - 0|-https://t.me/MrXbin-82
+  - 0|-https://t.me/MrXbin-26
+  - 0|-https://t.me/MrXbin-28
   - "\U0001F1FA\U0001F1F8 0,13,14|\u7F8E\u56FD|@ripaojiedian"
-  - 0|-https://t.me/MrXbin-95
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -7982,20 +7813,9 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-29
-  - 0|-https://t.me/MrXbin-30
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-34
-  - 0|-https://t.me/MrXbin-35
-  - 0|-https://t.me/MrXbin-55
-  - 0|-https://t.me/MrXbin-65
-  - 0|-https://t.me/MrXbin-70
-  - 0|-https://t.me/MrXbin-71
-  - 0|-https://t.me/MrXbin-73
-  - 0|-https://t.me/MrXbin-74
-  - 0|-https://t.me/MrXbin-82
+  - 0|-https://t.me/MrXbin-26
+  - 0|-https://t.me/MrXbin-28
   - "\U0001F1FA\U0001F1F8 0,13,14|\u7F8E\u56FD|@ripaojiedian"
-  - 0|-https://t.me/MrXbin-95
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -8436,20 +8256,9 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-29
-  - 0|-https://t.me/MrXbin-30
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-34
-  - 0|-https://t.me/MrXbin-35
-  - 0|-https://t.me/MrXbin-55
-  - 0|-https://t.me/MrXbin-65
-  - 0|-https://t.me/MrXbin-70
-  - 0|-https://t.me/MrXbin-71
-  - 0|-https://t.me/MrXbin-73
-  - 0|-https://t.me/MrXbin-74
-  - 0|-https://t.me/MrXbin-82
+  - 0|-https://t.me/MrXbin-26
+  - 0|-https://t.me/MrXbin-28
   - "\U0001F1FA\U0001F1F8 0,13,14|\u7F8E\u56FD|@ripaojiedian"
-  - 0|-https://t.me/MrXbin-95
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -8891,20 +8700,9 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-29
-  - 0|-https://t.me/MrXbin-30
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-34
-  - 0|-https://t.me/MrXbin-35
-  - 0|-https://t.me/MrXbin-55
-  - 0|-https://t.me/MrXbin-65
-  - 0|-https://t.me/MrXbin-70
-  - 0|-https://t.me/MrXbin-71
-  - 0|-https://t.me/MrXbin-73
-  - 0|-https://t.me/MrXbin-74
-  - 0|-https://t.me/MrXbin-82
+  - 0|-https://t.me/MrXbin-26
+  - 0|-https://t.me/MrXbin-28
   - "\U0001F1FA\U0001F1F8 0,13,14|\u7F8E\u56FD|@ripaojiedian"
-  - 0|-https://t.me/MrXbin-95
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -9355,20 +9153,9 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-29
-  - 0|-https://t.me/MrXbin-30
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-34
-  - 0|-https://t.me/MrXbin-35
-  - 0|-https://t.me/MrXbin-55
-  - 0|-https://t.me/MrXbin-65
-  - 0|-https://t.me/MrXbin-70
-  - 0|-https://t.me/MrXbin-71
-  - 0|-https://t.me/MrXbin-73
-  - 0|-https://t.me/MrXbin-74
-  - 0|-https://t.me/MrXbin-82
+  - 0|-https://t.me/MrXbin-26
+  - 0|-https://t.me/MrXbin-28
   - "\U0001F1FA\U0001F1F8 0,13,14|\u7F8E\u56FD|@ripaojiedian"
-  - 0|-https://t.me/MrXbin-95
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
