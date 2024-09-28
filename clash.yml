@@ -25,39 +25,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-33
-  network: ws
-  port: 2086
-  server: 23.227.38.3
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-40
-  network: ws
-  port: 2086
-  server: icook.tw
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-51
+  name: 0|-https://t.me/MrXbin-58
   network: ws
   port: 2086
   server: japan.com
@@ -73,23 +41,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-52
-  network: ws
-  port: 2086
-  server: 172.64.166.22
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-54
+  name: 0|-https://t.me/MrXbin-60
   network: ws
   port: 2086
   server: 172.64.166.28
@@ -105,7 +57,39 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-62
+  name: 0|-https://t.me/MrXbin-64
+  network: ws
+  port: 2086
+  server: 23.227.38.3
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|-https://t.me/MrXbin-65
+  network: ws
+  port: 80
+  server: 206.238.236.36
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: bc864078-dcf3-4bf4-8dbf-ca9f200b56be
+  ws-opts:
+    headers:
+      Host: mysan2.jaquay22.workers.dev
+    path: /gwdef.sbs/linkws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|-https://t.me/MrXbin-67
   network: ws
   port: 2086
   server: 172.64.198.249
@@ -121,10 +105,42 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-66
+  name: 0|-https://t.me/MrXbin-68
   network: ws
   port: 2086
   server: 172.64.175.213
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|-https://t.me/MrXbin-76
+  network: ws
+  port: 2086
+  server: 172.64.166.22
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|-https://t.me/MrXbin-92
+  network: ws
+  port: 2086
+  server: 172.64.167.5
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -338,14 +354,14 @@ proxies:
     headers:
       Host: ip005.3196772.xyz
     path: github.com/Alvin9999
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
+- client-fingerprint: chrome
   name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
-  password: 7d6fd36b-9580-4bee-8ad4-963f48c40b86
-  port: 47000
-  server: gate.jiasudu.buzz
-  tfo: false
-  type: ss
+  password: 3672449442956713984
+  port: 443
+  server: immense-buzzard.mite885.beauty
+  skip-cert-verify: false
+  sni: immense-buzzard.mite885.beauty
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -395,23 +411,6 @@ proxies:
     headers:
       Host: 220.246.57.32
     path: /
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  network: ws
-  port: 30001
-  server: 134.122.184.63
-  servername: www.36224588.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-  ws-opts:
-    headers:
-      Host: www.36224588.xyz
-    path: /path/351212081517
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2FR|@ripaojiedian"
@@ -436,14 +435,6 @@ proxies:
     headers:
       Host: tw1eskJpKcA.inivtrak.xyz
     path: /video/WNMicnDh
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  password: 6007a3c9-eaa3-442f-b9fe-825b0926b1d9
-  port: 49494
-  server: jp.zhongguoliantong.shop
-  tfo: false
-  type: ss
 - client-fingerprint: chrome
   name: "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   password: c471ef32-798d-40a0-a57c-acf3475a204e
@@ -459,6 +450,22 @@ proxies:
   server: naiu-sg.05vr9nyqg5.download
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
+  type: trojan
+- client-fingerprint: chrome
+  name: "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  password: 3672449442956713984
+  port: 443
+  server: precise-piglet.mite885.beauty
+  skip-cert-verify: false
+  sni: precise-piglet.mite885.beauty
+  type: trojan
+- client-fingerprint: chrome
+  name: "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  password: 3672449442956713984
+  port: 443
+  server: awaited-newt.mite885.beauty
+  skip-cert-verify: false
+  sni: awaited-newt.mite885.beauty
   type: trojan
 - client-fingerprint: chrome
   name: "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD2|@ripaojiedian"
@@ -541,20 +548,12 @@ proxies:
   skip-cert-verify: false
   sni: cloudflare.node-ssl.cdn-alibaba.com
   type: trojan
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD7|@ripaojiedian"
-  password: l2X7uaBSzeCp3YyaFAEjaAeg69RcCypZn8x03SZDqwl5D3K8CDTIN3OSF4xYRO
-  port: 28332
-  server: jellyfish.missionsec.io
-  skip-cert-verify: false
-  sni: jellyfish.missionsec.io
-  type: trojan
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 3.38.255.233
+  server: 3.36.120.116
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -562,7 +561,7 @@ proxies:
   name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 13.213.56.182
+  server: 54.180.240.137
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -570,25 +569,9 @@ proxies:
   name: "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 43.202.67.216
+  server: 13.212.1.95
   tfo: false
   type: ss
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD8|@ripaojiedian"
-  password: Y0OyAlDwCp9S4aCAXS3YSl8KBZRqeC5aDxE2e3xzRaD73Nc3FpgOyZnIFTu8j6
-  port: 18331
-  server: training.freetrade.link
-  skip-cert-verify: false
-  sni: training.freetrade.link
-  type: trojan
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD9|@ripaojiedian"
-  password: Sc4B3DORqFuNpREIySlCClZwgZ0aax26OXynF883j7YDK3pTYz5ACSexDaA9e3
-  port: 28331
-  server: bettong.missionsec.io
-  skip-cert-verify: false
-  sni: bettong.missionsec.io
-  type: trojan
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: "\U0001F1EC\U0001F1E7 13|\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
@@ -597,6 +580,22 @@ proxies:
   server: 212.102.53.81
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
+  password: 70747514-fb14-4f31-8390-e1f0453eff6d
+  port: 20024
+  server: sg1.mhw7e2.online
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F|@ripaojiedian"
+  password: 3672449442956713984
+  port: 443
+  server: immense-buzzard.mite885.beauty
+  skip-cert-verify: false
+  sni: immense-buzzard.mite885.beauty
+  type: trojan
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
@@ -630,6 +629,22 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- client-fingerprint: chrome
+  name: "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
+  password: 3672449442956713984
+  port: 443
+  server: precise-piglet.mite885.beauty
+  skip-cert-verify: false
+  sni: precise-piglet.mite885.beauty
+  type: trojan
+- client-fingerprint: chrome
+  name: "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
+  password: 3672449442956713984
+  port: 443
+  server: awaited-newt.mite885.beauty
+  skip-cert-verify: false
+  sni: awaited-newt.mite885.beauty
+  type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -6534,13 +6549,14 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-52
-  - 0|-https://t.me/MrXbin-54
-  - 0|-https://t.me/MrXbin-62
-  - 0|-https://t.me/MrXbin-66
+  - 0|-https://t.me/MrXbin-58
+  - 0|-https://t.me/MrXbin-60
+  - 0|-https://t.me/MrXbin-64
+  - 0|-https://t.me/MrXbin-65
+  - 0|-https://t.me/MrXbin-67
+  - 0|-https://t.me/MrXbin-68
+  - 0|-https://t.me/MrXbin-76
+  - 0|-https://t.me/MrXbin-92
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -6558,12 +6574,12 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2FR|@ripaojiedian"
   - "\U0001F1F9\U0001F1FC 13,14|\u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD2|@ripaojiedian"
@@ -6571,16 +6587,17 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD6|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD7|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD8|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD9|@ripaojiedian"
   - "\U0001F1EC\U0001F1E7 13|\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD5|@ripaojiedian"
@@ -6981,13 +6998,14 @@ proxy-groups:
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-52
-  - 0|-https://t.me/MrXbin-54
-  - 0|-https://t.me/MrXbin-62
-  - 0|-https://t.me/MrXbin-66
+  - 0|-https://t.me/MrXbin-58
+  - 0|-https://t.me/MrXbin-60
+  - 0|-https://t.me/MrXbin-64
+  - 0|-https://t.me/MrXbin-65
+  - 0|-https://t.me/MrXbin-67
+  - 0|-https://t.me/MrXbin-68
+  - 0|-https://t.me/MrXbin-76
+  - 0|-https://t.me/MrXbin-92
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -7005,12 +7023,12 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2FR|@ripaojiedian"
   - "\U0001F1F9\U0001F1FC 13,14|\u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD2|@ripaojiedian"
@@ -7018,16 +7036,17 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD6|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD7|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD8|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD9|@ripaojiedian"
   - "\U0001F1EC\U0001F1E7 13|\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD5|@ripaojiedian"
@@ -7431,13 +7450,14 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-52
-  - 0|-https://t.me/MrXbin-54
-  - 0|-https://t.me/MrXbin-62
-  - 0|-https://t.me/MrXbin-66
+  - 0|-https://t.me/MrXbin-58
+  - 0|-https://t.me/MrXbin-60
+  - 0|-https://t.me/MrXbin-64
+  - 0|-https://t.me/MrXbin-65
+  - 0|-https://t.me/MrXbin-67
+  - 0|-https://t.me/MrXbin-68
+  - 0|-https://t.me/MrXbin-76
+  - 0|-https://t.me/MrXbin-92
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -7455,12 +7475,12 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2FR|@ripaojiedian"
   - "\U0001F1F9\U0001F1FC 13,14|\u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD2|@ripaojiedian"
@@ -7468,16 +7488,17 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD6|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD7|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD8|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD9|@ripaojiedian"
   - "\U0001F1EC\U0001F1E7 13|\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD5|@ripaojiedian"
@@ -7882,9 +7903,9 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2FR|@ripaojiedian"
   - "\U0001F1F9\U0001F1FC 13,14|\u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
@@ -7895,13 +7916,14 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-52
-  - 0|-https://t.me/MrXbin-54
-  - 0|-https://t.me/MrXbin-62
-  - 0|-https://t.me/MrXbin-66
+  - 0|-https://t.me/MrXbin-58
+  - 0|-https://t.me/MrXbin-60
+  - 0|-https://t.me/MrXbin-64
+  - 0|-https://t.me/MrXbin-65
+  - 0|-https://t.me/MrXbin-67
+  - 0|-https://t.me/MrXbin-68
+  - 0|-https://t.me/MrXbin-76
+  - 0|-https://t.me/MrXbin-92
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -7919,12 +7941,12 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2FR|@ripaojiedian"
   - "\U0001F1F9\U0001F1FC 13,14|\u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD2|@ripaojiedian"
@@ -7932,16 +7954,17 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD6|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD7|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD8|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD9|@ripaojiedian"
   - "\U0001F1EC\U0001F1E7 13|\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD5|@ripaojiedian"
@@ -8343,13 +8366,14 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-52
-  - 0|-https://t.me/MrXbin-54
-  - 0|-https://t.me/MrXbin-62
-  - 0|-https://t.me/MrXbin-66
+  - 0|-https://t.me/MrXbin-58
+  - 0|-https://t.me/MrXbin-60
+  - 0|-https://t.me/MrXbin-64
+  - 0|-https://t.me/MrXbin-65
+  - 0|-https://t.me/MrXbin-67
+  - 0|-https://t.me/MrXbin-68
+  - 0|-https://t.me/MrXbin-76
+  - 0|-https://t.me/MrXbin-92
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -8367,12 +8391,12 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2FR|@ripaojiedian"
   - "\U0001F1F9\U0001F1FC 13,14|\u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD2|@ripaojiedian"
@@ -8380,16 +8404,17 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD6|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD7|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD8|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD9|@ripaojiedian"
   - "\U0001F1EC\U0001F1E7 13|\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD5|@ripaojiedian"
@@ -8792,13 +8817,14 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-52
-  - 0|-https://t.me/MrXbin-54
-  - 0|-https://t.me/MrXbin-62
-  - 0|-https://t.me/MrXbin-66
+  - 0|-https://t.me/MrXbin-58
+  - 0|-https://t.me/MrXbin-60
+  - 0|-https://t.me/MrXbin-64
+  - 0|-https://t.me/MrXbin-65
+  - 0|-https://t.me/MrXbin-67
+  - 0|-https://t.me/MrXbin-68
+  - 0|-https://t.me/MrXbin-76
+  - 0|-https://t.me/MrXbin-92
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -8816,12 +8842,12 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2FR|@ripaojiedian"
   - "\U0001F1F9\U0001F1FC 13,14|\u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD2|@ripaojiedian"
@@ -8829,16 +8855,17 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD6|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD7|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD8|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD9|@ripaojiedian"
   - "\U0001F1EC\U0001F1E7 13|\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD5|@ripaojiedian"
@@ -9250,13 +9277,14 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-33
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-52
-  - 0|-https://t.me/MrXbin-54
-  - 0|-https://t.me/MrXbin-62
-  - 0|-https://t.me/MrXbin-66
+  - 0|-https://t.me/MrXbin-58
+  - 0|-https://t.me/MrXbin-60
+  - 0|-https://t.me/MrXbin-64
+  - 0|-https://t.me/MrXbin-65
+  - 0|-https://t.me/MrXbin-67
+  - 0|-https://t.me/MrXbin-68
+  - 0|-https://t.me/MrXbin-76
+  - 0|-https://t.me/MrXbin-92
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -9274,12 +9302,12 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2FR|@ripaojiedian"
   - "\U0001F1F9\U0001F1FC 13,14|\u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD2|@ripaojiedian"
@@ -9287,16 +9315,17 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD5|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD6|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD7|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD8|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD9|@ripaojiedian"
   - "\U0001F1EC\U0001F1E7 13|\U0001F1EC\U0001F1E7 \u82F1\u56FD|@ripaojiedian"
+  - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD5|@ripaojiedian"
