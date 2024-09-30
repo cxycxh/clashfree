@@ -25,7 +25,23 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-40
+  name: 0|-https://t.me/MrXbin-30
+  network: ws
+  port: 2086
+  server: 23.227.38.3
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|-https://t.me/MrXbin-33
   network: ws
   port: 2086
   server: 172.64.166.22
@@ -41,10 +57,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-47
+  name: 0|-https://t.me/MrXbin-35
   network: ws
   port: 2086
-  server: russia.com
+  server: singapore.com
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -57,7 +73,23 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-50
+  name: 0|-https://t.me/MrXbin-37
+  network: ws
+  port: 2086
+  server: ip.sb
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|-https://t.me/MrXbin-45
   network: ws
   port: 2086
   server: 172.64.198.249
@@ -73,23 +105,7 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-51
-  network: ws
-  port: 2086
-  server: 172.64.175.213
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-57
+  name: 0|-https://t.me/MrXbin-49
   network: ws
   port: 2086
   server: 172.64.167.5
@@ -105,26 +121,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-76
+  name: 0|-https://t.me/MrXbin-63
   network: ws
   port: 2086
   server: 172.64.166.28
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|-https://t.me/MrXbin-80
-  network: ws
-  port: 2086
-  server: 23.227.38.3
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -4268,19 +4268,27 @@ proxies:
   tls: true
   type: vmess
   uuid: 044f0177-0675-4dcf-89d4-804b6788e518
+- client-fingerprint: chrome
+  name: 3
+  password: fuck
+  port: 443
+  server: 42.236.73.72
+  skip-cert-verify: false
+  sni: www.zitian.cn
+  type: trojan
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-47
-  - 0|-https://t.me/MrXbin-50
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-57
-  - 0|-https://t.me/MrXbin-76
-  - 0|-https://t.me/MrXbin-80
+  - 0|-https://t.me/MrXbin-30
+  - 0|-https://t.me/MrXbin-33
+  - 0|-https://t.me/MrXbin-35
+  - 0|-https://t.me/MrXbin-37
+  - 0|-https://t.me/MrXbin-45
+  - 0|-https://t.me/MrXbin-49
+  - 0|-https://t.me/MrXbin-63
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -4564,18 +4572,19 @@ proxy-groups:
   - 15|US_speednode_0317
   - 15|US_speednode_0318
   - '16|d*********g.com_2 #3'
+  - 3
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-47
-  - 0|-https://t.me/MrXbin-50
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-57
-  - 0|-https://t.me/MrXbin-76
-  - 0|-https://t.me/MrXbin-80
+  - 0|-https://t.me/MrXbin-30
+  - 0|-https://t.me/MrXbin-33
+  - 0|-https://t.me/MrXbin-35
+  - 0|-https://t.me/MrXbin-37
+  - 0|-https://t.me/MrXbin-45
+  - 0|-https://t.me/MrXbin-49
+  - 0|-https://t.me/MrXbin-63
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -4859,6 +4868,7 @@ proxy-groups:
   - 15|US_speednode_0317
   - 15|US_speednode_0318
   - '16|d*********g.com_2 #3'
+  - 3
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F30D \u56FD\u5916\u5A92\u4F53"
@@ -4867,13 +4877,13 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-47
-  - 0|-https://t.me/MrXbin-50
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-57
-  - 0|-https://t.me/MrXbin-76
-  - 0|-https://t.me/MrXbin-80
+  - 0|-https://t.me/MrXbin-30
+  - 0|-https://t.me/MrXbin-33
+  - 0|-https://t.me/MrXbin-35
+  - 0|-https://t.me/MrXbin-37
+  - 0|-https://t.me/MrXbin-45
+  - 0|-https://t.me/MrXbin-49
+  - 0|-https://t.me/MrXbin-63
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -5157,6 +5167,7 @@ proxy-groups:
   - 15|US_speednode_0317
   - 15|US_speednode_0318
   - '16|d*********g.com_2 #3'
+  - 3
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -5179,13 +5190,13 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-47
-  - 0|-https://t.me/MrXbin-50
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-57
-  - 0|-https://t.me/MrXbin-76
-  - 0|-https://t.me/MrXbin-80
+  - 0|-https://t.me/MrXbin-30
+  - 0|-https://t.me/MrXbin-33
+  - 0|-https://t.me/MrXbin-35
+  - 0|-https://t.me/MrXbin-37
+  - 0|-https://t.me/MrXbin-45
+  - 0|-https://t.me/MrXbin-49
+  - 0|-https://t.me/MrXbin-63
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -5469,19 +5480,20 @@ proxy-groups:
   - 15|US_speednode_0317
   - 15|US_speednode_0318
   - '16|d*********g.com_2 #3'
+  - 3
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-47
-  - 0|-https://t.me/MrXbin-50
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-57
-  - 0|-https://t.me/MrXbin-76
-  - 0|-https://t.me/MrXbin-80
+  - 0|-https://t.me/MrXbin-30
+  - 0|-https://t.me/MrXbin-33
+  - 0|-https://t.me/MrXbin-35
+  - 0|-https://t.me/MrXbin-37
+  - 0|-https://t.me/MrXbin-45
+  - 0|-https://t.me/MrXbin-49
+  - 0|-https://t.me/MrXbin-63
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -5765,6 +5777,7 @@ proxy-groups:
   - 15|US_speednode_0317
   - 15|US_speednode_0318
   - '16|d*********g.com_2 #3'
+  - 3
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
@@ -5772,13 +5785,13 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-47
-  - 0|-https://t.me/MrXbin-50
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-57
-  - 0|-https://t.me/MrXbin-76
-  - 0|-https://t.me/MrXbin-80
+  - 0|-https://t.me/MrXbin-30
+  - 0|-https://t.me/MrXbin-33
+  - 0|-https://t.me/MrXbin-35
+  - 0|-https://t.me/MrXbin-37
+  - 0|-https://t.me/MrXbin-45
+  - 0|-https://t.me/MrXbin-49
+  - 0|-https://t.me/MrXbin-63
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -6062,6 +6075,7 @@ proxy-groups:
   - 15|US_speednode_0317
   - 15|US_speednode_0318
   - '16|d*********g.com_2 #3'
+  - 3
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -6078,13 +6092,13 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|-https://t.me/MrXbin-40
-  - 0|-https://t.me/MrXbin-47
-  - 0|-https://t.me/MrXbin-50
-  - 0|-https://t.me/MrXbin-51
-  - 0|-https://t.me/MrXbin-57
-  - 0|-https://t.me/MrXbin-76
-  - 0|-https://t.me/MrXbin-80
+  - 0|-https://t.me/MrXbin-30
+  - 0|-https://t.me/MrXbin-33
+  - 0|-https://t.me/MrXbin-35
+  - 0|-https://t.me/MrXbin-37
+  - 0|-https://t.me/MrXbin-45
+  - 0|-https://t.me/MrXbin-49
+  - 0|-https://t.me/MrXbin-63
   - 2|d*********g.com_0
   - 2|d*********g.com_1
   - 2|d*********g.com_2
@@ -6368,6 +6382,7 @@ proxy-groups:
   - 15|US_speednode_0317
   - 15|US_speednode_0318
   - '16|d*********g.com_2 #3'
+  - 3
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
