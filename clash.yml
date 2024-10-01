@@ -27,22 +27,6 @@ proxies:
   client-fingerprint: chrome
   name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9"
   network: ws
-  port: 443
-  server: 104.16.67.38
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
-  ws-opts:
-    headers:
-      Host: us3e-mmnnfr9dop0.v2freevpn.com
-    path: /v118-fccxmxm35
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 2"
-  network: ws
   port: 2086
   server: 104.20.19.168
   skip-cert-verify: false
@@ -54,248 +38,13 @@ proxies:
     headers:
       Host: ip1.1789034.xyz
     path: github.com/Alvin9999
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC"
-  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10713
-  server: 122.195.189.15
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 142.202.49.84
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 3"
-  network: ws
-  port: 80
-  server: 162.159.136.106
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5820093a-bb7d-4e15-8575-1a529f2d8282
-  ws-opts:
-    headers:
-      Host: rn2.hostmjj.com
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 4"
-  network: ws
-  port: 443
-  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: e078ffd8-ccf8-42e8-f2c8-2f6a92b47c8f
-  ws-opts:
-    headers:
-      Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 2"
   network: ws
   port: 2086
-  server: 172.64.175.213
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip11.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 6"
-  network: ws
-  port: 2095
-  server: 104.19.45.74
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 7"
-  network: ws
-  port: 2096
-  server: speedtestnetcomexpresstvsoft98irernanewsggffnetemailcloudflare.expresstv.ggff.net
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: d77c0cdc-b28e-427d-c58c-062f254759bd
-  ws-opts:
-    headers:
-      Host: speedtestnetcomexpresstvsoft98irernanewsggffnetemailcloudflare.expresstv.ggff.net
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 8"
-  network: ws
-  port: 2086
-  server: 104.26.5.123
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 2"
-  password: XKFKl2rULjIp74
-  port: 8009
-  server: 142.202.49.119
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 2"
-  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10720
-  server: 122.195.189.15
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 169.197.142.216
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 9"
-  network: ws
-  port: 2052
-  server: 104.16.68.38
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: worker-divine-hat-02d6.savofir317.workers.dev
-    path: /glweidf.cfd/linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
-  network: ws
-  port: 2086
-  server: skk.moe
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
-  network: ws
-  port: 2095
-  server: 104.19.45.144
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
-  network: ws
-  port: 2086
-  server: 104.19.46.39
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip13.freegradely.xyz
-    path: github.com/Alvin9999
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
-  password: pKEW8JPByTVTLtM
-  port: 443
-  server: 142.202.49.119
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 3"
-  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10704
-  server: 122.195.189.15
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
-  ws-opts:
-    headers:
-      Host: sahand.serveminecraft.net
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 13"
-  network: ws
-  port: 2086
-  server: 172.64.167.25
+  server: 172.64.166.12
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -305,180 +54,19 @@ proxies:
     headers:
       Host: ip2.1457230.xyz
     path: github.com/Alvin9999
-- client-fingerprint: chrome
-  name: "\U0001F1F3\U0001F1F1 \u8377\u5170 v2rayfree.eu.org"
-  password: 3672449442956713984
-  port: 443
-  server: 91.199.84.246
-  skip-cert-verify: false
-  sni: immense-buzzard.mite885.beauty
-  type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 142.202.49.74
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 14"
-  network: ws
-  port: 2082
-  server: 172.67.130.140
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
-  ws-opts:
-    headers:
-      Host: s1c.v2.v001sss.xyz
-    path: /
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 4"
+    \u516C\u82F1\u7F51\u7EDC"
   password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10714
-  server: yidong1.liulangdiqiu.life
+  port: 10716
+  server: 122.195.189.15
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 15"
-  network: ws
-  port: 2095
-  server: 104.19.45.92
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
-  password: Y6R9pAtvxxzmGC
-  port: 3306
-  server: 142.202.49.79
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
-  network: ws
-  port: 2095
-  server: 104.19.45.82
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
-  password: lGqs95QkFHo2NV
-  port: 5499
-  server: 142.202.49.119
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACFastly\u8282\u70B9"
-  network: ws
-  port: 80
-  server: www.hkbu.edu.hk
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c0b05000-23dd-4de9-9041-ec130166ff1a
-  ws-opts:
-    headers:
-      Host: nmsl.kp
-    path: /aries?ed=2048
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\
-    \u8328\u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
-  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
-  port: 26667
-  server: service.ouluyun9803.com
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 142.202.49.79
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
-  network: ws
-  port: 2095
-  server: 104.19.45.73
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org"
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 69.50.92.55
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 2"
-  password: zDNVedRFPQexG9v
-  port: 6379
-  server: 69.50.95.53
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
-  network: ws
-  port: 2086
-  server: 104.19.38.62
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
-  ws-opts:
-    headers:
-      Host: ip005.3196772.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 3"
   network: ws
   port: 2086
   server: 104.19.45.15
@@ -491,178 +79,10 @@ proxies:
     headers:
       Host: ip13.freegradely.xyz
     path: github.com/Alvin9999
-- client-fingerprint: chrome
-  name: "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
-  password: 94d219c9-1afc-4d42-b090-8b3794764380
-  port: 443
-  server: std1.loadingip.com
-  skip-cert-verify: false
-  sni: std1.loadingip.com
-  type: trojan
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 3"
-  password: faBAoD54k87UJG7
-  port: 2376
-  server: 69.50.92.71
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 8"
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 142.202.49.79
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 5"
-  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10723
-  server: 122.195.189.15
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 20"
-  network: ws
-  port: 2086
-  server: 104.19.21.71
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 9"
-  password: g5MeD6Ft3CWlJId
-  port: 5004
-  server: 142.202.49.84
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 21"
-  network: ws
-  port: 2086
-  server: 104.22.37.243
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 22"
-  network: ws
-  port: 2095
-  server: 104.19.45.194
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 23"
-  network: ws
-  port: 8880
-  server: server31.beheshtbaneh.com
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4154143c-bbba-47a4-9f79-c2ed087cbcc9
-  ws-opts:
-    headers:
-      Host: server31.beheshtbaneh.com
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 6"
-  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10715
-  server: 122.195.189.15
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 7"
-  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10722
-  server: 122.195.189.15
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
-  network: ws
-  port: 80
-  server: dns.ton.org
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: c0b05000-23dd-4de9-9041-ec130166ff1a
-  ws-opts:
-    headers:
-      Host: open.alipay.ovh
-    path: /aries?ed=2048
-- client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 25"
-  network: ws
-  password: 242a3d8eee5e4ed1a6bfa4141d549a25
-  port: 443
-  server: 162.159.152.2
-  skip-cert-verify: false
-  sni: jobscareerforlawyers.com
-  type: trojan
-  ws-opts:
-    headers:
-      Host: jobscareerforlawyers.com
-    path: 6b777a91
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 26"
-  network: ws
-  port: 2086
-  server: 172.64.99.22
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip11.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 27"
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 4"
   network: ws
   port: 80
   server: 172.64.229.209
@@ -675,318 +95,13 @@ proxies:
     headers:
       Host: rn2.hostmjj.com
     path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
-  password: lGqs95QkFHo2NV
-  port: 5498
-  server: 69.50.95.53
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 28"
-  network: ws
-  port: 2086
-  server: 172.64.198.249
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 29"
-  network: ws
-  port: 2052
-  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 4b1168e7-82b0-43a7-8dbc-b22b61547ef4
-  ws-opts:
-    headers:
-      Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
-    path: /
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
-  password: WfmxKX2FBJRU0Ie9VLIYDL
-  port: 20012
-  server: 141.98.234.93
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 30"
-  network: ws
-  port: 2086
-  server: 104.19.38.8
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip14.freegradely.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 31"
-  network: ws
-  port: 2086
-  server: 162.159.140.19
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 32"
-  network: ws
-  port: 2086
-  server: 104.16.67.38
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 1052f24e-7b09-45eb-b0c5-d858eb124192
-  ws-opts:
-    headers:
-      Host: worker-damp-duadwans.jevesoj131.workers.dev
-    path: /glweidf.cfd/linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 33"
-  network: ws
-  port: 8880
-  server: 104.16.68.38
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: worker-lingering-fog-c021.gesofog870.workers.dev
-    path: /glweidf.sbs/linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 34"
-  network: ws
-  port: 2086
-  server: 104.26.5.145
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 35"
-  network: ws
-  port: 2086
-  server: 104.26.5.103
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
-  network: ws
-  port: 443
-  server: 202.78.162.5
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 2ff97c6d-8557-42a4-b43f-19c77c5959ea
-  ws-opts:
-    headers:
-      Host: irsoft.sytes.net
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
-  password: KixLvKzwjekG00rm
-  port: 5500
-  server: 69.50.95.53
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 36"
-  network: ws
-  port: 2086
-  server: 104.19.46.42
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 37"
-  network: ws
-  port: 2086
-  server: 172.64.166.8
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip2.1457230.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 38"
-  network: ws
-  port: 2082
-  server: 104.16.68.38
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 76221bfb-e92f-4e80-81c5-6fe48f50ac0b
-  ws-opts:
-    headers:
-      Host: snowy-river-f497.turkeys-radford.workers.dev
-    path: /glweidf.sbs/linkws
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 \u82F1\u56FD+v2rayfree.eu.org"
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 185.93.173.218
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\
-    \u53F8"
-  password: Y6R9pAtvxxzmGC
-  port: 3389
-  server: 38.110.1.12
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 39"
-  network: ws
-  port: 2086
-  server: 104.26.5.66
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u6DF1\u5733\u5E02+\u79FB\u52A8"
-  password: 70747514-fb14-4f31-8390-e1f0453eff6d
-  port: 20017
-  server: hk5.mhw7e2.online
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 10"
-  password: PCnnH6SQSnfoS27
-  port: 8090
-  server: 142.202.49.119
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
-  password: TEzjfAYq2IjtuoS
-  port: 6697
-  server: 69.50.95.53
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
-  password: Y6R9pAtvxxzmGC
-  port: 5000
-  server: 69.50.92.110
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 40"
-  network: ws
-  port: 2086
-  server: 172.67.70.92
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
-  password: cdBIDV42DCwnfIN
-  port: 8118
-  server: 69.50.92.110
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 41"
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
   network: ws
   port: 2095
-  server: 104.19.45.235
+  server: 104.19.45.139
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -996,18 +111,683 @@ proxies:
     headers:
       Host: onea.flha.ru
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  grpc-opts:
+    grpc-mode: gun
+    grpc-service-name: /
+  name: "\U0001F1F5\U0001F1F1 \u6CE2\u5170 v2rayfree.eu.org"
+  network: grpc
+  port: 5857
+  server: 85.194.246.115
+  servername: ''
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: f889913b-b65e-4e2c-ff7a-d02baa87fc1d
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 9"
-  password: cdBIDV42DCwnfIN
-  port: 8119
-  server: 69.50.95.53
+  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
+  password: faBAoD54k87UJG7
+  port: 2375
+  server: 142.202.49.119
+  tfo: false
+  type: ss
+- alterId: 1
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EAC\u90FDAmazon\u6570\u636E\u4E2D\
+    \u5FC3"
+  port: 21583
+  server: xma74-g03.jp03-7d22-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 22acc467-7440-386a-927a-d84be554b37e
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 2"
+  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
+  port: 10702
+  server: 122.195.189.15
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Xerox"
+  password: telegram-id-directvpn
+  port: 22222
+  server: 13.51.28.140
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 6"
+  network: ws
+  port: 2086
+  server: 162.159.140.33
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 7"
+  network: ws
+  port: 2086
+  server: 104.26.8.156
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 8"
+  network: ws
+  port: 2096
+  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: d77c0cdc-b28e-427d-c58c-062f254759bd
+  ws-opts:
+    headers:
+      Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.ernanews.ggff.net
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 2"
+  password: zDNVedRFPQexG9v
+  port: 6379
+  server: 142.202.49.119
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: "\U0001F1EB\U0001F1F7 \u6CD5\u56FD \u5DF4\u9ECEAmazon\u6570\u636E\u4E2D\u5FC3"
+  password: telegram-id-directvpn
+  port: 22222
+  server: 52.47.213.253
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 9"
+  network: ws
+  port: 2086
+  server: 104.19.51.232
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 29eebb60-b27b-4a9d-bba5-947763d9205e
+  ws-opts:
+    headers:
+      Host: ip006.freegradely.xyz
+    path: github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 3"
+  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
+  port: 10707
+  server: 122.195.189.15
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 42"
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
+  network: ws
+  port: 80
+  server: 104.16.67.38
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 2a8a10fb-9ca3-367e-a234-cf09f841be4f
+  ws-opts:
+    headers:
+      Host: us3e-mmnnfr9dop0.v2freevpn.com
+    path: /v118-fccxmxm35
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1"
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 26667
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
+  network: ws
+  port: 80
+  server: 104.18.84.104
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 211d8a34-9c48-4435-b4bf-343ae1cbda0e
+  ws-opts:
+    headers:
+      Host: rn1.hostmjj.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
+  network: ws
+  port: 2095
+  server: 104.19.45.209
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 13"
+  network: ws
+  port: 2095
+  server: 104.19.45.14
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 14"
+  network: ws
+  port: 2095
+  server: 104.19.45.17
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 15"
+  network: ws
+  port: 80
+  server: cf.877771.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: ebace182-ad9a-4044-92fd-ad48adf52779
+  ws-opts:
+    headers:
+      Host: 33.bycf.us.kg
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org"
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 69.50.95.53
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 23.157.40.95
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 2"
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 139.64.165.155
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
+  password: Y6R9pAtvxxzmGC
+  port: 5001
+  server: 142.202.49.119
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
+  network: ws
+  port: 2086
+  server: 162.159.140.93
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
+  password: cdBIDV42DCwnfIN
+  port: 8119
+  server: 142.202.49.119
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 3"
+  password: kDWvXYZoTBcGkC4
+  port: 8881
+  server: 69.50.92.99
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
+  network: ws
+  port: 443
+  server: cdn.cngfw.online
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: cab438c4-9c5a-43fd-a623-ce81cb93085c
+  ws-opts:
+    headers:
+      Host: eu3.kunkunbuku.me
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
+  password: FoOiGlkAA9yPEGP
+  port: 7307
+  server: 169.197.142.120
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
+  network: ws
+  port: 2086
+  server: 104.16.149.244
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 3"
+  password: lGqs95QkFHo2NV
+  port: 5498
+  server: 169.197.142.120
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org"
+  password: zCCkJdIC36BFBn2YZynUn0
+  port: 12575
+  server: 89.185.84.185
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
+  network: ws
+  port: 2086
+  server: 104.19.38.88
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip5-4.freegradely.xyz
+    path: github.com/Alvin9999
+- client-fingerprint: chrome
+  name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 Amazon\u6570\u636E\u4E2D\u5FC3"
+  password: 3672449442956713984
+  port: 443
+  server: devoted-liger.mite885.beauty
+  skip-cert-verify: false
+  sni: devoted-liger.mite885.beauty
+  type: trojan
+- client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Merit\u7F51\u7EDC\u516C\u53F8"
+  password: b44da489-fc70-4fd0-8997-a83b51f59267
+  port: 20230
+  server: us004.421421.xyz
+  skip-cert-verify: false
+  sni: 421421.xyz
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 4"
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 23.150.152.16
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 5"
+  password: faBAoD54k87UJG7
+  port: 2376
+  server: 23.157.40.95
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  password: Y6R9pAtvxxzmGC
+  port: 5601
+  server: 139.64.165.101
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1EA\U0001F1F8 \u897F\u73ED\u7259 v2rayfree.eu.org"
+  network: ws
+  port: 443
+  server: 149.7.16.188
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: 149.7.16.188
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 20"
+  network: ws
+  port: 2095
+  server: 104.19.45.202
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 21"
+  network: ws
+  port: 2086
+  server: 104.19.55.49
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 22"
+  network: ws
+  port: 2086
+  server: 104.19.45.11
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip13.freegradely.xyz
+    path: github.com/Alvin9999
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 142.202.49.119
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 4"
+  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
+  port: 10703
+  server: 122.195.189.15
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  password: e4FCWrgpkji3QY
+  port: 9102
+  server: 69.50.92.55
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 5"
+  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
+  port: 10712
+  server: yidong1.liulangdiqiu.life
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
+  password: kDWvXYZoTBcGkC4
+  port: 8882
+  server: 167.88.61.235
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 23"
+  network: ws
+  port: 2086
+  server: 162.159.140.91
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
+  network: ws
+  port: 2095
+  server: 104.19.45.117
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  ws-opts:
+    headers:
+      Host: onea.flha.ru
+    path: /
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 6"
+  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
+  port: 10709
+  server: 122.195.189.15
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 25"
+  network: ws
+  port: 2052
+  server: 104.21.118.181
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 423caa0c-0542-4326-92e1-18769b6608e7
+  ws-opts:
+    headers:
+      Host: tw1eskJpKcA.inivtrak.xyz
+    path: /video/WNMicnDh
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 26"
+  network: ws
+  port: 2086
+  server: 172.64.167.44
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
+  password: Y6R9pAtvxxzmGC
+  port: 5000
+  server: 69.50.92.110
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 6"
+  password: PCnnH6SQSnfoS27
+  port: 8090
+  server: 23.157.40.95
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 27"
+  network: ws
+  port: 2086
+  server: 172.64.166.16
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
+  password: XKFKl2rULjIp74
+  port: 8009
+  server: 142.202.49.119
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 28"
+  network: ws
+  port: 2086
+  server: 104.26.5.88
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  password: 6fcc09c3-e211-4f59-a3ab-272bad776056
+  port: 60006
+  server: adoredone.cc
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 2"
+  password: xeQxB7sMGptfFct2qk2ESLeCNLLhRRwXrkNZXCdLFYvYwPQD
+  port: 51348
+  server: 5.188.36.54
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 29"
   network: ws
   port: 8080
   server: www.darkroom.lol
@@ -1023,261 +803,67 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 43"
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 30"
   network: ws
-  port: 2095
-  server: 104.19.45.75
+  port: 443
+  server: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
   skip-cert-verify: false
   tfo: false
-  tls: false
+  tls: true
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: e078ffd8-ccf8-42e8-f2c8-2f6a92b47c8f
   ws-opts:
     headers:
-      Host: onea.flha.ru
+      Host: speedtestneternanewsggffnetemailcloudflarecomexpresstvsoft98ir.expresstv.ggff.net
     path: /
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 11"
-  password: PCnnH6SQSnfoS27
-  port: 8091
-  server: 142.202.49.119
-  tfo: false
-  type: ss
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  port: 58831
-  server: 120.232.153.27
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 10"
-  password: g5MeD6Ft3CWlJId
-  port: 5003
-  server: 139.64.165.155
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 44"
-  network: ws
-  port: 2095
-  server: 104.19.45.176
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- client-fingerprint: randomized
-  name: "\U0001F1E7\U0001F1F7 \u5DF4\u897F\u5723\u4FDD\u7F57 CloudFlare\u8282\u70B9"
-  network: ws
-  password: bpb-trojan
-  port: 2053
-  server: 188.114.97.36
-  skip-cert-verify: false
-  sni: BPB-worKEr-pANel1-E4p.PAgES.Dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: BPB-worKEr-pANel1-E4p.PAgES.Dev
-    path: /tr9pU4LSFNK5k8URSo/ZGUucmFkaWNhbGx5LnBybw==
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 11"
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 69.50.95.179
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 45"
-  network: ws
-  port: 2086
-  server: 162.159.140.45
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 46"
-  network: ws
-  port: 2095
-  server: 104.19.45.232
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
-  password: e4FCWrgpkji3QY
-  port: 9102
-  server: 167.88.61.235
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 12"
-  password: TEzjfAYq2IjtuoS
-  port: 6679
-  server: 142.202.49.119
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 8"
-  password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10709
-  server: yidong1.liulangdiqiu.life
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 47"
-  network: ws
-  port: 80
-  server: 172.67.64.120
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: d646fd8c-3405-40c4-8df8-fb85d6bf8b24
-  ws-opts:
-    headers:
-      Host: 58892877706648357761980405045364.chrsjfklsdjfkljoierfdjklfjlkefeojsdlkfjeoifjsdlkfjweoifjlsdchrs.cyou
-    path: /V2LINE-TELEGRAM-CHANNEL-VMESS-WS
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  grpc-opts:
-    grpc-mode: gun
-    grpc-service-name: "/ \u062E\u0633\u062A\u0647 \u0634\u062F\u0645 \u0627\u0632\
-      \ \u0632\u0646\u062F\u06AF\u06CC \u062A\u0648 \u0627\u06CC\u0631\u0627\u0646\
-      @iranPwner"
-  name: "\U0001F1F3\U0001F1F1 -NL\xB2-Mojia-Tel-@iranPwner"
-  network: grpc
-  port: 8888
-  server: 0:0:0:0:0:ffff:68f8:cdd7
-  servername: ''
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: Mojia-telegram-iranPwner
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 48"
-  network: ws
-  port: 2095
-  server: 104.19.45.242
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 13"
-  password: XKFKl2rULjIp74
-  port: 8008
-  server: 142.202.49.122
-  tfo: false
-  type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 49"
-  network: ws
-  port: 8880
-  server: 104.16.61.8
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: edbb1059-1633-4271-b66e-ed4fba47a1bf
-  ws-opts:
-    headers:
-      Host: worgold21yagranghadeyaakbarshokretbozorg.abza.workers.dev
-    path: /linde06.indiavideo.sbs/linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 50"
-  network: ws
-  port: 2095
-  server: 104.19.45.175
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
-  ws-opts:
-    headers:
-      Host: onea.flha.ru
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 51"
-  network: ws
-  port: 2086
-  server: 162.159.140.77
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
-  ws-opts:
-    headers:
-      Host: ip1.1789034.xyz
-    path: github.com/Alvin9999
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
+  name: "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
   password: FoOiGlkAA9yPEGP
   port: 7307
-  server: 169.197.142.120
+  server: 142.202.49.119
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 52"
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 31"
+  network: ws
+  port: 2082
+  server: s1c.v2.v001sss.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a
+  ws-opts:
+    headers:
+      Host: s1c.v2.v001sss.xyz
+    path: /
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  password: PCnnH6SQSnfoS27
+  port: 8091
+  server: 69.50.95.53
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\
+    \u53F8"
+  password: Y6R9pAtvxxzmGC
+  port: 8888
+  server: 38.110.1.12
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 32"
   network: ws
   port: 2086
-  server: 104.19.32.88
+  server: 104.19.46.63
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -1285,49 +871,299 @@ proxies:
   uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: ip5-4.freegradely.xyz
+      Host: ip14.freegradely.xyz
     path: github.com/Alvin9999
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 53"
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 33"
   network: ws
-  port: 2095
-  server: 104.19.45.184
+  port: 2086
+  server: icook.tw
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: onea.flha.ru
-    path: /
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3\
+    \ 2"
+  password: 6fcc09c3-e211-4f59-a3ab-272bad776056
+  port: 60009
+  server: adoredone.cc
+  tfo: false
+  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 9"
+    \u516C\u82F1\u7F51\u7EDC 7"
   password: dd29d7ad-5fda-4f64-a57e-716ca6010e65
-  port: 10721
+  port: 10720
   server: 122.195.189.15
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 54"
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 34"
   network: ws
-  port: 2095
-  server: 104.19.45.222
+  port: 2086
+  server: 104.19.47.77
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 7a737f41-b792-4260-94ff-3d864da67b80
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
   ws-opts:
     headers:
-      Host: onea.flha.ru
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
+- client-fingerprint: chrome
+  name: "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  password: 94d219c9-1afc-4d42-b090-8b3794764380
+  port: 443
+  server: std1.loadingip.com
+  skip-cert-verify: false
+  sni: std1.loadingip.com
+  type: trojan
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 69.50.95.53
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 2"
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20003
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 35"
+  network: ws
+  port: 2052
+  server: cfcdn1.sanfencdn9.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 423caa0c-0542-4326-92e1-18769b6608e7
+  ws-opts:
+    headers:
+      Host: tw1eskJpKcA.inivtrak.xyz
+    path: /video/WNMicnDh
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 3"
+  password: 36ZCHeabUSfKjfQEvJ4HDV
+  port: 54170
+  server: 185.242.86.156
+  tfo: false
+  type: ss
+- client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u963F\u91CC\u4E91"
+  network: ws
+  password: a3ca0380-8a17-403a-a5b3-a9f6e59be193
+  port: 443
+  server: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
+  skip-cert-verify: false
+  sni: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
+  type: trojan
+  ws-opts:
+    headers:
+      Host: claw-ali-hkg-1ge.china-next-generation-any-path-smart-route-global.2h.ma
+    path: /a3ca0380-8a17-403a-a5b3-a9f6e59be193
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 3"
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20005
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 36"
+  network: ws
+  port: 2086
+  server: 172.64.175.213
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 37"
+  network: ws
+  port: 2086
+  server: 172.64.167.15
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 38"
+  network: ws
+  port: 2086
+  server: 104.18.57.111
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip11.freegradely.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 39"
+  network: ws
+  port: 2086
+  server: 172.64.166.2
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip2.1457230.xyz
+    path: github.com/Alvin9999
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD \u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\
+    \u53F8"
+  network: ws
+  port: 38007
+  server: 38.174.190.75
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  ws-opts:
+    headers:
+      Host: 38.174.190.75
+    path: /path/251724052818
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 40"
+  network: ws
+  port: 2086
+  server: 104.26.5.145
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 41"
+  network: ws
+  port: 2086
+  server: www.visa.com
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip1.1789034.xyz
+    path: github.com/Alvin9999
+- client-fingerprint: chrome
+  name: "\U0001F1EC\U0001F1E7 \u82F1\u56FD \u4F26\u6566Amazon\u6570\u636E\u4E2D\u5FC3"
+  password: telegram-id-privatevpns
+  port: 22222
+  server: 3.11.156.134
+  skip-cert-verify: false
+  sni: trojan.burgerip.co.uk
+  type: trojan
+- alterId: 1
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  port: 444
+  server: 7gqt4-g01.jp04-3771-vm0.entry.fr0307a.art
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 7a6cb59b-fbcd-3f50-b5f2-a2534326c4c8
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 7"
+  password: TEzjfAYq2IjtuoS
+  port: 6679
+  server: 169.197.142.216
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 42"
+  network: ws
+  port: 80
+  server: 162.159.128.248
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 211d8a34-9c48-4435-b4bf-343ae1cbda0e
+  ws-opts:
+    headers:
+      Host: rn1.hostmjj.com
     path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 43"
+  network: ws
+  port: 2086
+  server: 104.19.38.12
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339
+  ws-opts:
+    headers:
+      Host: ip14.freegradely.xyz
+    path: github.com/Alvin9999
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
   proxies:
@@ -1338,115 +1174,104 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 2"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
+  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EAC\u90FDAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Xerox"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 8"
   - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 2"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 2"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
+  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD \u5DF4\u9ECEAmazon\u6570\u636E\u4E2D\u5FC3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 3"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 13"
-  - "\U0001F1F3\U0001F1F1 \u8377\u5170 v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 14"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 15"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACFastly\u8282\u70B9"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 3"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 8"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Merit\u7F51\u7EDC\u516C\u53F8"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 4"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1EA\U0001F1F8 \u897F\u73ED\u7259 v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 20"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 9"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 21"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 22"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 4"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 23"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 6"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 25"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 26"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 27"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 28"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 29"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 30"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 31"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 32"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 33"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3\
+    \ 2"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 34"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 35"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 3"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u963F\u91CC\u4E91"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 36"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 37"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 38"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD+v2rayfree.eu.org"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 39"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u6DF1\u5733\u5E02+\u79FB\u52A8"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD \u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 40"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 41"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 9"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD \u4F26\u6566Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 42"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 43"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 11"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 44"
-  - "\U0001F1E7\U0001F1F7 \u5DF4\u897F\u5723\u4FDD\u7F57 CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 45"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 46"
-  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 12"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 47"
-  - "\U0001F1F3\U0001F1F1 -NL\xB2-Mojia-Tel-@iranPwner"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 48"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 13"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 49"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 50"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 51"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 52"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 53"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 54"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
@@ -1456,115 +1281,104 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 2"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
+  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EAC\u90FDAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Xerox"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 8"
   - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 2"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 2"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
+  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD \u5DF4\u9ECEAmazon\u6570\u636E\u4E2D\u5FC3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 3"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 13"
-  - "\U0001F1F3\U0001F1F1 \u8377\u5170 v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 14"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 15"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACFastly\u8282\u70B9"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 3"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 8"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Merit\u7F51\u7EDC\u516C\u53F8"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 4"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1EA\U0001F1F8 \u897F\u73ED\u7259 v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 20"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 9"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 21"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 22"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 4"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 23"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 6"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 25"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 26"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 27"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 28"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 29"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 30"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 31"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 32"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 33"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3\
+    \ 2"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 34"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 35"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 3"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u963F\u91CC\u4E91"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 36"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 37"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 38"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD+v2rayfree.eu.org"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 39"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u6DF1\u5733\u5E02+\u79FB\u52A8"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD \u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 40"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 41"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 9"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD \u4F26\u6566Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 42"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 43"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 11"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 44"
-  - "\U0001F1E7\U0001F1F7 \u5DF4\u897F\u5723\u4FDD\u7F57 CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 45"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 46"
-  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 12"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 47"
-  - "\U0001F1F3\U0001F1F1 -NL\xB2-Mojia-Tel-@iranPwner"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 48"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 13"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 49"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 50"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 51"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 52"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 53"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 54"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F30D \u56FD\u5916\u5A92\u4F53"
@@ -1577,119 +1391,109 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 2"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
+  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EAC\u90FDAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Xerox"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 8"
   - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 2"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 2"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
+  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD \u5DF4\u9ECEAmazon\u6570\u636E\u4E2D\u5FC3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 3"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 13"
-  - "\U0001F1F3\U0001F1F1 \u8377\u5170 v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 14"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 15"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACFastly\u8282\u70B9"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 3"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 8"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Merit\u7F51\u7EDC\u516C\u53F8"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 4"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1EA\U0001F1F8 \u897F\u73ED\u7259 v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 20"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 9"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 21"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 22"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 4"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 23"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 6"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 25"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 26"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 27"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 28"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 29"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 30"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 31"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 32"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 33"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3\
+    \ 2"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 34"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 35"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 3"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u963F\u91CC\u4E91"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 36"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 37"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 38"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD+v2rayfree.eu.org"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 39"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u6DF1\u5733\u5E02+\u79FB\u52A8"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD \u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 40"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 41"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 9"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD \u4F26\u6566Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 42"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 43"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 11"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 44"
-  - "\U0001F1E7\U0001F1F7 \u5DF4\u897F\u5723\u4FDD\u7F57 CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 45"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 46"
-  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 12"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 47"
-  - "\U0001F1F3\U0001F1F1 -NL\xB2-Mojia-Tel-@iranPwner"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 48"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 13"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 49"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 50"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 51"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 52"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 53"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 54"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u963F\u91CC\u4E91"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
 - name: "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
@@ -1701,115 +1505,104 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 2"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
+  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EAC\u90FDAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Xerox"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 8"
   - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 2"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 2"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
+  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD \u5DF4\u9ECEAmazon\u6570\u636E\u4E2D\u5FC3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 3"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 13"
-  - "\U0001F1F3\U0001F1F1 \u8377\u5170 v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 14"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 15"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACFastly\u8282\u70B9"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 3"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 8"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Merit\u7F51\u7EDC\u516C\u53F8"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 4"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1EA\U0001F1F8 \u897F\u73ED\u7259 v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 20"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 9"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 21"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 22"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 4"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 23"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 6"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 25"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 26"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 27"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 28"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 29"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 30"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 31"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 32"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 33"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3\
+    \ 2"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 34"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 35"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 3"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u963F\u91CC\u4E91"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 36"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 37"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 38"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD+v2rayfree.eu.org"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 39"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u6DF1\u5733\u5E02+\u79FB\u52A8"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD \u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 40"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 41"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 9"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD \u4F26\u6566Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 42"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 43"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 11"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 44"
-  - "\U0001F1E7\U0001F1F7 \u5DF4\u897F\u5723\u4FDD\u7F57 CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 45"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 46"
-  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 12"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 47"
-  - "\U0001F1F3\U0001F1F1 -NL\xB2-Mojia-Tel-@iranPwner"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 48"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 13"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 49"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 50"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 51"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 52"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 53"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 54"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
@@ -1820,115 +1613,104 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 2"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
+  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EAC\u90FDAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Xerox"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 8"
   - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 2"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 2"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
+  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD \u5DF4\u9ECEAmazon\u6570\u636E\u4E2D\u5FC3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 3"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 13"
-  - "\U0001F1F3\U0001F1F1 \u8377\u5170 v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 14"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 15"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACFastly\u8282\u70B9"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 3"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 8"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Merit\u7F51\u7EDC\u516C\u53F8"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 4"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1EA\U0001F1F8 \u897F\u73ED\u7259 v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 20"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 9"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 21"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 22"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 4"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 23"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 6"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 25"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 26"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 27"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 28"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 29"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 30"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 31"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 32"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 33"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3\
+    \ 2"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 34"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 35"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 3"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u963F\u91CC\u4E91"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 36"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 37"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 38"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD+v2rayfree.eu.org"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 39"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u6DF1\u5733\u5E02+\u79FB\u52A8"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD \u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 40"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 41"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 9"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD \u4F26\u6566Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 42"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 43"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 11"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 44"
-  - "\U0001F1E7\U0001F1F7 \u5DF4\u897F\u5723\u4FDD\u7F57 CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 45"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 46"
-  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 12"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 47"
-  - "\U0001F1F3\U0001F1F1 -NL\xB2-Mojia-Tel-@iranPwner"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 48"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 13"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 49"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 50"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 51"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 52"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 53"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 54"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
@@ -1940,115 +1722,104 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 2"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
+  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EAC\u90FDAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Xerox"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 8"
   - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 2"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 2"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
+  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD \u5DF4\u9ECEAmazon\u6570\u636E\u4E2D\u5FC3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 3"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 13"
-  - "\U0001F1F3\U0001F1F1 \u8377\u5170 v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 14"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 15"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACFastly\u8282\u70B9"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 3"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 8"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Merit\u7F51\u7EDC\u516C\u53F8"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 4"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1EA\U0001F1F8 \u897F\u73ED\u7259 v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 20"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 9"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 21"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 22"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 4"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 23"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 6"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 25"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 26"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 27"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 28"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 29"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 30"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 31"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 32"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 33"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3\
+    \ 2"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 34"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 35"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 3"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u963F\u91CC\u4E91"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 36"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 37"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 38"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD+v2rayfree.eu.org"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 39"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u6DF1\u5733\u5E02+\u79FB\u52A8"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD \u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 40"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 41"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 9"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD \u4F26\u6566Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 42"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 43"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 11"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 44"
-  - "\U0001F1E7\U0001F1F7 \u5DF4\u897F\u5723\u4FDD\u7F57 CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 45"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 46"
-  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 12"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 47"
-  - "\U0001F1F3\U0001F1F1 -NL\xB2-Mojia-Tel-@iranPwner"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 48"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 13"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 49"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 50"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 51"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 52"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 53"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 54"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -2069,115 +1840,104 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 2"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 5"
+  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EAC\u90FDAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Xerox"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 8"
   - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 2"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 2"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
+  - "\U0001F1EB\U0001F1F7 \u6CD5\u56FD \u5DF4\u9ECEAmazon\u6570\u636E\u4E2D\u5FC3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 3"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 10"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 11"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 12"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 13"
-  - "\U0001F1F3\U0001F1F1 \u8377\u5170 v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 14"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 15"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACFastly\u8282\u70B9"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 16"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 4"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 3"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 8"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 17"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 18"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 19"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Merit\u7F51\u7EDC\u516C\u53F8"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 4"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 5"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1EA\U0001F1F8 \u897F\u73ED\u7259 v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 20"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 9"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 21"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 22"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 4"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 5"
+  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 23"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
     \u516C\u82F1\u7F51\u7EDC 6"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 7"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 24"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 25"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 26"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 27"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 4"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 6"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 28"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 29"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 30"
+  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 31"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 32"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 33"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C+\u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3\
+    \ 2"
+  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
+    \u516C\u82F1\u7F51\u7EDC 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 34"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357 v2rayfree.eu.org"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 35"
-  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 5"
+  - "\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF+v2rayfree.eu.org 3"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F \u963F\u91CC\u4E91"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD+KT\u7535\u4FE1 3"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 36"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 37"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 38"
-  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD+v2rayfree.eu.org"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+\u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 39"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u6DF1\u5733\u5E02+\u79FB\u52A8"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 6"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 7"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD \u534E\u76DB\u987FCogent\u901A\u4FE1\u516C\u53F8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 40"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 8"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 41"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 9"
+  - "\U0001F1EC\U0001F1E7 \u82F1\u56FD \u4F26\u6566Amazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C \u4E1C\u4EACAmazon\u6570\u636E\u4E2D\u5FC3"
+  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 7"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 42"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 43"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 11"
-  - "\U0001F1E8\U0001F1F3 \u5E7F\u4E1C\u7701\u5E7F\u5DDE\u5E02 \u79FB\u52A8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 10"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 44"
-  - "\U0001F1E7\U0001F1F7 \u5DF4\u897F\u5723\u4FDD\u7F57 CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD+v2rayfree.eu.org 11"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 45"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 46"
-  - "\U0001F1F8\U0001F1EA \u745E\u5178+v2rayfree.eu.org"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 12"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 8"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 47"
-  - "\U0001F1F3\U0001F1F1 -NL\xB2-Mojia-Tel-@iranPwner"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 48"
-  - "\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927+v2rayfree.eu.org 13"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 49"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 50"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 51"
-  - "\U0001F1FA\U0001F1F8 \u5317\u7F8E\u5730\u533A+v2rayfree.eu.org 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 52"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 53"
-  - "\U0001F1EC\U0001F1E7 \u6C5F\u82CF\u7701\u5BBF\u8FC1\u5E02+\u8054\u901A/\u84B2\
-    \u516C\u82F1\u7F51\u7EDC 9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9 54"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
