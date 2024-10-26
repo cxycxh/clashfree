@@ -22,76 +22,73 @@ proxies:
   server: 127.0.0.1
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9"
-  network: ws
-  port: 8080
-  server: www.darkroom.lol
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 22826b44-5c1a-4b4b-dbaa-83a2e8bd95f0
-  ws-opts:
-    headers:
-      Host: www.darkroom.lol
-    path: /
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Fastly\u5168\u7403Anycast\u8282\u70B9"
-  network: ws
-  port: 443
-  server: gov.uk
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 77848824-93b7-4b89-ffd0-e91afff406ce
-  ws-opts:
-    headers:
-      Host: zheshiscp.com
-    path: /77848824
-- cipher: aes-256-gcm
-  client-fingerprint: chrome
-  name: "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
-  password: 7BcLdsO1WweoGD0X
-  port: 40368
-  server: 193.243.147.128
-  tfo: false
-  type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\
-    \u8328\u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
+  name: "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org"
   password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
   port: 20005
   server: service.ouluyun9803.com
   tfo: false
   type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org 2"
+  password: d6105bbd-be0d-45b2-82ad-31fd1071c1d2
+  port: 20003
+  server: service.ouluyun9803.com
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 716eded6-2201-4dbd-9d63-1638c9e8e677
+  ws-opts:
+    headers:
+      Host: pendar.onthewifi.com
+    path: /
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
+  network: ws
+  port: 443
+  server: 202.78.162.5
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 118287d2-e968-42e1-80d0-12fa2f5d38d6
+  ws-opts:
+    headers:
+      Host: sahand.serveminecraft.net
+    path: /
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Fastly\u5168\u7403Anycast\u8282\u70B9"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org 2"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Fastly\u5168\u7403Anycast\u8282\u70B9"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org 2"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F30D \u56FD\u5916\u5A92\u4F53"
@@ -100,11 +97,10 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Fastly\u5168\u7403Anycast\u8282\u70B9"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org 2"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -116,22 +112,20 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Fastly\u5168\u7403Anycast\u8282\u70B9"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org 2"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Fastly\u5168\u7403Anycast\u8282\u70B9"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org 2"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
@@ -139,11 +133,10 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Fastly\u5168\u7403Anycast\u8282\u70B9"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org 2"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -160,11 +153,10 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD CloudFlare\u8282\u70B9"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD Fastly\u5168\u7403Anycast\u8282\u70B9"
-  - "\U0001F1F5\U0001F1F1 \u6CE2\u5170+v2rayfree.eu.org"
-  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD\u4E0B\u8428\u514B\u68EE\u5DDE\u8428\u5C14\u8328\
-    \u5409\u7279+\u5FB7\u56FD\u7535\u4FE1"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F9 \u610F\u5927\u5229+v2rayfree.eu.org 2"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org"
+  - "\U0001F1EE\U0001F1F3 \u5370\u5EA6 v2rayfree.eu.org 2"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
