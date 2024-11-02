@@ -22,12 +22,12 @@ proxies:
   server: 127.0.0.1
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   client-fingerprint: chrome
   name: 0|--1
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 23.247.137.165
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.168
   tfo: false
   type: ss
 - cipher: aes-256-gcm
@@ -38,66 +38,77 @@ proxies:
   server: 23.134.94.168
   tfo: false
   type: ss
-- cipher: aes-128-gcm
-  client-fingerprint: chrome
-  name: 0|--3
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--5
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 54.64.148.82
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--6
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 43.207.207.206
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--7
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 95.174.71.28
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--8
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  port: 2377
-  server: 95.174.71.29
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|--25
+  name: 0|--16
   network: ws
-  port: 2095
-  server: 172.64.175.213
+  port: 2082
+  server: 23.227.38.3
+  servername: ip18.6929198.xyz
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip9.6016725.xyz
+      Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|--27
+  name: 0|--17
+  network: ws
+  port: 2082
+  server: 172.64.166.32
+  servername: ip18.6929198.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--18
+  network: ws
+  port: 2082
+  server: 172.64.198.249
+  servername: ip18.6929198.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--19
+  network: ws
+  port: 2082
+  server: 172.64.167.15
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
+  ws-opts:
+    headers:
+      Host: ip16.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--21
   network: ws
   port: 2082
   server: 172.64.166.22
@@ -113,90 +124,39 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
+  name: 0|--23
+  network: ws
+  port: 2095
+  server: 172.64.166.28
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--24
+  network: ws
+  port: 2095
+  server: 172.64.166.2
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
   name: 0|--28
-  network: ws
-  port: 2082
-  server: 172.64.99.22
-  servername: ip18.6929198.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--29
-  network: ws
-  port: 2082
-  server: 172.64.166.9
-  servername: ip18.6929198.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--33
-  network: ws
-  port: 2095
-  server: 172.64.166.8
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip12.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--34
-  network: ws
-  port: 2095
-  server: 172.64.99.22
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip12.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--40
-  network: ws
-  port: 8080
-  server: n002.kovmk.website
-  servername: n002.kovmk.website
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
-  ws-opts:
-    headers:
-      Host: daohang.kovmk.website
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--42
   network: ws
   port: 8080
   server: m003.mmzhk.website
@@ -924,19 +884,14 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
   - 0|--2
-  - 0|--3
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--25
-  - 0|--27
+  - 0|--16
+  - 0|--17
+  - 0|--18
+  - 0|--19
+  - 0|--21
+  - 0|--23
+  - 0|--24
   - 0|--28
-  - 0|--29
-  - 0|--33
-  - 0|--34
-  - 0|--40
-  - 0|--42
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1003,19 +958,14 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
   - 0|--2
-  - 0|--3
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--25
-  - 0|--27
+  - 0|--16
+  - 0|--17
+  - 0|--18
+  - 0|--19
+  - 0|--21
+  - 0|--23
+  - 0|--24
   - 0|--28
-  - 0|--29
-  - 0|--33
-  - 0|--34
-  - 0|--40
-  - 0|--42
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1085,19 +1035,14 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
   - 0|--2
-  - 0|--3
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--25
-  - 0|--27
+  - 0|--16
+  - 0|--17
+  - 0|--18
+  - 0|--19
+  - 0|--21
+  - 0|--23
+  - 0|--24
   - 0|--28
-  - 0|--29
-  - 0|--33
-  - 0|--34
-  - 0|--40
-  - 0|--42
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1185,19 +1130,14 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
   - 0|--2
-  - 0|--3
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--25
-  - 0|--27
+  - 0|--16
+  - 0|--17
+  - 0|--18
+  - 0|--19
+  - 0|--21
+  - 0|--23
+  - 0|--24
   - 0|--28
-  - 0|--29
-  - 0|--33
-  - 0|--34
-  - 0|--40
-  - 0|--42
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1265,19 +1205,14 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
   - 0|--2
-  - 0|--3
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--25
-  - 0|--27
+  - 0|--16
+  - 0|--17
+  - 0|--18
+  - 0|--19
+  - 0|--21
+  - 0|--23
+  - 0|--24
   - 0|--28
-  - 0|--29
-  - 0|--33
-  - 0|--34
-  - 0|--40
-  - 0|--42
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1346,19 +1281,14 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
   - 0|--2
-  - 0|--3
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--25
-  - 0|--27
+  - 0|--16
+  - 0|--17
+  - 0|--18
+  - 0|--19
+  - 0|--21
+  - 0|--23
+  - 0|--24
   - 0|--28
-  - 0|--29
-  - 0|--33
-  - 0|--34
-  - 0|--40
-  - 0|--42
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1436,19 +1366,14 @@ proxy-groups:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
   - 0|--2
-  - 0|--3
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--25
-  - 0|--27
+  - 0|--16
+  - 0|--17
+  - 0|--18
+  - 0|--19
+  - 0|--21
+  - 0|--23
+  - 0|--24
   - 0|--28
-  - 0|--29
-  - 0|--33
-  - 0|--34
-  - 0|--40
-  - 0|--42
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
