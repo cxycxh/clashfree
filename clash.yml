@@ -24,26 +24,26 @@ proxies:
   type: ss
 - cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 0|--2
+  name: 0|--1
   password: faBAoD54k87UJG7
   port: 2376
   server: 38.75.136.117
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--3
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.188
-  tfo: false
-  type: ss
 - cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 0|--4
+  name: 0|--3
   password: shadowsocks
   port: 443
   server: 156.146.38.168
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: 0|--4
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: 45.87.175.164
   tfo: false
   type: ss
 - alterId: 0
@@ -65,110 +65,10 @@ proxies:
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|--23
-  network: ws
-  port: 2082
-  server: 172.64.166.32
-  servername: ip18.6929198.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
   name: 0|--24
   network: ws
   port: 2082
-  server: 172.64.167.22
-  servername: ip18.6929198.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--30
-  network: ws
-  port: 8080
-  server: m003.mmzhk.website
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: c3d1b53d-8cbe-4455-a009-bfa08e55f11d
-  ws-opts:
-    headers:
-      Host: daohang.mmzhk.website
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--33
-  network: ws
-  port: 443
-  server: dkzbofzkop.com
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: fa1897db-1925-4c86-a495-939a959af900
-  ws-opts:
-    headers:
-      Host: dkzbofzkop.com
-    path: /rbqqvws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--35
-  network: ws
-  port: 2082
-  server: 172.64.166.2
-  servername: ip18.6929198.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
-  ws-opts:
-    headers:
-      Host: ip18.6929198.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--37
-  network: ws
-  port: 8080
-  server: m003.mmzhk.website
-  servername: m003.mmzhk.website
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 6dde3b3f-0a00-448a-a406-26d0960d1655
-  ws-opts:
-    headers:
-      Host: daohang.mmzhk.website
-    path: /xyz
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--38
-  network: ws
-  port: 2082
-  server: 172.64.166.22
+  server: 172.64.167.44
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -177,6 +77,54 @@ proxies:
   ws-opts:
     headers:
       Host: ip16.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--32
+  network: ws
+  port: 2095
+  server: 172.64.167.8
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--34
+  network: ws
+  port: 2095
+  server: 172.64.166.9
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip11.6016725.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--37
+  network: ws
+  port: 2095
+  server: 172.64.166.8
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip12.6016725.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -535,20 +483,7 @@ proxies:
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
 - client-fingerprint: chrome
-  name: 15|CA_speednode_0002
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 23.227.60.8
-  skip-cert-verify: false
-  sni: 403b3611-99bc-43b7-88D7-26Ed5D0825A9-3.paGeS.dev
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 403b3611-99bc-43b7-88D7-26Ed5D0825A9-3.paGeS.dev
-    path: /trZkJgi4MLAtl7SrU9
-- client-fingerprint: chrome
-  name: 15|ES_speednode_0008
+  name: 15|ES_speednode_0006
   network: ws
   password: bpb-trojan
   port: 443
@@ -561,7 +496,7 @@ proxies:
       Host: 403b3611-99bc-43b7-88D7-26Ed5D0825a9-3.PAgeS.dEv
     path: /trLb1imnrxPEhfzfwk
 - client-fingerprint: chrome
-  name: 15|HK_speednode_0010
+  name: 15|HK_speednode_0008
   network: ws
   port: 23555
   server: 219.77.65.212
@@ -576,7 +511,7 @@ proxies:
       Host: juzi8186.5112233.xyz
     path: /?ed=2560fp=random
 - client-fingerprint: chrome
-  name: 15|IE_speednode_0011
+  name: 15|IE_speednode_0009
   network: ws
   port: 22222
   server: 34.251.229.14
@@ -591,22 +526,7 @@ proxies:
       Host: telegram-channel-vlessconfig.sohala.uk
     path: /telegram-channel-vlessconfig-wssecurity=tls
 - client-fingerprint: chrome
-  name: 15|IE_speednode_0012
-  network: ws
-  port: 22222
-  server: 34.246.254.55
-  servername: telegram-channel-vlessconfig.sohala.uk
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vless
-  uuid: 05519058-d2ac-4f28-9e4a-2b2a1386749e
-  ws-opts:
-    headers:
-      Host: telegram-channel-vlessconfig.sohala.uk
-    path: /telegram-channel-vlessconfig-wssecurity=tls
-- client-fingerprint: chrome
-  name: 15|RU_speednode_0018
+  name: 15|RU_speednode_0013
   network: ws
   password: bpb-trojan
   port: 2096
@@ -619,7 +539,7 @@ proxies:
       Host: 403B3611-99bC-43b7-88D7-26ed5d0825A9-3.PageS.DEV
     path: /troUbg9Q3QgD0TJRfy
 - client-fingerprint: chrome
-  name: 15|US_speednode_0019
+  name: 15|US_speednode_0014
   network: ws
   port: 8880
   server: 104.19.209.229
@@ -633,7 +553,7 @@ proxies:
       Host: late-tooth.granzinhannah.workers.dev
     path: /?ed=2560
 - client-fingerprint: chrome
-  name: 15|US_speednode_0020
+  name: 15|US_speednode_0015
   network: ws
   port: 80
   server: 167.82.30.71
@@ -647,7 +567,7 @@ proxies:
       Host: samane.ir
     path: /4u7lAS4nPLtz0xPz?ed=2560
 - client-fingerprint: chrome
-  name: 15|US_speednode_0021
+  name: 15|US_speednode_0016
   network: ws
   port: 8880
   server: 104.20.19.168
@@ -661,7 +581,7 @@ proxies:
       Host: late-tooth.granzinhannah.workers.dev
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0022
+  name: 15|US_speednode_0017
   network: ws
   port: 8880
   server: 104.20.71.132
@@ -675,7 +595,7 @@ proxies:
       Host: late-tooth.granzinhannah.workers.dev
     path: /Telegram@Linkvws?ed=2560
 - client-fingerprint: chrome
-  name: 15|US_speednode_0024
+  name: 15|US_speednode_0019
   network: ws
   port: 443
   server: 199.232.5.101
@@ -690,7 +610,7 @@ proxies:
       Host: mefa.ir
     path: /H?ed=2560fp=chrome
 - client-fingerprint: chrome
-  name: 15|US_speednode_0027
+  name: 15|US_speednode_0022
   network: ws
   port: 80
   server: 199.232.37.15
@@ -704,7 +624,7 @@ proxies:
       Host: sara193.ir
     path: /BCXzvAcvSB7JzMWj?ed=2560
 - client-fingerprint: chrome
-  name: 15|US_speednode_0029
+  name: 15|US_speednode_0024
   network: ws
   port: 2095
   server: www.speedtest.net
@@ -718,7 +638,7 @@ proxies:
       Host: www.digikala.com.joinTelegram.mosiv2.fi3.vless.Sitespeedtest.net.
     path: /join-@mosiv2-@mosiv2-?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0030
+  name: 15|US_speednode_0025
   network: ws
   port: 2052
   server: www.speedtest.net
@@ -732,7 +652,7 @@ proxies:
       Host: www.digikala.com.joinTelegram.mosiv2.pl1.vless.Sitespeedtest.net.
     path: /join-@mosiv2-@mosiv2-?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0031
+  name: 15|US_speednode_0026
   network: ws
   port: 80
   server: 151.101.2.165
@@ -746,7 +666,7 @@ proxies:
       Host: que4.ir
     path: /v2pedia?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0032
+  name: 15|US_speednode_0027
   network: ws
   port: 443
   server: 151.101.130.228
@@ -761,7 +681,7 @@ proxies:
       Host: hajlab.ucdavis.edu
     path: /@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2560fp=chrome
 - client-fingerprint: chrome
-  name: 15|US_speednode_0033
+  name: 15|US_speednode_0028
   network: ws
   port: 443
   server: 198.41.209.2
@@ -776,7 +696,7 @@ proxies:
       Host: meta1.modinso.ir
     path: /@metavpnnsecurity=tls
 - client-fingerprint: chrome
-  name: 15|US_speednode_0035
+  name: 15|US_speednode_0030
   network: ws
   port: 80
   server: 151.101.3.10
@@ -790,7 +710,7 @@ proxies:
       Host: uni.fi
     path: /?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0036
+  name: 15|US_speednode_0031
   network: ws
   port: 80
   server: 103.133.1.0
@@ -804,22 +724,7 @@ proxies:
       Host: KnOtNrmV2rayOtanOtrmNnOtenOtl.tErmiUs-kAne-nOne.SARBAZIT.COM
     path: /
 - client-fingerprint: chrome
-  name: 15|US_speednode_0037
-  network: ws
-  port: 443
-  server: 104.17.148.22
-  servername: chAnnel-id-ELiv2RAY.pagEs.Dev
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vless
-  uuid: 89b3cbba-e6ac-485a-9481-976a0415eab9
-  ws-opts:
-    headers:
-      Host: chAnnel-id-ELiv2RAY.pagEs.Dev
-    path: /?ed=2560fp=chrome
-- client-fingerprint: chrome
-  name: 15|US_speednode_0038
+  name: 15|US_speednode_0032
   network: ws
   port: 80
   server: 151.101.64.155
@@ -833,7 +738,7 @@ proxies:
       Host: speedfaa.ir
     path: /speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa-speedfaa?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0039
+  name: 15|US_speednode_0033
   network: ws
   port: 443
   server: hajlab.ucdavis.edu
@@ -848,7 +753,7 @@ proxies:
       Host: hajlab.ucdavis.edu
     path: /@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn----@Evay_vpn?ed=2560fp=chrome
 - client-fingerprint: chrome
-  name: 15|US_speednode_0040
+  name: 15|US_speednode_0034
   network: ws
   port: 80
   server: 151.101.2.216
@@ -862,7 +767,7 @@ proxies:
       Host: bas-kon-iranii.ir
     path: /@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0041
+  name: 15|US_speednode_0035
   network: ws
   port: 80
   server: speedtest.net
@@ -876,46 +781,7 @@ proxies:
       Host: bas-kon-iranii.ir
     path: /@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config/@Alfred_Config?ed=2048
 - client-fingerprint: chrome
-  name: 15|US_speednode_0042
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 172.67.180.238
-  skip-cert-verify: false
-  sni: 403b3611-99BC-43B7-88d7-26eD5D0825A9-3.PAges.DEV
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 403b3611-99BC-43B7-88d7-26eD5D0825A9-3.PAges.DEV
-    path: /trep2km0aVhJcl29WO
-- client-fingerprint: chrome
-  name: 15|US_speednode_0043
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 172.66.44.203
-  skip-cert-verify: false
-  sni: 403b3611-99bC-43b7-88D7-26ED5D0825A9-3.pagES.DEv
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 403b3611-99bC-43b7-88D7-26ED5D0825A9-3.pagES.DEv
-    path: /trSo3btsDgOHHUM6Nb
-- client-fingerprint: chrome
-  name: 15|US_speednode_0044
-  network: ws
-  password: bpb-trojan
-  port: 2083
-  server: 159.112.235.48
-  skip-cert-verify: false
-  sni: 403b3611-99bC-43B7-88d7-26ed5d0825A9-3.PAGes.dEv
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 403b3611-99bC-43B7-88d7-26ed5d0825A9-3.PAGes.dEv
-    path: /trZTKk76m0W1AxpNcC
-- client-fingerprint: chrome
-  name: 15|US_speednode_0045
+  name: 15|US_speednode_0036
   network: ws
   password: bpb-trojan
   port: 443
@@ -928,20 +794,7 @@ proxies:
       Host: mindrOOm-5cz.pAgEs.dEV
     path: /trC8BM8bTsAF0AnLYL
 - client-fingerprint: chrome
-  name: 15|US_speednode_0046
-  network: ws
-  password: bpb-trojan
-  port: 443
-  server: 172.66.47.53
-  skip-cert-verify: false
-  sni: 403b3611-99bC-43b7-88D7-26ED5D0825A9-3.pagES.DEv
-  type: trojan
-  ws-opts:
-    headers:
-      Host: 403b3611-99bC-43b7-88D7-26ED5D0825A9-3.pagES.DEv
-    path: /trSo3btsDgOHHUM6Nb
-- client-fingerprint: chrome
-  name: 15|VN_speednode_0048
+  name: 15|VN_speednode_0037
   password: 94d219c9-1afc-4d42-b090-8b3794764380
   port: 443
   server: std1.loadingip.com
@@ -949,20 +802,12 @@ proxies:
   sni: std1.loadingip.com
   type: trojan
 - client-fingerprint: chrome
-  name: 15|VN_speednode_0049
+  name: 15|VN_speednode_0038
   password: 94d219c9-1afc-4d42-b090-8b3794764380
   port: 443
   server: 36.50.134.26
   skip-cert-verify: false
   sni: 36.50.134.26
-  type: trojan
-- client-fingerprint: chrome
-  name: 15|VN_speednode_0050
-  password: 94d219c9-1afc-4d42-b090-8b3794764380
-  port: 443
-  server: 36.50.134.29
-  skip-cert-verify: false
-  sni: 36.50.134.29
   type: trojan
 - alterId: 0
   cipher: auto
@@ -990,17 +835,14 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|--2
+  - 0|--1
   - 0|--3
   - 0|--4
   - 0|--19
-  - 0|--23
   - 0|--24
-  - 0|--30
-  - 0|--33
-  - 0|--35
+  - 0|--32
+  - 0|--34
   - 0|--37
-  - 0|--38
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1035,38 +877,30 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
-  - 15|CA_speednode_0002
-  - 15|ES_speednode_0008
-  - 15|HK_speednode_0010
-  - 15|IE_speednode_0011
-  - 15|IE_speednode_0012
-  - 15|RU_speednode_0018
+  - 15|ES_speednode_0006
+  - 15|HK_speednode_0008
+  - 15|IE_speednode_0009
+  - 15|RU_speednode_0013
+  - 15|US_speednode_0014
+  - 15|US_speednode_0015
+  - 15|US_speednode_0016
+  - 15|US_speednode_0017
   - 15|US_speednode_0019
-  - 15|US_speednode_0020
-  - 15|US_speednode_0021
   - 15|US_speednode_0022
   - 15|US_speednode_0024
+  - 15|US_speednode_0025
+  - 15|US_speednode_0026
   - 15|US_speednode_0027
-  - 15|US_speednode_0029
+  - 15|US_speednode_0028
   - 15|US_speednode_0030
   - 15|US_speednode_0031
   - 15|US_speednode_0032
   - 15|US_speednode_0033
+  - 15|US_speednode_0034
   - 15|US_speednode_0035
   - 15|US_speednode_0036
-  - 15|US_speednode_0037
-  - 15|US_speednode_0038
-  - 15|US_speednode_0039
-  - 15|US_speednode_0040
-  - 15|US_speednode_0041
-  - 15|US_speednode_0042
-  - 15|US_speednode_0043
-  - 15|US_speednode_0044
-  - 15|US_speednode_0045
-  - 15|US_speednode_0046
-  - 15|VN_speednode_0048
-  - 15|VN_speednode_0049
-  - 15|VN_speednode_0050
+  - 15|VN_speednode_0037
+  - 15|VN_speednode_0038
   - '16|d*********g.com_2 #3'
   - 3
   type: select
@@ -1074,17 +908,14 @@ proxy-groups:
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|--2
+  - 0|--1
   - 0|--3
   - 0|--4
   - 0|--19
-  - 0|--23
   - 0|--24
-  - 0|--30
-  - 0|--33
-  - 0|--35
+  - 0|--32
+  - 0|--34
   - 0|--37
-  - 0|--38
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1119,38 +950,30 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
-  - 15|CA_speednode_0002
-  - 15|ES_speednode_0008
-  - 15|HK_speednode_0010
-  - 15|IE_speednode_0011
-  - 15|IE_speednode_0012
-  - 15|RU_speednode_0018
+  - 15|ES_speednode_0006
+  - 15|HK_speednode_0008
+  - 15|IE_speednode_0009
+  - 15|RU_speednode_0013
+  - 15|US_speednode_0014
+  - 15|US_speednode_0015
+  - 15|US_speednode_0016
+  - 15|US_speednode_0017
   - 15|US_speednode_0019
-  - 15|US_speednode_0020
-  - 15|US_speednode_0021
   - 15|US_speednode_0022
   - 15|US_speednode_0024
+  - 15|US_speednode_0025
+  - 15|US_speednode_0026
   - 15|US_speednode_0027
-  - 15|US_speednode_0029
+  - 15|US_speednode_0028
   - 15|US_speednode_0030
   - 15|US_speednode_0031
   - 15|US_speednode_0032
   - 15|US_speednode_0033
+  - 15|US_speednode_0034
   - 15|US_speednode_0035
   - 15|US_speednode_0036
-  - 15|US_speednode_0037
-  - 15|US_speednode_0038
-  - 15|US_speednode_0039
-  - 15|US_speednode_0040
-  - 15|US_speednode_0041
-  - 15|US_speednode_0042
-  - 15|US_speednode_0043
-  - 15|US_speednode_0044
-  - 15|US_speednode_0045
-  - 15|US_speednode_0046
-  - 15|VN_speednode_0048
-  - 15|VN_speednode_0049
-  - 15|VN_speednode_0050
+  - 15|VN_speednode_0037
+  - 15|VN_speednode_0038
   - '16|d*********g.com_2 #3'
   - 3
   type: url-test
@@ -1161,17 +984,14 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|--2
+  - 0|--1
   - 0|--3
   - 0|--4
   - 0|--19
-  - 0|--23
   - 0|--24
-  - 0|--30
-  - 0|--33
-  - 0|--35
+  - 0|--32
+  - 0|--34
   - 0|--37
-  - 0|--38
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1206,38 +1026,30 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
-  - 15|CA_speednode_0002
-  - 15|ES_speednode_0008
-  - 15|HK_speednode_0010
-  - 15|IE_speednode_0011
-  - 15|IE_speednode_0012
-  - 15|RU_speednode_0018
+  - 15|ES_speednode_0006
+  - 15|HK_speednode_0008
+  - 15|IE_speednode_0009
+  - 15|RU_speednode_0013
+  - 15|US_speednode_0014
+  - 15|US_speednode_0015
+  - 15|US_speednode_0016
+  - 15|US_speednode_0017
   - 15|US_speednode_0019
-  - 15|US_speednode_0020
-  - 15|US_speednode_0021
   - 15|US_speednode_0022
   - 15|US_speednode_0024
+  - 15|US_speednode_0025
+  - 15|US_speednode_0026
   - 15|US_speednode_0027
-  - 15|US_speednode_0029
+  - 15|US_speednode_0028
   - 15|US_speednode_0030
   - 15|US_speednode_0031
   - 15|US_speednode_0032
   - 15|US_speednode_0033
+  - 15|US_speednode_0034
   - 15|US_speednode_0035
   - 15|US_speednode_0036
-  - 15|US_speednode_0037
-  - 15|US_speednode_0038
-  - 15|US_speednode_0039
-  - 15|US_speednode_0040
-  - 15|US_speednode_0041
-  - 15|US_speednode_0042
-  - 15|US_speednode_0043
-  - 15|US_speednode_0044
-  - 15|US_speednode_0045
-  - 15|US_speednode_0046
-  - 15|VN_speednode_0048
-  - 15|VN_speednode_0049
-  - 15|VN_speednode_0050
+  - 15|VN_speednode_0037
+  - 15|VN_speednode_0038
   - '16|d*********g.com_2 #3'
   - 3
   type: select
@@ -1263,17 +1075,14 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|--2
+  - 0|--1
   - 0|--3
   - 0|--4
   - 0|--19
-  - 0|--23
   - 0|--24
-  - 0|--30
-  - 0|--33
-  - 0|--35
+  - 0|--32
+  - 0|--34
   - 0|--37
-  - 0|--38
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1308,38 +1117,30 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
-  - 15|CA_speednode_0002
-  - 15|ES_speednode_0008
-  - 15|HK_speednode_0010
-  - 15|IE_speednode_0011
-  - 15|IE_speednode_0012
-  - 15|RU_speednode_0018
+  - 15|ES_speednode_0006
+  - 15|HK_speednode_0008
+  - 15|IE_speednode_0009
+  - 15|RU_speednode_0013
+  - 15|US_speednode_0014
+  - 15|US_speednode_0015
+  - 15|US_speednode_0016
+  - 15|US_speednode_0017
   - 15|US_speednode_0019
-  - 15|US_speednode_0020
-  - 15|US_speednode_0021
   - 15|US_speednode_0022
   - 15|US_speednode_0024
+  - 15|US_speednode_0025
+  - 15|US_speednode_0026
   - 15|US_speednode_0027
-  - 15|US_speednode_0029
+  - 15|US_speednode_0028
   - 15|US_speednode_0030
   - 15|US_speednode_0031
   - 15|US_speednode_0032
   - 15|US_speednode_0033
+  - 15|US_speednode_0034
   - 15|US_speednode_0035
   - 15|US_speednode_0036
-  - 15|US_speednode_0037
-  - 15|US_speednode_0038
-  - 15|US_speednode_0039
-  - 15|US_speednode_0040
-  - 15|US_speednode_0041
-  - 15|US_speednode_0042
-  - 15|US_speednode_0043
-  - 15|US_speednode_0044
-  - 15|US_speednode_0045
-  - 15|US_speednode_0046
-  - 15|VN_speednode_0048
-  - 15|VN_speednode_0049
-  - 15|VN_speednode_0050
+  - 15|VN_speednode_0037
+  - 15|VN_speednode_0038
   - '16|d*********g.com_2 #3'
   - 3
   type: select
@@ -1348,17 +1149,14 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|--2
+  - 0|--1
   - 0|--3
   - 0|--4
   - 0|--19
-  - 0|--23
   - 0|--24
-  - 0|--30
-  - 0|--33
-  - 0|--35
+  - 0|--32
+  - 0|--34
   - 0|--37
-  - 0|--38
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1393,38 +1191,30 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
-  - 15|CA_speednode_0002
-  - 15|ES_speednode_0008
-  - 15|HK_speednode_0010
-  - 15|IE_speednode_0011
-  - 15|IE_speednode_0012
-  - 15|RU_speednode_0018
+  - 15|ES_speednode_0006
+  - 15|HK_speednode_0008
+  - 15|IE_speednode_0009
+  - 15|RU_speednode_0013
+  - 15|US_speednode_0014
+  - 15|US_speednode_0015
+  - 15|US_speednode_0016
+  - 15|US_speednode_0017
   - 15|US_speednode_0019
-  - 15|US_speednode_0020
-  - 15|US_speednode_0021
   - 15|US_speednode_0022
   - 15|US_speednode_0024
+  - 15|US_speednode_0025
+  - 15|US_speednode_0026
   - 15|US_speednode_0027
-  - 15|US_speednode_0029
+  - 15|US_speednode_0028
   - 15|US_speednode_0030
   - 15|US_speednode_0031
   - 15|US_speednode_0032
   - 15|US_speednode_0033
+  - 15|US_speednode_0034
   - 15|US_speednode_0035
   - 15|US_speednode_0036
-  - 15|US_speednode_0037
-  - 15|US_speednode_0038
-  - 15|US_speednode_0039
-  - 15|US_speednode_0040
-  - 15|US_speednode_0041
-  - 15|US_speednode_0042
-  - 15|US_speednode_0043
-  - 15|US_speednode_0044
-  - 15|US_speednode_0045
-  - 15|US_speednode_0046
-  - 15|VN_speednode_0048
-  - 15|VN_speednode_0049
-  - 15|VN_speednode_0050
+  - 15|VN_speednode_0037
+  - 15|VN_speednode_0038
   - '16|d*********g.com_2 #3'
   - 3
   type: select
@@ -1434,17 +1224,14 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|--2
+  - 0|--1
   - 0|--3
   - 0|--4
   - 0|--19
-  - 0|--23
   - 0|--24
-  - 0|--30
-  - 0|--33
-  - 0|--35
+  - 0|--32
+  - 0|--34
   - 0|--37
-  - 0|--38
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1479,38 +1266,30 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
-  - 15|CA_speednode_0002
-  - 15|ES_speednode_0008
-  - 15|HK_speednode_0010
-  - 15|IE_speednode_0011
-  - 15|IE_speednode_0012
-  - 15|RU_speednode_0018
+  - 15|ES_speednode_0006
+  - 15|HK_speednode_0008
+  - 15|IE_speednode_0009
+  - 15|RU_speednode_0013
+  - 15|US_speednode_0014
+  - 15|US_speednode_0015
+  - 15|US_speednode_0016
+  - 15|US_speednode_0017
   - 15|US_speednode_0019
-  - 15|US_speednode_0020
-  - 15|US_speednode_0021
   - 15|US_speednode_0022
   - 15|US_speednode_0024
+  - 15|US_speednode_0025
+  - 15|US_speednode_0026
   - 15|US_speednode_0027
-  - 15|US_speednode_0029
+  - 15|US_speednode_0028
   - 15|US_speednode_0030
   - 15|US_speednode_0031
   - 15|US_speednode_0032
   - 15|US_speednode_0033
+  - 15|US_speednode_0034
   - 15|US_speednode_0035
   - 15|US_speednode_0036
-  - 15|US_speednode_0037
-  - 15|US_speednode_0038
-  - 15|US_speednode_0039
-  - 15|US_speednode_0040
-  - 15|US_speednode_0041
-  - 15|US_speednode_0042
-  - 15|US_speednode_0043
-  - 15|US_speednode_0044
-  - 15|US_speednode_0045
-  - 15|US_speednode_0046
-  - 15|VN_speednode_0048
-  - 15|VN_speednode_0049
-  - 15|VN_speednode_0050
+  - 15|VN_speednode_0037
+  - 15|VN_speednode_0038
   - '16|d*********g.com_2 #3'
   - 3
   type: select
@@ -1529,17 +1308,14 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - 0|--2
+  - 0|--1
   - 0|--3
   - 0|--4
   - 0|--19
-  - 0|--23
   - 0|--24
-  - 0|--30
-  - 0|--33
-  - 0|--35
+  - 0|--32
+  - 0|--34
   - 0|--37
-  - 0|--38
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1574,38 +1350,30 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
-  - 15|CA_speednode_0002
-  - 15|ES_speednode_0008
-  - 15|HK_speednode_0010
-  - 15|IE_speednode_0011
-  - 15|IE_speednode_0012
-  - 15|RU_speednode_0018
+  - 15|ES_speednode_0006
+  - 15|HK_speednode_0008
+  - 15|IE_speednode_0009
+  - 15|RU_speednode_0013
+  - 15|US_speednode_0014
+  - 15|US_speednode_0015
+  - 15|US_speednode_0016
+  - 15|US_speednode_0017
   - 15|US_speednode_0019
-  - 15|US_speednode_0020
-  - 15|US_speednode_0021
   - 15|US_speednode_0022
   - 15|US_speednode_0024
+  - 15|US_speednode_0025
+  - 15|US_speednode_0026
   - 15|US_speednode_0027
-  - 15|US_speednode_0029
+  - 15|US_speednode_0028
   - 15|US_speednode_0030
   - 15|US_speednode_0031
   - 15|US_speednode_0032
   - 15|US_speednode_0033
+  - 15|US_speednode_0034
   - 15|US_speednode_0035
   - 15|US_speednode_0036
-  - 15|US_speednode_0037
-  - 15|US_speednode_0038
-  - 15|US_speednode_0039
-  - 15|US_speednode_0040
-  - 15|US_speednode_0041
-  - 15|US_speednode_0042
-  - 15|US_speednode_0043
-  - 15|US_speednode_0044
-  - 15|US_speednode_0045
-  - 15|US_speednode_0046
-  - 15|VN_speednode_0048
-  - 15|VN_speednode_0049
-  - 15|VN_speednode_0050
+  - 15|VN_speednode_0037
+  - 15|VN_speednode_0038
   - '16|d*********g.com_2 #3'
   - 3
   type: select
