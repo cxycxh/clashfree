@@ -25,50 +25,51 @@ proxies:
 - cipher: aes-256-gcm
   client-fingerprint: chrome
   name: 0|--1
+  password: Y6R9pAtvxxzmGC
+  port: 3389
+  server: 23.134.94.168
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  client-fingerprint: chrome
+  name: 0|--2
   password: faBAoD54k87UJG7
   port: 2376
   server: 38.75.136.117
   tfo: false
   type: ss
-- cipher: aes-128-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 0|--3
-  password: shadowsocks
-  port: 443
-  server: 156.146.38.168
+  name: 0|--4
+  password: 1RWwXhwfAB5gAEozU4G2Pg
+  port: 8080
+  server: 45.87.175.188
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 0|--4
+  name: 0|--6
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.164
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
+- cipher: aes-128-gcm
   client-fingerprint: chrome
-  name: 0|--19
-  network: ws
-  port: 2095
-  server: 172.64.166.2
-  skip-cert-verify: false
+  name: 0|--7
+  password: shadowsocks
+  port: 443
+  server: 156.146.38.168
   tfo: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip12.6016725.xyz
-    path: /github.com/Alvin9999
+  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|--24
+  name: 0|--26
   network: ws
   port: 2082
-  server: 172.64.167.44
+  server: 172.64.167.22
+  servername: ip18.6929198.xyz
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -76,15 +77,15 @@ proxies:
   uuid: 5f3f09ad-89cb-4e94-a7ad-aa8239913555
   ws-opts:
     headers:
-      Host: ip16.6929198.xyz
+      Host: ip18.6929198.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|--32
+  name: 0|--36
   network: ws
   port: 2095
-  server: 172.64.167.8
+  server: 172.64.167.29
   skip-cert-verify: false
   tfo: false
   tls: false
@@ -93,38 +94,6 @@ proxies:
   ws-opts:
     headers:
       Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--34
-  network: ws
-  port: 2095
-  server: 172.64.166.9
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip11.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--37
-  network: ws
-  port: 2095
-  server: 172.64.166.8
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip12.6016725.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -197,9 +166,9 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
-  password: 62403b40-ee4c-4946-98b7-43ef0b9cb12d
+  password: 0683b4bd-5a19-4dae-bf07-7e7fe5dfd813
   port: 11001
-  server: 183.232.229.164
+  server: 183.240.255.75
   tfo: false
   type: ss
 - alterId: 64
@@ -246,74 +215,69 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
-- alterId: 64
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  port: 40002
-  server: 183.236.48.163
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: chacha20-ietf
   client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   password: asd123456
   port: 8388
-  server: 154.197.26.237
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  password: asd123456
-  port: 8388
-  server: 38.147.190.72
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F9|@ripaojiedian"
-  password: 6412f269-3329-4034-82ba-3eb94dfefa41
-  port: 11001
-  server: hk.bazhuayujiasu.cc
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  password: 6412f269-3329-4034-82ba-3eb94dfefa41
-  port: 11001
-  server: 61.172.235.22
+  server: 206.119.175.50
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  port: 51313
-  server: 45.159.50.136
+  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  port: 44826
+  server: ambxxid02hk.dorabbb.top
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: fe7035e0-85da-4c64-9051-f5a3b380354a
-- cipher: chacha20-ietf
+  uuid: 263aba2e-52ac-494a-b25f-32b8d230e61d
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  password: asd123456
-  port: 8388
-  server: 107.148.6.121
+  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  port: 38848
+  server: 38.147.188.250
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 69e0e169-0702-4454-9d88-259d08e57926
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1F9\U0001F1FC 13|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  password: 38798780-6d99-4896-8e3d-258e630c1265
+  port: 39201
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  port: 23468
+  server: 47.74.8.202
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9f563bc7-0481-41d2-f8fd-a4736ded9bc0
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  password: 0683b4bd-5a19-4dae-bf07-7e7fe5dfd813
+  port: 11001
+  server: 61.172.235.22
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  password: 62403b40-ee4c-4946-98b7-43ef0b9cb12d
-  port: 11002
-  server: 61.172.235.22
+  name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  password: 38798780-6d99-4896-8e3d-258e630c1265
+  port: 40015
+  server: hzhz2.sssyun.xyz
   tfo: false
   type: ss
 - client-fingerprint: chrome
@@ -328,13 +292,32 @@ proxies:
   cipher: auto
   client-fingerprint: chrome
   name: "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
-  port: 22330
-  server: 45.141.136.221
+  port: 41510
+  server: 45.94.68.210
   skip-cert-verify: false
   tfo: false
   tls: false
   type: vmess
-  uuid: 2f64c9d5-e349-4579-9d01-b8eab4340230
+  uuid: 18e11bb1-2ecc-4700-902e-9a172b762bbd
+- cipher: chacha20-ietf-poly1305
+  client-fingerprint: chrome
+  name: "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD3|@ripaojiedian"
+  password: 38798780-6d99-4896-8e3d-258e630c1265
+  port: 39202
+  server: hzhz1.sssyun.xyz
+  tfo: false
+  type: ss
+- alterId: 64
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  port: 40002
+  server: 183.236.48.163
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: aes-128-gcm
   client-fingerprint: chrome
   name: "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
@@ -356,7 +339,7 @@ proxies:
   name: "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 54.255.237.249
+  server: 54.249.197.65
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -364,7 +347,7 @@ proxies:
   name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 3.112.215.69
+  server: 52.198.194.170
   tfo: false
   type: ss
 - cipher: aes-256-cfb
@@ -386,14 +369,14 @@ proxies:
   tls: false
   type: vmess
   uuid: 21a9bff2-72de-4e62-93ff-8b159f66d875
-- cipher: chacha20-ietf
-  client-fingerprint: chrome
-  name: "\U0001F1EE\U0001F1F3 13|\U0001F1EE\U0001F1F3 \u5370\u5EA6|@ripaojiedian"
-  password: asd123456
-  port: 8388
-  server: 103.149.183.10
-  tfo: false
-  type: ss
+- client-fingerprint: chrome
+  name: "\U0001F1FB\U0001F1F3 13,14|\u8D8A\u5357|@ripaojiedian"
+  password: 40ea99d6-b2f2-4a00-8f61-c8d8fdaa25b9
+  port: 443
+  server: vn1.myviefast.viefast.net
+  skip-cert-verify: false
+  sni: kdlsupport.zendesk.com
+  type: trojan
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -438,6 +421,50 @@ proxies:
   tls: false
   type: vmess
   uuid: 640c1077-d10b-4225-a9fb-d3e9c3ce7a00
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  port: 44826
+  server: ambxxid02hk.dorabbb.top
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 263aba2e-52ac-494a-b25f-32b8d230e61d
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
+  port: 38848
+  server: 38.147.188.250
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 69e0e169-0702-4454-9d88-259d08e57926
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1EF\U0001F1F5 14|\u65E5\u672C|@ripaojiedian"
+  port: 23468
+  server: 47.74.8.202
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9f563bc7-0481-41d2-f8fd-a4736ded9bc0
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
+  port: 41510
+  server: 45.94.68.210
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18e11bb1-2ecc-4700-902e-9a172b762bbd
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -449,28 +476,6 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
-  port: 51313
-  server: 45.159.50.136
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: fe7035e0-85da-4c64-9051-f5a3b380354a
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
-  port: 22330
-  server: 45.141.136.221
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 2f64c9d5-e349-4579-9d01-b8eab4340230
 - alterId: 64
   cipher: auto
   client-fingerprint: chrome
@@ -836,13 +841,12 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
-  - 0|--3
+  - 0|--2
   - 0|--4
-  - 0|--19
-  - 0|--24
-  - 0|--32
-  - 0|--34
-  - 0|--37
+  - 0|--6
+  - 0|--7
+  - 0|--26
+  - 0|--36
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -852,30 +856,33 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F9|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC 13|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD3|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1EE\U0001F1F3 13|\U0001F1EE\U0001F1F3 \u5370\u5EA6|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13,14|\u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
   - 15|ES_speednode_0006
   - 15|HK_speednode_0008
@@ -909,13 +916,12 @@ proxy-groups:
   proxies:
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
-  - 0|--3
+  - 0|--2
   - 0|--4
-  - 0|--19
-  - 0|--24
-  - 0|--32
-  - 0|--34
-  - 0|--37
+  - 0|--6
+  - 0|--7
+  - 0|--26
+  - 0|--36
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -925,30 +931,33 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F9|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC 13|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD3|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1EE\U0001F1F3 13|\U0001F1EE\U0001F1F3 \u5370\u5EA6|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13,14|\u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
   - 15|ES_speednode_0006
   - 15|HK_speednode_0008
@@ -985,13 +994,12 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
-  - 0|--3
+  - 0|--2
   - 0|--4
-  - 0|--19
-  - 0|--24
-  - 0|--32
-  - 0|--34
-  - 0|--37
+  - 0|--6
+  - 0|--7
+  - 0|--26
+  - 0|--36
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1001,30 +1009,33 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F9|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC 13|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD3|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1EE\U0001F1F3 13|\U0001F1EE\U0001F1F3 \u5370\u5EA6|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13,14|\u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
   - 15|ES_speednode_0006
   - 15|HK_speednode_0008
@@ -1061,13 +1072,16 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F9|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC 13|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
 - name: "\u24C2\uFE0F \u5FAE\u8F6F\u670D\u52A1"
@@ -1076,13 +1090,12 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
-  - 0|--3
+  - 0|--2
   - 0|--4
-  - 0|--19
-  - 0|--24
-  - 0|--32
-  - 0|--34
-  - 0|--37
+  - 0|--6
+  - 0|--7
+  - 0|--26
+  - 0|--36
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1092,30 +1105,33 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F9|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC 13|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD3|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1EE\U0001F1F3 13|\U0001F1EE\U0001F1F3 \u5370\u5EA6|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13,14|\u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
   - 15|ES_speednode_0006
   - 15|HK_speednode_0008
@@ -1150,13 +1166,12 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
-  - 0|--3
+  - 0|--2
   - 0|--4
-  - 0|--19
-  - 0|--24
-  - 0|--32
-  - 0|--34
-  - 0|--37
+  - 0|--6
+  - 0|--7
+  - 0|--26
+  - 0|--36
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1166,30 +1181,33 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F9|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC 13|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD3|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1EE\U0001F1F3 13|\U0001F1EE\U0001F1F3 \u5370\u5EA6|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13,14|\u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
   - 15|ES_speednode_0006
   - 15|HK_speednode_0008
@@ -1225,13 +1243,12 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
-  - 0|--3
+  - 0|--2
   - 0|--4
-  - 0|--19
-  - 0|--24
-  - 0|--32
-  - 0|--34
-  - 0|--37
+  - 0|--6
+  - 0|--7
+  - 0|--26
+  - 0|--36
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1241,30 +1258,33 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F9|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC 13|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD3|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1EE\U0001F1F3 13|\U0001F1EE\U0001F1F3 \u5370\u5EA6|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13,14|\u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
   - 15|ES_speednode_0006
   - 15|HK_speednode_0008
@@ -1309,13 +1329,12 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
   - 0|--1
-  - 0|--3
+  - 0|--2
   - 0|--4
-  - 0|--19
-  - 0|--24
-  - 0|--32
-  - 0|--34
-  - 0|--37
+  - 0|--6
+  - 0|--7
+  - 0|--26
+  - 0|--36
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1325,30 +1344,33 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F9|@ripaojiedian"
+  - "\U0001F1F9\U0001F1FC 13|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD3|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 13|\U0001F1E9\U0001F1EA \u5FB7\u56FD|@ripaojiedian"
-  - "\U0001F1EE\U0001F1F3 13|\U0001F1EE\U0001F1F3 \u5370\u5EA6|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13,14|\u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F3|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1E9\U0001F1EA 14|\u5FB7\u56FD|@ripaojiedian"
   - 15|ES_speednode_0006
   - 15|HK_speednode_0008
