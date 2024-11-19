@@ -25,33 +25,33 @@ proxies:
 - cipher: aes-256-cfb
   client-fingerprint: chrome
   name: 0|--1
-  password: qwerREWQ@@
-  port: 54345
-  server: 221.139.79.57
+  password: amazonskr05
+  port: 443
+  server: 13.229.182.85
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 0|--2
-  password: 1RWwXhwfAB5gAEozU4G2Pg
+  password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
-  server: 45.87.175.188
+  server: 45.87.175.178
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 0|--3
-  password: kDWvXYZoTBcGkC4
-  port: 8882
-  server: 38.86.135.141
+  password: 4a2rfixophdjffa8KVA4Aa
+  port: 8080
+  server: beesyar.org
   tfo: false
   type: ss
-- cipher: aes-256-gcm
+- cipher: aes-256-cfb
   client-fingerprint: chrome
-  name: "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
-  password: dongtaiwang.com
-  port: 12345
-  server: 46.17.40.57
+  name: 0|--4
+  password: qwerREWQ@@
+  port: 54345
+  server: 221.139.79.57
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -65,107 +65,36 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 0|--6
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.164
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--7
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.164
-  tfo: false
-  type: ss
-- cipher: aes-256-cfb
-  client-fingerprint: chrome
-  name: 0|--8
-  password: amazonskr05
-  port: 443
-  server: 13.229.182.85
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--9
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.199
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--10
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.199
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--11
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.188
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--12
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.188
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--13
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.166
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--15
-  password: 2fwufOmJ9ELfN4umzcHBfV
-  port: 12224
-  server: 194.87.82.28
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--16
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.199
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--17
   password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
   server: 45.87.175.178
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   client-fingerprint: chrome
-  name: 0|--18
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: beesyar.org
+  name: "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  password: dongtaiwang.com
+  port: 12345
+  server: 46.17.40.57
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- alterId: 0
+  cipher: auto
   client-fingerprint: chrome
-  name: 0|--19
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.178
+  name: 0|--26
+  network: ws
+  port: 2095
+  server: 172.64.166.22
+  servername: ip20.6016725.xyz
+  skip-cert-verify: false
   tfo: false
-  type: ss
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
+    path: /github.com/Alvin9999
 - client-fingerprint: chrome
   name: 0,13,14,15|JP_speednode_0007
   password: 8zlR8O7E3S8uqex4xYnpp8O6C3lZejBCZO53eYD7XIAaaTBRC3Cj9SCFxlAwKAwD2yyN3
@@ -852,21 +781,11 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--4
   - 0|--5
   - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--9
-  - 0|--10
-  - 0|--11
-  - 0|--12
-  - 0|--13
-  - 0|--15
-  - 0|--16
-  - 0|--17
-  - 0|--18
-  - 0|--19
+  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--26
   - 0,13,14,15|JP_speednode_0007
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
@@ -928,21 +847,11 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--4
   - 0|--5
   - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--9
-  - 0|--10
-  - 0|--11
-  - 0|--12
-  - 0|--13
-  - 0|--15
-  - 0|--16
-  - 0|--17
-  - 0|--18
-  - 0|--19
+  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--26
   - 0,13,14,15|JP_speednode_0007
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
@@ -1007,21 +916,11 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--4
   - 0|--5
   - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--9
-  - 0|--10
-  - 0|--11
-  - 0|--12
-  - 0|--13
-  - 0|--15
-  - 0|--16
-  - 0|--17
-  - 0|--18
-  - 0|--19
+  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--26
   - 0,13,14,15|JP_speednode_0007
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
@@ -1098,21 +997,11 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--4
   - 0|--5
   - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--9
-  - 0|--10
-  - 0|--11
-  - 0|--12
-  - 0|--13
-  - 0|--15
-  - 0|--16
-  - 0|--17
-  - 0|--18
-  - 0|--19
+  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--26
   - 0,13,14,15|JP_speednode_0007
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
@@ -1175,21 +1064,11 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--4
   - 0|--5
   - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--9
-  - 0|--10
-  - 0|--11
-  - 0|--12
-  - 0|--13
-  - 0|--15
-  - 0|--16
-  - 0|--17
-  - 0|--18
-  - 0|--19
+  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--26
   - 0,13,14,15|JP_speednode_0007
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
@@ -1253,21 +1132,11 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--4
   - 0|--5
   - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--9
-  - 0|--10
-  - 0|--11
-  - 0|--12
-  - 0|--13
-  - 0|--15
-  - 0|--16
-  - 0|--17
-  - 0|--18
-  - 0|--19
+  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--26
   - 0,13,14,15|JP_speednode_0007
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
@@ -1340,21 +1209,11 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--4
   - 0|--5
   - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--9
-  - 0|--10
-  - 0|--11
-  - 0|--12
-  - 0|--13
-  - 0|--15
-  - 0|--16
-  - 0|--17
-  - 0|--18
-  - 0|--19
+  - "\U0001F1F7\U0001F1FA 0,13|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF|@ripaojiedian"
+  - 0|--26
   - 0,13,14,15|JP_speednode_0007
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
