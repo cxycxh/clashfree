@@ -25,17 +25,17 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 0|--1
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.199
+  password: 2fwufOmJ9ELfN4umzcHBfV
+  port: 12224
+  server: 194.87.82.28
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 0|--2
-  password: 1RWwXhwfAB5gAEozU4G2Pg
+  password: 4a2rfixophdjffa8KVA4Aa
   port: 8080
-  server: 45.87.175.178
+  server: 45.87.175.164
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
@@ -43,185 +43,13 @@ proxies:
   name: 0|--3
   password: 1RWwXhwfAB5gAEozU4G2Pg
   port: 8080
-  server: 45.87.175.188
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--4
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.166
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--5
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
   server: 45.87.175.164
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--6
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.164
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--7
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: beesyar.org
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--8
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.199
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|--24
-  network: ws
-  port: 443
-  server: 188.114.97.2
-  servername: obdii.cfd
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--27
-  network: ws
-  port: 2095
-  server: 172.64.166.22
-  servername: ip20.6016725.xyz
-  skip-cert-verify: false
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
-  ws-opts:
-    headers:
-      Host: ip20.6016725.xyz
-    path: /github.com/Alvin9999
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--32
-  network: ws
-  port: 443
-  server: 185.146.173.59
-  servername: obdii.cfd
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--33
-  network: ws
-  port: 443
-  server: 172.67.71.160
-  servername: obdii.cfd
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--35
-  network: ws
-  port: 443
-  server: 172.67.175.56
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--36
-  network: ws
-  port: 443
-  server: obdii.cfd
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--37
-  network: ws
-  port: 443
-  server: 45.149.12.84
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws#@AZARBAYJAB1@AZARBAYJAB1@AZARBAYJAB1/?ed=2560
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--38
-  network: ws
-  port: 443
-  server: 188.114.96.3
-  skip-cert-verify: false
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d
-  ws-opts:
-    headers:
-      Host: obdii.cfd
-    path: /linkws
-- alterId: 0
-  cipher: auto
-  client-fingerprint: chrome
-  name: 0|--39
+  name: 0|--18
   network: ws
   port: 2082
   server: 172.64.194.76
@@ -234,6 +62,23 @@ proxies:
   ws-opts:
     headers:
       Host: ip18.6929198.xyz
+    path: /github.com/Alvin9999
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--22
+  network: ws
+  port: 2095
+  server: 172.64.166.22
+  servername: ip20.6016725.xyz
+  skip-cert-verify: false
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 18d96190-c10f-448f-a82a-2d36df5c3cde
+  ws-opts:
+    headers:
+      Host: ip20.6016725.xyz
     path: /github.com/Alvin9999
 - alterId: 0
   cipher: auto
@@ -1678,20 +1523,8 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--4
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--24
-  - 0|--27
-  - 0|--32
-  - 0|--33
-  - 0|--35
-  - 0|--36
-  - 0|--37
-  - 0|--38
-  - 0|--39
+  - 0|--18
+  - 0|--22
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1805,20 +1638,8 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--4
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--24
-  - 0|--27
-  - 0|--32
-  - 0|--33
-  - 0|--35
-  - 0|--36
-  - 0|--37
-  - 0|--38
-  - 0|--39
+  - 0|--18
+  - 0|--22
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1935,20 +1756,8 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--4
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--24
-  - 0|--27
-  - 0|--32
-  - 0|--33
-  - 0|--35
-  - 0|--36
-  - 0|--37
-  - 0|--38
-  - 0|--39
+  - 0|--18
+  - 0|--22
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -2079,20 +1888,8 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--4
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--24
-  - 0|--27
-  - 0|--32
-  - 0|--33
-  - 0|--35
-  - 0|--36
-  - 0|--37
-  - 0|--38
-  - 0|--39
+  - 0|--18
+  - 0|--22
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -2207,20 +2004,8 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--4
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--24
-  - 0|--27
-  - 0|--32
-  - 0|--33
-  - 0|--35
-  - 0|--36
-  - 0|--37
-  - 0|--38
-  - 0|--39
+  - 0|--18
+  - 0|--22
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -2336,20 +2121,8 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--4
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--24
-  - 0|--27
-  - 0|--32
-  - 0|--33
-  - 0|--35
-  - 0|--36
-  - 0|--37
-  - 0|--38
-  - 0|--39
+  - 0|--18
+  - 0|--22
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -2474,20 +2247,8 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--4
-  - 0|--5
-  - 0|--6
-  - 0|--7
-  - 0|--8
-  - 0|--24
-  - 0|--27
-  - 0|--32
-  - 0|--33
-  - 0|--35
-  - 0|--36
-  - 0|--37
-  - 0|--38
-  - 0|--39
+  - 0|--18
+  - 0|--22
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
