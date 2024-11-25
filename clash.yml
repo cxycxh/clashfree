@@ -25,30 +25,6 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
   name: 0|--1
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.157
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--2
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.181
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--3
-  password: 4a2rfixophdjffa8KVA4Aa
-  port: 8080
-  server: 45.87.175.157
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--8
   password: 3MgIhqwp4pjM8SKwixNkYZ
   port: 33068
   server: 193.124.22.253
@@ -56,40 +32,41 @@ proxies:
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 0|--13
-  password: 4a2rfixophdjffa8KVA4Aa
+  name: 0|--2
+  password: cvII85TrW6n0OGyfpHVS1u
   port: 8080
   server: 45.87.175.178
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
   client-fingerprint: chrome
-  name: 0|--14
+  name: 0|--3
   password: 5cp9Z3iWnJZ2
   port: 443
   server: 205.134.180.150
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--15
-  password: cvII85TrW6n0OGyfpHVS1u
-  port: 8080
-  server: 45.87.175.181
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  client-fingerprint: chrome
-  name: 0|--16
-  password: 1RWwXhwfAB5gAEozU4G2Pg
-  port: 8080
-  server: 45.87.175.178
-  tfo: false
-  type: ss
 - alterId: 0
   cipher: auto
   client-fingerprint: chrome
-  name: 0|--39
+  name: 0|--30
+  network: ws
+  port: 443
+  server: 38.99.82.193
+  servername: wrmelmwxlf.gktevlrqznwqqozy.fabpfs66gizmnojhcvqxwl.kytrcfzqla87gvgvs6c7kjnrubuh.cc
+  skip-cert-verify: false
+  tfo: false
+  tls: true
+  type: vmess
+  uuid: 03fcc618-b93d-6796-6aed-8a38c975d581
+  ws-opts:
+    headers:
+      Host: tilebani.com
+    path: /linkvws
+- alterId: 0
+  cipher: auto
+  client-fingerprint: chrome
+  name: 0|--32
   network: ws
   port: 2095
   server: 23.227.38.3
@@ -104,7 +81,7 @@ proxies:
       Host: c2.6016725.xyz
     path: /github.com/Alvin9999
 - client-fingerprint: chrome
-  name: 0|--46
+  name: 0|--33
   password: wkmY1R4EcP
   port: 443
   server: 65.20.115.19
@@ -891,13 +868,9 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--8
-  - 0|--13
-  - 0|--14
-  - 0|--15
-  - 0|--16
-  - 0|--39
-  - 0|--46
+  - 0|--30
+  - 0|--32
+  - 0|--33
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -969,13 +942,9 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--8
-  - 0|--13
-  - 0|--14
-  - 0|--15
-  - 0|--16
-  - 0|--39
-  - 0|--46
+  - 0|--30
+  - 0|--32
+  - 0|--33
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1050,13 +1019,9 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--8
-  - 0|--13
-  - 0|--14
-  - 0|--15
-  - 0|--16
-  - 0|--39
-  - 0|--46
+  - 0|--30
+  - 0|--32
+  - 0|--33
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1145,13 +1110,9 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--8
-  - 0|--13
-  - 0|--14
-  - 0|--15
-  - 0|--16
-  - 0|--39
-  - 0|--46
+  - 0|--30
+  - 0|--32
+  - 0|--33
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1224,13 +1185,9 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--8
-  - 0|--13
-  - 0|--14
-  - 0|--15
-  - 0|--16
-  - 0|--39
-  - 0|--46
+  - 0|--30
+  - 0|--32
+  - 0|--33
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1304,13 +1261,9 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--8
-  - 0|--13
-  - 0|--14
-  - 0|--15
-  - 0|--16
-  - 0|--39
-  - 0|--46
+  - 0|--30
+  - 0|--32
+  - 0|--33
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
@@ -1393,13 +1346,9 @@ proxy-groups:
   - 0|--1
   - 0|--2
   - 0|--3
-  - 0|--8
-  - 0|--13
-  - 0|--14
-  - 0|--15
-  - 0|--16
-  - 0|--39
-  - 0|--46
+  - 0|--30
+  - 0|--32
+  - 0|--33
   - '3,4,5|d*********g.com_0 #2'
   - '3,4,5|d*********g.com_1 #2'
   - '3,4,5|d*********g.com_2 #2'
