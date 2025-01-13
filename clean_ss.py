@@ -1,7 +1,17 @@
 import yaml
 
-with open('clash.yaml', 'r',encoding="utf-8") as f:
-    clash_profile = yaml.safe_load(f)
+with open('tmp.yaml', 'w', encoding='utf-8') as tmp:
+    with open('clash.yaml', 'r',encoding="utf-8") as f:
+        for line in f:
+            if '<' in line:
+                continue
+            else:
+                tmp.write(line)
+
+
+
+with open('tmp.yaml', 'r',encoding="utf-8") as ff:
+    clash_profile = yaml.safe_load(ff)
     
 proxies = clash_profile['proxies']
 proxy_groups = clash_profile['proxy-groups']
