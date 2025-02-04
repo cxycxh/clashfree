@@ -11,171 +11,208 @@ proxies:
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: "0|\U0001F1FA\U0001F1F81 |  1.4MB/s"
+  name: "0|\U0001F1EF\U0001F1F51 |  6.0MB/s"
   password: amazonskr05
   port: 443
-  server: 35.94.121.85
+  server: 13.231.129.236
   tfo: false
   type: ss
-- name: "0|\U0001F1EC\U0001F1E71 |  3.6MB/s"
-  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
-  port: 20309
-  server: gyl.58n.net
-  skip-cert-verify: true
-  sni: z309.hongkongnode.top
-  tfo: false
-  type: trojan
-- name: "0|\U0001F1FA\U0001F1F82 |  4.3MB/s"
-  password: 172d295b-abd4-4219-a83d-0585b498542c
-  port: 159
-  server: 107.149.254.26
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 0,13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  port: 60717
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
   skip-cert-verify: true
   tfo: false
-  type: trojan
-- cipher: chacha20
-  name: "0|\U0001F1FA\U0001F1F83 |  7.8MB/s"
-  password: q2kSGp4ayFKB
-  port: 8347
-  server: 14.18.253.178
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "0|\U0001F1ED\U0001F1F01 |  1.7MB/s"
-  password: 2afbc97400ca71c8f3306f9843a6e1c2
-  port: 443
-  server: hong-kong.keenvpn.me
-  tfo: false
-  type: ss
-- name: "0|\U0001F1F8\U0001F1EC1 |  6.0MB/s"
-  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
-  port: 20129
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x129.flybar.work
-  tfo: false
-  type: trojan
-- name: "0|\U0001F1FA\U0001F1F84 |  4.8MB/s"
-  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
-  port: 22741
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: dufu.hongkongnode.top
-  tfo: false
-  type: trojan
-- name: "0|\U0001F1F8\U0001F1EC2 |  3.2MB/s"
-  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
-  port: 20130
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x130.flybar.work
-  tfo: false
-  type: trojan
-- name: "0|\U0001F1FA\U0001F1F86 |  2.2MB/s"
-  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
+  tls: false
+  type: vmess
+  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
+- name: "0|\U0001F1FA\U0001F1F82 |  3.5MB/s"
+  password: 333d4654-cab4-3726-9c6c-06a9c27ae680
   port: 28678
   server: gy.58n.net
   skip-cert-verify: true
   sni: z143.hongkongnode.top
   tfo: false
   type: trojan
-- alterId: 34463
-  cipher: auto
-  name: "0|\U0001F1EF\U0001F1F51 |  6.1MB/s"
-  port: 28785
-  server: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art
-  servername: lstqj-g03.jp06-7c5a-vm0.entry.fr0307a.art
-  skip-cert-verify: true
-  tfo: false
-  tls: true
-  type: vmess
-  uuid: 8e555d33-4ce4-395e-93cd-670297aeeb0f
-- cipher: chacha20-ietf-poly1305
-  name: "0|\U0001F1E8\U0001F1E61 |  3.7MB/s"
-  password: 172d295b-abd4-4219-a83d-0585b498542c
-  port: 30104
-  server: vip.baima360.com
+- cipher: aes-256-cfb
+  name: "0|\U0001F1E8\U0001F1E61 |  1.3MB/s"
+  password: amazonskr05
+  port: 443
+  server: 47.129.255.141
   tfo: false
   type: ss
-- name: "0|\U0001F1EF\U0001F1F52 |  4.9MB/s"
-  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
+- cipher: aes-256-cfb
+  name: "0|\U0001F1FA\U0001F1F83 |  5.8MB/s"
+  password: amazonskr05
+  port: 443
+  server: 54.71.17.51
+  tfo: false
+  type: ss
+- name: "0|\U0001F1EC\U0001F1E71 |  4.0MB/s"
+  password: 333d4654-cab4-3726-9c6c-06a9c27ae680
+  port: 20309
+  server: gyl.58n.net
+  skip-cert-verify: true
+  sni: z309.hongkongnode.top
+  tfo: false
+  type: trojan
+- name: "0|\U0001F1EC\U0001F1E72 |  1.9MB/s"
+  password: 333d4654-cab4-3726-9c6c-06a9c27ae680
+  port: 11215
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z268.hongkongnode.top
+  tfo: false
+  type: trojan
+- cipher: aes-256-cfb
+  name: "0|\U0001F1EF\U0001F1F52 |  3.0MB/s"
+  password: amazonskr05
+  port: 443
+  server: 54.250.238.74
+  tfo: false
+  type: ss
+- name: "0|\U0001F1FA\U0001F1F84 |  1.2MB/s"
+  password: 333d4654-cab4-3726-9c6c-06a9c27ae680
+  port: 20279
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z279.hongkongnode.top
+  tfo: false
+  type: trojan
+- cipher: aes-256-cfb
+  name: "0|\U0001F1EF\U0001F1F53 |  2.5MB/s"
+  password: amazonskr05
+  port: 443
+  server: 54.168.25.210
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: "0|\U0001F1EF\U0001F1F54 |  11.9MB/s"
+  password: amazonskr05
+  port: 443
+  server: 52.68.124.236
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "0|\U0001F1FA\U0001F1F86 |  1.7MB/s"
+  password: 2afbc97400ca71c8f3306f9843a6e1c2
+  port: 443
+  server: us-ashburn-virginia.keenvpn.me
+  tfo: false
+  type: ss
+- name: "0|\U0001F1FA\U0001F1F87 |  1.3MB/s"
+  password: 333d4654-cab4-3726-9c6c-06a9c27ae680
+  port: 20303
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z303.hongkongnode.top
+  tfo: false
+  type: trojan
+- cipher: aes-256-cfb
+  name: "0|\U0001F1EF\U0001F1F55 |  3.1MB/s"
+  password: amazonskr05
+  port: 443
+  server: 3.112.149.177
+  tfo: false
+  type: ss
+- alterId: 2
+  cipher: auto
+  name: "0|\U0001F1FA\U0001F1F88 |  4.5MB/s"
+  network: ws
+  port: 23616
+  server: 16.mamamajd.site
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c55cfbfc-b936-353a-b2b7-1366b86c5fde
+  ws-opts:
+    headers:
+      Host: 16.mamamajd.site
+    path: /
+- alterId: 2
+  cipher: auto
+  name: "0|\U0001F1FA\U0001F1F89 |  4.9MB/s"
+  network: ws
+  port: 23605
+  server: 5.mamamajd.site
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: c55cfbfc-b936-353a-b2b7-1366b86c5fde
+  ws-opts:
+    headers:
+      Host: 5.mamamajd.site
+    path: /
+- name: "0|\U0001F1EF\U0001F1F56 |  1.8MB/s"
+  password: 333d4654-cab4-3726-9c6c-06a9c27ae680
   port: 20300
   server: gy.58n.net
   skip-cert-verify: true
   sni: z300.hongkongnode.top
   tfo: false
   type: trojan
-- name: "0|\U0001F1EF\U0001F1F53 |  1.5MB/s"
-  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
-  port: 20141
+- name: "0|\U0001F1EF\U0001F1F57 |  3.4MB/s"
+  password: 333d4654-cab4-3726-9c6c-06a9c27ae680
+  port: 20140
   server: gy.58n.net
   skip-cert-verify: true
-  sni: z141.hongkongnode.top
+  sni: z140.hongkongnode.top
   tfo: false
   type: trojan
-- name: "0|\U0001F1EF\U0001F1F54 |  5.9MB/s"
-  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
-  port: 54178
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: x115.flybar.work
-  tfo: false
-  type: trojan
-- name: "0|\U0001F1EF\U0001F1F55 |  6.0MB/s"
-  password: 2a2b4931-07c8-3ba2-b3fe-b7def4ab2f1a
-  port: 20139
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z139.hongkongnode.top
-  tfo: false
-  type: trojan
-- cipher: aes-256-cfb
-  name: "0|\U0001F1FA\U0001F1F87 |  5.3MB/s"
-  password: amazonskr05
-  port: 443
-  server: 35.93.248.230
+- cipher: aes-128-gcm
+  name: "0|\U0001F3001- |  5.6MB/s"
+  password: 10ed4b04-fd54-4f14-82e4-2d0c073e8e51
+  port: 49207
+  server: south.sf0jm.xyz
   tfo: false
   type: ss
-- cipher: aes-256-cfb
-  name: "0|\U0001F3001- |  6.1MB/s"
-  password: amazonskr05
-  port: 443
-  server: 47.128.241.72
+- cipher: aes-128-gcm
+  name: "0|\U0001F1E9\U0001F1EA1 |  4.3MB/s"
+  password: c069172e-e3e3-4395-a3de-74b6c09324b5
+  port: 49228
+  server: south.sf0jm.xyz
+  tfo: false
+  type: ss
+- cipher: aes-128-gcm
+  name: "0|\U0001F1FA\U0001F1E61 |  2.3MB/s"
+  password: 46e6eeca-65a9-4f54-a7f2-ae1bf5f6a0ab
+  port: 49222
+  server: south.sf0jm.xyz
+  tfo: false
+  type: ss
+- name: "0|\U0001F1F9\U0001F1FC1 |  1.7MB/s"
+  password: 333d4654-cab4-3726-9c6c-06a9c27ae680
+  port: 33323
+  server: gy.58n.net
+  skip-cert-verify: true
+  sni: z261.hongkongnode.top
+  tfo: false
+  type: trojan
+- cipher: aes-128-gcm
+  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
+  password: cbf3d234-6d24-47ec-a9cb-2c2692c5dcf1
+  port: 12008
+  server: mdss-hk.04z3susick.download
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F|@ripaojiedian"
-  network: ws
-  port: 80
-  server: 111.47.212.184
+  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  port: 50028
+  server: 50028.baidu-cdn.top
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
-  uuid: 21c90669-193d-49d3-8e37-f5c1462eb134
-  ws-opts:
-    headers:
-      Host: tms.dingtalk.com
-    path: /
-- cipher: aes-256-gcm
-  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  password: B6FC093YFC5P71QH
-  port: 15015
-  server: 156.245.190.24
-  tfo: false
-  type: ss
+  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
 - cipher: aes-256-cfb
   name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   password: hGkQ6915tD
   port: 16088
   server: 120.232.81.50
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  password: E5OU5DTSKBZCOFIQ
-  port: 15012
-  server: 156.245.190.21
   tfo: false
   type: ss
 - alterId: 64
@@ -188,97 +225,81 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- cipher: aes-256-gcm
+- cipher: chacha20-ietf-poly1305
   name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  password: FS0NUQEKML4CH312
-  port: 18001
-  server: 156.231.104.11
+  password: 8cbf6069-29f0-49d5-965f-ac752174de83
+  port: 34102
+  server: 183.214.197.27
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  password: H0P889CX07EQNGNV
-  port: 18005
-  server: 156.231.104.15
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 990
-  server: 154.90.63.193
-  tfo: false
-  type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-128-gcm
   name: "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: 103.216.253.197
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  password: QEV5BG4YLEABW6LB
-  port: 16012
-  server: 154.196.244.22
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  password: 5OC1DLZMW4HTN4SU
-  port: 16003
-  server: 154.196.244.13
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  password: OUKMA500HD6PGEPF
-  port: 17005
-  server: 23.185.248.15
-  tfo: false
-  type: ss
-- cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  password: 2VMSAJ5HAWHYMBRN
-  port: 17003
-  server: 23.185.248.13
+  password: cbf3d234-6d24-47ec-a9cb-2c2692c5dcf1
+  port: 12021
+  server: mdss-sg.04z3susick.download
   tfo: false
   type: ss
 - alterId: 0
   cipher: auto
-  grpc-opts:
-    grpc-service-name: /
-  name: "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  network: grpc
-  port: 443
-  server: t03-cf.phpman.top
-  servername: t03-cf.phpman.top
+  name: "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  port: 50012
+  server: 50012.baidu-cdn.top
   skip-cert-verify: true
   tfo: false
-  tls: true
+  tls: false
   type: vmess
-  uuid: 537d21ad-49af-41ad-8089-db557b63a40e
+  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  port: 50792
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  port: 23763
+  server: bzryjncvbwng.xn--fiqs8sjz2bull.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
 - cipher: aes-256-cfb
   name: "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 43.206.239.0
+  server: 54.255.198.143
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 13.215.205.85
+  server: 43.207.112.160
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 54.248.40.18
+  server: 52.192.75.193
   tfo: false
   type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
+  port: 50028
+  server: 50028.baidu-cdn.top
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
 - alterId: 64
   cipher: auto
   name: "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
@@ -289,6 +310,46 @@ proxies:
   tls: false
   type: vmess
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
+  port: 60717
+  server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
+  port: 50012
+  server: 50012.baidu-cdn.top
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cdb49a9b-6e23-4d90-b2a8-5c158b437cf2
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57613|@ripaojiedian"
+  port: 50792
+  server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD|@ripaojiedian"
+  port: 23763
+  server: bzryjncvbwng.xn--fiqs8sjz2bull.com
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: a51ed25d-d878-472b-8a5c-4f2f53ddc2ac
 - name: 15|speednode_0048
   password: 20a84ebf-9341-4f5f-8245-3975e2fdeee5
   port: 21019
@@ -324,41 +385,46 @@ proxy-groups:
   - US
   - TW
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - "0|\U0001F1FA\U0001F1F81 |  1.4MB/s"
-  - "0|\U0001F1EC\U0001F1E71 |  3.6MB/s"
-  - "0|\U0001F1FA\U0001F1F82 |  4.3MB/s"
-  - "0|\U0001F1FA\U0001F1F83 |  7.8MB/s"
-  - "0|\U0001F1ED\U0001F1F01 |  1.7MB/s"
-  - "0|\U0001F1F8\U0001F1EC1 |  6.0MB/s"
-  - "0|\U0001F1FA\U0001F1F84 |  4.8MB/s"
-  - "0|\U0001F1F8\U0001F1EC2 |  3.2MB/s"
-  - "0|\U0001F1FA\U0001F1F86 |  2.2MB/s"
-  - "0|\U0001F1EF\U0001F1F51 |  6.1MB/s"
-  - "0|\U0001F1E8\U0001F1E61 |  3.7MB/s"
-  - "0|\U0001F1EF\U0001F1F52 |  4.9MB/s"
-  - "0|\U0001F1EF\U0001F1F53 |  1.5MB/s"
-  - "0|\U0001F1EF\U0001F1F54 |  5.9MB/s"
-  - "0|\U0001F1EF\U0001F1F55 |  6.0MB/s"
-  - "0|\U0001F1FA\U0001F1F87 |  5.3MB/s"
-  - "0|\U0001F3001- |  6.1MB/s"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F|@ripaojiedian"
+  - "0|\U0001F1EF\U0001F1F51 |  6.0MB/s"
+  - "\U0001F1EF\U0001F1F5 0,13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "0|\U0001F1FA\U0001F1F82 |  3.5MB/s"
+  - "0|\U0001F1E8\U0001F1E61 |  1.3MB/s"
+  - "0|\U0001F1FA\U0001F1F83 |  5.8MB/s"
+  - "0|\U0001F1EC\U0001F1E71 |  4.0MB/s"
+  - "0|\U0001F1EC\U0001F1E72 |  1.9MB/s"
+  - "0|\U0001F1EF\U0001F1F52 |  3.0MB/s"
+  - "0|\U0001F1FA\U0001F1F84 |  1.2MB/s"
+  - "0|\U0001F1EF\U0001F1F53 |  2.5MB/s"
+  - "0|\U0001F1EF\U0001F1F54 |  11.9MB/s"
+  - "0|\U0001F1FA\U0001F1F86 |  1.7MB/s"
+  - "0|\U0001F1FA\U0001F1F87 |  1.3MB/s"
+  - "0|\U0001F1EF\U0001F1F55 |  3.1MB/s"
+  - "0|\U0001F1FA\U0001F1F88 |  4.5MB/s"
+  - "0|\U0001F1FA\U0001F1F89 |  4.9MB/s"
+  - "0|\U0001F1EF\U0001F1F56 |  1.8MB/s"
+  - "0|\U0001F1EF\U0001F1F57 |  3.4MB/s"
+  - "0|\U0001F3001- |  5.6MB/s"
+  - "0|\U0001F1E9\U0001F1EA1 |  4.3MB/s"
+  - "0|\U0001F1FA\U0001F1E61 |  2.3MB/s"
+  - "0|\U0001F1F9\U0001F1FC1 |  1.7MB/s"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD|@ripaojiedian"
   - 15|speednode_0048
   - 16|d*********g.com_2
   - 16|d*********g.com_3
@@ -402,11 +468,11 @@ proxy-groups:
   type: select
 - name: HK
   proxies:
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
   type: select
 - name: SG
@@ -415,6 +481,8 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57613|@ripaojiedian"
   type: select
 - name: TW
   proxies:
@@ -422,15 +490,15 @@ proxy-groups:
   type: select
 - name: JP
   proxies:
+  - "\U0001F1EF\U0001F1F5 0,13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C2|@ripaojiedian"
   type: select
 - name: US
   proxies:
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD|@ripaojiedian"
   type: select
 rules:
 - DOMAIN-SUFFIX,17gouwuba.com,REJECT
