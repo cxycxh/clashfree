@@ -673,7 +673,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "11|11|11|11|11|11|11|11|11|11|\u5982\u6709\u9700..."
+  name: 11|11|11|11|11|11|11|11|11|11|11|...
   port: 443
   server: web.51.la
   servername: web.51.la
@@ -819,7 +819,7 @@ proxies:
     path: /
 - alterId: 0
   cipher: auto
-  name: "\U0001F1F8\U0001F1EC 11|11|11|11|11|11|11,15,16|\u65B0\u52A0\u5761|@r..."
+  name: 11|11|11|11|11|11|11|11|11,15,16|...
   network: ws
   port: 8967
   server: 31.58.142.221
@@ -835,7 +835,7 @@ proxies:
     path: /BONRyKGhDE
 - alterId: 0
   cipher: auto
-  name: "\U0001F1EF\U0001F1F5 11|11|11|11|11|11|11,16|\u65E5\u672C3|@ripa..."
+  name: "\U0001F1EF\U0001F1F5 11|11|11|11|11|11|11|11|11,16|\u65E5\u672C3..."
   port: 33184
   server: ywtwepcnwlou.xn--fiqs8sjz2bull.com
   skip-cert-verify: true
@@ -845,7 +845,7 @@ proxies:
   uuid: b2d1e704-59f5-48ec-ba97-9a5e2005b37b
 - alterId: 64
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 11,16|\u7F8E\u56FD2|@ripaojiedian"
+  name: "\U0001F1FA\U0001F1F8 11|11|15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   port: 45402
   server: 120.232.153.123
   skip-cert-verify: true
@@ -855,7 +855,7 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0 11,16|\u9999\u6E2F|@ripaojiedian"
+  name: "\U0001F1ED\U0001F1F0 11|11|11,16|\u9999\u6E2F|@ripaojiedian"
   port: 20776
   server: AZHJ001.dmak.cyou
   skip-cert-verify: true
@@ -865,7 +865,7 @@ proxies:
   uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
 - alterId: 0
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0 11,16|\u9999\u6E2F2|@ripaojiedian"
+  name: "\U0001F1ED\U0001F1F0 11|11|11,16|\u9999\u6E2F2|@ripaojiedian"
   port: 20965
   server: AZHJ001.dmak.cyou
   skip-cert-verify: true
@@ -875,7 +875,7 @@ proxies:
   uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
 - alterId: 0
   cipher: auto
-  name: "\U0001F1EF\U0001F1F5 11,16|\u65E5\u672C|@ripaojiedian"
+  name: "\U0001F1EF\U0001F1F5 11|11|11,16|\u65E5\u672C|@ripaojiedian"
   port: 20803
   server: AZHJ.dmak.cyou
   skip-cert-verify: true
@@ -885,7 +885,7 @@ proxies:
   uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
 - alterId: 0
   cipher: auto
-  name: "\U0001F1EF\U0001F1F5 11,16|\u65E5\u672C3|@ripaojiedian"
+  name: "\U0001F1EF\U0001F1F5 11|11|11,16|\u65E5\u672C3|@ripaojiedian"
   port: 20800
   server: AZHJ.dmak.cyou
   skip-cert-verify: true
@@ -895,7 +895,7 @@ proxies:
   uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
 - alterId: 0
   cipher: auto
-  name: "\U0001F1F8\U0001F1EC 11,16|\u65B0\u52A0\u57613|@ripaojiedian"
+  name: "\U0001F1F8\U0001F1EC 11|11|11,16|\u65B0\u52A0\u57613|@ripaojiedian"
   port: 10564
   server: pudvkjvvgdol.xn--fiqs8sjz2bull.com
   skip-cert-verify: true
@@ -903,70 +903,152 @@ proxies:
   tls: false
   type: vmess
   uuid: ead8fb73-ff42-4fce-af33-5991e72006b7
-- alterId: 64
+- alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  port: 45402
-  server: 120.232.153.123
+  name: "\U0001F1F8\U0001F1EC 11|15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
+  port: 443
+  server: flying-tuna.treefrog761.one
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
-  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0 11,16|\u9999\u6E2F|@ripaojiedian"
+  port: 21718
+  server: AZHJ.dmak.cyou
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 11,16|\u65E5\u672C|@ripaojiedian"
+  port: 550
+  server: 20.78.127.141
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: 9e11e992-c3a4-45fb-bb67-5f4f42fcd551
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 11,16|\u65E5\u672C3|@ripaojiedian"
+  port: 20808
+  server: AZHJ001.dmak.cyou
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
+  port: 443
+  server: flying-tuna.treefrog761.one
+  skip-cert-verify: true
+  tfo: false
+  tls: false
+  type: vmess
+  uuid: cd21873e-332d-3b13-98a7-f26996cfdfd9
 - cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  password: 961ab95c-7b17-4fea-8a3f-6b27a426172d
-  port: 48497
-  server: wb.kaiqsz.com
+  name: "\U0001F1ED\U0001F1F0 15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  password: PT2N60DCUH6VCQPC
+  port: 15004
+  server: 156.245.190.13
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1ED\U0001F1F0 15|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  password: AN3FTAV65XV9BQKG
+  port: 15009
+  server: 156.245.190.18
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1ED\U0001F1F0 15|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  password: RAMLXXTO5NSM786O
+  port: 15006
+  server: 156.245.190.15
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7 15|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  name: "\U0001F1F0\U0001F1F7 15|\U0001F1F0\U0001F1F7 \u97E9\u56FD3|@ripaojiedian"
   password: qwerREWQ@@
   port: 28902
   server: 218.38.103.150
   tfo: false
   type: ss
-- cipher: chacha20-ietf-poly1305
+- cipher: aes-256-gcm
   name: "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  password: 3FB23A19-9424-40C7-9139-3540228283FA
-  port: 40005
-  server: sgp.fastsoonlink.com
+  password: XO1SG6ZYE5JP7FW0
+  port: 16012
+  server: 154.196.244.22
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  password: YJCJ0R4WY1NWFU2Y
+  port: 16007
+  server: 154.196.244.17
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  name: "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 103.106.229.219
   tfo: false
   type: ss
 - cipher: aes-256-gcm
+  name: "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  password: L4JOYUZXFWFX9E0N
+  port: 16005
+  server: 154.196.244.15
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
   name: "\U0001F1FA\U0001F1F8 15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  password: 961ab95c-7b17-4fea-8a3f-6b27a426172d
-  port: 56257
-  server: wb.kaiqsz.com
+  password: Z7ZSQR3OI9JVRA6N
+  port: 17001
+  server: 23.185.248.11
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  password: X1GBLWQ3U4ULO6XV
+  port: 17005
+  server: 23.185.248.15
+  tfo: false
+  type: ss
+- cipher: aes-256-gcm
+  name: "\U0001F1FA\U0001F1F8 15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  password: IC4APDY4ATHX890I
+  port: 17004
+  server: 23.185.248.14
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F0\U0001F1F7 15|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 43.207.2.243
+  server: 35.77.85.254
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1EF\U0001F1F5 15|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 35.77.91.116
+  server: 57.180.31.56
   tfo: false
   type: ss
 - cipher: aes-256-cfb
   name: "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 52.195.220.7
+  server: 13.125.187.128
   tfo: false
   type: ss
 proxy-groups:
@@ -1040,7 +1122,7 @@ proxy-groups:
     \U0001F1F7_FR_\u6CD5\u56FD #2"
   - "\U0001F1FA\U0001F1F8 3,11,17|\U0001F1FA\U0001F1F8_US_\u7F8E\u56FD-&gt;\U0001F1E8\
     \U0001F1E6_CA_\u52A0\u62FF\u5927 #11"
-  - "11|11|11|11|11|11|11|11|11|11|\u5982\u6709\u9700..."
+  - 11|11|11|11|11|11|11|11|11|11|11|...
   - "\U0001F1EE\U0001F1F3 11,12|\u5370\u5EA6  2"
   - "\U0001F1EE\U0001F1F3 11,12|\u5370\u5EA6  3"
   - "\U0001F1FA\U0001F1F8 11,12|\u7F8E\u56FDCloudFla..."
@@ -1050,20 +1132,30 @@ proxy-groups:
   - "\U0001F1EE\U0001F1F3 11,12|\u5370\u5EA6  10"
   - "\U0001F1FA\U0001F1F8 11,12|\u7F8E\u56FDFastly\u5168\u7403..."
   - "\U0001F1FA\U0001F1F8 11,12|\u7F8E\u56FDCloudFla... #3"
-  - "\U0001F1F8\U0001F1EC 11|11|11|11|11|11|11,15,16|\u65B0\u52A0\u5761|@r..."
-  - "\U0001F1EF\U0001F1F5 11|11|11|11|11|11|11,16|\u65E5\u672C3|@ripa..."
-  - "\U0001F1FA\U0001F1F8 11,16|\u7F8E\u56FD2|@ripaojiedian"
+  - 11|11|11|11|11|11|11|11|11,15,16|...
+  - "\U0001F1EF\U0001F1F5 11|11|11|11|11|11|11|11|11,16|\u65E5\u672C3..."
+  - "\U0001F1FA\U0001F1F8 11|11|15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 11|11|11,16|\u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 11|11|11,16|\u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 11|11|11,16|\u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 11|11|11,16|\u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 11|11|11,16|\u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 11|15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 11,16|\u9999\u6E2F|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11,16|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 11,16|\u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 11,16|\u65E5\u672C3|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11,16|\u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1F0\U0001F1F7 15|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 15|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 15|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 15|\U0001F1F0\U0001F1F7 \u97E9\u56FD3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 15|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 15|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
@@ -1107,25 +1199,34 @@ proxy-groups:
   type: select
 - name: HK
   proxies:
+  - "\U0001F1ED\U0001F1F0 11|11|11,16|\u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 11|11|11,16|\u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 11,16|\u9999\u6E2F|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11,16|\u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 15|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 15|\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 15|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   type: select
 - name: SG
   proxies:
   - 1|_SG_
-  - "\U0001F1F8\U0001F1EC 11|11|11|11|11|11|11,15,16|\u65B0\u52A0\u5761|@r..."
-  - "\U0001F1F8\U0001F1EC 11,16|\u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 11|11|11,16|\u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 11|15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 15|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   type: select
 - name: TW
   proxies:
-  - "\U0001F1E8\U0001F1F3 15|\U0001F1F9\U0001F1FC \u53F0\u6E7E|@ripaojiedian"
+  - DIRECT
   type: select
 - name: JP
   proxies:
-  - "\U0001F1EF\U0001F1F5 11|11|11|11|11|11|11,16|\u65E5\u672C3|@ripa..."
+  - "\U0001F1EF\U0001F1F5 11|11|11|11|11|11|11|11|11,16|\u65E5\u672C3..."
+  - "\U0001F1EF\U0001F1F5 11|11|11,16|\u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 11|11|11,16|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 11,16|\u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 11,16|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 15|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
@@ -1164,9 +1265,10 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 11,12|\u7F8E\u56FDCloudFla... #2"
   - "\U0001F1FA\U0001F1F8 11,12|\u7F8E\u56FDFastly\u5168\u7403..."
   - "\U0001F1FA\U0001F1F8 11,12|\u7F8E\u56FDCloudFla... #3"
-  - "\U0001F1FA\U0001F1F8 11,16|\u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 11|11|15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 15|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   type: select
 rules:
 - DOMAIN-SUFFIX,17gouwuba.com,REJECT
