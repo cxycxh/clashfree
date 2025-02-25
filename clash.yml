@@ -10,222 +10,260 @@ proxies:
   server: 127.0.0.1
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: "1|\U0001F1F9\U0001F1FC1 |  4.0MB/s"
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21139
-  server: 581023.horace.im
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0\u9999\u6E2F 01 | 1x HK"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31141
+  server: free.2apzhfa.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: "1|\U0001F1F9\U0001F1FC2 |  1.4MB/s"
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21137
-  server: 581610.eveline.lol
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0\u9999\u6E2F 02 | 1x HK"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31143
+  server: free.2apzhfa.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "1|\U0001F1F7\U0001F1FA1 |  2.2MB/s"
-  port: 31202
-  server: 910281.chasel.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: aes-256-gcm
-  name: "1|\U0001F1F7\U0001F1FA2 |  3.7MB/s"
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21108
-  server: 581023.horace.im
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 03 |\
+    \ 1x HK"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31145
+  server: free.2apzhfa.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: "1|\U0001F30F1 |  5.7MB/s"
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21245
-  server: 581610.eveline.lol
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC\u53F0\u6E7E 01 | 1x TW"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31241
+  server: free.2apzhfa.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "1|\U0001F30F2 |  5.7MB/s"
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC\u53F0\u6E7E 02 | 1x TW"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31243
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC\u53F0\u6E7E 03 | 1x TW"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
   port: 31245
-  server: 581610.eveline.lol
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- alterId: 0
-  cipher: auto
-  name: "1|\U0001F3001- |  2.4MB/s"
-  port: 31230
-  server: 910281.chasel.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- alterId: 0
-  cipher: auto
-  name: "1|\U0001F3002- |  5.6MB/s"
-  port: 31235
-  server: 581610.eveline.lol
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- alterId: 0
-  cipher: auto
-  name: "1|\U0001F1FA\U0001F1F82 |  5.9MB/s"
-  port: 31116
-  server: 510613.frederica.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- alterId: 0
-  cipher: auto
-  name: "1|\U0001F1EF\U0001F1F51 |  5.6MB/s"
-  port: 31240
-  server: 581023.horace.im
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: aes-256-gcm
-  name: "1|\U0001F1EE\U0001F1F71 |  4.8MB/s"
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21248
-  server: 510613.frederica.xyz
+  server: free.2apzhfa.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: "1|\U0001F1F7\U0001F1FA3 |  5.4MB/s"
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21117
-  server: 581023.horace.im
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5\u65E5\u672C 01 | 1x JP"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31111
+  server: free.2apzhfa.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "1|\U0001F1EE\U0001F1F72 |  2.0MB/s"
-  port: 31249
-  server: 510613.frederica.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- alterId: 0
-  cipher: auto
-  name: "1|\U0001F1EE\U0001F1F73 |  3.9MB/s"
-  port: 31248
-  server: 510613.frederica.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: aes-256-gcm
-  name: "1|\U0001F1EF\U0001F1F52 |  4.4MB/s"
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21253
-  server: 581023.horace.im
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5\u65E5\u672C 02 | 1x JP"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31113
+  server: free.2apzhfa.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: "1|\U0001F1F7\U0001F1FA4 |  1.9MB/s"
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21123
-  server: 910281.chasel.sbs
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5\u65E5\u672C 03 | 1x JP"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31115
+  server: free.2apzhfa.xyz
   tfo: false
   type: ss
-- cipher: aes-256-gcm
-  name: "1|\U0001F1FA\U0001F1F84 |  2.7MB/s"
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21252
-  server: 510613.frederica.xyz
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 01 | 1x SG"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31171
+  server: free.2apzhfa.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "1|\U0001F1FA\U0001F1F85 |  1.6MB/s"
-  port: 31349
-  server: 510613.frederica.xyz
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- alterId: 0
-  cipher: auto
-  name: "1|\U0001F3003- |  1.2MB/s"
-  port: 31238
-  server: 581023.horace.im
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- alterId: 0
-  cipher: auto
-  name: "1|\U0001F1FA\U0001F1F86 |  2.6MB/s"
-  port: 31300
-  server: 910281.chasel.sbs
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- name: "1|\U0001F1FA\U0001F1F87 |  2.7MB/s"
-  password: bf0058ec-eed0-3c70-a4ef-9ac8df58e1d1
-  port: 43337
-  server: gy.58n.net
-  skip-cert-verify: true
-  sni: z102.hongkongnode.top
-  tfo: false
-  type: trojan
-- cipher: aes-256-gcm
-  name: "1|\U0001F1F7\U0001F1FA5 |  3.0MB/s"
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21106
-  server: 581610.eveline.lol
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 02 | 1x SG"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31173
+  server: free.2apzhfa.xyz
   tfo: false
   type: ss
-- alterId: 0
-  cipher: auto
-  name: "1|\U0001F1F7\U0001F1FA6 |  4.2MB/s"
-  port: 31108
-  server: 581023.horace.im
-  skip-cert-verify: true
-  tfo: false
-  tls: false
-  type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- cipher: aes-256-gcm
-  name: "1|\U0001F1F7\U0001F1FA7 |  2.0MB/s"
-  password: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-  port: 21104
-  server: 581610.eveline.lol
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 03 | 1x SG"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31175
+  server: free.2apzhfa.xyz
   tfo: false
   type: ss
-- alterId: 0
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7\u97E9\u56FD 01 | 1x KR"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31311
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7\u97E9\u56FD 02 | 1x KR"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31313
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F5\U0001F1ED 0|\U0001F1F5\U0001F1ED\u83F2\u5F8B\u5BBE 01 | 1x PH"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31341
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8\u7F8E\u56FD 01 | 1x US Los Angeles"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31211
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8\u7F8E\u56FD\u5BB6\u5BBD 02 |\
+    \ 1x US Los Angeles"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31213
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8\u7F8E\u56FD 03 | 1x US Washington"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31215
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EC\U0001F1E7 0|\U0001F1EC\U0001F1E7\u82F1\u56FD\u5BB6\u5BBD 01 |\
+    \ 1x UK"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31271
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F9\U0001F1ED 0|\U0001F1F9\U0001F1ED\u6CF0\u56FD01  | 1x TH"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31741
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F2\U0001F1FE 0|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A01 | 1x\
+    \ MY"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31721
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1F3 0|\U0001F1EE\U0001F1F3\u5370\u5EA6 01 | 1x IN"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31371
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E6\U0001F1FA 0|\U0001F1E6\U0001F1FA\u6FB3\u5927\u5229\u4E9A 01 |\
+    \ 1x AU"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31411
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1E6 0|\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 01 | 1x CA"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31441
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E9\U0001F1EA 0|\U0001F1E9\U0001F1EA\u5FB7\u56FD 01 | 1x DE"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31471
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FA 0|\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF 01 | 1x RU"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31511
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F9\U0001F1F7 0|\U0001F1F9\U0001F1F7\u571F\u8033\u5176 01 | 1x TR"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31571
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1E6 0|\U0001F1FA\U0001F1E6\u4E4C\u514B\u5170 01 | 1x UA"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31611
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FB\U0001F1F3 0|\U0001F1FB\U0001F1F3\u8D8A\u5357 01 | 1x VN"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31641
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E7\U0001F1F7 0|\U0001F1E7\U0001F1F7\u5DF4\u897F 01 | 1x BR"
+  password: 4be6a148-af68-419c-b748-9bb5e25826fa
+  port: 31671
+  server: free.2apzhfa.xyz
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: "2|\U0001F1EF\U0001F1F51 |  4.5MB/s"
+  password: amazonskr05
+  port: 443
+  server: 43.202.60.105
+  tfo: false
+  type: ss
+- alterId: 64
   cipher: auto
-  name: "1|\U0001F1F9\U0001F1FC3 |  5.1MB/s"
-  port: 31142
-  server: 510613.frederica.xyz
+  name: "2|\U0001F1F8\U0001F1EC1 |  1.2MB/s"
+  port: 53902
+  server: 183.236.51.38
   skip-cert-verify: true
   tfo: false
   tls: false
   type: vmess
-  uuid: 8C4D2A21-3912-FEC5-737F-9FF8FDEB0ABD
-- name: "\U0001F1ED\U0001F1F0 11,12|\u9999\u6E2F|@ripaojiedian"
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
+- cipher: aes-256-cfb
+  name: "2|\U0001F1F7\U0001F1FA1 |  17.0MB/s"
+  password: BNmAXXxAHYpTRdzu
+  port: 9020
+  server: 217.30.10.18
+  tfo: false
+  type: ss
+- cipher: aes-256-cfb
+  name: "2|\U0001F1FA\U0001F1F810 |  6.0MB/s"
+  password: amazonskr05
+  port: 443
+  server: 18.143.165.183
+  tfo: false
+  type: ss
+- cipher: chacha20
+  name: "2|\U0001F1FA\U0001F1F815 |  20.9MB/s"
+  password: dkYsdgWqegNV
+  port: 8343
+  server: 14.18.253.178
+  tfo: false
+  type: ss
+- name: "\U0001F1ED\U0001F1F0 12,13|\u9999\u6E2F|@ripaojiedian"
   password: 1e63e585ab2fef3adcc9ea75a62abc23
   port: 443
   server: 104.251.227.182
@@ -234,13 +272,13 @@ proxies:
   tfo: false
   type: trojan
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  name: "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52611
   server: hk01.x.quickcht3.club
   tfo: false
   type: ss
-- name: "\U0001F1ED\U0001F1F0 11,12|\u9999\u6E2F3|@ripaojiedian"
+- name: "\U0001F1ED\U0001F1F0 12,13|\u9999\u6E2F3|@ripaojiedian"
   password: Vad3.123a)asd1234-asdasd.asdazzS.123
   port: 443
   server: 43.154.83.213
@@ -249,147 +287,147 @@ proxies:
   tfo: false
   type: trojan
 - cipher: aes-256-gcm
-  name: "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  name: "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   password: 2H98UZT9LT1TE3X9
   port: 15008
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  name: "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   password: LZQ0R9BL69GCC6FS
   port: 15005
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  name: "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   password: RBN1UNGVPF1BQXPK
   port: 15006
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  name: "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   password: TCEL1H0XD7TWAKI0
   port: 15011
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  name: "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   password: 2be0c954-4291-45ea-b47d-ca713180550b
   port: 52612
   server: hk02.x.quickcht3.club
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 11|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  name: "\U0001F1E8\U0001F1F3 12|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
   password: QF377GGQ00RATCMK
   port: 21004
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 11|\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  name: "\U0001F1E8\U0001F1F3 12|\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
   password: Y2U58S90E3GST1AQ
   port: 21001
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1E8\U0001F1F3 11|\U0001F1F9\U0001F1FC \u53F0\u6E7E4|@ripaojiedian"
+  name: "\U0001F1E8\U0001F1F3 12|\U0001F1F9\U0001F1FC \u53F0\u6E7E4|@ripaojiedian"
   password: HQJQFA7U2Z5HGZWH
   port: 21003
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1EF\U0001F1F5 11|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  name: "\U0001F1EF\U0001F1F5 12|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   password: 4S85LF2Q3QK92171
   port: 18008
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1EF\U0001F1F5 11|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  name: "\U0001F1EF\U0001F1F5 12|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   password: YMB3QL85L7F1KJR7
   port: 18013
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1EF\U0001F1F5 11|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  name: "\U0001F1EF\U0001F1F5 12|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   password: 84HMRAWILKB49QUZ
   port: 18002
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  name: "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   password: B5CJMEHJMSMNQ120
   port: 16012
   server: w72tapyb.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  name: "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   password: BFYCOKHTC8HIWWRB
   port: 16006
   server: ti3hyra4.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  name: "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
   password: WNW5MZJX57ZJUNQU
   port: 16009
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  name: "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
   password: IHWLYZSSSX4GSKLA
   port: 16013
   server: 8tv68qhq.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: chacha20-ietf
-  name: "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
+  name: "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
   password: asd123456
   port: 8388
   server: 103.36.90.195
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
+  name: "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
   password: 0407WKIEIXMTLGC6
   port: 16007
   server: qh62onjn.slashdevslashnetslashtun.net
   tfo: false
   type: ss
 - cipher: aes-256-gcm
-  name: "\U0001F1FA\U0001F1F8 11|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  name: "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   password: TEzjfAYq2IjtuoS
   port: 6679
   server: 23.154.136.148
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7 11|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
+  name: "\U0001F1F0\U0001F1F7 12|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
   server: 54.199.112.166
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1EF\U0001F1F5 11|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
+  name: "\U0001F1EF\U0001F1F5 12|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
   server: 47.128.150.63
   tfo: false
   type: ss
 - cipher: aes-256-cfb
-  name: "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
+  name: "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   password: amazonskr05
   port: 443
   server: 47.129.201.221
@@ -404,55 +442,66 @@ proxy-groups:
   - US
   - TW
   - "\U0001F1EC\U0001F1E7 \u9AD8\u6027\u4EF7\u6BD4\u673A\u573A:https://kfyun.uk"
-  - "1|\U0001F1F9\U0001F1FC1 |  4.0MB/s"
-  - "1|\U0001F1F9\U0001F1FC2 |  1.4MB/s"
-  - "1|\U0001F1F7\U0001F1FA1 |  2.2MB/s"
-  - "1|\U0001F1F7\U0001F1FA2 |  3.7MB/s"
-  - "1|\U0001F30F1 |  5.7MB/s"
-  - "1|\U0001F30F2 |  5.7MB/s"
-  - "1|\U0001F3001- |  2.4MB/s"
-  - "1|\U0001F3002- |  5.6MB/s"
-  - "1|\U0001F1FA\U0001F1F82 |  5.9MB/s"
-  - "1|\U0001F1EF\U0001F1F51 |  5.6MB/s"
-  - "1|\U0001F1EE\U0001F1F71 |  4.8MB/s"
-  - "1|\U0001F1F7\U0001F1FA3 |  5.4MB/s"
-  - "1|\U0001F1EE\U0001F1F72 |  2.0MB/s"
-  - "1|\U0001F1EE\U0001F1F73 |  3.9MB/s"
-  - "1|\U0001F1EF\U0001F1F52 |  4.4MB/s"
-  - "1|\U0001F1F7\U0001F1FA4 |  1.9MB/s"
-  - "1|\U0001F1FA\U0001F1F84 |  2.7MB/s"
-  - "1|\U0001F1FA\U0001F1F85 |  1.6MB/s"
-  - "1|\U0001F3003- |  1.2MB/s"
-  - "1|\U0001F1FA\U0001F1F86 |  2.6MB/s"
-  - "1|\U0001F1FA\U0001F1F87 |  2.7MB/s"
-  - "1|\U0001F1F7\U0001F1FA5 |  3.0MB/s"
-  - "1|\U0001F1F7\U0001F1FA6 |  4.2MB/s"
-  - "1|\U0001F1F7\U0001F1FA7 |  2.0MB/s"
-  - "1|\U0001F1F9\U0001F1FC3 |  5.1MB/s"
-  - "\U0001F1ED\U0001F1F0 11,12|\u9999\u6E2F|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11,12|\u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 11|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 11|\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 11|\U0001F1F9\U0001F1FC \u53F0\u6E7E4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 11|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 11|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 11|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 11|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1F0\U0001F1F7 11|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 11|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0\u9999\u6E2F 01 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0\u9999\u6E2F 02 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 03 | 1x HK"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC\u53F0\u6E7E 01 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC\u53F0\u6E7E 02 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC\u53F0\u6E7E 03 | 1x TW"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5\u65E5\u672C 01 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5\u65E5\u672C 02 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5\u65E5\u672C 03 | 1x JP"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 01 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 02 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 03 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7\u97E9\u56FD 01 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7\u97E9\u56FD 02 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 0|\U0001F1F5\U0001F1ED\u83F2\u5F8B\u5BBE 01 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8\u7F8E\u56FD 01 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8\u7F8E\u56FD\u5BB6\u5BBD 02 | 1x US\
+    \ Los Angeles"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8\u7F8E\u56FD 03 | 1x US Washington"
+  - "\U0001F1EC\U0001F1E7 0|\U0001F1EC\U0001F1E7\u82F1\u56FD\u5BB6\u5BBD 01 | 1x UK"
+  - "\U0001F1F9\U0001F1ED 0|\U0001F1F9\U0001F1ED\u6CF0\u56FD01  | 1x TH"
+  - "\U0001F1F2\U0001F1FE 0|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A01 | 1x MY"
+  - "\U0001F1EE\U0001F1F3 0|\U0001F1EE\U0001F1F3\u5370\u5EA6 01 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 0|\U0001F1E6\U0001F1FA\u6FB3\u5927\u5229\u4E9A 01 | 1x AU"
+  - "\U0001F1E8\U0001F1E6 0|\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 01 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 0|\U0001F1E9\U0001F1EA\u5FB7\u56FD 01 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 0|\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF 01 | 1x RU"
+  - "\U0001F1F9\U0001F1F7 0|\U0001F1F9\U0001F1F7\u571F\u8033\u5176 01 | 1x TR"
+  - "\U0001F1FA\U0001F1E6 0|\U0001F1FA\U0001F1E6\u4E4C\u514B\u5170 01 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 0|\U0001F1FB\U0001F1F3\u8D8A\u5357 01 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 0|\U0001F1E7\U0001F1F7\u5DF4\u897F 01 | 1x BR"
+  - "2|\U0001F1EF\U0001F1F51 |  4.5MB/s"
+  - "2|\U0001F1F8\U0001F1EC1 |  1.2MB/s"
+  - "2|\U0001F1F7\U0001F1FA1 |  17.0MB/s"
+  - "2|\U0001F1FA\U0001F1F810 |  6.0MB/s"
+  - "2|\U0001F1FA\U0001F1F815 |  20.9MB/s"
+  - "\U0001F1ED\U0001F1F0 12,13|\u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12,13|\u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 12|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 12|\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 12|\U0001F1F9\U0001F1FC \u53F0\u6E7E4|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 12|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 12|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 12|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 12|\U0001F1F0\U0001F1F7 \u97E9\u56FD\u7279\u6B8A|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 12|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   type: select
 - name: Apple
   proxies:
@@ -493,41 +542,57 @@ proxy-groups:
   type: select
 - name: HK
   proxies:
-  - "\U0001F1ED\U0001F1F0 11,12|\u9999\u6E2F|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11,12|\u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 11|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0\u9999\u6E2F 01 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0\u9999\u6E2F 02 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 03 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 12,13|\u9999\u6E2F|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12,13|\u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 12|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   type: select
 - name: SG
   proxies:
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 11|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 01 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 02 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 03 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57616|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC 12|\U0001F1F8\U0001F1EC \u72EE\u57CE\u7279\u6B8A|@ripaojiedian"
   type: select
 - name: TW
   proxies:
-  - "\U0001F1E8\U0001F1F3 11|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 11|\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 11|\U0001F1F9\U0001F1FC \u53F0\u6E7E4|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC\u53F0\u6E7E 01 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC\u53F0\u6E7E 02 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC\u53F0\u6E7E 03 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 12|\U0001F1F9\U0001F1FC \u53F0\u6E7E2|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 12|\U0001F1F9\U0001F1FC \u53F0\u6E7E3|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 12|\U0001F1F9\U0001F1FC \u53F0\u6E7E4|@ripaojiedian"
   type: select
 - name: JP
   proxies:
-  - "\U0001F1EF\U0001F1F5 11|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 11|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 11|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 11|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5\u65E5\u672C 01 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5\u65E5\u672C 02 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5\u65E5\u672C 03 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 12|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 12|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 12|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 12|\U0001F1EF\U0001F1F5 \u65E5\u672C\u7279\u6B8A|@ripaojiedian"
   type: select
 - name: US
   proxies:
-  - "\U0001F1FA\U0001F1F8 11|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8\u7F8E\u56FD 01 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8\u7F8E\u56FD\u5BB6\u5BBD 02 | 1x US\
+    \ Los Angeles"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8\u7F8E\u56FD 03 | 1x US Washington"
+  - "\U0001F1FA\U0001F1F8 12|\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   type: select
 rules:
 - DOMAIN-SUFFIX,17gouwuba.com,REJECT
