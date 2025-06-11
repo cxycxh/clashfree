@@ -89,7 +89,7 @@ mode: Rule
 proxies:
 - alterId: 64
   cipher: auto
-  name: "3|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
+  name: "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -103,7 +103,7 @@ proxies:
       Host: centos7
     path: /634c5c4f9782
 - cipher: aes-256-cfb
-  name: "3|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
+  name: "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 156.146.40.194
@@ -111,7 +111,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: "3|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
+  name: "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -119,7 +119,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: "3|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
+- name: "2|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
@@ -128,7 +128,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: "3|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
+  name: "2|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
   network: ws
   port: 443
   server: 38.47.96.30
@@ -142,7 +142,7 @@ proxies:
       Host: th.lzj520hxw.dpdns.org
     path: /lzjjj
 - cipher: aes-256-cfb
-  name: "3|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
+  name: "2|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
@@ -150,7 +150,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: "3|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
+  name: "2|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -167,7 +167,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: "3|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
+  name: "2|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -179,7 +179,7 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: "3|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
+  name: "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -192,7 +192,7 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: "3|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
+- name: "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
@@ -200,7 +200,7 @@ proxies:
   sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   type: trojan
   udp: true
-- name: "3|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
+- name: "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
   password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
   port: 15229
   server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
@@ -210,9 +210,9 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   name: "13|tg\u9891\u9053:@ripaojiedian"
-  password: awsps0501
+  password: yijian0503
   port: 443
-  server: 18.183.219.5
+  server: 54.180.148.149
   type: ss
   udp: true
 - name: "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F|@ripaojiedian"
@@ -226,7 +226,7 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   password: 1450cecfb93f
-  port: 41099
+  port: 13231
   server: 121.127.231.217
   type: ss
   udp: true
@@ -273,29 +273,24 @@ proxies:
     path: /oooo
 - alterId: 0
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7@ripaojiedian"
-  port: 29992
-  server: 103.224.80.111
+  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  port: 38993
+  server: 103.224.80.89
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: c3659582-a6e0-45c2-92ec-3b4d8b240e07
-- alterId: 2
+  uuid: 6f8c6f30-c726-4916-8f72-04f020c5c12d
+- alterId: 64
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F8|@ripaojiedian"
-  network: ws
-  port: 460
-  server: 9b53711d-sxlj40-szcxa1-dmd8.hkt.east.wctype.com
+  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
+  port: 33519
+  server: 183.236.51.38
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 2058bdd6-1505-11f0-a035-f23c95b6f51d
-  ws-opts:
-    headers:
-      Host: a605477178.m.ctrip.com
-    path: /
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
   name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   password: efanccyun
@@ -306,10 +301,25 @@ proxies:
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   password: 60a930c17ff0
-  port: 40990
+  port: 35947
   server: 43.226.17.11
   type: ss
   udp: true
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
+  network: ws
+  port: 30806
+  server: v6.heduian.link
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
+  ws-opts:
+    headers:
+      Host: ocbc.com
+    path: /oooo
 - alterId: 2
   cipher: auto
   name: "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
@@ -342,13 +352,6 @@ proxies:
   skip-cert-verify: false
   sni: www.yrtok.com
   type: trojan
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
-  password: qwerREWQ@@
-  port: 36379
-  server: p080.panda001.net
-  type: ss
   udp: true
 - cipher: rc4-md5
   name: "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
@@ -387,22 +390,6 @@ proxies:
     headers:
       Host: v24.heduian.link
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
-  network: ws
-  port: 22643
-  server: tk.hzlt.tkddns.xyz
-  servername: zxjp-c.tkong.cc
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7
-  ws-opts:
-    headers:
-      Host: zxjp-c.tkong.cc
-    path: /
 - alterId: 64
   cipher: auto
   name: "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
@@ -415,14 +402,24 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7@ripaojiedian"
-  port: 29992
-  server: 103.224.80.111
+  name: "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  port: 38993
+  server: 103.224.80.89
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: c3659582-a6e0-45c2-92ec-3b4d8b240e07
+  uuid: 6f8c6f30-c726-4916-8f72-04f020c5c12d
+- alterId: 64
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
+  port: 33519
+  server: 183.236.51.38
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
   name: "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
@@ -434,13 +431,13 @@ proxies:
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506070920094-JZCkrm5A71.download.microsoft.com
+    host: 202506070920094-f7rHydcAVP.download.microsoft.com
     mode: http
-  port: 8774
+  port: 8766
   server: cn01.efan8867801.xyz
   type: ss
   udp: true
@@ -455,8 +452,19 @@ proxies:
     path: /matwnpkhug
     skip-cert-verify: false
     tls: true
-  port: 40990
+  port: 35947
   server: 43.226.17.11
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202506070920094-f7rHydcAVP.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
@@ -470,19 +478,8 @@ proxies:
     path: /simieepvt
     skip-cert-verify: false
     tls: true
-  port: 41099
+  port: 13231
   server: 121.127.231.217
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202506070920094-JZCkrm5A71.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
   type: ss
   udp: true
 proxy-groups:
@@ -490,17 +487,17 @@ proxy-groups:
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "3|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
-  - "3|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
-  - "3|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
-  - "3|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
-  - "3|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
-  - "3|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
-  - "3|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
-  - "3|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
-  - "3|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
-  - "3|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
-  - "3|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
+  - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
+  - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
+  - "2|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
+  - "2|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
+  - "2|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
+  - "2|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
+  - "2|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
+  - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
+  - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
   - "13|tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -508,40 +505,40 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
-  - "3|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
-  - "3|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
-  - "3|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
-  - "3|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
-  - "3|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
-  - "3|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
-  - "3|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
-  - "3|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
-  - "3|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
-  - "3|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
-  - "3|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
+  - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
+  - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
+  - "2|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
+  - "2|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
+  - "2|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
+  - "2|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
+  - "2|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
+  - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
+  - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
   - "13|tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -549,25 +546,25 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -575,17 +572,17 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "3|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
-  - "3|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
-  - "3|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
-  - "3|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
-  - "3|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
-  - "3|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
-  - "3|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
-  - "3|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
-  - "3|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
-  - "3|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
-  - "3|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
+  - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
+  - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
+  - "2|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
+  - "2|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
+  - "2|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
+  - "2|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
+  - "2|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
+  - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
+  - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
   - "13|tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -593,25 +590,25 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -630,17 +627,17 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "3|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
-  - "3|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
-  - "3|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
-  - "3|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
-  - "3|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
-  - "3|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
-  - "3|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
-  - "3|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
-  - "3|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
-  - "3|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
-  - "3|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
+  - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
+  - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
+  - "2|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
+  - "2|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
+  - "2|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
+  - "2|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
+  - "2|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
+  - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
+  - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
   - "13|tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -648,25 +645,25 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -677,10 +674,11 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
@@ -688,17 +686,17 @@ proxy-groups:
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
-  - "3|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
-  - "3|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
-  - "3|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
-  - "3|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
-  - "3|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
-  - "3|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
-  - "3|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
-  - "3|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
-  - "3|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
-  - "3|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
-  - "3|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
+  - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
+  - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
+  - "2|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
+  - "2|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
+  - "2|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
+  - "2|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
+  - "2|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
+  - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
+  - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
   - "13|tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -706,41 +704,41 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "3|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
-  - "3|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
-  - "3|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
-  - "3|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
-  - "3|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
-  - "3|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
-  - "3|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
-  - "3|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
-  - "3|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
-  - "3|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
-  - "3|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
+  - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
+  - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
+  - "2|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
+  - "2|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
+  - "2|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
+  - "2|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
+  - "2|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
+  - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
+  - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
   - "13|tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -748,42 +746,42 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "3|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
-  - "3|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
-  - "3|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
-  - "3|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
-  - "3|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
-  - "3|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
-  - "3|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
-  - "3|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
-  - "3|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
-  - "3|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
-  - "3|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
+  - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
+  - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
+  - "2|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
+  - "2|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
+  - "2|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
+  - "2|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
+  - "2|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
+  - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
+  - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
   - "13|tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -791,25 +789,25 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -825,17 +823,17 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "3|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
-  - "3|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
-  - "3|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
-  - "3|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
-  - "3|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
-  - "3|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
-  - "3|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
-  - "3|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
-  - "3|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
-  - "3|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
-  - "3|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
+  - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
+  - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
+  - "2|\U0001F1FA\U0001F1F845 |  2.5MB/s|46%|Openai|Gem..."
+  - "2|\U0001F3004-TH |  2.6MB/s|55%|Netflix|O..."
+  - "2|\U0001F1F0\U0001F1F72 |  1.5MB/s|44%|Openai"
+  - "2|\U0001F1FA\U0001F1F862 |  3.3MB/s|Openai|Gemini"
+  - "2|\U0001F1E9\U0001F1EA5 |  1.4MB/s|0%|Youtube|Open..."
+  - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
+  - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
+  - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
   - "13|tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -843,25 +841,25 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F8|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13,14|\u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F5|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F8|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
