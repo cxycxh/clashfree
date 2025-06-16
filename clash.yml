@@ -87,6 +87,236 @@ hosts:
 log-level: info
 mode: Rule
 proxies:
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36141
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36143
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103\
+    \ | 1x HK"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36145
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36241
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36243
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36245
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36111
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36113
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36115
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36171
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36173
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36311
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36313
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F5\U0001F1ED 0|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36341
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los\
+    \ Angeles"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36211
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102\
+    \ | 1x US Los Ange..."
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36213
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36215
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EC\U0001F1E7 0|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36273
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F2\U0001F1FE 0|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 |\
+    \ 1x MY"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36721
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EA\U0001F1F8 0|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36741
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F9\U0001F1ED 0|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36731
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1F3 0|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36371
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E6\U0001F1FA 0|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101\
+    \ | 1x AU"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36411
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E8\U0001F1E6 0|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36441
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E9\U0001F1EA 0|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36471
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F7\U0001F1FA 0|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36511
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E6\U0001F1F7 0|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36541
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F9\U0001F1F7 0|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36571
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "0|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36611
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1FB\U0001F1F3 0|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36641
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1E7\U0001F1F7 0|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36671
+  server: freea.glyphara.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EE\U0001F1E9 0|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A\
+    \ 101 | 1x ID"
+  password: 504afb1c-dfdb-482f-91d5-e4d0208564f9
+  port: 36677
+  server: freea.glyphara.com
+  type: ss
+  udp: true
 - alterId: 64
   cipher: auto
   name: "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
@@ -209,254 +439,218 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36141
-  server: freea.glyphara.com
+  name: "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 101 | 1x HK"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31141
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36143
-  server: freea.glyphara.com
+  name: "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 102 | 1x HK"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31143
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103\
-    \ | 1x HK"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36145
-  server: freea.glyphara.com
+  name: "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 103 |\
+    \ 1x HK"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31145
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36241
-  server: freea.glyphara.com
+  name: "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC\u53F0\u6E7E 101 | 1x TW"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31241
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36243
-  server: freea.glyphara.com
+  name: "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 101 | 1x SG"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31171
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36245
-  server: freea.glyphara.com
+  name: "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 102 | 1x SG"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31173
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36111
-  server: freea.glyphara.com
+  name: "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 103 | 1x SG"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31175
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36113
-  server: freea.glyphara.com
+  name: "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 101 | 1x KR"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31311
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36115
-  server: freea.glyphara.com
+  name: "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 102 | 1x KR"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31313
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36171
-  server: freea.glyphara.com
+  name: "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED\u83F2\u5F8B\u5BBE 101 | 1x PH"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31341
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36173
-  server: freea.glyphara.com
+  name: "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 101 | 1x US Los Angeles"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31211
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36311
-  server: freea.glyphara.com
+  name: "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD\u5BB6\u5BBD 102 |\
+    \ 1x US Los Angeles"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31213
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36313
-  server: freea.glyphara.com
+  name: "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 103 | 1x US Washington"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31215
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36341
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los\
-    \ Angeles"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36211
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102\
-    \ | 1x US Los Ange..."
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36213
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36215
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EC\U0001F1E7 3|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36273
-  server: freea.glyphara.com
+  name: "\U0001F1EA\U0001F1F8 3|\U0001F1EA\U0001F1F8\u897F\u73ED\u7259 101 | 1x ES"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31741
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 |\
+    \ 1x MY #1"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31721
+  server: freem.vidalith.com
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 102 |\
     \ 1x MY"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36721
-  server: freea.glyphara.com
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31722
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EA\U0001F1F8 3|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36741
-  server: freea.glyphara.com
+  name: "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD101 &nbsp;| 1x TH"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31731
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36731
-  server: freea.glyphara.com
+  name: "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3\u5370\u5EA6 101 | 1x IN"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31371
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36371
-  server: freea.glyphara.com
+  name: "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA\u6FB3\u5927\u5229\u4E9A 101 |\
+    \ 1x AU"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31411
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101\
-    \ | 1x AU"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36411
-  server: freea.glyphara.com
+  name: "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 101 | 1x CA"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31441
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36441
-  server: freea.glyphara.com
+  name: "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA\u5FB7\u56FD 101 | 1x DE"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31471
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36471
-  server: freea.glyphara.com
+  name: "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF 101 | 1x RU"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31511
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36511
-  server: freea.glyphara.com
+  name: "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7\u963F\u6839\u5EF7 101 | 1x AR"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31541
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36541
-  server: freea.glyphara.com
+  name: "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7\u571F\u8033\u5176 101 | 1x TR"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31571
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36571
-  server: freea.glyphara.com
+  name: "3|\U0001F1FA\U0001F1E6\u4E4C\u514B\u5170 101 | 1x UA"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31611
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "3|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36611
-  server: freea.glyphara.com
+  name: "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3\u8D8A\u5357 101 | 1x VN"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31641
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36641
-  server: freea.glyphara.com
+  name: "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7\u5DF4\u897F 101 | 1x BR"
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31671
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36671
-  server: freea.glyphara.com
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A\
+  name: "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9\u5370\u5EA6\u5C3C\u897F\u4E9A\
     \ 101 | 1x ID"
-  password: e673c385-6c33-4318-84d3-c56c29d060c6
-  port: 36677
-  server: freea.glyphara.com
+  password: c1e4c6ed-7823-446b-bb02-fd8fcff539fd
+  port: 31677
+  server: freem.vidalith.com
   type: ss
   udp: true
 - cipher: aes-256-cfb
   name: "13|tg\u9891\u9053:@ripaojiedian"
-  password: yijian0503
+  password: qawszxc123
   port: 443
-  server: 43.203.219.33
+  server: 54.251.150.228
   type: ss
-  udp: true
-- name: "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 113.99.140.184
-  skip-cert-verify: false
-  sni: www.yrtok.com
-  type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   password: 08293b204707
-  port: 42084
+  port: 20507
   server: 156.251.179.238
   type: ss
   udp: true
@@ -466,6 +660,14 @@ proxies:
   server: 120.233.128.68
   skip-cert-verify: false
   sni: 120.233.128.68
+  type: trojan
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 113.99.140.184
+  skip-cert-verify: false
+  sni: www.yrtok.com
   type: trojan
   udp: true
 - alterId: 64
@@ -478,28 +680,16 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 2
+- alterId: 0
   cipher: auto
-  name: "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  network: ws
-  port: 30809
-  server: v9.heduian.link
+  name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  port: 20452
+  server: 20.2.80.240
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
-- cipher: rc4-md5
-  name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  password: efanccyun
-  port: 8766
-  server: cn01.efan8867801.xyz
-  type: ss
-  udp: true
+  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
 - alterId: 0
   cipher: auto
   name: "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
@@ -510,22 +700,27 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  port: 20452
-  server: 140.227.28.92
-  skip-cert-verify: false
-  tls: false
-  type: vmess
+- cipher: rc4-md5
+  name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  password: efanccyun
+  port: 8766
+  server: cn01.efan8867801.xyz
+  type: ss
   udp: true
-  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
 - cipher: chacha20-ietf-poly1305
   name: "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  password: 8360adcea0b1
-  port: 443
-  server: 43.226.17.11
+  password: 264727317ef6
+  port: 30203
+  server: 121.0.97.29
   type: ss
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
+  password: 85f133142f04dbf6547da33895cfabb3
+  port: 39001
+  server: 203.156.253.11
+  skip-cert-verify: false
+  sni: www.yrtok.com
+  type: trojan
   udp: true
 - alterId: 0
   cipher: auto
@@ -537,14 +732,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C5|@ripaojiedian"
-  password: 85f133142f04dbf6547da33895cfabb3
-  port: 39001
-  server: 203.156.253.11
-  skip-cert-verify: false
-  sni: www.yrtok.com
-  type: trojan
-  udp: true
 - alterId: 0
   cipher: auto
   name: "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
@@ -555,52 +742,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 7ccbb147-38b8-4d7c-9201-2ad4ae8b8761
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
-  network: ws
-  port: 30812
-  server: v12.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: ocbc.com
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57612|@ripaojiedian"
-  network: ws
-  port: 443
-  server: 5.10.245.69
-  servername: dcs.atlen.dpdns.org
-  skip-cert-verify: false
-  tls: true
-  type: vmess
-  udp: true
-  uuid: 5096073d-535a-4885-960d-e78d5cb0a83b
-  ws-opts:
-    headers:
-      Host: dcs.atlen.dpdns.org
-    path: /wyk
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57614|@ripaojiedian"
-  network: ws
-  port: 30839
-  server: v39.heduian.link
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: baidu.com
-    path: /oooo
 - cipher: rc4-md5
   name: "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   password: efanccyun
@@ -623,37 +764,21 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  network: ws
-  port: 30824
-  server: v24.heduian.link
+- name: "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  port: 15229
+  server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
+  type: trojan
   udp: true
-  uuid: cbb3f877-d1fb-344c-87a9-d153bffd5484
-  ws-opts:
-    headers:
-      Host: v24.heduian.link
-    path: /oooo
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
-  network: ws
-  port: 8443
-  server: 104.18.43.21
-  servername: mailman-backing-facilitate-cents.trycloudflare.com
-  skip-cert-verify: false
-  tls: true
-  type: vmess
+- cipher: aes-256-cfb
+  name: "\U0001F1FB\U0001F1F3 13|\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.22
+  type: ss
   udp: true
-  uuid: b3b28da5-a27d-4d33-ee13-dcdf5c7fc45b
-  ws-opts:
-    headers:
-      Host: mailman-backing-facilitate-cents.trycloudflare.com
-    path: /
 - alterId: 64
   cipher: auto
   name: "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57613|@ripaojiedian"
@@ -666,6 +791,16 @@ proxies:
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
 - alterId: 0
   cipher: auto
+  name: "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F6|@ripaojiedian"
+  port: 20452
+  server: 20.2.80.240
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
+- alterId: 0
+  cipher: auto
   name: "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
   port: 46159
   server: 120.198.71.216
@@ -674,16 +809,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- alterId: 0
-  cipher: auto
-  name: "\U0001F1EF\U0001F1F5 14|\u65E5\u672C3|@ripaojiedian"
-  port: 20452
-  server: 140.227.28.92
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  udp: true
-  uuid: 52aba3eb-0a6f-4c2f-29c6-d4b18a1d7c3e
 - alterId: 0
   cipher: auto
   name: "\U0001F1EF\U0001F1F5 14|\u65E5\u672C4|@ripaojiedian"
@@ -704,6 +829,13 @@ proxies:
   type: vmess
   udp: true
   uuid: 7ccbb147-38b8-4d7c-9201-2ad4ae8b8761
+- name: "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
+  password: d18bcaf4-1323-11ec-a0fc-f23c913c8d2b
+  port: 15229
+  server: 35eb0e91-sy0cg0-t7fz1r-8rja.cu.plebai.net
+  skip-cert-verify: false
+  type: trojan
+  udp: true
 - name: 15|CN_speednode_0026
   password: FpQhGpIr
   port: 38632
@@ -749,32 +881,6 @@ proxies:
   type: trojan
   udp: true
 - cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  password: 8360adcea0b1
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: kr6v1.dashengjs.net
-    mode: websocket
-    mux: false
-    path: /bylnxldqaquw
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 43.226.17.11
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202506131022370-yLzbxEkmoB.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  type: ss
-  udp: true
-- cipher: chacha20-ietf-poly1305
   name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   password: 08293b204707
   plugin: v2ray-plugin
@@ -785,8 +891,34 @@ proxies:
     path: /sclbvcgkp
     skip-cert-verify: false
     tls: true
-  port: 42084
+  port: 20507
   server: 156.251.179.238
+  type: ss
+  udp: true
+- cipher: chacha20-ietf-poly1305
+  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  password: 264727317ef6
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: kr9v1.3ci.xyz
+    mode: websocket
+    mux: false
+    path: /ylikhqxcjfeb
+    skip-cert-verify: false
+    tls: true
+  port: 30203
+  server: 121.0.97.29
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202506131022370-Bautep9ydo.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
   type: ss
   udp: true
 - cipher: rc4-md5
@@ -794,7 +926,7 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202506131022370-yLzbxEkmoB.download.microsoft.com
+    host: 202506131022370-Bautep9ydo.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
@@ -805,6 +937,43 @@ proxy-groups:
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
+    \ 1x HK"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 0|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
+    \ 1x US Los Ange..."
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EC\U0001F1E7 0|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1F2\U0001F1FE 0|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY"
+  - "\U0001F1EA\U0001F1F8 0|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
+  - "\U0001F1F9\U0001F1ED 0|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
+  - "\U0001F1EE\U0001F1F3 0|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 0|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+    \ AU"
+  - "\U0001F1E8\U0001F1E6 0|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 0|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 0|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 0|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 0|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
+  - "0|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 0|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 0|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 0|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+    \ | 1x ID"
   - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
   - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
   - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
@@ -816,82 +985,113 @@ proxy-groups:
   - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
   - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
   - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
-    \ 1x HK"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
-  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
-    \ 1x US Los Ange..."
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
-  - "\U0001F1EC\U0001F1E7 3|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 103 | 1x\
+    \ HK"
+  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC\u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 103 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED\u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD\u5BB6\u5BBD 102 | 1x\
+    \ US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EA\U0001F1F8 3|\U0001F1EA\U0001F1F8\u897F\u73ED\u7259 101 | 1x ES"
   - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY #1"
+  - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 102 | 1x\
     \ MY"
-  - "\U0001F1EA\U0001F1F8 3|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
-  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
-  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
-  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD101 &nbsp;| 1x TH"
+  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3\u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA\u6FB3\u5927\u5229\u4E9A 101 | 1x\
     \ AU"
-  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
-  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
-  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
-  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
-  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
-  - "3|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
-  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
-  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
-  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA\u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7\u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7\u571F\u8033\u5176 101 | 1x TR"
+  - "3|\U0001F1FA\U0001F1E6\u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3\u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7\u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9\u5370\u5EA6\u5C3C\u897F\u4E9A 101\
     \ | 1x ID"
   - "13|tg\u9891\u9053:@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57614|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13|\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
   - 15|CN_speednode_0029
   - 15|CN_speednode_0030
   - 15|CN_speednode_0031
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
+    \ 1x HK"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 0|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
+    \ 1x US Los Ange..."
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EC\U0001F1E7 0|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1F2\U0001F1FE 0|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY"
+  - "\U0001F1EA\U0001F1F8 0|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
+  - "\U0001F1F9\U0001F1ED 0|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
+  - "\U0001F1EE\U0001F1F3 0|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 0|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+    \ AU"
+  - "\U0001F1E8\U0001F1E6 0|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 0|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 0|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 0|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 0|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
+  - "0|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 0|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 0|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 0|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+    \ | 1x ID"
   - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
   - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
   - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
@@ -903,77 +1103,71 @@ proxy-groups:
   - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
   - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
   - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
-    \ 1x HK"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
-  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
-    \ 1x US Los Ange..."
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
-  - "\U0001F1EC\U0001F1E7 3|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 103 | 1x\
+    \ HK"
+  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC\u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 103 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED\u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD\u5BB6\u5BBD 102 | 1x\
+    \ US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EA\U0001F1F8 3|\U0001F1EA\U0001F1F8\u897F\u73ED\u7259 101 | 1x ES"
   - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY #1"
+  - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 102 | 1x\
     \ MY"
-  - "\U0001F1EA\U0001F1F8 3|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
-  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
-  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
-  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD101 &nbsp;| 1x TH"
+  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3\u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA\u6FB3\u5927\u5229\u4E9A 101 | 1x\
     \ AU"
-  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
-  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
-  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
-  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
-  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
-  - "3|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
-  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
-  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
-  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA\u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7\u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7\u571F\u8033\u5176 101 | 1x TR"
+  - "3|\U0001F1FA\U0001F1E6\u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3\u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7\u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9\u5370\u5EA6\u5C3C\u897F\u4E9A 101\
     \ | 1x ID"
   - "13|tg\u9891\u9053:@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57614|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13|\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
   - 15|CN_speednode_0029
   - 15|CN_speednode_0030
   - 15|CN_speednode_0031
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -982,6 +1176,43 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
+    \ 1x HK"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 0|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
+    \ 1x US Los Ange..."
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EC\U0001F1E7 0|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1F2\U0001F1FE 0|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY"
+  - "\U0001F1EA\U0001F1F8 0|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
+  - "\U0001F1F9\U0001F1ED 0|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
+  - "\U0001F1EE\U0001F1F3 0|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 0|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+    \ AU"
+  - "\U0001F1E8\U0001F1E6 0|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 0|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 0|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 0|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 0|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
+  - "0|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 0|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 0|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 0|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+    \ | 1x ID"
   - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
   - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
   - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
@@ -993,77 +1224,71 @@ proxy-groups:
   - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
   - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
   - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
-    \ 1x HK"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
-  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
-    \ 1x US Los Ange..."
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
-  - "\U0001F1EC\U0001F1E7 3|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 103 | 1x\
+    \ HK"
+  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC\u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 103 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED\u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD\u5BB6\u5BBD 102 | 1x\
+    \ US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EA\U0001F1F8 3|\U0001F1EA\U0001F1F8\u897F\u73ED\u7259 101 | 1x ES"
   - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY #1"
+  - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 102 | 1x\
     \ MY"
-  - "\U0001F1EA\U0001F1F8 3|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
-  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
-  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
-  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD101 &nbsp;| 1x TH"
+  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3\u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA\u6FB3\u5927\u5229\u4E9A 101 | 1x\
     \ AU"
-  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
-  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
-  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
-  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
-  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
-  - "3|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
-  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
-  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
-  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA\u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7\u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7\u571F\u8033\u5176 101 | 1x TR"
+  - "3|\U0001F1FA\U0001F1E6\u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3\u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7\u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9\u5370\u5EA6\u5C3C\u897F\u4E9A 101\
     \ | 1x ID"
   - "13|tg\u9891\u9053:@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57614|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13|\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
   - 15|CN_speednode_0029
   - 15|CN_speednode_0030
   - 15|CN_speednode_0031
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
@@ -1083,6 +1308,43 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
+    \ 1x HK"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 0|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
+    \ 1x US Los Ange..."
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EC\U0001F1E7 0|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1F2\U0001F1FE 0|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY"
+  - "\U0001F1EA\U0001F1F8 0|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
+  - "\U0001F1F9\U0001F1ED 0|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
+  - "\U0001F1EE\U0001F1F3 0|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 0|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+    \ AU"
+  - "\U0001F1E8\U0001F1E6 0|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 0|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 0|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 0|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 0|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
+  - "0|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 0|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 0|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 0|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+    \ | 1x ID"
   - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
   - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
   - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
@@ -1094,94 +1356,94 @@ proxy-groups:
   - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
   - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
   - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
-    \ 1x HK"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
-  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
-    \ 1x US Los Ange..."
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
-  - "\U0001F1EC\U0001F1E7 3|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 103 | 1x\
+    \ HK"
+  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC\u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 103 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED\u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD\u5BB6\u5BBD 102 | 1x\
+    \ US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EA\U0001F1F8 3|\U0001F1EA\U0001F1F8\u897F\u73ED\u7259 101 | 1x ES"
   - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY #1"
+  - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 102 | 1x\
     \ MY"
-  - "\U0001F1EA\U0001F1F8 3|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
-  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
-  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
-  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD101 &nbsp;| 1x TH"
+  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3\u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA\u6FB3\u5927\u5229\u4E9A 101 | 1x\
     \ AU"
-  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
-  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
-  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
-  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
-  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
-  - "3|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
-  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
-  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
-  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA\u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7\u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7\u571F\u8033\u5176 101 | 1x TR"
+  - "3|\U0001F1FA\U0001F1E6\u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3\u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7\u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9\u5370\u5EA6\u5C3C\u897F\u4E9A 101\
     \ | 1x ID"
   - "13|tg\u9891\u9053:@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57614|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13|\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
   - 15|CN_speednode_0029
   - 15|CN_speednode_0030
   - 15|CN_speednode_0031
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
     \ 1x HK"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 103 | 1x\
+    \ HK"
+  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC\u53F0\u6E7E 101 | 1x TW"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F3|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -1190,6 +1452,43 @@ proxy-groups:
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
+    \ 1x HK"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 0|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
+    \ 1x US Los Ange..."
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EC\U0001F1E7 0|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1F2\U0001F1FE 0|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY"
+  - "\U0001F1EA\U0001F1F8 0|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
+  - "\U0001F1F9\U0001F1ED 0|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
+  - "\U0001F1EE\U0001F1F3 0|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 0|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+    \ AU"
+  - "\U0001F1E8\U0001F1E6 0|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 0|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 0|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 0|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 0|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
+  - "0|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 0|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 0|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 0|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+    \ | 1x ID"
   - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
   - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
   - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
@@ -1201,83 +1500,114 @@ proxy-groups:
   - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
   - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
   - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
-    \ 1x HK"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
-  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
-    \ 1x US Los Ange..."
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
-  - "\U0001F1EC\U0001F1E7 3|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 103 | 1x\
+    \ HK"
+  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC\u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 103 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED\u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD\u5BB6\u5BBD 102 | 1x\
+    \ US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EA\U0001F1F8 3|\U0001F1EA\U0001F1F8\u897F\u73ED\u7259 101 | 1x ES"
   - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY #1"
+  - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 102 | 1x\
     \ MY"
-  - "\U0001F1EA\U0001F1F8 3|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
-  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
-  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
-  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD101 &nbsp;| 1x TH"
+  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3\u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA\u6FB3\u5927\u5229\u4E9A 101 | 1x\
     \ AU"
-  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
-  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
-  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
-  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
-  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
-  - "3|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
-  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
-  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
-  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA\u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7\u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7\u571F\u8033\u5176 101 | 1x TR"
+  - "3|\U0001F1FA\U0001F1E6\u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3\u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7\u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9\u5370\u5EA6\u5C3C\u897F\u4E9A 101\
     \ | 1x ID"
   - "13|tg\u9891\u9053:@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57614|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13|\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
   - 15|CN_speednode_0029
   - 15|CN_speednode_0030
   - 15|CN_speednode_0031
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
+    \ 1x HK"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 0|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
+    \ 1x US Los Ange..."
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EC\U0001F1E7 0|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1F2\U0001F1FE 0|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY"
+  - "\U0001F1EA\U0001F1F8 0|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
+  - "\U0001F1F9\U0001F1ED 0|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
+  - "\U0001F1EE\U0001F1F3 0|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 0|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+    \ AU"
+  - "\U0001F1E8\U0001F1E6 0|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 0|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 0|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 0|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 0|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
+  - "0|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 0|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 0|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 0|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+    \ | 1x ID"
   - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
   - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
   - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
@@ -1289,77 +1619,71 @@ proxy-groups:
   - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
   - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
   - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
-    \ 1x HK"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
-  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
-    \ 1x US Los Ange..."
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
-  - "\U0001F1EC\U0001F1E7 3|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 103 | 1x\
+    \ HK"
+  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC\u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 103 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED\u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD\u5BB6\u5BBD 102 | 1x\
+    \ US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EA\U0001F1F8 3|\U0001F1EA\U0001F1F8\u897F\u73ED\u7259 101 | 1x ES"
   - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY #1"
+  - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 102 | 1x\
     \ MY"
-  - "\U0001F1EA\U0001F1F8 3|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
-  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
-  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
-  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD101 &nbsp;| 1x TH"
+  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3\u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA\u6FB3\u5927\u5229\u4E9A 101 | 1x\
     \ AU"
-  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
-  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
-  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
-  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
-  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
-  - "3|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
-  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
-  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
-  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA\u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7\u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7\u571F\u8033\u5176 101 | 1x TR"
+  - "3|\U0001F1FA\U0001F1E6\u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3\u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7\u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9\u5370\u5EA6\u5C3C\u897F\u4E9A 101\
     \ | 1x ID"
   - "13|tg\u9891\u9053:@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57614|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13|\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
   - 15|CN_speednode_0029
   - 15|CN_speednode_0030
   - 15|CN_speednode_0031
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
@@ -1367,6 +1691,43 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
+    \ 1x HK"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 0|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
+    \ 1x US Los Ange..."
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EC\U0001F1E7 0|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1F2\U0001F1FE 0|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY"
+  - "\U0001F1EA\U0001F1F8 0|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
+  - "\U0001F1F9\U0001F1ED 0|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
+  - "\U0001F1EE\U0001F1F3 0|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 0|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+    \ AU"
+  - "\U0001F1E8\U0001F1E6 0|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 0|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 0|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 0|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 0|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
+  - "0|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 0|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 0|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 0|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+    \ | 1x ID"
   - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
   - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
   - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
@@ -1378,77 +1739,71 @@ proxy-groups:
   - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
   - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
   - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
-    \ 1x HK"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
-  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
-    \ 1x US Los Ange..."
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
-  - "\U0001F1EC\U0001F1E7 3|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 103 | 1x\
+    \ HK"
+  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC\u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 103 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED\u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD\u5BB6\u5BBD 102 | 1x\
+    \ US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EA\U0001F1F8 3|\U0001F1EA\U0001F1F8\u897F\u73ED\u7259 101 | 1x ES"
   - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY #1"
+  - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 102 | 1x\
     \ MY"
-  - "\U0001F1EA\U0001F1F8 3|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
-  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
-  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
-  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD101 &nbsp;| 1x TH"
+  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3\u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA\u6FB3\u5927\u5229\u4E9A 101 | 1x\
     \ AU"
-  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
-  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
-  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
-  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
-  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
-  - "3|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
-  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
-  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
-  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA\u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7\u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7\u571F\u8033\u5176 101 | 1x TR"
+  - "3|\U0001F1FA\U0001F1E6\u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3\u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7\u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9\u5370\u5EA6\u5C3C\u897F\u4E9A 101\
     \ | 1x ID"
   - "13|tg\u9891\u9053:@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57614|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13|\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
   - 15|CN_speednode_0029
   - 15|CN_speednode_0030
   - 15|CN_speednode_0031
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
@@ -1465,6 +1820,43 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 0|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
+    \ 1x HK"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
+  - "\U0001F1E8\U0001F1F3 0|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
+  - "\U0001F1EF\U0001F1F5 0|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 0|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 0|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 0|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
+    \ 1x US Los Ange..."
+  - "\U0001F1FA\U0001F1F8 0|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EC\U0001F1E7 0|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1F2\U0001F1FE 0|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY"
+  - "\U0001F1EA\U0001F1F8 0|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
+  - "\U0001F1F9\U0001F1ED 0|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
+  - "\U0001F1EE\U0001F1F3 0|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 0|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+    \ AU"
+  - "\U0001F1E8\U0001F1E6 0|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 0|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 0|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 0|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 0|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
+  - "0|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 0|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 0|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 0|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+    \ | 1x ID"
   - "2|\U0001F1EF\U0001F1F51 |  1.8MB/s|54%|Youtube|Ope..."
   - "2|\U0001F3003-SK |  5.0MB/s|0%|Youtube|Op..."
   - "2|\U0001F1F8\U0001F1EC1 |  1.0MB/s|0%|Netflix|Disn..."
@@ -1476,77 +1868,71 @@ proxy-groups:
   - "2|\U0001F1ED\U0001F1F01 |  1.8MB/s|15%|Disney|Yout..."
   - "2|\U0001F1FA\U0001F1F863 |  2.1MB/s|46%|Openai|Gem..."
   - "2|\U0001F1FA\U0001F1F864 |  1.3MB/s|46%|Openai|Gem..."
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 101 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F 102 | 1x HK"
-  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0 \u9999\u6E2F\u4F4F\u5B85IP 103 |\
-    \ 1x HK"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 101 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 102 | 1x TW"
-  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC \u53F0\u6E7E 103 | 1x TW"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 101 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 102 | 1x JP"
-  - "\U0001F1EF\U0001F1F5 3|\U0001F1EF\U0001F1F5 \u65E5\u672C 103 | 1x JP"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 101 | 1x SG"
-  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 102 | 1x SG"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 101 | 1x KR"
-  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7 \u97E9\u56FD 102 | 1x KR"
-  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED \u83F2\u5F8B\u5BBE 101 | 1x PH"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 101 | 1x US Los Angeles"
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD\u4F4F\u5B85IP 102 |\
-    \ 1x US Los Ange..."
-  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8 \u7F8E\u56FD 103 | 1x US Washington"
-  - "\U0001F1EC\U0001F1E7 3|\U0001F1EC\U0001F1E7 \u82F1\u56FD 102 | 1x UK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 101 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F 102 | 1x HK"
+  - "\U0001F1ED\U0001F1F0 3|\U0001F1ED\U0001F1F0\u9999\u6E2F\u5BB6\u5BBD 103 | 1x\
+    \ HK"
+  - "\U0001F1E8\U0001F1F3 3|\U0001F1F9\U0001F1FC\u53F0\u6E7E 101 | 1x TW"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 101 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 102 | 1x SG"
+  - "\U0001F1F8\U0001F1EC 3|\U0001F1F8\U0001F1EC\u65B0\u52A0\u5761 103 | 1x SG"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 101 | 1x KR"
+  - "\U0001F1F0\U0001F1F7 3|\U0001F1F0\U0001F1F7\u97E9\u56FD 102 | 1x KR"
+  - "\U0001F1F5\U0001F1ED 3|\U0001F1F5\U0001F1ED\u83F2\u5F8B\u5BBE 101 | 1x PH"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 101 | 1x US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD\u5BB6\u5BBD 102 | 1x\
+    \ US Los Angeles"
+  - "\U0001F1FA\U0001F1F8 3|\U0001F1FA\U0001F1F8\u7F8E\u56FD 103 | 1x US Washington"
+  - "\U0001F1EA\U0001F1F8 3|\U0001F1EA\U0001F1F8\u897F\u73ED\u7259 101 | 1x ES"
   - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 101 | 1x\
+    \ MY #1"
+  - "\U0001F1F2\U0001F1FE 3|\U0001F1F2\U0001F1FE\u9A6C\u6765\u897F\u4E9A 102 | 1x\
     \ MY"
-  - "\U0001F1EA\U0001F1F8 3|\U0001F1EE\U0001F1F3\u897F\u73ED\u7259 101 | 1x ES"
-  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD 101 | 1x TH"
-  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3 \u5370\u5EA6 101 | 1x IN"
-  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA \u6FB3\u5927\u5229\u4E9A 101 | 1x\
+  - "\U0001F1F9\U0001F1ED 3|\U0001F1F9\U0001F1ED\u6CF0\u56FD101 &nbsp;| 1x TH"
+  - "\U0001F1EE\U0001F1F3 3|\U0001F1EE\U0001F1F3\u5370\u5EA6 101 | 1x IN"
+  - "\U0001F1E6\U0001F1FA 3|\U0001F1E6\U0001F1FA\u6FB3\u5927\u5229\u4E9A 101 | 1x\
     \ AU"
-  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6 \u52A0\u62FF\u5927 101 | 1x CA"
-  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA \u5FB7\u56FD 101 | 1x DE"
-  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA \u4FC4\u7F57\u65AF 101 | 1x RU"
-  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7 \u963F\u6839\u5EF7 101 | 1x AR"
-  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7 \u571F\u8033\u5176 101 | 1x TR"
-  - "3|\U0001F1FA\U0001F1E6 \u4E4C\u514B\u5170 101 | 1x UA"
-  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3 \u8D8A\u5357 101 | 1x VN"
-  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7 \u5DF4\u897F 101 | 1x BR"
-  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9 \u5370\u5EA6\u5C3C\u897F\u4E9A 101\
+  - "\U0001F1E8\U0001F1E6 3|\U0001F1E8\U0001F1E6\u52A0\u62FF\u5927 101 | 1x CA"
+  - "\U0001F1E9\U0001F1EA 3|\U0001F1E9\U0001F1EA\u5FB7\u56FD 101 | 1x DE"
+  - "\U0001F1F7\U0001F1FA 3|\U0001F1F7\U0001F1FA\u4FC4\u7F57\u65AF 101 | 1x RU"
+  - "\U0001F1E6\U0001F1F7 3|\U0001F1E6\U0001F1F7\u963F\u6839\u5EF7 101 | 1x AR"
+  - "\U0001F1F9\U0001F1F7 3|\U0001F1F9\U0001F1F7\u571F\u8033\u5176 101 | 1x TR"
+  - "3|\U0001F1FA\U0001F1E6\u4E4C\u514B\u5170 101 | 1x UA"
+  - "\U0001F1FB\U0001F1F3 3|\U0001F1FB\U0001F1F3\u8D8A\u5357 101 | 1x VN"
+  - "\U0001F1E7\U0001F1F7 3|\U0001F1E7\U0001F1F7\u5DF4\u897F 101 | 1x BR"
+  - "\U0001F1EE\U0001F1E9 3|\U0001F1EE\U0001F1E9\u5370\u5EA6\u5C3C\u897F\u4E9A 101\
     \ | 1x ID"
   - "13|tg\u9891\u9053:@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 13|\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 13,14|\u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 13|\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 13|\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 13,14|\u65E5\u672C5|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 13|\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u5761|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57612|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC 13,14|\u65B0\u52A0\u57614|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD3|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 13,14|\u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 13|\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 13|\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC 14|\u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F6|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 14|\u9999\u6E2F7|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 14|\u65E5\u672C4|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 14|\u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 14|\u7F8E\u56FD3|@ripaojiedian"
   - 15|CN_speednode_0026
   - 15|CN_speednode_0027
   - 15|CN_speednode_0028
   - 15|CN_speednode_0029
   - 15|CN_speednode_0030
   - 15|CN_speednode_0031
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   type: select
 rules:
