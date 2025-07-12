@@ -371,32 +371,6 @@ proxies:
   type: vmess
   udp: true
   uuid: 5c2228f2-757b-4446-8682-68b652b05993
-- name: RU_speednode_0104
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 45.67.215.95
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: SG_speednode_0107
-  network: ws
-  password: ttfang
-  port: 443
-  server: 138.2.64.229
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /
 - cipher: rc4-md5
   name: "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   password: efanccyun
@@ -485,8 +459,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - RU_speednode_0104
-  - SG_speednode_0107
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
@@ -526,8 +498,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - RU_speednode_0104
-  - SG_speednode_0107
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
@@ -570,8 +540,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - RU_speednode_0104
-  - SG_speednode_0107
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
@@ -625,8 +593,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - RU_speednode_0104
-  - SG_speednode_0107
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
@@ -680,8 +646,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - RU_speednode_0104
-  - SG_speednode_0107
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
@@ -722,8 +686,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - RU_speednode_0104
-  - SG_speednode_0107
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
@@ -765,8 +727,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - RU_speednode_0104
-  - SG_speednode_0107
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
@@ -817,8 +777,6 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - RU_speednode_0104
-  - SG_speednode_0107
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
