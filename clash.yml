@@ -212,7 +212,7 @@ proxies:
   name: "tg\u9891\u9053:@ripaojiedian"
   password: qawszxc123
   port: 443
-  server: 13.212.185.27
+  server: 13.250.5.111
   type: ss
   udp: true
 - alterId: 2
@@ -240,13 +240,13 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  port: 30929
-  server: 38.147.188.235
+  port: 31019
+  server: ghikkdg2.mi0001.xyz
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 9094033c-c9ef-453e-bf72-cd067ca1821a
+  uuid: 2e0d1409-81fc-42bd-b37f-bd1910869e13
 - name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 9141
@@ -270,13 +270,16 @@ proxies:
   skip-cert-verify: false
   type: trojan
   udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
-  password: f8f7aCzcPKbsF8p3
-  port: 989
-  server: 154.223.20.79
-  type: ss
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
+  port: 25740
+  server: 43.247.134.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: d70ca72a-2b50-4536-8abc-da48995dd902
 - cipher: rc4-md5
   name: "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   password: efanccyun
@@ -307,25 +310,26 @@ proxies:
   sni: www.baidu.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
+- name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 16158
+  server: 36.151.192.59
+  skip-cert-verify: false
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
   password: 1a17b19d-4896-4531-af79-6e91d8ef8228
-  port: 9898
-  server: 57.180.63.92
-  type: ss
+  port: 6668
+  server: 3.34.189.118
+  skip-cert-verify: false
+  sni: baidu.com
+  type: trojan
   udp: true
 - name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 7571
   server: 36.151.192.26
-  skip-cert-verify: false
-  sni: www.baidu.com
-  type: trojan
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 16158
-  server: 36.151.192.59
   skip-cert-verify: false
   sni: www.baidu.com
   type: trojan
@@ -338,29 +342,16 @@ proxies:
   sni: www.baidu.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf-poly1305
-  name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  password: wcI8DZe0eXSS3upop1QjVB
-  port: 57384
-  server: 128.199.236.104
-  type: ss
-  udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  network: ws
-  port: 443
-  server: 1750158741.tencentapp.cn
-  servername: free1.chiikawanetworkcfjiasucdn.us.kg
+  name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  port: 31014
+  server: ghikkdg2.mi0001.xyz
   skip-cert-verify: false
-  tls: true
+  tls: false
   type: vmess
   udp: true
-  uuid: 08735399-0b8f-40c4-934f-f84ab52e26d0
-  ws-opts:
-    headers:
-      Host: free1.chiikawanetworkcfjiasucdn.us.kg
-    path: /
+  uuid: 803dfb35-0ae6-4540-9715-7182fc043187
 - cipher: rc4-md5
   name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   password: efanccyun
@@ -384,17 +375,44 @@ proxies:
   sni: www.baidu.com
   type: trojan
   udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.154.35
+  type: ss
+  udp: true
 - alterId: 0
   cipher: auto
   name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  port: 30929
-  server: 38.147.188.235
+  port: 31019
+  server: ghikkdg2.mi0001.xyz
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 9094033c-c9ef-453e-bf72-cd067ca1821a
-- name: ES_speednode_0069
+  uuid: 2e0d1409-81fc-42bd-b37f-bd1910869e13
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
+  port: 25740
+  server: 43.247.134.145
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: d70ca72a-2b50-4536-8abc-da48995dd902
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
+  port: 31014
+  server: ghikkdg2.mi0001.xyz
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 803dfb35-0ae6-4540-9715-7182fc043187
+- name: ES_speednode_0047
   network: ws
   password: trojan
   port: 8443
@@ -407,20 +425,7 @@ proxies:
     headers:
       Host: store.timimi.dpdns.org
     path: /
-- name: GB_speednode_0094
-  network: ws
-  password: trojan
-  port: 443
-  server: 91.193.58.0
-  skip-cert-verify: false
-  sni: wahaha.yingyangkuaixian.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: wahaha.yingyangkuaixian.dpdns.org
-    path: /?ed=2560
-- name: KZ_speednode_0121
+- name: KZ_speednode_0076
   network: ws
   password: tg-fq521free
   port: 443
@@ -433,7 +438,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: RU_speednode_0179
+- name: RU_speednode_0115
   network: ws
   password: tg-fq521free
   port: 443
@@ -446,7 +451,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: US_speednode_0288
+- name: US_speednode_0224
   network: ws
   password: tg-fq521free
   port: 443
@@ -459,7 +464,7 @@ proxies:
     headers:
       Host: torjan.xn--xhq44j.eu.org
     path: /
-- name: US_speednode_0346
+- name: US_speednode_0227
   network: ws
   password: tg-fq521free
   port: 443
@@ -477,20 +482,9 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-hhzLtsIxCt.download.microsoft.com
+    host: 202507121073737-BbgY2abS77.download.microsoft.com
     mode: http
   port: 8766
-  server: cn01.efan8867801.xyz
-  type: ss
-  udp: true
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202507121073737-hhzLtsIxCt.download.microsoft.com
-    mode: http
-  port: 8774
   server: cn01.efan8867801.xyz
   type: ss
   udp: true
@@ -507,6 +501,17 @@ proxies:
     tls: true
   port: 636
   server: 103.103.245.158
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202507121073737-BbgY2abS77.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
   type: ss
   udp: true
 - cipher: aes-256-gcm
@@ -547,30 +552,31 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - ES_speednode_0069
-  - GB_speednode_0094
-  - KZ_speednode_0121
-  - RU_speednode_0179
-  - US_speednode_0288
-  - US_speednode_0346
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
+  - ES_speednode_0047
+  - KZ_speednode_0076
+  - RU_speednode_0115
+  - US_speednode_0224
+  - US_speednode_0227
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - interval: 300
@@ -594,30 +600,31 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - ES_speednode_0069
-  - GB_speednode_0094
-  - KZ_speednode_0121
-  - RU_speednode_0179
-  - US_speednode_0288
-  - US_speednode_0346
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
+  - ES_speednode_0047
+  - KZ_speednode_0076
+  - RU_speednode_0115
+  - US_speednode_0224
+  - US_speednode_0227
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -644,30 +651,31 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - ES_speednode_0069
-  - GB_speednode_0094
-  - KZ_speednode_0121
-  - RU_speednode_0179
-  - US_speednode_0288
-  - US_speednode_0346
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
+  - ES_speednode_0047
+  - KZ_speednode_0076
+  - RU_speednode_0115
+  - US_speednode_0224
+  - US_speednode_0227
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
@@ -705,30 +713,31 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - ES_speednode_0069
-  - GB_speednode_0094
-  - KZ_speednode_0121
-  - RU_speednode_0179
-  - US_speednode_0288
-  - US_speednode_0346
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
+  - ES_speednode_0047
+  - KZ_speednode_0076
+  - RU_speednode_0115
+  - US_speednode_0224
+  - US_speednode_0227
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
@@ -740,8 +749,9 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
@@ -767,30 +777,31 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - ES_speednode_0069
-  - GB_speednode_0094
-  - KZ_speednode_0121
-  - RU_speednode_0179
-  - US_speednode_0288
-  - US_speednode_0346
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
+  - ES_speednode_0047
+  - KZ_speednode_0076
+  - RU_speednode_0115
+  - US_speednode_0224
+  - US_speednode_0227
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
@@ -815,30 +826,31 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - ES_speednode_0069
-  - GB_speednode_0094
-  - KZ_speednode_0121
-  - RU_speednode_0179
-  - US_speednode_0288
-  - US_speednode_0346
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
+  - ES_speednode_0047
+  - KZ_speednode_0076
+  - RU_speednode_0115
+  - US_speednode_0224
+  - US_speednode_0227
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
@@ -864,30 +876,31 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - ES_speednode_0069
-  - GB_speednode_0094
-  - KZ_speednode_0121
-  - RU_speednode_0179
-  - US_speednode_0288
-  - US_speednode_0346
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
+  - ES_speednode_0047
+  - KZ_speednode_0076
+  - RU_speednode_0115
+  - US_speednode_0224
+  - US_speednode_0227
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
@@ -922,30 +935,31 @@ proxy-groups:
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
-  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - ES_speednode_0069
-  - GB_speednode_0094
-  - KZ_speednode_0121
-  - RU_speednode_0179
-  - US_speednode_0288
-  - US_speednode_0346
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
+  - ES_speednode_0047
+  - KZ_speednode_0076
+  - RU_speednode_0115
+  - US_speednode_0224
+  - US_speednode_0227
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 rules:
