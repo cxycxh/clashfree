@@ -90,7 +90,7 @@ mode: Rule
 proxies:
 - alterId: 64
   cipher: auto
-  name: 1 |  1.8MB/s|54%|Youtube|Ope...
+  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C1 | \u2B07\uFE0F 1.8MB/s|54%|Youtube..."
   network: ws
   port: 1443
   server: sslvpn.51job.com
@@ -104,7 +104,7 @@ proxies:
       Host: centos7
     path: /634c5c4f9782
 - cipher: aes-256-cfb
-  name: 3-SK |  5.0MB/s|0%|Youtube|Op...
+  name: "\u5176\u4ED63-SK | \u2B07\uFE0F 5.0MB/s|0%|Youtub..."
   password: f8f7aCzcPKbsF8p3
   port: 989
   server: 156.146.40.194
@@ -112,7 +112,7 @@ proxies:
   udp: true
 - alterId: 64
   cipher: auto
-  name: 1 |  1.0MB/s|0%|Netflix|Disn...
+  name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611 | \u2B07\uFE0F 1.0MB/s|0%|Netflix..."
   port: 49291
   server: 183.236.51.38
   skip-cert-verify: false
@@ -120,7 +120,7 @@ proxies:
   type: vmess
   udp: true
   uuid: 418048af-a293-4b99-9b0c-98ca3580dd24
-- name: 45 |  2.5MB/s|46%|Openai|Gem...
+- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD45 | \u2B07\uFE0F 2.5MB/s|46%|Openai..."
   password: 60f6b4c4-9d70-11ed-a4d2-f23c9164ca5d
   port: 15229
   server: 391907cc-swgsg0-t1bnjq-1krtb.cu.plebai.net
@@ -129,7 +129,7 @@ proxies:
   udp: true
 - alterId: 0
   cipher: auto
-  name: 4-TH |  2.6MB/s|55%|Netflix|O...
+  name: "\u5176\u4ED64-TH | \u2B07\uFE0F 2.6MB/s|55%|Netfl..."
   network: ws
   port: 443
   server: 38.47.96.30
@@ -143,7 +143,7 @@ proxies:
       Host: th.lzj520hxw.dpdns.org
     path: /lzjjj
 - cipher: aes-256-cfb
-  name: 2 |  1.5MB/s|44%|Openai
+  name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD2 | \u2B07\uFE0F 1.5MB/s|44%|Openai"
   password: qwerREWQ@@
   port: 15098
   server: 125.141.31.72
@@ -151,7 +151,7 @@ proxies:
   udp: true
 - alterId: 2
   cipher: auto
-  name: 62 |  3.3MB/s|Openai|Gemini
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD62 | \u2B07\uFE0F 3.3MB/s|Openai|Gem..."
   network: ws
   port: 30829
   server: v29.heduian.link
@@ -168,7 +168,7 @@ proxies:
   cipher: auto
   grpc-opts:
     grpc-service-name: vmess-grpc
-  name: 5 |  1.4MB/s|0%|Youtube|Open...
+  name: "\U0001F1E9\U0001F1EA \u5FB7\u56FD5 | \u2B07\uFE0F 1.4MB/s|0%|Youtube|..."
   network: grpc
   port: 443
   server: de.vmess.comnpmjs.com
@@ -180,7 +180,7 @@ proxies:
   uuid: ceaaf653-9874-58c6-b100-092c01a1f73d
 - alterId: 0
   cipher: auto
-  name: 1 |  1.8MB/s|15%|Disney|Yout...
+  name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F1 | \u2B07\uFE0F 1.8MB/s|15%|Disney|..."
   network: ws
   port: 8080
   server: bc842b49-swexs0-t1rt5e-1s09x.hgc1.tcpbbr.net
@@ -193,7 +193,7 @@ proxies:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
-- name: 63 |  2.1MB/s|46%|Openai|Gem...
+- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD63 | \u2B07\uFE0F 2.1MB/s|46%|Openai..."
   password: 5e2f888c-68ef-11ef-96ca-f23c9164ca5d
   port: 15229
   server: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
@@ -201,7 +201,7 @@ proxies:
   sni: 13c2c931-swin40-swy6li-tni2.cu.plebai.net
   type: trojan
   udp: true
-- name: 64 |  1.3MB/s|46%|Openai|Gem...
+- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD64 | \u2B07\uFE0F 1.3MB/s|46%|Openai..."
   password: def14a51-e0d9-11ec-8429-f23c91cfbbc9
   port: 15229
   server: 4560c642-swin40-tjuq6l-wf62.cu.plebai.net
@@ -211,9 +211,9 @@ proxies:
   udp: true
 - cipher: aes-256-cfb
   name: "tg\u9891\u9053:@ripaojiedian"
-  password: awsps0501
+  password: amazonskr05
   port: 443
-  server: 54.187.127.254
+  server: 3.110.161.102
   type: ss
   udp: true
 - alterId: 2
@@ -238,47 +238,62 @@ proxies:
   server: 103.103.245.158
   type: ss
   udp: true
-- name: CN_speednode_0015
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 1122
-  server: 36.151.192.13
-  skip-cert-verify: false
-  sni: www.baidu.com
-  type: trojan
-  udp: true
-- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  password: da631e61-bead-4c9c-8bd7-7bea82f736ae
-  port: 12221
-  server: js-12f83a8c.kaiqsz.com
-  skip-cert-verify: false
-  sni: nkrpjj.cn
-  type: trojan
-  udp: true
-- name: CN_speednode_0014
-  password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 9141
-  server: 36.151.192.13
-  skip-cert-verify: false
-  sni: www.baidu.com
-  type: trojan
-  udp: true
-- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  password: 7367d04e-4c59-4dff-a50e-12e730a09891
-  port: 26193
-  server: 155.117.228.70
-  skip-cert-verify: false
-  type: trojan
-  udp: true
-- alterId: 0
+- alterId: 2
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
-  port: 3687
-  server: 8077092c-sznls0-t0wpqd-4cwg.77.iwskwai.com
+  name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
+  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
+- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 443
+  server: 58.152.30.37
+  skip-cert-verify: false
+  sni: www.baidu.com
+  type: trojan
+  udp: true
+- alterId: 2
+  cipher: auto
+  name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 6e313598-a088-11ea-a22e-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: hkt.gotochinatown.net
+    path: /
+- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  password: d0d08cddacc3190ea81b1b792e1b5fde
+  port: 444
+  server: 36.156.102.125
+  skip-cert-verify: false
+  sni: www.ithome.com
+  type: trojan
+  udp: true
+- alterId: 0
+  cipher: auto
+  name: "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian"
+  port: 3687
+  server: 615c0f38-t0h8g0-tgxeiy-3kis.77.iwskwai.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  udp: true
+  uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
 - cipher: rc4-md5
   name: "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   password: efanccyun
@@ -293,46 +308,67 @@ proxies:
   server: 137.220.191.40
   type: ss
   udp: true
-- name: CN_speednode_0011
+- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 53248
-  server: 36.151.251.48
+  port: 181
+  server: 36.156.102.125
   skip-cert-verify: false
   sni: www.baidu.com
   type: trojan
   udp: true
-- name: CN_speednode_0010
+- name: "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 41225
-  server: 36.151.251.48
+  port: 461
+  server: 36.156.102.125
   skip-cert-verify: false
   sni: www.baidu.com
   type: trojan
   udp: true
-- name: CN_speednode_0012
+- name: "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 16158
-  server: 36.151.251.48
+  port: 443
+  server: 34.64.53.92
   skip-cert-verify: false
   sni: www.baidu.com
   type: trojan
   udp: true
-- name: CN_speednode_0017
+- name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 44123
-  server: 36.151.251.48
+  port: 443
+  server: 157.230.32.243
   skip-cert-verify: false
   sni: www.baidu.com
   type: trojan
   udp: true
-- name: CN_speednode_0013
+- name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 32765
-  server: 36.151.251.48
+  port: 406
+  server: 36.156.102.125
   skip-cert-verify: false
   sni: www.baidu.com
   type: trojan
   udp: true
+- name: "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  password: 92435aa8-f3b6-466a-ad58-c55cbb6d2acf
+  port: 443
+  server: sg.mjt000.com
+  skip-cert-verify: false
+  sni: sg.mjt000.com
+  type: trojan
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
+  network: ws
+  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+  port: 443
+  server: 172.67.214.21
+  skip-cert-verify: false
+  sni: xXcdvFgt.191268.XYz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: xXcdvFgt.191268.XYz
+    path: /ctdmgeIg3NII3ibrzzKXJGy3S1
 - cipher: rc4-md5
   name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   password: efanccyun
@@ -340,116 +376,388 @@ proxies:
   server: cn01.efan8867801.xyz
   type: ss
   udp: true
-- name: CN_speednode_0018
+- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 4447
-  server: 36.151.251.48
+  port: 472
+  server: 36.156.102.125
   skip-cert-verify: false
   sni: www.baidu.com
   type: trojan
   udp: true
-- name: CN_speednode_0016
+- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 13855
-  server: 36.151.251.48
+  port: 347
+  server: 36.156.102.125
   skip-cert-verify: false
   sni: www.baidu.com
   type: trojan
-  udp: true
-- cipher: aes-256-gcm
-  name: "\U0001F1E6\U0001F1F9 \u5965\u5730\u5229|@ripaojiedian"
-  password: TG:@Enkelte_notif&amp;&amp;TG:@Notif_Chat
-  port: 34045
-  server: 152.53.2.128
-  type: ss
-  udp: true
-- cipher: aes-256-cfb
-  name: "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
-  port: 38388
-  server: 103.186.154.18
-  type: ss
   udp: true
 - alterId: 0
   cipher: auto
-  name: "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian 2"
+  name: "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian 2"
   port: 3687
-  server: 8077092c-sznls0-t0wpqd-4cwg.77.iwskwai.com
+  server: 615c0f38-t0h8g0-tgxeiy-3kis.77.iwskwai.com
   skip-cert-verify: false
   tls: false
   type: vmess
   udp: true
-  uuid: 03c1d503-4803-11ef-8f3d-f23c9313b177
-- name: ES_speednode_0029
+  uuid: 117fc3d8-fd04-11ed-b345-f23c93136cb3
+- name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
   network: ws
-  password: trojan
+  password: 7248e825-887c-48b9-83bc-c26bc6392bf8
+  port: 443
+  server: 172.67.214.21
+  skip-cert-verify: false
+  sni: xXcdvFgt.191268.XYz
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: xXcdvFgt.191268.XYz
+    path: /ctdmgeIg3NII3ibrzzKXJGy3S1
+- name: JP_speednode_0064
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 103.116.7.100
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: JP_speednode_0065
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 103.116.7.103
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: KZ_speednode_0071
+  network: ws
+  password: Aimer
+  port: 443
+  server: 31.43.179.27
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: KZ_speednode_0072
+  network: ws
+  password: Aimer
+  port: 443
+  server: 31.43.179.27
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /
+- name: SC_speednode_0089
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 154.83.2.88
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: SG_speednode_0092
+  network: ws
+  password: Aimer
   port: 8443
-  server: 109.234.211.66
+  server: 92.243.74.239
   skip-cert-verify: false
-  sni: store.timimi.dpdns.org
+  sni: epga.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: store.timimi.dpdns.org
-    path: /
-- name: GB_speednode_0047
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: SG_speednode_0093
   network: ws
-  password: trojan
+  password: Aimer
+  port: 8443
+  server: 92.243.74.180
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /
+- name: SG_speednode_0094
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 92.243.74.180
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0150
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 160.79.105.156
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0151
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0158
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 198.62.62.192
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0159
+  network: ws
+  password: Aimer
   port: 443
-  server: 91.193.58.0
+  server: 192.0.54.7
   skip-cert-verify: false
-  sni: wahaha.yingyangkuaixian.dpdns.org
+  sni: epga.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: wahaha.yingyangkuaixian.dpdns.org
-    path: /
-- name: KZ_speednode_0057
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0160
   network: ws
-  password: tg-fq521free
-  port: 443
-  server: 194.76.18.129
+  password: Aimer
+  port: 2083
+  server: 192.200.160.35
   skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
+  sni: epga.aimercc.dpdns.org
   type: trojan
   udp: true
   ws-opts:
     headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: RU_speednode_0074
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 45.67.215.95
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: TW_speednode_0079
-  network: ws
-  password: ttfang
-  port: 81
-  server: 103.106.230.186
-  skip-cert-verify: false
-  sni: ttfang.fange.me
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: ttfang.fange.me
-    path: /
-- name: US_speednode_0122
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0161
   network: ws
   password: tg-fq521free
   port: 443
   server: 198.62.62.67
+  skip-cert-verify: false
+  sni: torjan.xn--xhq44j.eu.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: torjan.xn--xhq44j.eu.org
+    path: /
+- name: US_speednode_0162
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 160.79.105.160
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0163
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 192.200.160.15
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0164
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 161.145.150.29
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0165
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 66.81.247.230
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0166
+  network: ws
+  password: Aimer
+  port: 2096
+  server: 135.84.64.77
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0167
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 198.62.62.192
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /
+- name: US_speednode_0168
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 216.24.57.1
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0169
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 161.145.150.26
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0170
+  network: ws
+  password: Aimer
+  port: 2083
+  server: 130.250.137.63
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0171
+  network: ws
+  password: Aimer
+  port: 2087
+  server: 167.68.5.248
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0172
+  network: ws
+  password: Aimer
+  port: 2053
+  server: 167.68.4.7
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0173
+  network: ws
+  password: Aimer
+  port: 8443
+  server: 167.68.4.131
+  skip-cert-verify: false
+  sni: epga.aimercc.dpdns.org
+  type: trojan
+  udp: true
+  ws-opts:
+    headers:
+      Host: epga.aimercc.dpdns.org
+    path: /?ed=2560
+- name: US_speednode_0174
+  network: ws
+  password: tg-fq521free
+  port: 443
+  server: 216.24.57.30
   skip-cert-verify: false
   sni: torjan.xn--xhq44j.eu.org
   type: trojan
@@ -473,17 +781,6 @@ proxies:
   server: 137.220.191.40
   type: ss
   udp: true
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202507121073737-O8zUIKjU25.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   password: 9bfdde71b4c0
@@ -504,9 +801,20 @@ proxies:
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507121073737-O8zUIKjU25.download.microsoft.com
+    host: 202507282137611-Ykh074r9Rq.download.microsoft.com
     mode: http
   port: 8766
+  server: cn01.efan8867801.xyz
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202507282137611-Ykh074r9Rq.download.microsoft.com
+    mode: http
+  port: 8774
   server: cn01.efan8867801.xyz
   type: ss
   udp: true
@@ -515,94 +823,138 @@ proxy-groups:
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - 1 |  1.8MB/s|54%|Youtube|Ope...
-  - 3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 1 |  1.0MB/s|0%|Netflix|Disn...
-  - 45 |  2.5MB/s|46%|Openai|Gem...
-  - 4-TH |  2.6MB/s|55%|Netflix|O...
-  - 2 |  1.5MB/s|44%|Openai
-  - 62 |  3.3MB/s|Openai|Gemini
-  - 5 |  1.4MB/s|0%|Youtube|Open...
-  - 1 |  1.8MB/s|15%|Disney|Yout...
-  - 63 |  2.1MB/s|46%|Openai|Gem...
-  - 64 |  1.3MB/s|46%|Openai|Gem...
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C1 | \u2B07\uFE0F 1.8MB/s|54%|Youtube..."
+  - "\u5176\u4ED63-SK | \u2B07\uFE0F 5.0MB/s|0%|Youtub..."
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611 | \u2B07\uFE0F 1.0MB/s|0%|Netflix..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD45 | \u2B07\uFE0F 2.5MB/s|46%|Openai..."
+  - "\u5176\u4ED64-TH | \u2B07\uFE0F 2.6MB/s|55%|Netfl..."
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2 | \u2B07\uFE0F 1.5MB/s|44%|Openai"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD62 | \u2B07\uFE0F 3.3MB/s|Openai|Gem..."
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD5 | \u2B07\uFE0F 1.4MB/s|0%|Youtube|..."
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F1 | \u2B07\uFE0F 1.8MB/s|15%|Disney|..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD63 | \u2B07\uFE0F 2.1MB/s|46%|Openai..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD64 | \u2B07\uFE0F 1.3MB/s|46%|Openai..."
   - "tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - CN_speednode_0015
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - CN_speednode_0014
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - CN_speednode_0011
-  - CN_speednode_0010
-  - CN_speednode_0012
-  - CN_speednode_0017
-  - CN_speednode_0013
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - CN_speednode_0018
-  - CN_speednode_0016
-  - "\U0001F1E6\U0001F1F9 \u5965\u5730\u5229|@ripaojiedian"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian 2"
-  - ES_speednode_0029
-  - GB_speednode_0047
-  - KZ_speednode_0057
-  - RU_speednode_0074
-  - TW_speednode_0079
-  - US_speednode_0122
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
+  - JP_speednode_0064
+  - JP_speednode_0065
+  - KZ_speednode_0071
+  - KZ_speednode_0072
+  - SC_speednode_0089
+  - SG_speednode_0092
+  - SG_speednode_0093
+  - SG_speednode_0094
+  - US_speednode_0150
+  - US_speednode_0151
+  - US_speednode_0158
+  - US_speednode_0159
+  - US_speednode_0160
+  - US_speednode_0161
+  - US_speednode_0162
+  - US_speednode_0163
+  - US_speednode_0164
+  - US_speednode_0165
+  - US_speednode_0166
+  - US_speednode_0167
+  - US_speednode_0168
+  - US_speednode_0169
+  - US_speednode_0170
+  - US_speednode_0171
+  - US_speednode_0172
+  - US_speednode_0173
+  - US_speednode_0174
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
-  - 1 |  1.8MB/s|54%|Youtube|Ope...
-  - 3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 1 |  1.0MB/s|0%|Netflix|Disn...
-  - 45 |  2.5MB/s|46%|Openai|Gem...
-  - 4-TH |  2.6MB/s|55%|Netflix|O...
-  - 2 |  1.5MB/s|44%|Openai
-  - 62 |  3.3MB/s|Openai|Gemini
-  - 5 |  1.4MB/s|0%|Youtube|Open...
-  - 1 |  1.8MB/s|15%|Disney|Yout...
-  - 63 |  2.1MB/s|46%|Openai|Gem...
-  - 64 |  1.3MB/s|46%|Openai|Gem...
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C1 | \u2B07\uFE0F 1.8MB/s|54%|Youtube..."
+  - "\u5176\u4ED63-SK | \u2B07\uFE0F 5.0MB/s|0%|Youtub..."
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611 | \u2B07\uFE0F 1.0MB/s|0%|Netflix..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD45 | \u2B07\uFE0F 2.5MB/s|46%|Openai..."
+  - "\u5176\u4ED64-TH | \u2B07\uFE0F 2.6MB/s|55%|Netfl..."
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2 | \u2B07\uFE0F 1.5MB/s|44%|Openai"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD62 | \u2B07\uFE0F 3.3MB/s|Openai|Gem..."
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD5 | \u2B07\uFE0F 1.4MB/s|0%|Youtube|..."
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F1 | \u2B07\uFE0F 1.8MB/s|15%|Disney|..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD63 | \u2B07\uFE0F 2.1MB/s|46%|Openai..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD64 | \u2B07\uFE0F 1.3MB/s|46%|Openai..."
   - "tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - CN_speednode_0015
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - CN_speednode_0014
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - CN_speednode_0011
-  - CN_speednode_0010
-  - CN_speednode_0012
-  - CN_speednode_0017
-  - CN_speednode_0013
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - CN_speednode_0018
-  - CN_speednode_0016
-  - "\U0001F1E6\U0001F1F9 \u5965\u5730\u5229|@ripaojiedian"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian 2"
-  - ES_speednode_0029
-  - GB_speednode_0047
-  - KZ_speednode_0057
-  - RU_speednode_0074
-  - TW_speednode_0079
-  - US_speednode_0122
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
+  - JP_speednode_0064
+  - JP_speednode_0065
+  - KZ_speednode_0071
+  - KZ_speednode_0072
+  - SC_speednode_0089
+  - SG_speednode_0092
+  - SG_speednode_0093
+  - SG_speednode_0094
+  - US_speednode_0150
+  - US_speednode_0151
+  - US_speednode_0158
+  - US_speednode_0159
+  - US_speednode_0160
+  - US_speednode_0161
+  - US_speednode_0162
+  - US_speednode_0163
+  - US_speednode_0164
+  - US_speednode_0165
+  - US_speednode_0166
+  - US_speednode_0167
+  - US_speednode_0168
+  - US_speednode_0169
+  - US_speednode_0170
+  - US_speednode_0171
+  - US_speednode_0172
+  - US_speednode_0173
+  - US_speednode_0174
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -610,48 +962,70 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - 1 |  1.8MB/s|54%|Youtube|Ope...
-  - 3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 1 |  1.0MB/s|0%|Netflix|Disn...
-  - 45 |  2.5MB/s|46%|Openai|Gem...
-  - 4-TH |  2.6MB/s|55%|Netflix|O...
-  - 2 |  1.5MB/s|44%|Openai
-  - 62 |  3.3MB/s|Openai|Gemini
-  - 5 |  1.4MB/s|0%|Youtube|Open...
-  - 1 |  1.8MB/s|15%|Disney|Yout...
-  - 63 |  2.1MB/s|46%|Openai|Gem...
-  - 64 |  1.3MB/s|46%|Openai|Gem...
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C1 | \u2B07\uFE0F 1.8MB/s|54%|Youtube..."
+  - "\u5176\u4ED63-SK | \u2B07\uFE0F 5.0MB/s|0%|Youtub..."
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611 | \u2B07\uFE0F 1.0MB/s|0%|Netflix..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD45 | \u2B07\uFE0F 2.5MB/s|46%|Openai..."
+  - "\u5176\u4ED64-TH | \u2B07\uFE0F 2.6MB/s|55%|Netfl..."
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2 | \u2B07\uFE0F 1.5MB/s|44%|Openai"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD62 | \u2B07\uFE0F 3.3MB/s|Openai|Gem..."
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD5 | \u2B07\uFE0F 1.4MB/s|0%|Youtube|..."
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F1 | \u2B07\uFE0F 1.8MB/s|15%|Disney|..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD63 | \u2B07\uFE0F 2.1MB/s|46%|Openai..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD64 | \u2B07\uFE0F 1.3MB/s|46%|Openai..."
   - "tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - CN_speednode_0015
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - CN_speednode_0014
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - CN_speednode_0011
-  - CN_speednode_0010
-  - CN_speednode_0012
-  - CN_speednode_0017
-  - CN_speednode_0013
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - CN_speednode_0018
-  - CN_speednode_0016
-  - "\U0001F1E6\U0001F1F9 \u5965\u5730\u5229|@ripaojiedian"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian 2"
-  - ES_speednode_0029
-  - GB_speednode_0047
-  - KZ_speednode_0057
-  - RU_speednode_0074
-  - TW_speednode_0079
-  - US_speednode_0122
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
+  - JP_speednode_0064
+  - JP_speednode_0065
+  - KZ_speednode_0071
+  - KZ_speednode_0072
+  - SC_speednode_0089
+  - SG_speednode_0092
+  - SG_speednode_0093
+  - SG_speednode_0094
+  - US_speednode_0150
+  - US_speednode_0151
+  - US_speednode_0158
+  - US_speednode_0159
+  - US_speednode_0160
+  - US_speednode_0161
+  - US_speednode_0162
+  - US_speednode_0163
+  - US_speednode_0164
+  - US_speednode_0165
+  - US_speednode_0166
+  - US_speednode_0167
+  - US_speednode_0168
+  - US_speednode_0169
+  - US_speednode_0170
+  - US_speednode_0171
+  - US_speednode_0172
+  - US_speednode_0173
+  - US_speednode_0174
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -670,58 +1044,83 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - 1 |  1.8MB/s|54%|Youtube|Ope...
-  - 3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 1 |  1.0MB/s|0%|Netflix|Disn...
-  - 45 |  2.5MB/s|46%|Openai|Gem...
-  - 4-TH |  2.6MB/s|55%|Netflix|O...
-  - 2 |  1.5MB/s|44%|Openai
-  - 62 |  3.3MB/s|Openai|Gemini
-  - 5 |  1.4MB/s|0%|Youtube|Open...
-  - 1 |  1.8MB/s|15%|Disney|Yout...
-  - 63 |  2.1MB/s|46%|Openai|Gem...
-  - 64 |  1.3MB/s|46%|Openai|Gem...
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C1 | \u2B07\uFE0F 1.8MB/s|54%|Youtube..."
+  - "\u5176\u4ED63-SK | \u2B07\uFE0F 5.0MB/s|0%|Youtub..."
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611 | \u2B07\uFE0F 1.0MB/s|0%|Netflix..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD45 | \u2B07\uFE0F 2.5MB/s|46%|Openai..."
+  - "\u5176\u4ED64-TH | \u2B07\uFE0F 2.6MB/s|55%|Netfl..."
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2 | \u2B07\uFE0F 1.5MB/s|44%|Openai"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD62 | \u2B07\uFE0F 3.3MB/s|Openai|Gem..."
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD5 | \u2B07\uFE0F 1.4MB/s|0%|Youtube|..."
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F1 | \u2B07\uFE0F 1.8MB/s|15%|Disney|..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD63 | \u2B07\uFE0F 2.1MB/s|46%|Openai..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD64 | \u2B07\uFE0F 1.3MB/s|46%|Openai..."
   - "tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - CN_speednode_0015
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - CN_speednode_0014
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - CN_speednode_0011
-  - CN_speednode_0010
-  - CN_speednode_0012
-  - CN_speednode_0017
-  - CN_speednode_0013
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - CN_speednode_0018
-  - CN_speednode_0016
-  - "\U0001F1E6\U0001F1F9 \u5965\u5730\u5229|@ripaojiedian"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian 2"
-  - ES_speednode_0029
-  - GB_speednode_0047
-  - KZ_speednode_0057
-  - RU_speednode_0074
-  - TW_speednode_0079
-  - US_speednode_0122
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
+  - JP_speednode_0064
+  - JP_speednode_0065
+  - KZ_speednode_0071
+  - KZ_speednode_0072
+  - SC_speednode_0089
+  - SG_speednode_0092
+  - SG_speednode_0093
+  - SG_speednode_0094
+  - US_speednode_0150
+  - US_speednode_0151
+  - US_speednode_0158
+  - US_speednode_0159
+  - US_speednode_0160
+  - US_speednode_0161
+  - US_speednode_0162
+  - US_speednode_0163
+  - US_speednode_0164
+  - US_speednode_0165
+  - US_speednode_0166
+  - US_speednode_0167
+  - US_speednode_0168
+  - US_speednode_0169
+  - US_speednode_0170
+  - US_speednode_0171
+  - US_speednode_0172
+  - US_speednode_0173
+  - US_speednode_0174
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F1 | \u2B07\uFE0F 1.8MB/s|15%|Disney|..."
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian 2"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
@@ -729,143 +1128,209 @@ proxy-groups:
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
-  - 1 |  1.8MB/s|54%|Youtube|Ope...
-  - 3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 1 |  1.0MB/s|0%|Netflix|Disn...
-  - 45 |  2.5MB/s|46%|Openai|Gem...
-  - 4-TH |  2.6MB/s|55%|Netflix|O...
-  - 2 |  1.5MB/s|44%|Openai
-  - 62 |  3.3MB/s|Openai|Gemini
-  - 5 |  1.4MB/s|0%|Youtube|Open...
-  - 1 |  1.8MB/s|15%|Disney|Yout...
-  - 63 |  2.1MB/s|46%|Openai|Gem...
-  - 64 |  1.3MB/s|46%|Openai|Gem...
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C1 | \u2B07\uFE0F 1.8MB/s|54%|Youtube..."
+  - "\u5176\u4ED63-SK | \u2B07\uFE0F 5.0MB/s|0%|Youtub..."
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611 | \u2B07\uFE0F 1.0MB/s|0%|Netflix..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD45 | \u2B07\uFE0F 2.5MB/s|46%|Openai..."
+  - "\u5176\u4ED64-TH | \u2B07\uFE0F 2.6MB/s|55%|Netfl..."
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2 | \u2B07\uFE0F 1.5MB/s|44%|Openai"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD62 | \u2B07\uFE0F 3.3MB/s|Openai|Gem..."
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD5 | \u2B07\uFE0F 1.4MB/s|0%|Youtube|..."
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F1 | \u2B07\uFE0F 1.8MB/s|15%|Disney|..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD63 | \u2B07\uFE0F 2.1MB/s|46%|Openai..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD64 | \u2B07\uFE0F 1.3MB/s|46%|Openai..."
   - "tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - CN_speednode_0015
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - CN_speednode_0014
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - CN_speednode_0011
-  - CN_speednode_0010
-  - CN_speednode_0012
-  - CN_speednode_0017
-  - CN_speednode_0013
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - CN_speednode_0018
-  - CN_speednode_0016
-  - "\U0001F1E6\U0001F1F9 \u5965\u5730\u5229|@ripaojiedian"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian 2"
-  - ES_speednode_0029
-  - GB_speednode_0047
-  - KZ_speednode_0057
-  - RU_speednode_0074
-  - TW_speednode_0079
-  - US_speednode_0122
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
+  - JP_speednode_0064
+  - JP_speednode_0065
+  - KZ_speednode_0071
+  - KZ_speednode_0072
+  - SC_speednode_0089
+  - SG_speednode_0092
+  - SG_speednode_0093
+  - SG_speednode_0094
+  - US_speednode_0150
+  - US_speednode_0151
+  - US_speednode_0158
+  - US_speednode_0159
+  - US_speednode_0160
+  - US_speednode_0161
+  - US_speednode_0162
+  - US_speednode_0163
+  - US_speednode_0164
+  - US_speednode_0165
+  - US_speednode_0166
+  - US_speednode_0167
+  - US_speednode_0168
+  - US_speednode_0169
+  - US_speednode_0170
+  - US_speednode_0171
+  - US_speednode_0172
+  - US_speednode_0173
+  - US_speednode_0174
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - 1 |  1.8MB/s|54%|Youtube|Ope...
-  - 3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 1 |  1.0MB/s|0%|Netflix|Disn...
-  - 45 |  2.5MB/s|46%|Openai|Gem...
-  - 4-TH |  2.6MB/s|55%|Netflix|O...
-  - 2 |  1.5MB/s|44%|Openai
-  - 62 |  3.3MB/s|Openai|Gemini
-  - 5 |  1.4MB/s|0%|Youtube|Open...
-  - 1 |  1.8MB/s|15%|Disney|Yout...
-  - 63 |  2.1MB/s|46%|Openai|Gem...
-  - 64 |  1.3MB/s|46%|Openai|Gem...
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C1 | \u2B07\uFE0F 1.8MB/s|54%|Youtube..."
+  - "\u5176\u4ED63-SK | \u2B07\uFE0F 5.0MB/s|0%|Youtub..."
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611 | \u2B07\uFE0F 1.0MB/s|0%|Netflix..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD45 | \u2B07\uFE0F 2.5MB/s|46%|Openai..."
+  - "\u5176\u4ED64-TH | \u2B07\uFE0F 2.6MB/s|55%|Netfl..."
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2 | \u2B07\uFE0F 1.5MB/s|44%|Openai"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD62 | \u2B07\uFE0F 3.3MB/s|Openai|Gem..."
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD5 | \u2B07\uFE0F 1.4MB/s|0%|Youtube|..."
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F1 | \u2B07\uFE0F 1.8MB/s|15%|Disney|..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD63 | \u2B07\uFE0F 2.1MB/s|46%|Openai..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD64 | \u2B07\uFE0F 1.3MB/s|46%|Openai..."
   - "tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - CN_speednode_0015
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - CN_speednode_0014
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - CN_speednode_0011
-  - CN_speednode_0010
-  - CN_speednode_0012
-  - CN_speednode_0017
-  - CN_speednode_0013
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - CN_speednode_0018
-  - CN_speednode_0016
-  - "\U0001F1E6\U0001F1F9 \u5965\u5730\u5229|@ripaojiedian"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian 2"
-  - ES_speednode_0029
-  - GB_speednode_0047
-  - KZ_speednode_0057
-  - RU_speednode_0074
-  - TW_speednode_0079
-  - US_speednode_0122
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
+  - JP_speednode_0064
+  - JP_speednode_0065
+  - KZ_speednode_0071
+  - KZ_speednode_0072
+  - SC_speednode_0089
+  - SG_speednode_0092
+  - SG_speednode_0093
+  - SG_speednode_0094
+  - US_speednode_0150
+  - US_speednode_0151
+  - US_speednode_0158
+  - US_speednode_0159
+  - US_speednode_0160
+  - US_speednode_0161
+  - US_speednode_0162
+  - US_speednode_0163
+  - US_speednode_0164
+  - US_speednode_0165
+  - US_speednode_0166
+  - US_speednode_0167
+  - US_speednode_0168
+  - US_speednode_0169
+  - US_speednode_0170
+  - US_speednode_0171
+  - US_speednode_0172
+  - US_speednode_0173
+  - US_speednode_0174
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - 1 |  1.8MB/s|54%|Youtube|Ope...
-  - 3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 1 |  1.0MB/s|0%|Netflix|Disn...
-  - 45 |  2.5MB/s|46%|Openai|Gem...
-  - 4-TH |  2.6MB/s|55%|Netflix|O...
-  - 2 |  1.5MB/s|44%|Openai
-  - 62 |  3.3MB/s|Openai|Gemini
-  - 5 |  1.4MB/s|0%|Youtube|Open...
-  - 1 |  1.8MB/s|15%|Disney|Yout...
-  - 63 |  2.1MB/s|46%|Openai|Gem...
-  - 64 |  1.3MB/s|46%|Openai|Gem...
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C1 | \u2B07\uFE0F 1.8MB/s|54%|Youtube..."
+  - "\u5176\u4ED63-SK | \u2B07\uFE0F 5.0MB/s|0%|Youtub..."
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611 | \u2B07\uFE0F 1.0MB/s|0%|Netflix..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD45 | \u2B07\uFE0F 2.5MB/s|46%|Openai..."
+  - "\u5176\u4ED64-TH | \u2B07\uFE0F 2.6MB/s|55%|Netfl..."
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2 | \u2B07\uFE0F 1.5MB/s|44%|Openai"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD62 | \u2B07\uFE0F 3.3MB/s|Openai|Gem..."
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD5 | \u2B07\uFE0F 1.4MB/s|0%|Youtube|..."
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F1 | \u2B07\uFE0F 1.8MB/s|15%|Disney|..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD63 | \u2B07\uFE0F 2.1MB/s|46%|Openai..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD64 | \u2B07\uFE0F 1.3MB/s|46%|Openai..."
   - "tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - CN_speednode_0015
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - CN_speednode_0014
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - CN_speednode_0011
-  - CN_speednode_0010
-  - CN_speednode_0012
-  - CN_speednode_0017
-  - CN_speednode_0013
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - CN_speednode_0018
-  - CN_speednode_0016
-  - "\U0001F1E6\U0001F1F9 \u5965\u5730\u5229|@ripaojiedian"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian 2"
-  - ES_speednode_0029
-  - GB_speednode_0047
-  - KZ_speednode_0057
-  - RU_speednode_0074
-  - TW_speednode_0079
-  - US_speednode_0122
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
+  - JP_speednode_0064
+  - JP_speednode_0065
+  - KZ_speednode_0071
+  - KZ_speednode_0072
+  - SC_speednode_0089
+  - SG_speednode_0092
+  - SG_speednode_0093
+  - SG_speednode_0094
+  - US_speednode_0150
+  - US_speednode_0151
+  - US_speednode_0158
+  - US_speednode_0159
+  - US_speednode_0160
+  - US_speednode_0161
+  - US_speednode_0162
+  - US_speednode_0163
+  - US_speednode_0164
+  - US_speednode_0165
+  - US_speednode_0166
+  - US_speednode_0167
+  - US_speednode_0168
+  - US_speednode_0169
+  - US_speednode_0170
+  - US_speednode_0171
+  - US_speednode_0172
+  - US_speednode_0173
+  - US_speednode_0174
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -881,48 +1346,70 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - 1 |  1.8MB/s|54%|Youtube|Ope...
-  - 3-SK |  5.0MB/s|0%|Youtube|Op...
-  - 1 |  1.0MB/s|0%|Netflix|Disn...
-  - 45 |  2.5MB/s|46%|Openai|Gem...
-  - 4-TH |  2.6MB/s|55%|Netflix|O...
-  - 2 |  1.5MB/s|44%|Openai
-  - 62 |  3.3MB/s|Openai|Gemini
-  - 5 |  1.4MB/s|0%|Youtube|Open...
-  - 1 |  1.8MB/s|15%|Disney|Yout...
-  - 63 |  2.1MB/s|46%|Openai|Gem...
-  - 64 |  1.3MB/s|46%|Openai|Gem...
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C1 | \u2B07\uFE0F 1.8MB/s|54%|Youtube..."
+  - "\u5176\u4ED63-SK | \u2B07\uFE0F 5.0MB/s|0%|Youtub..."
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57611 | \u2B07\uFE0F 1.0MB/s|0%|Netflix..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD45 | \u2B07\uFE0F 2.5MB/s|46%|Openai..."
+  - "\u5176\u4ED64-TH | \u2B07\uFE0F 2.6MB/s|55%|Netfl..."
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD2 | \u2B07\uFE0F 1.5MB/s|44%|Openai"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD62 | \u2B07\uFE0F 3.3MB/s|Openai|Gem..."
+  - "\U0001F1E9\U0001F1EA \u5FB7\u56FD5 | \u2B07\uFE0F 1.4MB/s|0%|Youtube|..."
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F1 | \u2B07\uFE0F 1.8MB/s|15%|Disney|..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD63 | \u2B07\uFE0F 2.1MB/s|46%|Openai..."
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD64 | \u2B07\uFE0F 1.3MB/s|46%|Openai..."
   - "tg\u9891\u9053:@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
-  - CN_speednode_0015
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - CN_speednode_0014
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
-  - CN_speednode_0011
-  - CN_speednode_0010
-  - CN_speednode_0012
-  - CN_speednode_0017
-  - CN_speednode_0013
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
+  - "\U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
+  - "\U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
-  - CN_speednode_0018
-  - CN_speednode_0016
-  - "\U0001F1E6\U0001F1F9 \u5965\u5730\u5229|@ripaojiedian"
-  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian 2"
-  - ES_speednode_0029
-  - GB_speednode_0047
-  - KZ_speednode_0057
-  - RU_speednode_0074
-  - TW_speednode_0079
-  - US_speednode_0122
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1E8\U0001F1F3 \u53F0\u6E7E2|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
+  - JP_speednode_0064
+  - JP_speednode_0065
+  - KZ_speednode_0071
+  - KZ_speednode_0072
+  - SC_speednode_0089
+  - SG_speednode_0092
+  - SG_speednode_0093
+  - SG_speednode_0094
+  - US_speednode_0150
+  - US_speednode_0151
+  - US_speednode_0158
+  - US_speednode_0159
+  - US_speednode_0160
+  - US_speednode_0161
+  - US_speednode_0162
+  - US_speednode_0163
+  - US_speednode_0164
+  - US_speednode_0165
+  - US_speednode_0166
+  - US_speednode_0167
+  - US_speednode_0168
+  - US_speednode_0169
+  - US_speednode_0170
+  - US_speednode_0171
+  - US_speednode_0172
+  - US_speednode_0173
+  - US_speednode_0174
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
