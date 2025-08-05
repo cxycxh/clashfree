@@ -213,7 +213,7 @@ proxies:
   name: "tg\u9891\u9053:@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 13.234.32.160
+  server: 13.127.216.146
   type: ss
   udp: true
 - alterId: 2
@@ -248,34 +248,27 @@ proxies:
   tls: false
   type: vmess
   udp: true
-  uuid: 715a2574-9c25-11eb-8673-f23c9164ca5d
+  uuid: 6d4abac0-86e6-11ef-83cc-f23c913c8d2b
   ws-opts:
     headers:
       Host: broadcastlv.chat.bilibili.com
     path: /
 - name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 443
-  server: 58.152.30.37
+  port: 447
+  server: 36.156.102.125
   skip-cert-verify: false
   sni: www.baidu.com
   type: trojan
   udp: true
-- alterId: 2
-  cipher: auto
-  name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  network: ws
-  port: 80
-  server: hkt.gotochinatown.net
+- name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  password: dfd4867b-26c6-4e49-9b96-ef4dbbb3f31f
+  port: 12221
+  server: gz-43e866.kaiqsz.com
   skip-cert-verify: false
-  tls: false
-  type: vmess
+  sni: mmbiz.redapricotcloud.com
+  type: trojan
   udp: true
-  uuid: 6e313598-a088-11ea-a22e-f23c91cfbbc9
-  ws-opts:
-    headers:
-      Host: hkt.gotochinatown.net
-    path: /
 - name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   password: d0d08cddacc3190ea81b1b792e1b5fde
   port: 444
@@ -284,13 +277,21 @@ proxies:
   sni: www.ithome.com
   type: trojan
   udp: true
-- cipher: chacha20-ietf
+- alterId: 2
+  cipher: auto
   name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian"
-  password: asd123456
-  port: 8388
-  server: 103.149.183.154
-  type: ss
+  network: ws
+  port: 80
+  server: hkt.gotochinatown.net
+  skip-cert-verify: false
+  tls: false
+  type: vmess
   udp: true
+  uuid: ca506e08-ce3d-5e5a-c128-6358caca15e5
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - cipher: rc4-md5
   name: "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   password: efanccyun
@@ -375,11 +376,18 @@ proxies:
   udp: true
 - name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   password: d0d08cddacc3190ea81b1b792e1b5fde
-  port: 443
-  server: 143.110.155.169
+  port: 472
+  server: 36.156.102.125
   skip-cert-verify: false
   sni: www.baidu.com
   type: trojan
+  udp: true
+- cipher: aes-256-cfb
+  name: "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
+  password: Xn8jKdmDM00IeO%#$#fJAMtsEAEUOpH/YWYtYqDFnT0SV
+  port: 38388
+  server: 103.186.155.20
+  type: ss
   udp: true
 - name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
   network: ws
@@ -394,352 +402,14 @@ proxies:
     headers:
       Host: xXcdvFgt.191268.XYz
     path: /ctdmgeIg3NII3ibrzzKXJGy3S1
-- name: JP_speednode_0064
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 103.116.7.103
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: JP_speednode_0065
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 103.116.7.220
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: JP_speednode_0066
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 103.116.7.100
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: KZ_speednode_0070
-  network: ws
-  password: Aimer
-  port: 443
-  server: 31.43.179.27
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /
-- name: SC_speednode_0087
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 154.83.2.88
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: SG_speednode_0090
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.180
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /
-- name: SG_speednode_0091
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.239
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: SG_speednode_0092
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 92.243.74.180
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0151
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 198.62.62.192
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0152
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 198.62.62.192
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /
-- name: US_speednode_0153
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 160.79.105.156
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0155
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 192.200.160.35
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0156
-  network: ws
-  password: Aimer
-  port: 443
-  server: 192.0.54.7
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0157
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 192.200.160.15
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0159
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 66.81.247.230
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0160
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 130.250.137.63
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0161
-  network: ws
-  password: Aimer
-  port: 2083
-  server: 161.145.150.29
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0162
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 160.79.105.160
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0163
-  network: ws
-  password: Aimer
-  port: 8443
-  server: 167.68.4.131
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0164
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 167.68.5.248
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0165
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.7
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0166
-  network: ws
-  password: tg-fq521free
-  port: 443
-  server: 216.24.57.30
-  skip-cert-verify: false
-  sni: torjan.xn--xhq44j.eu.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: torjan.xn--xhq44j.eu.org
-    path: /
-- name: US_speednode_0167
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 167.68.4.199
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0168
-  network: ws
-  password: Aimer
-  port: 2053
-  server: 216.24.57.1
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0169
-  network: ws
-  password: Aimer
-  port: 2096
-  server: 135.84.64.77
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
-- name: US_speednode_0170
-  network: ws
-  password: Aimer
-  port: 2087
-  server: 161.145.150.26
-  skip-cert-verify: false
-  sni: epga.aimercc.dpdns.org
-  type: trojan
-  udp: true
-  ws-opts:
-    headers:
-      Host: epga.aimercc.dpdns.org
-    path: /?ed=2560
 - cipher: rc4-md5
-  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202507282137611-5Up7OUIi18.download.microsoft.com
+    host: 202507282137611-T3mfnF0MuU.download.microsoft.com
     mode: http
-  port: 8766
+  port: 8774
   server: cn01.efan8867801.xyz
   type: ss
   udp: true
@@ -758,17 +428,6 @@ proxies:
   server: 137.220.191.40
   type: ss
   udp: true
-- cipher: rc4-md5
-  name: "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202507282137611-5Up7OUIi18.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  type: ss
-  udp: true
 - cipher: aes-256-gcm
   name: "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   password: 9bfdde71b4c0
@@ -782,6 +441,17 @@ proxies:
     tls: true
   port: 636
   server: 103.103.245.158
+  type: ss
+  udp: true
+- cipher: rc4-md5
+  name: "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202507282137611-T3mfnF0MuU.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
   type: ss
   udp: true
 proxy-groups:
@@ -819,37 +489,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - JP_speednode_0064
-  - JP_speednode_0065
-  - JP_speednode_0066
-  - KZ_speednode_0070
-  - SC_speednode_0087
-  - SG_speednode_0090
-  - SG_speednode_0091
-  - SG_speednode_0092
-  - US_speednode_0151
-  - US_speednode_0152
-  - US_speednode_0153
-  - US_speednode_0155
-  - US_speednode_0156
-  - US_speednode_0157
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0161
-  - US_speednode_0162
-  - US_speednode_0163
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
-  - US_speednode_0168
-  - US_speednode_0169
-  - US_speednode_0170
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
@@ -884,37 +529,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - JP_speednode_0064
-  - JP_speednode_0065
-  - JP_speednode_0066
-  - KZ_speednode_0070
-  - SC_speednode_0087
-  - SG_speednode_0090
-  - SG_speednode_0091
-  - SG_speednode_0092
-  - US_speednode_0151
-  - US_speednode_0152
-  - US_speednode_0153
-  - US_speednode_0155
-  - US_speednode_0156
-  - US_speednode_0157
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0161
-  - US_speednode_0162
-  - US_speednode_0163
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
-  - US_speednode_0168
-  - US_speednode_0169
-  - US_speednode_0170
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -952,37 +572,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - JP_speednode_0064
-  - JP_speednode_0065
-  - JP_speednode_0066
-  - KZ_speednode_0070
-  - SC_speednode_0087
-  - SG_speednode_0090
-  - SG_speednode_0091
-  - SG_speednode_0092
-  - US_speednode_0151
-  - US_speednode_0152
-  - US_speednode_0153
-  - US_speednode_0155
-  - US_speednode_0156
-  - US_speednode_0157
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0161
-  - US_speednode_0162
-  - US_speednode_0163
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
-  - US_speednode_0168
-  - US_speednode_0169
-  - US_speednode_0170
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -1031,37 +626,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - JP_speednode_0064
-  - JP_speednode_0065
-  - JP_speednode_0066
-  - KZ_speednode_0070
-  - SC_speednode_0087
-  - SG_speednode_0090
-  - SG_speednode_0091
-  - SG_speednode_0092
-  - US_speednode_0151
-  - US_speednode_0152
-  - US_speednode_0153
-  - US_speednode_0155
-  - US_speednode_0156
-  - US_speednode_0157
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0161
-  - US_speednode_0162
-  - US_speednode_0163
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
-  - US_speednode_0168
-  - US_speednode_0169
-  - US_speednode_0170
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -1111,37 +681,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - JP_speednode_0064
-  - JP_speednode_0065
-  - JP_speednode_0066
-  - KZ_speednode_0070
-  - SC_speednode_0087
-  - SG_speednode_0090
-  - SG_speednode_0091
-  - SG_speednode_0092
-  - US_speednode_0151
-  - US_speednode_0152
-  - US_speednode_0153
-  - US_speednode_0155
-  - US_speednode_0156
-  - US_speednode_0157
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0161
-  - US_speednode_0162
-  - US_speednode_0163
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
-  - US_speednode_0168
-  - US_speednode_0169
-  - US_speednode_0170
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
@@ -1177,37 +722,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - JP_speednode_0064
-  - JP_speednode_0065
-  - JP_speednode_0066
-  - KZ_speednode_0070
-  - SC_speednode_0087
-  - SG_speednode_0090
-  - SG_speednode_0091
-  - SG_speednode_0092
-  - US_speednode_0151
-  - US_speednode_0152
-  - US_speednode_0153
-  - US_speednode_0155
-  - US_speednode_0156
-  - US_speednode_0157
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0161
-  - US_speednode_0162
-  - US_speednode_0163
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
-  - US_speednode_0168
-  - US_speednode_0169
-  - US_speednode_0170
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
@@ -1244,37 +764,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - JP_speednode_0064
-  - JP_speednode_0065
-  - JP_speednode_0066
-  - KZ_speednode_0070
-  - SC_speednode_0087
-  - SG_speednode_0090
-  - SG_speednode_0091
-  - SG_speednode_0092
-  - US_speednode_0151
-  - US_speednode_0152
-  - US_speednode_0153
-  - US_speednode_0155
-  - US_speednode_0156
-  - US_speednode_0157
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0161
-  - US_speednode_0162
-  - US_speednode_0163
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
-  - US_speednode_0168
-  - US_speednode_0169
-  - US_speednode_0170
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -1320,37 +815,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
+  - "\U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - JP_speednode_0064
-  - JP_speednode_0065
-  - JP_speednode_0066
-  - KZ_speednode_0070
-  - SC_speednode_0087
-  - SG_speednode_0090
-  - SG_speednode_0091
-  - SG_speednode_0092
-  - US_speednode_0151
-  - US_speednode_0152
-  - US_speednode_0153
-  - US_speednode_0155
-  - US_speednode_0156
-  - US_speednode_0157
-  - US_speednode_0159
-  - US_speednode_0160
-  - US_speednode_0161
-  - US_speednode_0162
-  - US_speednode_0163
-  - US_speednode_0164
-  - US_speednode_0165
-  - US_speednode_0166
-  - US_speednode_0167
-  - US_speednode_0168
-  - US_speednode_0169
-  - US_speednode_0170
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "\U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "\U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
