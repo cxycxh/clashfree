@@ -254,7 +254,7 @@ proxies:
   sni: bing.com
   type: hysteria2
 - auth: RzQrEkAmnGs86IhmSVUk9Q5cn9M
-  name: '[Hysteria2] @FreakConfig 2'
+  name: '[Hysteria2] @Daily_Configs #5'
   password: RzQrEkAmnGs86IhmSVUk9Q5cn9M
   port: 30308
   server: 47.236.104.81
@@ -365,7 +365,7 @@ proxies:
   sni: us2.1010991.xyz
   type: hysteria2
 - auth: dongtaiwang.com
-  name: '[Hysteria2] @FreakConfig 3'
+  name: '[Hysteria2] @FreakConfig 2'
   password: dongtaiwang.com
   port: 63015
   server: 108.181.5.130
@@ -402,6 +402,14 @@ proxies:
   port: 10086
   server: asg.pagate.top
   skip-cert-verify: false
+  type: hysteria2
+- auth: fabd2b79-693a-4a37-827c-6d299e8813b1
+  name: "[Hysteria2] Channel id: @proxy_kafee\U0001F1EF\U0001F1F5 #1"
+  password: fabd2b79-693a-4a37-827c-6d299e8813b1
+  port: 443
+  server: 133.18.163.202
+  skip-cert-verify: false
+  sni: www.microsoft.com
   type: hysteria2
 - auth: lPK6OZ9ouqyXrCghO6ohUbbN5g
   name: "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 #1"
@@ -545,7 +553,7 @@ proxies:
   sni: android.yas-nowin.ir
   type: hysteria2
 - auth: 55ca7a9e-cf90-49df-b14a-9346c59b73b9
-  name: '[Hysteria2] @FreakConfig 4'
+  name: '[Hysteria2] @FreakConfig 3'
   password: 55ca7a9e-cf90-49df-b14a-9346c59b73b9
   port: 58718
   server: 172.252.236.213
@@ -601,15 +609,6 @@ proxies:
   server: all-v4.dgi000.store
   skip-cert-verify: false
   sni: all-v4.dgi000.store
-  type: hysteria2
-- auth: AOzO2rBKFB
-  name: "[Hysteria2] t.me/NasaV2|\U0001F1EB\U0001F1EE"
-  obfs: salamander
-  obfs-password: r3fe@$WGefweqf
-  password: AOzO2rBKFB
-  port: 14825
-  server: 46.62.129.200
-  skip-cert-verify: false
   type: hysteria2
 - auth: AtTK3tiEA0
   name: '[Hysteria2] @V2rayNG3 #5'
@@ -712,7 +711,7 @@ proxies:
   skip-cert-verify: false
   type: hysteria2
 - auth: Telegram--%3E%40Ln2Ray
-  name: '[Hysteria2] @Daily_Configs #7'
+  name: '[Hysteria2] @FreakConfig 4'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram--%3E%40Ln2Ray
@@ -767,7 +766,8 @@ proxies:
   sni: YAPC-1.afshin.ir
   type: hysteria2
 - auth: Yet-Another-Public-Config-1
-  name: '[Hysteria2] @Daily_Configs #8'
+  name: "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
+    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2rayTun0"
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -785,7 +785,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
 - auth: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
-  name: '[Hysteria2] @Daily_Configs #9'
+  name: '[Hysteria2] @Daily_Configs #7'
   password: eb75320e-a6d0-4b34-a6b6-2bcfc96a9099
   port: 43057
   server: 203.174.82.145
@@ -801,14 +801,6 @@ proxies:
   server: 62.60.231.189
   skip-cert-verify: false
   sni: www.bing.com
-  type: hysteria2
-- auth: freehomesvpnmahsa3
-  name: '[Hysteria2] 28YB5qK!5t#U&insecure-1&sni-ww...'
-  obfs: salamander
-  password: freehomesvpnmahsa3
-  port: 16396
-  server: donate1.mahsa.homes
-  skip-cert-verify: false
   type: hysteria2
 - auth: n9OgQprayM
   name: "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
@@ -1223,20 +1215,6 @@ proxies:
     headers:
       Host: workerr.schodog1.workers.dev
     path: /?ed=2048
-- cipher: aes-256-gcm
-  name: "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  password: 9969db7a2f51
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /fgsauuoqxwx
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 156.251.179.135
-  type: ss
 - cipher: rc4-md5
   name: "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   password: efanccyun
@@ -1245,6 +1223,16 @@ proxies:
     host: 202508150964186-YHuMkhj2A5.download.microsoft.com
     mode: http
   port: 8774
+  server: cn01.efan8867801.xyz
+  type: ss
+- cipher: rc4-md5
+  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202508150964186-YHuMkhj2A5.download.microsoft.com
+    mode: http
+  port: 8766
   server: cn01.efan8867801.xyz
   type: ss
 - cipher: aes-256-gcm
@@ -1261,15 +1249,19 @@ proxies:
   port: 443
   server: 137.220.142.150
   type: ss
-- cipher: rc4-md5
-  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  password: efanccyun
-  plugin: obfs
+- cipher: aes-256-gcm
+  name: "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  password: 9969db7a2f51
+  plugin: v2ray-plugin
   plugin-opts:
-    host: 202508150964186-YHuMkhj2A5.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /fgsauuoqxwx
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 156.251.179.135
   type: ss
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -1309,7 +1301,7 @@ proxy-groups:
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK 2"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD\U0001F1FA\U0001F1F8"
-  - '[Hysteria2] @FreakConfig 2'
+  - '[Hysteria2] @Daily_Configs #5'
   - "[Hysteria2] \U0001F1FA\U0001F1F8 US 2"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1 2"
@@ -1323,11 +1315,12 @@ proxy-groups:
   - "[Hysteria2] Channel id: @proxy_kafee\U0001F1FA\U0001F1F8 #3"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #3"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD #1"
-  - '[Hysteria2] @FreakConfig 3'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8 #4"
   - '[Hysteria2] #1'
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 2"
   - "[Hysteria2] \u672A\u77E5\u8282\u70B9"
+  - "[Hysteria2] Channel id: @proxy_kafee\U0001F1EF\U0001F1F5 #1"
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 #1"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 \u65E5\u672C 2"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 JP #1"
@@ -1347,14 +1340,13 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644..."
-  - '[Hysteria2] @FreakConfig 4'
+  - '[Hysteria2] @FreakConfig 3'
   - "[Hysteria2] \U0001F3BF"
   - '[Hysteria2] @V2rayNG3 #3'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #3'
   - "[Hysteria2] \u2192 @Hddify #1"
   - '[Hysteria2] @V2rayNG3 #4'
-  - "[Hysteria2] t.me/NasaV2|\U0001F1EB\U0001F1EE"
   - '[Hysteria2] @V2rayNG3 #5'
   - '[Hysteria2] @V2rayNG3 #6'
   - '[Hysteria2] @V2rayNG3 #7'
@@ -1369,18 +1361,18 @@ proxy-groups:
   - '[Hysteria2] @Change_IP1-HYS #1'
   - '[Hysteria2] @Change_IP1-HYS #2'
   - '[Hysteria2] @Daily_Configs #4'
-  - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 4'
   - '[Hysteria2] @Change_IP1-HYS #3'
   - "[Hysteria2] \u261E \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 @Viturey #2"
   - '[Hysteria2] @FreakConfig #1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - '[Hysteria2] @Daily_Configs #8'
+  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
+    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2rayTun0"
   - '[Hysteria2] @V2rayNG3 #8'
-  - '[Hysteria2] @Daily_Configs #9'
+  - '[Hysteria2] @Daily_Configs #7'
   - '[Hysteria2] @V2rayNG3 #9'
-  - '[Hysteria2] 28YB5qK!5t#U&insecure-1&sni-ww...'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644... #2"
@@ -1427,10 +1419,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0036'
   - '[Vless] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
@@ -1468,7 +1460,7 @@ proxy-groups:
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK 2"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD\U0001F1FA\U0001F1F8"
-  - '[Hysteria2] @FreakConfig 2'
+  - '[Hysteria2] @Daily_Configs #5'
   - "[Hysteria2] \U0001F1FA\U0001F1F8 US 2"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1 2"
@@ -1482,11 +1474,12 @@ proxy-groups:
   - "[Hysteria2] Channel id: @proxy_kafee\U0001F1FA\U0001F1F8 #3"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #3"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD #1"
-  - '[Hysteria2] @FreakConfig 3'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8 #4"
   - '[Hysteria2] #1'
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 2"
   - "[Hysteria2] \u672A\u77E5\u8282\u70B9"
+  - "[Hysteria2] Channel id: @proxy_kafee\U0001F1EF\U0001F1F5 #1"
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 #1"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 \u65E5\u672C 2"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 JP #1"
@@ -1506,14 +1499,13 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644..."
-  - '[Hysteria2] @FreakConfig 4'
+  - '[Hysteria2] @FreakConfig 3'
   - "[Hysteria2] \U0001F3BF"
   - '[Hysteria2] @V2rayNG3 #3'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #3'
   - "[Hysteria2] \u2192 @Hddify #1"
   - '[Hysteria2] @V2rayNG3 #4'
-  - "[Hysteria2] t.me/NasaV2|\U0001F1EB\U0001F1EE"
   - '[Hysteria2] @V2rayNG3 #5'
   - '[Hysteria2] @V2rayNG3 #6'
   - '[Hysteria2] @V2rayNG3 #7'
@@ -1528,18 +1520,18 @@ proxy-groups:
   - '[Hysteria2] @Change_IP1-HYS #1'
   - '[Hysteria2] @Change_IP1-HYS #2'
   - '[Hysteria2] @Daily_Configs #4'
-  - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 4'
   - '[Hysteria2] @Change_IP1-HYS #3'
   - "[Hysteria2] \u261E \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 @Viturey #2"
   - '[Hysteria2] @FreakConfig #1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - '[Hysteria2] @Daily_Configs #8'
+  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
+    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2rayTun0"
   - '[Hysteria2] @V2rayNG3 #8'
-  - '[Hysteria2] @Daily_Configs #9'
+  - '[Hysteria2] @Daily_Configs #7'
   - '[Hysteria2] @V2rayNG3 #9'
-  - '[Hysteria2] 28YB5qK!5t#U&insecure-1&sni-ww...'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644... #2"
@@ -1586,10 +1578,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0036'
   - '[Vless] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -1630,7 +1622,7 @@ proxy-groups:
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK 2"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD\U0001F1FA\U0001F1F8"
-  - '[Hysteria2] @FreakConfig 2'
+  - '[Hysteria2] @Daily_Configs #5'
   - "[Hysteria2] \U0001F1FA\U0001F1F8 US 2"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1 2"
@@ -1644,11 +1636,12 @@ proxy-groups:
   - "[Hysteria2] Channel id: @proxy_kafee\U0001F1FA\U0001F1F8 #3"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #3"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD #1"
-  - '[Hysteria2] @FreakConfig 3'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8 #4"
   - '[Hysteria2] #1'
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 2"
   - "[Hysteria2] \u672A\u77E5\u8282\u70B9"
+  - "[Hysteria2] Channel id: @proxy_kafee\U0001F1EF\U0001F1F5 #1"
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 #1"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 \u65E5\u672C 2"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 JP #1"
@@ -1668,14 +1661,13 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644..."
-  - '[Hysteria2] @FreakConfig 4'
+  - '[Hysteria2] @FreakConfig 3'
   - "[Hysteria2] \U0001F3BF"
   - '[Hysteria2] @V2rayNG3 #3'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #3'
   - "[Hysteria2] \u2192 @Hddify #1"
   - '[Hysteria2] @V2rayNG3 #4'
-  - "[Hysteria2] t.me/NasaV2|\U0001F1EB\U0001F1EE"
   - '[Hysteria2] @V2rayNG3 #5'
   - '[Hysteria2] @V2rayNG3 #6'
   - '[Hysteria2] @V2rayNG3 #7'
@@ -1690,18 +1682,18 @@ proxy-groups:
   - '[Hysteria2] @Change_IP1-HYS #1'
   - '[Hysteria2] @Change_IP1-HYS #2'
   - '[Hysteria2] @Daily_Configs #4'
-  - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 4'
   - '[Hysteria2] @Change_IP1-HYS #3'
   - "[Hysteria2] \u261E \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 @Viturey #2"
   - '[Hysteria2] @FreakConfig #1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - '[Hysteria2] @Daily_Configs #8'
+  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
+    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2rayTun0"
   - '[Hysteria2] @V2rayNG3 #8'
-  - '[Hysteria2] @Daily_Configs #9'
+  - '[Hysteria2] @Daily_Configs #7'
   - '[Hysteria2] @V2rayNG3 #9'
-  - '[Hysteria2] 28YB5qK!5t#U&insecure-1&sni-ww...'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644... #2"
@@ -1748,10 +1740,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0036'
   - '[Vless] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -1803,7 +1795,7 @@ proxy-groups:
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK 2"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD\U0001F1FA\U0001F1F8"
-  - '[Hysteria2] @FreakConfig 2'
+  - '[Hysteria2] @Daily_Configs #5'
   - "[Hysteria2] \U0001F1FA\U0001F1F8 US 2"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1 2"
@@ -1817,11 +1809,12 @@ proxy-groups:
   - "[Hysteria2] Channel id: @proxy_kafee\U0001F1FA\U0001F1F8 #3"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #3"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD #1"
-  - '[Hysteria2] @FreakConfig 3'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8 #4"
   - '[Hysteria2] #1'
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 2"
   - "[Hysteria2] \u672A\u77E5\u8282\u70B9"
+  - "[Hysteria2] Channel id: @proxy_kafee\U0001F1EF\U0001F1F5 #1"
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 #1"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 \u65E5\u672C 2"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 JP #1"
@@ -1841,14 +1834,13 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644..."
-  - '[Hysteria2] @FreakConfig 4'
+  - '[Hysteria2] @FreakConfig 3'
   - "[Hysteria2] \U0001F3BF"
   - '[Hysteria2] @V2rayNG3 #3'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #3'
   - "[Hysteria2] \u2192 @Hddify #1"
   - '[Hysteria2] @V2rayNG3 #4'
-  - "[Hysteria2] t.me/NasaV2|\U0001F1EB\U0001F1EE"
   - '[Hysteria2] @V2rayNG3 #5'
   - '[Hysteria2] @V2rayNG3 #6'
   - '[Hysteria2] @V2rayNG3 #7'
@@ -1863,18 +1855,18 @@ proxy-groups:
   - '[Hysteria2] @Change_IP1-HYS #1'
   - '[Hysteria2] @Change_IP1-HYS #2'
   - '[Hysteria2] @Daily_Configs #4'
-  - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 4'
   - '[Hysteria2] @Change_IP1-HYS #3'
   - "[Hysteria2] \u261E \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 @Viturey #2"
   - '[Hysteria2] @FreakConfig #1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - '[Hysteria2] @Daily_Configs #8'
+  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
+    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2rayTun0"
   - '[Hysteria2] @V2rayNG3 #8'
-  - '[Hysteria2] @Daily_Configs #9'
+  - '[Hysteria2] @Daily_Configs #7'
   - '[Hysteria2] @V2rayNG3 #9'
-  - '[Hysteria2] 28YB5qK!5t#U&insecure-1&sni-ww...'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644... #2"
@@ -1921,10 +1913,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0036'
   - '[Vless] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -1986,7 +1978,7 @@ proxy-groups:
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK 2"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD\U0001F1FA\U0001F1F8"
-  - '[Hysteria2] @FreakConfig 2'
+  - '[Hysteria2] @Daily_Configs #5'
   - "[Hysteria2] \U0001F1FA\U0001F1F8 US 2"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1 2"
@@ -2000,11 +1992,12 @@ proxy-groups:
   - "[Hysteria2] Channel id: @proxy_kafee\U0001F1FA\U0001F1F8 #3"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #3"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD #1"
-  - '[Hysteria2] @FreakConfig 3'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8 #4"
   - '[Hysteria2] #1'
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 2"
   - "[Hysteria2] \u672A\u77E5\u8282\u70B9"
+  - "[Hysteria2] Channel id: @proxy_kafee\U0001F1EF\U0001F1F5 #1"
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 #1"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 \u65E5\u672C 2"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 JP #1"
@@ -2024,14 +2017,13 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644..."
-  - '[Hysteria2] @FreakConfig 4'
+  - '[Hysteria2] @FreakConfig 3'
   - "[Hysteria2] \U0001F3BF"
   - '[Hysteria2] @V2rayNG3 #3'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #3'
   - "[Hysteria2] \u2192 @Hddify #1"
   - '[Hysteria2] @V2rayNG3 #4'
-  - "[Hysteria2] t.me/NasaV2|\U0001F1EB\U0001F1EE"
   - '[Hysteria2] @V2rayNG3 #5'
   - '[Hysteria2] @V2rayNG3 #6'
   - '[Hysteria2] @V2rayNG3 #7'
@@ -2046,18 +2038,18 @@ proxy-groups:
   - '[Hysteria2] @Change_IP1-HYS #1'
   - '[Hysteria2] @Change_IP1-HYS #2'
   - '[Hysteria2] @Daily_Configs #4'
-  - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 4'
   - '[Hysteria2] @Change_IP1-HYS #3'
   - "[Hysteria2] \u261E \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 @Viturey #2"
   - '[Hysteria2] @FreakConfig #1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - '[Hysteria2] @Daily_Configs #8'
+  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
+    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2rayTun0"
   - '[Hysteria2] @V2rayNG3 #8'
-  - '[Hysteria2] @Daily_Configs #9'
+  - '[Hysteria2] @Daily_Configs #7'
   - '[Hysteria2] @V2rayNG3 #9'
-  - '[Hysteria2] 28YB5qK!5t#U&insecure-1&sni-ww...'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644... #2"
@@ -2104,10 +2096,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0036'
   - '[Vless] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
@@ -2146,7 +2138,7 @@ proxy-groups:
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK 2"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD\U0001F1FA\U0001F1F8"
-  - '[Hysteria2] @FreakConfig 2'
+  - '[Hysteria2] @Daily_Configs #5'
   - "[Hysteria2] \U0001F1FA\U0001F1F8 US 2"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1 2"
@@ -2160,11 +2152,12 @@ proxy-groups:
   - "[Hysteria2] Channel id: @proxy_kafee\U0001F1FA\U0001F1F8 #3"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #3"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD #1"
-  - '[Hysteria2] @FreakConfig 3'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8 #4"
   - '[Hysteria2] #1'
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 2"
   - "[Hysteria2] \u672A\u77E5\u8282\u70B9"
+  - "[Hysteria2] Channel id: @proxy_kafee\U0001F1EF\U0001F1F5 #1"
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 #1"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 \u65E5\u672C 2"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 JP #1"
@@ -2184,14 +2177,13 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644..."
-  - '[Hysteria2] @FreakConfig 4'
+  - '[Hysteria2] @FreakConfig 3'
   - "[Hysteria2] \U0001F3BF"
   - '[Hysteria2] @V2rayNG3 #3'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #3'
   - "[Hysteria2] \u2192 @Hddify #1"
   - '[Hysteria2] @V2rayNG3 #4'
-  - "[Hysteria2] t.me/NasaV2|\U0001F1EB\U0001F1EE"
   - '[Hysteria2] @V2rayNG3 #5'
   - '[Hysteria2] @V2rayNG3 #6'
   - '[Hysteria2] @V2rayNG3 #7'
@@ -2206,18 +2198,18 @@ proxy-groups:
   - '[Hysteria2] @Change_IP1-HYS #1'
   - '[Hysteria2] @Change_IP1-HYS #2'
   - '[Hysteria2] @Daily_Configs #4'
-  - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 4'
   - '[Hysteria2] @Change_IP1-HYS #3'
   - "[Hysteria2] \u261E \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 @Viturey #2"
   - '[Hysteria2] @FreakConfig #1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - '[Hysteria2] @Daily_Configs #8'
+  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
+    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2rayTun0"
   - '[Hysteria2] @V2rayNG3 #8'
-  - '[Hysteria2] @Daily_Configs #9'
+  - '[Hysteria2] @Daily_Configs #7'
   - '[Hysteria2] @V2rayNG3 #9'
-  - '[Hysteria2] 28YB5qK!5t#U&insecure-1&sni-ww...'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644... #2"
@@ -2264,10 +2256,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0036'
   - '[Vless] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
@@ -2307,7 +2299,7 @@ proxy-groups:
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK 2"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD\U0001F1FA\U0001F1F8"
-  - '[Hysteria2] @FreakConfig 2'
+  - '[Hysteria2] @Daily_Configs #5'
   - "[Hysteria2] \U0001F1FA\U0001F1F8 US 2"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1 2"
@@ -2321,11 +2313,12 @@ proxy-groups:
   - "[Hysteria2] Channel id: @proxy_kafee\U0001F1FA\U0001F1F8 #3"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #3"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD #1"
-  - '[Hysteria2] @FreakConfig 3'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8 #4"
   - '[Hysteria2] #1'
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 2"
   - "[Hysteria2] \u672A\u77E5\u8282\u70B9"
+  - "[Hysteria2] Channel id: @proxy_kafee\U0001F1EF\U0001F1F5 #1"
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 #1"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 \u65E5\u672C 2"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 JP #1"
@@ -2345,14 +2338,13 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644..."
-  - '[Hysteria2] @FreakConfig 4'
+  - '[Hysteria2] @FreakConfig 3'
   - "[Hysteria2] \U0001F3BF"
   - '[Hysteria2] @V2rayNG3 #3'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #3'
   - "[Hysteria2] \u2192 @Hddify #1"
   - '[Hysteria2] @V2rayNG3 #4'
-  - "[Hysteria2] t.me/NasaV2|\U0001F1EB\U0001F1EE"
   - '[Hysteria2] @V2rayNG3 #5'
   - '[Hysteria2] @V2rayNG3 #6'
   - '[Hysteria2] @V2rayNG3 #7'
@@ -2367,18 +2359,18 @@ proxy-groups:
   - '[Hysteria2] @Change_IP1-HYS #1'
   - '[Hysteria2] @Change_IP1-HYS #2'
   - '[Hysteria2] @Daily_Configs #4'
-  - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 4'
   - '[Hysteria2] @Change_IP1-HYS #3'
   - "[Hysteria2] \u261E \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 @Viturey #2"
   - '[Hysteria2] @FreakConfig #1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - '[Hysteria2] @Daily_Configs #8'
+  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
+    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2rayTun0"
   - '[Hysteria2] @V2rayNG3 #8'
-  - '[Hysteria2] @Daily_Configs #9'
+  - '[Hysteria2] @Daily_Configs #7'
   - '[Hysteria2] @V2rayNG3 #9'
-  - '[Hysteria2] 28YB5qK!5t#U&insecure-1&sni-ww...'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644... #2"
@@ -2425,10 +2417,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0036'
   - '[Vless] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -2477,7 +2469,7 @@ proxy-groups:
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 HK 2"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD\U0001F1FA\U0001F1F8"
-  - '[Hysteria2] @FreakConfig 2'
+  - '[Hysteria2] @Daily_Configs #5'
   - "[Hysteria2] \U0001F1FA\U0001F1F8 US 2"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #1 2"
@@ -2491,11 +2483,12 @@ proxy-groups:
   - "[Hysteria2] Channel id: @proxy_kafee\U0001F1FA\U0001F1F8 #3"
   - "[Hysteria2] \U0001F1ED\U0001F1F0 \u9999\u6E2F #3"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 \u7F8E\u56FD #1"
-  - '[Hysteria2] @FreakConfig 3'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8 #4"
   - '[Hysteria2] #1'
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 2"
   - "[Hysteria2] \u672A\u77E5\u8282\u70B9"
+  - "[Hysteria2] Channel id: @proxy_kafee\U0001F1EF\U0001F1F5 #1"
   - "[Hysteria2] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761 #1"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 \u65E5\u672C 2"
   - "[Hysteria2] \U0001F1EF\U0001F1F5 JP #1"
@@ -2515,14 +2508,13 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644..."
-  - '[Hysteria2] @FreakConfig 4'
+  - '[Hysteria2] @FreakConfig 3'
   - "[Hysteria2] \U0001F3BF"
   - '[Hysteria2] @V2rayNG3 #3'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @Daily_Configs #3'
   - "[Hysteria2] \u2192 @Hddify #1"
   - '[Hysteria2] @V2rayNG3 #4'
-  - "[Hysteria2] t.me/NasaV2|\U0001F1EB\U0001F1EE"
   - '[Hysteria2] @V2rayNG3 #5'
   - '[Hysteria2] @V2rayNG3 #6'
   - '[Hysteria2] @V2rayNG3 #7'
@@ -2537,18 +2529,18 @@ proxy-groups:
   - '[Hysteria2] @Change_IP1-HYS #1'
   - '[Hysteria2] @Change_IP1-HYS #2'
   - '[Hysteria2] @Daily_Configs #4'
-  - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 4'
   - '[Hysteria2] @Change_IP1-HYS #3'
   - "[Hysteria2] \u261E \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 @Viturey #2"
   - '[Hysteria2] @FreakConfig #1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - '[Hysteria2] @Daily_Configs #8'
+  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
+    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2rayTun0"
   - '[Hysteria2] @V2rayNG3 #8'
-  - '[Hysteria2] @Daily_Configs #9'
+  - '[Hysteria2] @Daily_Configs #7'
   - '[Hysteria2] @V2rayNG3 #9'
-  - '[Hysteria2] 28YB5qK!5t#U&insecure-1&sni-ww...'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
     \ \u062F\u0627\u0646\u0644... #2"
@@ -2595,10 +2587,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0036'
   - '[Vless] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
