@@ -21,14 +21,6 @@ proxies:
   server: 195.133.5.41
   skip-cert-verify: false
   type: hysteria2
-- auth: NjEkAYYNqFKUbrksyW1COBtdpU
-  name: "[Hysteria2] Channel id: @ShadowProxy66\U0001F1ED\U0001F1F0"
-  password: NjEkAYYNqFKUbrksyW1COBtdpU
-  port: 2428
-  server: 47.239.220.214
-  skip-cert-verify: false
-  sni: bing.com
-  type: hysteria2
 - auth: XK52yierGckONMJWbJnuskD3unI
   name: "[Hysteria2] Channel id: @singbox1\U0001F1ED\U0001F1F0"
   password: XK52yierGckONMJWbJnuskD3unI
@@ -91,14 +83,6 @@ proxies:
   skip-cert-verify: false
   sni: plaza.ir
   type: hysteria2
-- auth: fabd2b79-693a-4a37-827c-6d299e8813b1
-  name: "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
-  password: fabd2b79-693a-4a37-827c-6d299e8813b1
-  port: 443
-  server: 133.18.163.202
-  skip-cert-verify: false
-  sni: www.microsoft.com
-  type: hysteria2
 - auth: miaoge110
   name: '[Hysteria2] @FreakConfig #1'
   password: miaoge110
@@ -108,7 +92,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
 - auth: qq4Wc9UakExypzw4Jd00fWqrDTY
-  name: "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5 #1"
+  name: "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   password: qq4Wc9UakExypzw4Jd00fWqrDTY
   port: 22712
   server: 8.209.223.212
@@ -380,8 +364,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   type: hysteria2
 - auth: Yet-Another-Public-Config-1
-  name: "[Hysteria2] \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\u0627\
-    \u0645 : injastvpn@"
+  name: '[Hysteria2] All-@IRAN_V2RAY1 #3'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -417,6 +400,16 @@ proxies:
   server: 176.124.204.248
   skip-cert-verify: false
   sni: ubuntu com
+  type: hysteria2
+- auth: dailyconfigs
+  name: '[Hysteria2] dailyconfigs-IPv4'
+  obfs: salamander
+  obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs
+  password: dailyconfigs
+  port: 443
+  server: 95.181.174.31
+  skip-cert-verify: false
+  sni: slack.com
   type: hysteria2
 - auth: dailyconfigs
   name: '[Hysteria2] @FreakConfig #5'
@@ -1004,20 +997,6 @@ proxies:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
 - cipher: aes-256-gcm
-  name: "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  password: 2b5fad3874e5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /aqwshiog
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 156.251.179.135
-  type: ss
-- cipher: aes-256-gcm
   name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   password: 8a6ca14c0936
   plugin: v2ray-plugin
@@ -1032,16 +1011,6 @@ proxies:
   server: 137.220.142.150
   type: ss
 - cipher: rc4-md5
-  name: "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202509031722041-ZYgtULpH5Q.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  type: ss
-- cipher: rc4-md5
   name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   password: efanccyun
   plugin: obfs
@@ -1051,6 +1020,30 @@ proxies:
   port: 8766
   server: cn01.efan8867801.xyz
   type: ss
+- cipher: rc4-md5
+  name: "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202509031722041-ZYgtULpH5Q.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  type: ss
+- cipher: aes-256-gcm
+  name: "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  password: 2b5fad3874e5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /aqwshiog
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 156.251.179.135
+  type: ss
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
   proxies:
@@ -1058,7 +1051,6 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - '[Hysteria2] 3@oneclickvpnkeys'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1ED\U0001F1F0"
   - "[Hysteria2] Channel id: @singbox1\U0001F1ED\U0001F1F0"
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
@@ -1068,9 +1060,8 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
   - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1E9\U0001F1EA"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig #1'
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5 #1"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - '[Hysteria2] @Daily_Configs'
@@ -1109,11 +1100,11 @@ proxy-groups:
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - "[Hysteria2] \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ : injastvpn@"
+  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #5'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
@@ -1174,17 +1165,16 @@ proxy-groups:
   - '[Trojan] US_speednode_0035'
   - '[Trojan] US_speednode_0036'
   - '[Trojan] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
   - '[Hysteria2] 3@oneclickvpnkeys'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1ED\U0001F1F0"
   - "[Hysteria2] Channel id: @singbox1\U0001F1ED\U0001F1F0"
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
@@ -1194,9 +1184,8 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
   - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1E9\U0001F1EA"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig #1'
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5 #1"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - '[Hysteria2] @Daily_Configs'
@@ -1235,11 +1224,11 @@ proxy-groups:
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - "[Hysteria2] \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ : injastvpn@"
+  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #5'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
@@ -1300,10 +1289,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0035'
   - '[Trojan] US_speednode_0036'
   - '[Trojan] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -1313,7 +1302,6 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - '[Hysteria2] 3@oneclickvpnkeys'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1ED\U0001F1F0"
   - "[Hysteria2] Channel id: @singbox1\U0001F1ED\U0001F1F0"
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
@@ -1323,9 +1311,8 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
   - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1E9\U0001F1EA"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig #1'
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5 #1"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - '[Hysteria2] @Daily_Configs'
@@ -1364,11 +1351,11 @@ proxy-groups:
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - "[Hysteria2] \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ : injastvpn@"
+  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #5'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
@@ -1429,10 +1416,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0035'
   - '[Trojan] US_speednode_0036'
   - '[Trojan] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -1453,7 +1440,6 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - '[Hysteria2] 3@oneclickvpnkeys'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1ED\U0001F1F0"
   - "[Hysteria2] Channel id: @singbox1\U0001F1ED\U0001F1F0"
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
@@ -1463,9 +1449,8 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
   - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1E9\U0001F1EA"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig #1'
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5 #1"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - '[Hysteria2] @Daily_Configs'
@@ -1504,11 +1489,11 @@ proxy-groups:
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - "[Hysteria2] \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ : injastvpn@"
+  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #5'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
@@ -1569,10 +1554,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0035'
   - '[Trojan] US_speednode_0036'
   - '[Trojan] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -1594,7 +1579,6 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - '[Hysteria2] 3@oneclickvpnkeys'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1ED\U0001F1F0"
   - "[Hysteria2] Channel id: @singbox1\U0001F1ED\U0001F1F0"
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
@@ -1604,9 +1588,8 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
   - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1E9\U0001F1EA"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig #1'
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5 #1"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - '[Hysteria2] @Daily_Configs'
@@ -1645,11 +1628,11 @@ proxy-groups:
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - "[Hysteria2] \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ : injastvpn@"
+  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #5'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
@@ -1710,10 +1693,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0035'
   - '[Trojan] US_speednode_0036'
   - '[Trojan] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
@@ -1721,7 +1704,6 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - '[Hysteria2] 3@oneclickvpnkeys'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1ED\U0001F1F0"
   - "[Hysteria2] Channel id: @singbox1\U0001F1ED\U0001F1F0"
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
@@ -1731,9 +1713,8 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
   - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1E9\U0001F1EA"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig #1'
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5 #1"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - '[Hysteria2] @Daily_Configs'
@@ -1772,11 +1753,11 @@ proxy-groups:
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - "[Hysteria2] \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ : injastvpn@"
+  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #5'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
@@ -1837,10 +1818,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0035'
   - '[Trojan] US_speednode_0036'
   - '[Trojan] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
@@ -1849,7 +1830,6 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - '[Hysteria2] 3@oneclickvpnkeys'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1ED\U0001F1F0"
   - "[Hysteria2] Channel id: @singbox1\U0001F1ED\U0001F1F0"
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
@@ -1859,9 +1839,8 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
   - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1E9\U0001F1EA"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig #1'
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5 #1"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - '[Hysteria2] @Daily_Configs'
@@ -1900,11 +1879,11 @@ proxy-groups:
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - "[Hysteria2] \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ : injastvpn@"
+  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #5'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
@@ -1965,10 +1944,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0035'
   - '[Trojan] US_speednode_0036'
   - '[Trojan] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -1986,7 +1965,6 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - '[Hysteria2] 3@oneclickvpnkeys'
   - "[Hysteria2] Channel id: @singbox1\U0001F1FA\U0001F1F8"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1ED\U0001F1F0"
   - "[Hysteria2] Channel id: @singbox1\U0001F1ED\U0001F1F0"
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
@@ -1996,9 +1974,8 @@ proxy-groups:
   - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
     \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
   - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1E9\U0001F1EA"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig #1'
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5 #1"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - '[Hysteria2] @Daily_Configs'
@@ -2037,11 +2014,11 @@ proxy-groups:
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
-  - "[Hysteria2] \u06A9\u0627\u0646\u0627\u0644 \u062A\u0644\u06AF\u0631\u0627\u0645\
-    \ : injastvpn@"
+  - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #5'
   - "[Hysteria2] \U0001D5DA\U0001D5F2\U0001D5FF\U0001D5FA\U0001D5EE\U0001D5FB\U0001D606\
     \ \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\u0648\u0631\u0647\u0627\
@@ -2102,10 +2079,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0035'
   - '[Trojan] US_speednode_0036'
   - '[Trojan] US_speednode_0037'
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
