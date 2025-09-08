@@ -619,7 +619,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] CY_speednode_0007'
+- name: '[Trojan] CY_speednode_0004'
   network: ws
   password: slch2024
   port: 2096
@@ -631,7 +631,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] CZ_speednode_0008'
+- name: '[Trojan] CZ_speednode_0005'
   network: ws
   password: slch2024
   port: 2096
@@ -643,11 +643,47 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] DE_speednode_0009'
+- name: '[Trojan] DE_speednode_0006'
   network: ws
   password: slch2024
   port: 2096
   server: 188.244.122.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: "/Telegram\U0001F1E8\U0001F1F3"
+- name: '[Trojan] ES_speednode_0007'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.251.83.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: /TelegramU0001F1E8U0001F1F3
+- name: '[Trojan] ES_speednode_0008'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.251.80.195
+  skip-cert-verify: false
+  sni: ocost-dy.wmlefl.cc
+  type: trojan
+  ws-opts:
+    headers:
+      Host: ocost-dy.wmlefl.cc
+    path: "/Telegram\U0001F1E8\U0001F1F3"
+- name: '[Trojan] ES_speednode_0009'
+  network: ws
+  password: slch2024
+  port: 2096
+  server: 185.251.82.195
   skip-cert-verify: false
   sni: ocost-dy.wmlefl.cc
   type: trojan
@@ -666,44 +702,8 @@ proxies:
   ws-opts:
     headers:
       Host: ocost-dy.wmlefl.cc
-    path: /TelegramU0001F1E8U0001F1F3
+    path: "/Telegram\U0001F1E8\U0001F1F3"
 - name: '[Trojan] ES_speednode_0011'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.251.80.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] ES_speednode_0012'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.251.82.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] ES_speednode_0013'
-  network: ws
-  password: slch2024
-  port: 2096
-  server: 185.251.83.195
-  skip-cert-verify: false
-  sni: ocost-dy.wmlefl.cc
-  type: trojan
-  ws-opts:
-    headers:
-      Host: ocost-dy.wmlefl.cc
-    path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] ES_speednode_0014'
   network: ws
   password: slch2024
   port: 2096
@@ -715,7 +715,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] ES_speednode_0015'
+- name: '[Trojan] ES_speednode_0012'
   network: ws
   password: slch2024
   port: 2096
@@ -727,7 +727,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] FR_speednode_0016'
+- name: '[Trojan] FR_speednode_0013'
   network: ws
   password: slch2024
   port: 2096
@@ -739,7 +739,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] FR_speednode_0017'
+- name: '[Trojan] FR_speednode_0014'
   network: ws
   password: slch2024
   port: 2096
@@ -751,7 +751,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] GB_speednode_0018'
+- name: '[Trojan] GB_speednode_0015'
   network: ws
   password: slch2024
   port: 2096
@@ -763,7 +763,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] GB_speednode_0019'
+- name: '[Trojan] GB_speednode_0016'
   network: ws
   password: slch2024
   port: 2096
@@ -775,22 +775,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- alpn:
-  - h3%2Ch2
-  name: '[Vless] IR_speednode_0025'
-  network: ws
-  port: 443
-  server: ftp2.tehran-park.com
-  servername: Sup.tEhran-Park.inFo.
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: cbf71a74-9e18-4b6f-b4b1-28299c61a1bd
-  ws-opts:
-    headers:
-      Host: Sup.tEhran-Park.inFo.
-    path: /CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_configCANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_config--TELEGRAM--jet_config--CANALTELEGRAM--jet_configfp=chrome
-- name: '[Trojan] KZ_speednode_0029'
+- name: '[Trojan] KZ_speednode_0018'
   network: ws
   password: slch2024
   port: 2096
@@ -802,7 +787,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] LU_speednode_0032'
+- name: '[Trojan] LU_speednode_0020'
   network: ws
   password: slch2024
   port: 2096
@@ -814,7 +799,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] LU_speednode_0033'
+- name: '[Trojan] LU_speednode_0021'
   network: ws
   password: slch2024
   port: 2096
@@ -826,7 +811,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] NL_speednode_0034'
+- name: '[Trojan] NL_speednode_0022'
   network: ws
   password: slch2024
   port: 2096
@@ -838,7 +823,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] RU_speednode_0035'
+- name: '[Trojan] RU_speednode_0023'
   network: ws
   password: slch2024
   port: 2096
@@ -850,7 +835,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] RU_speednode_0036'
+- name: '[Trojan] RU_speednode_0024'
   network: ws
   password: slch2024
   port: 2096
@@ -862,7 +847,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: /TelegramU0001F1E8U0001F1F3
-- name: '[Trojan] RU_speednode_0037'
+- name: '[Trojan] RU_speednode_0025'
   network: ws
   password: slch2024
   port: 2096
@@ -874,7 +859,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] RU_speednode_0038'
+- name: '[Trojan] RU_speednode_0026'
   network: ws
   password: slch2024
   port: 2096
@@ -886,7 +871,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] RU_speednode_0039'
+- name: '[Trojan] RU_speednode_0027'
   network: ws
   password: slch2024
   port: 2096
@@ -898,7 +883,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] RU_speednode_0040'
+- name: '[Trojan] RU_speednode_0028'
   network: ws
   password: slch2024
   port: 2096
@@ -910,7 +895,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] US_speednode_0041'
+- name: '[Trojan] US_speednode_0029'
   network: ws
   password: slch2024
   port: 2096
@@ -922,7 +907,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] US_speednode_0042'
+- name: '[Trojan] US_speednode_0030'
   network: ws
   password: slch2024
   port: 2096
@@ -934,7 +919,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] US_speednode_0043'
+- name: '[Trojan] US_speednode_0031'
   network: ws
   password: slch2024
   port: 2096
@@ -946,7 +931,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] US_speednode_0044'
+- name: '[Trojan] US_speednode_0032'
   network: ws
   password: slch2024
   port: 2096
@@ -958,7 +943,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] US_speednode_0045'
+- name: '[Trojan] US_speednode_0033'
   network: ws
   password: slch2024
   port: 2096
@@ -970,7 +955,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] US_speednode_0046'
+- name: '[Trojan] US_speednode_0034'
   network: ws
   password: slch2024
   port: 2096
@@ -982,7 +967,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] US_speednode_0047'
+- name: '[Trojan] US_speednode_0035'
   network: ws
   password: slch2024
   port: 2096
@@ -994,7 +979,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] US_speednode_0048'
+- name: '[Trojan] US_speednode_0036'
   network: ws
   password: slch2024
   port: 2096
@@ -1006,7 +991,7 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
-- name: '[Trojan] US_speednode_0049'
+- name: '[Trojan] US_speednode_0037'
   network: ws
   password: slch2024
   port: 2096
@@ -1032,6 +1017,20 @@ proxies:
   port: 443
   server: 156.251.179.135
   type: ss
+- cipher: aes-256-gcm
+  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  password: 8a6ca14c0936
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jpxw9v1.dashengjs.net
+    mode: websocket
+    mux: false
+    path: /wrdfiatyd
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 137.220.142.150
+  type: ss
 - cipher: rc4-md5
   name: "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   password: efanccyun
@@ -1051,20 +1050,6 @@ proxies:
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
-  type: ss
-- cipher: aes-256-gcm
-  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  password: 8a6ca14c0936
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jpxw9v1.dashengjs.net
-    mode: websocket
-    mux: false
-    path: /wrdfiatyd
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 137.220.142.150
   type: ss
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -1157,43 +1142,42 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CY_speednode_0007'
-  - '[Trojan] CZ_speednode_0008'
-  - '[Trojan] DE_speednode_0009'
+  - '[Trojan] CY_speednode_0004'
+  - '[Trojan] CZ_speednode_0005'
+  - '[Trojan] DE_speednode_0006'
+  - '[Trojan] ES_speednode_0007'
+  - '[Trojan] ES_speednode_0008'
+  - '[Trojan] ES_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
-  - '[Trojan] ES_speednode_0013'
-  - '[Trojan] ES_speednode_0014'
-  - '[Trojan] ES_speednode_0015'
-  - '[Trojan] FR_speednode_0016'
-  - '[Trojan] FR_speednode_0017'
-  - '[Trojan] GB_speednode_0018'
-  - '[Trojan] GB_speednode_0019'
-  - '[Vless] IR_speednode_0025'
-  - '[Trojan] KZ_speednode_0029'
-  - '[Trojan] LU_speednode_0032'
-  - '[Trojan] LU_speednode_0033'
-  - '[Trojan] NL_speednode_0034'
-  - '[Trojan] RU_speednode_0035'
-  - '[Trojan] RU_speednode_0036'
-  - '[Trojan] RU_speednode_0037'
-  - '[Trojan] RU_speednode_0038'
-  - '[Trojan] RU_speednode_0039'
-  - '[Trojan] RU_speednode_0040'
-  - '[Trojan] US_speednode_0041'
-  - '[Trojan] US_speednode_0042'
-  - '[Trojan] US_speednode_0043'
-  - '[Trojan] US_speednode_0044'
-  - '[Trojan] US_speednode_0045'
-  - '[Trojan] US_speednode_0046'
-  - '[Trojan] US_speednode_0047'
-  - '[Trojan] US_speednode_0048'
-  - '[Trojan] US_speednode_0049'
+  - '[Trojan] FR_speednode_0013'
+  - '[Trojan] FR_speednode_0014'
+  - '[Trojan] GB_speednode_0015'
+  - '[Trojan] GB_speednode_0016'
+  - '[Trojan] KZ_speednode_0018'
+  - '[Trojan] LU_speednode_0020'
+  - '[Trojan] LU_speednode_0021'
+  - '[Trojan] NL_speednode_0022'
+  - '[Trojan] RU_speednode_0023'
+  - '[Trojan] RU_speednode_0024'
+  - '[Trojan] RU_speednode_0025'
+  - '[Trojan] RU_speednode_0026'
+  - '[Trojan] RU_speednode_0027'
+  - '[Trojan] RU_speednode_0028'
+  - '[Trojan] US_speednode_0029'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0031'
+  - '[Trojan] US_speednode_0032'
+  - '[Trojan] US_speednode_0033'
+  - '[Trojan] US_speednode_0034'
+  - '[Trojan] US_speednode_0035'
+  - '[Trojan] US_speednode_0036'
+  - '[Trojan] US_speednode_0037'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
@@ -1284,43 +1268,42 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CY_speednode_0007'
-  - '[Trojan] CZ_speednode_0008'
-  - '[Trojan] DE_speednode_0009'
+  - '[Trojan] CY_speednode_0004'
+  - '[Trojan] CZ_speednode_0005'
+  - '[Trojan] DE_speednode_0006'
+  - '[Trojan] ES_speednode_0007'
+  - '[Trojan] ES_speednode_0008'
+  - '[Trojan] ES_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
-  - '[Trojan] ES_speednode_0013'
-  - '[Trojan] ES_speednode_0014'
-  - '[Trojan] ES_speednode_0015'
-  - '[Trojan] FR_speednode_0016'
-  - '[Trojan] FR_speednode_0017'
-  - '[Trojan] GB_speednode_0018'
-  - '[Trojan] GB_speednode_0019'
-  - '[Vless] IR_speednode_0025'
-  - '[Trojan] KZ_speednode_0029'
-  - '[Trojan] LU_speednode_0032'
-  - '[Trojan] LU_speednode_0033'
-  - '[Trojan] NL_speednode_0034'
-  - '[Trojan] RU_speednode_0035'
-  - '[Trojan] RU_speednode_0036'
-  - '[Trojan] RU_speednode_0037'
-  - '[Trojan] RU_speednode_0038'
-  - '[Trojan] RU_speednode_0039'
-  - '[Trojan] RU_speednode_0040'
-  - '[Trojan] US_speednode_0041'
-  - '[Trojan] US_speednode_0042'
-  - '[Trojan] US_speednode_0043'
-  - '[Trojan] US_speednode_0044'
-  - '[Trojan] US_speednode_0045'
-  - '[Trojan] US_speednode_0046'
-  - '[Trojan] US_speednode_0047'
-  - '[Trojan] US_speednode_0048'
-  - '[Trojan] US_speednode_0049'
+  - '[Trojan] FR_speednode_0013'
+  - '[Trojan] FR_speednode_0014'
+  - '[Trojan] GB_speednode_0015'
+  - '[Trojan] GB_speednode_0016'
+  - '[Trojan] KZ_speednode_0018'
+  - '[Trojan] LU_speednode_0020'
+  - '[Trojan] LU_speednode_0021'
+  - '[Trojan] NL_speednode_0022'
+  - '[Trojan] RU_speednode_0023'
+  - '[Trojan] RU_speednode_0024'
+  - '[Trojan] RU_speednode_0025'
+  - '[Trojan] RU_speednode_0026'
+  - '[Trojan] RU_speednode_0027'
+  - '[Trojan] RU_speednode_0028'
+  - '[Trojan] US_speednode_0029'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0031'
+  - '[Trojan] US_speednode_0032'
+  - '[Trojan] US_speednode_0033'
+  - '[Trojan] US_speednode_0034'
+  - '[Trojan] US_speednode_0035'
+  - '[Trojan] US_speednode_0036'
+  - '[Trojan] US_speednode_0037'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -1414,43 +1397,42 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CY_speednode_0007'
-  - '[Trojan] CZ_speednode_0008'
-  - '[Trojan] DE_speednode_0009'
+  - '[Trojan] CY_speednode_0004'
+  - '[Trojan] CZ_speednode_0005'
+  - '[Trojan] DE_speednode_0006'
+  - '[Trojan] ES_speednode_0007'
+  - '[Trojan] ES_speednode_0008'
+  - '[Trojan] ES_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
-  - '[Trojan] ES_speednode_0013'
-  - '[Trojan] ES_speednode_0014'
-  - '[Trojan] ES_speednode_0015'
-  - '[Trojan] FR_speednode_0016'
-  - '[Trojan] FR_speednode_0017'
-  - '[Trojan] GB_speednode_0018'
-  - '[Trojan] GB_speednode_0019'
-  - '[Vless] IR_speednode_0025'
-  - '[Trojan] KZ_speednode_0029'
-  - '[Trojan] LU_speednode_0032'
-  - '[Trojan] LU_speednode_0033'
-  - '[Trojan] NL_speednode_0034'
-  - '[Trojan] RU_speednode_0035'
-  - '[Trojan] RU_speednode_0036'
-  - '[Trojan] RU_speednode_0037'
-  - '[Trojan] RU_speednode_0038'
-  - '[Trojan] RU_speednode_0039'
-  - '[Trojan] RU_speednode_0040'
-  - '[Trojan] US_speednode_0041'
-  - '[Trojan] US_speednode_0042'
-  - '[Trojan] US_speednode_0043'
-  - '[Trojan] US_speednode_0044'
-  - '[Trojan] US_speednode_0045'
-  - '[Trojan] US_speednode_0046'
-  - '[Trojan] US_speednode_0047'
-  - '[Trojan] US_speednode_0048'
-  - '[Trojan] US_speednode_0049'
+  - '[Trojan] FR_speednode_0013'
+  - '[Trojan] FR_speednode_0014'
+  - '[Trojan] GB_speednode_0015'
+  - '[Trojan] GB_speednode_0016'
+  - '[Trojan] KZ_speednode_0018'
+  - '[Trojan] LU_speednode_0020'
+  - '[Trojan] LU_speednode_0021'
+  - '[Trojan] NL_speednode_0022'
+  - '[Trojan] RU_speednode_0023'
+  - '[Trojan] RU_speednode_0024'
+  - '[Trojan] RU_speednode_0025'
+  - '[Trojan] RU_speednode_0026'
+  - '[Trojan] RU_speednode_0027'
+  - '[Trojan] RU_speednode_0028'
+  - '[Trojan] US_speednode_0029'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0031'
+  - '[Trojan] US_speednode_0032'
+  - '[Trojan] US_speednode_0033'
+  - '[Trojan] US_speednode_0034'
+  - '[Trojan] US_speednode_0035'
+  - '[Trojan] US_speednode_0036'
+  - '[Trojan] US_speednode_0037'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -1555,43 +1537,42 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CY_speednode_0007'
-  - '[Trojan] CZ_speednode_0008'
-  - '[Trojan] DE_speednode_0009'
+  - '[Trojan] CY_speednode_0004'
+  - '[Trojan] CZ_speednode_0005'
+  - '[Trojan] DE_speednode_0006'
+  - '[Trojan] ES_speednode_0007'
+  - '[Trojan] ES_speednode_0008'
+  - '[Trojan] ES_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
-  - '[Trojan] ES_speednode_0013'
-  - '[Trojan] ES_speednode_0014'
-  - '[Trojan] ES_speednode_0015'
-  - '[Trojan] FR_speednode_0016'
-  - '[Trojan] FR_speednode_0017'
-  - '[Trojan] GB_speednode_0018'
-  - '[Trojan] GB_speednode_0019'
-  - '[Vless] IR_speednode_0025'
-  - '[Trojan] KZ_speednode_0029'
-  - '[Trojan] LU_speednode_0032'
-  - '[Trojan] LU_speednode_0033'
-  - '[Trojan] NL_speednode_0034'
-  - '[Trojan] RU_speednode_0035'
-  - '[Trojan] RU_speednode_0036'
-  - '[Trojan] RU_speednode_0037'
-  - '[Trojan] RU_speednode_0038'
-  - '[Trojan] RU_speednode_0039'
-  - '[Trojan] RU_speednode_0040'
-  - '[Trojan] US_speednode_0041'
-  - '[Trojan] US_speednode_0042'
-  - '[Trojan] US_speednode_0043'
-  - '[Trojan] US_speednode_0044'
-  - '[Trojan] US_speednode_0045'
-  - '[Trojan] US_speednode_0046'
-  - '[Trojan] US_speednode_0047'
-  - '[Trojan] US_speednode_0048'
-  - '[Trojan] US_speednode_0049'
+  - '[Trojan] FR_speednode_0013'
+  - '[Trojan] FR_speednode_0014'
+  - '[Trojan] GB_speednode_0015'
+  - '[Trojan] GB_speednode_0016'
+  - '[Trojan] KZ_speednode_0018'
+  - '[Trojan] LU_speednode_0020'
+  - '[Trojan] LU_speednode_0021'
+  - '[Trojan] NL_speednode_0022'
+  - '[Trojan] RU_speednode_0023'
+  - '[Trojan] RU_speednode_0024'
+  - '[Trojan] RU_speednode_0025'
+  - '[Trojan] RU_speednode_0026'
+  - '[Trojan] RU_speednode_0027'
+  - '[Trojan] RU_speednode_0028'
+  - '[Trojan] US_speednode_0029'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0031'
+  - '[Trojan] US_speednode_0032'
+  - '[Trojan] US_speednode_0033'
+  - '[Trojan] US_speednode_0034'
+  - '[Trojan] US_speednode_0035'
+  - '[Trojan] US_speednode_0036'
+  - '[Trojan] US_speednode_0037'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -1697,43 +1678,42 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CY_speednode_0007'
-  - '[Trojan] CZ_speednode_0008'
-  - '[Trojan] DE_speednode_0009'
+  - '[Trojan] CY_speednode_0004'
+  - '[Trojan] CZ_speednode_0005'
+  - '[Trojan] DE_speednode_0006'
+  - '[Trojan] ES_speednode_0007'
+  - '[Trojan] ES_speednode_0008'
+  - '[Trojan] ES_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
-  - '[Trojan] ES_speednode_0013'
-  - '[Trojan] ES_speednode_0014'
-  - '[Trojan] ES_speednode_0015'
-  - '[Trojan] FR_speednode_0016'
-  - '[Trojan] FR_speednode_0017'
-  - '[Trojan] GB_speednode_0018'
-  - '[Trojan] GB_speednode_0019'
-  - '[Vless] IR_speednode_0025'
-  - '[Trojan] KZ_speednode_0029'
-  - '[Trojan] LU_speednode_0032'
-  - '[Trojan] LU_speednode_0033'
-  - '[Trojan] NL_speednode_0034'
-  - '[Trojan] RU_speednode_0035'
-  - '[Trojan] RU_speednode_0036'
-  - '[Trojan] RU_speednode_0037'
-  - '[Trojan] RU_speednode_0038'
-  - '[Trojan] RU_speednode_0039'
-  - '[Trojan] RU_speednode_0040'
-  - '[Trojan] US_speednode_0041'
-  - '[Trojan] US_speednode_0042'
-  - '[Trojan] US_speednode_0043'
-  - '[Trojan] US_speednode_0044'
-  - '[Trojan] US_speednode_0045'
-  - '[Trojan] US_speednode_0046'
-  - '[Trojan] US_speednode_0047'
-  - '[Trojan] US_speednode_0048'
-  - '[Trojan] US_speednode_0049'
+  - '[Trojan] FR_speednode_0013'
+  - '[Trojan] FR_speednode_0014'
+  - '[Trojan] GB_speednode_0015'
+  - '[Trojan] GB_speednode_0016'
+  - '[Trojan] KZ_speednode_0018'
+  - '[Trojan] LU_speednode_0020'
+  - '[Trojan] LU_speednode_0021'
+  - '[Trojan] NL_speednode_0022'
+  - '[Trojan] RU_speednode_0023'
+  - '[Trojan] RU_speednode_0024'
+  - '[Trojan] RU_speednode_0025'
+  - '[Trojan] RU_speednode_0026'
+  - '[Trojan] RU_speednode_0027'
+  - '[Trojan] RU_speednode_0028'
+  - '[Trojan] US_speednode_0029'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0031'
+  - '[Trojan] US_speednode_0032'
+  - '[Trojan] US_speednode_0033'
+  - '[Trojan] US_speednode_0034'
+  - '[Trojan] US_speednode_0035'
+  - '[Trojan] US_speednode_0036'
+  - '[Trojan] US_speednode_0037'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
@@ -1825,43 +1805,42 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CY_speednode_0007'
-  - '[Trojan] CZ_speednode_0008'
-  - '[Trojan] DE_speednode_0009'
+  - '[Trojan] CY_speednode_0004'
+  - '[Trojan] CZ_speednode_0005'
+  - '[Trojan] DE_speednode_0006'
+  - '[Trojan] ES_speednode_0007'
+  - '[Trojan] ES_speednode_0008'
+  - '[Trojan] ES_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
-  - '[Trojan] ES_speednode_0013'
-  - '[Trojan] ES_speednode_0014'
-  - '[Trojan] ES_speednode_0015'
-  - '[Trojan] FR_speednode_0016'
-  - '[Trojan] FR_speednode_0017'
-  - '[Trojan] GB_speednode_0018'
-  - '[Trojan] GB_speednode_0019'
-  - '[Vless] IR_speednode_0025'
-  - '[Trojan] KZ_speednode_0029'
-  - '[Trojan] LU_speednode_0032'
-  - '[Trojan] LU_speednode_0033'
-  - '[Trojan] NL_speednode_0034'
-  - '[Trojan] RU_speednode_0035'
-  - '[Trojan] RU_speednode_0036'
-  - '[Trojan] RU_speednode_0037'
-  - '[Trojan] RU_speednode_0038'
-  - '[Trojan] RU_speednode_0039'
-  - '[Trojan] RU_speednode_0040'
-  - '[Trojan] US_speednode_0041'
-  - '[Trojan] US_speednode_0042'
-  - '[Trojan] US_speednode_0043'
-  - '[Trojan] US_speednode_0044'
-  - '[Trojan] US_speednode_0045'
-  - '[Trojan] US_speednode_0046'
-  - '[Trojan] US_speednode_0047'
-  - '[Trojan] US_speednode_0048'
-  - '[Trojan] US_speednode_0049'
+  - '[Trojan] FR_speednode_0013'
+  - '[Trojan] FR_speednode_0014'
+  - '[Trojan] GB_speednode_0015'
+  - '[Trojan] GB_speednode_0016'
+  - '[Trojan] KZ_speednode_0018'
+  - '[Trojan] LU_speednode_0020'
+  - '[Trojan] LU_speednode_0021'
+  - '[Trojan] NL_speednode_0022'
+  - '[Trojan] RU_speednode_0023'
+  - '[Trojan] RU_speednode_0024'
+  - '[Trojan] RU_speednode_0025'
+  - '[Trojan] RU_speednode_0026'
+  - '[Trojan] RU_speednode_0027'
+  - '[Trojan] RU_speednode_0028'
+  - '[Trojan] US_speednode_0029'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0031'
+  - '[Trojan] US_speednode_0032'
+  - '[Trojan] US_speednode_0033'
+  - '[Trojan] US_speednode_0034'
+  - '[Trojan] US_speednode_0035'
+  - '[Trojan] US_speednode_0036'
+  - '[Trojan] US_speednode_0037'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
@@ -1954,43 +1933,42 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CY_speednode_0007'
-  - '[Trojan] CZ_speednode_0008'
-  - '[Trojan] DE_speednode_0009'
+  - '[Trojan] CY_speednode_0004'
+  - '[Trojan] CZ_speednode_0005'
+  - '[Trojan] DE_speednode_0006'
+  - '[Trojan] ES_speednode_0007'
+  - '[Trojan] ES_speednode_0008'
+  - '[Trojan] ES_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
-  - '[Trojan] ES_speednode_0013'
-  - '[Trojan] ES_speednode_0014'
-  - '[Trojan] ES_speednode_0015'
-  - '[Trojan] FR_speednode_0016'
-  - '[Trojan] FR_speednode_0017'
-  - '[Trojan] GB_speednode_0018'
-  - '[Trojan] GB_speednode_0019'
-  - '[Vless] IR_speednode_0025'
-  - '[Trojan] KZ_speednode_0029'
-  - '[Trojan] LU_speednode_0032'
-  - '[Trojan] LU_speednode_0033'
-  - '[Trojan] NL_speednode_0034'
-  - '[Trojan] RU_speednode_0035'
-  - '[Trojan] RU_speednode_0036'
-  - '[Trojan] RU_speednode_0037'
-  - '[Trojan] RU_speednode_0038'
-  - '[Trojan] RU_speednode_0039'
-  - '[Trojan] RU_speednode_0040'
-  - '[Trojan] US_speednode_0041'
-  - '[Trojan] US_speednode_0042'
-  - '[Trojan] US_speednode_0043'
-  - '[Trojan] US_speednode_0044'
-  - '[Trojan] US_speednode_0045'
-  - '[Trojan] US_speednode_0046'
-  - '[Trojan] US_speednode_0047'
-  - '[Trojan] US_speednode_0048'
-  - '[Trojan] US_speednode_0049'
+  - '[Trojan] FR_speednode_0013'
+  - '[Trojan] FR_speednode_0014'
+  - '[Trojan] GB_speednode_0015'
+  - '[Trojan] GB_speednode_0016'
+  - '[Trojan] KZ_speednode_0018'
+  - '[Trojan] LU_speednode_0020'
+  - '[Trojan] LU_speednode_0021'
+  - '[Trojan] NL_speednode_0022'
+  - '[Trojan] RU_speednode_0023'
+  - '[Trojan] RU_speednode_0024'
+  - '[Trojan] RU_speednode_0025'
+  - '[Trojan] RU_speednode_0026'
+  - '[Trojan] RU_speednode_0027'
+  - '[Trojan] RU_speednode_0028'
+  - '[Trojan] US_speednode_0029'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0031'
+  - '[Trojan] US_speednode_0032'
+  - '[Trojan] US_speednode_0033'
+  - '[Trojan] US_speednode_0034'
+  - '[Trojan] US_speednode_0035'
+  - '[Trojan] US_speednode_0036'
+  - '[Trojan] US_speednode_0037'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -2092,43 +2070,42 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - '[Trojan] AT_speednode_0001'
-  - '[Trojan] CY_speednode_0007'
-  - '[Trojan] CZ_speednode_0008'
-  - '[Trojan] DE_speednode_0009'
+  - '[Trojan] CY_speednode_0004'
+  - '[Trojan] CZ_speednode_0005'
+  - '[Trojan] DE_speednode_0006'
+  - '[Trojan] ES_speednode_0007'
+  - '[Trojan] ES_speednode_0008'
+  - '[Trojan] ES_speednode_0009'
   - '[Trojan] ES_speednode_0010'
   - '[Trojan] ES_speednode_0011'
   - '[Trojan] ES_speednode_0012'
-  - '[Trojan] ES_speednode_0013'
-  - '[Trojan] ES_speednode_0014'
-  - '[Trojan] ES_speednode_0015'
-  - '[Trojan] FR_speednode_0016'
-  - '[Trojan] FR_speednode_0017'
-  - '[Trojan] GB_speednode_0018'
-  - '[Trojan] GB_speednode_0019'
-  - '[Vless] IR_speednode_0025'
-  - '[Trojan] KZ_speednode_0029'
-  - '[Trojan] LU_speednode_0032'
-  - '[Trojan] LU_speednode_0033'
-  - '[Trojan] NL_speednode_0034'
-  - '[Trojan] RU_speednode_0035'
-  - '[Trojan] RU_speednode_0036'
-  - '[Trojan] RU_speednode_0037'
-  - '[Trojan] RU_speednode_0038'
-  - '[Trojan] RU_speednode_0039'
-  - '[Trojan] RU_speednode_0040'
-  - '[Trojan] US_speednode_0041'
-  - '[Trojan] US_speednode_0042'
-  - '[Trojan] US_speednode_0043'
-  - '[Trojan] US_speednode_0044'
-  - '[Trojan] US_speednode_0045'
-  - '[Trojan] US_speednode_0046'
-  - '[Trojan] US_speednode_0047'
-  - '[Trojan] US_speednode_0048'
-  - '[Trojan] US_speednode_0049'
+  - '[Trojan] FR_speednode_0013'
+  - '[Trojan] FR_speednode_0014'
+  - '[Trojan] GB_speednode_0015'
+  - '[Trojan] GB_speednode_0016'
+  - '[Trojan] KZ_speednode_0018'
+  - '[Trojan] LU_speednode_0020'
+  - '[Trojan] LU_speednode_0021'
+  - '[Trojan] NL_speednode_0022'
+  - '[Trojan] RU_speednode_0023'
+  - '[Trojan] RU_speednode_0024'
+  - '[Trojan] RU_speednode_0025'
+  - '[Trojan] RU_speednode_0026'
+  - '[Trojan] RU_speednode_0027'
+  - '[Trojan] RU_speednode_0028'
+  - '[Trojan] US_speednode_0029'
+  - '[Trojan] US_speednode_0030'
+  - '[Trojan] US_speednode_0031'
+  - '[Trojan] US_speednode_0032'
+  - '[Trojan] US_speednode_0033'
+  - '[Trojan] US_speednode_0034'
+  - '[Trojan] US_speednode_0035'
+  - '[Trojan] US_speednode_0036'
+  - '[Trojan] US_speednode_0037'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
