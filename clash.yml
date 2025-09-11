@@ -317,6 +317,16 @@ proxies:
   skip-cert-verify: false
   sni: ubuntu com
   type: hysteria2
+- auth: daily_configs_daily_configs_daily_configs_daily_configs_daily_configs_daily_configs_daily_configs_daily_configs_daily_configs
+  name: '[Hysteria2] @Daily_Configs IPv4 #2'
+  obfs: salamander
+  obfs-password: tqfg2P0b7p8fcjCbcRqj4lHleH5jcvBs
+  password: daily_configs_daily_configs_daily_configs_daily_configs_daily_configs_daily_configs_daily_configs_daily_configs_daily_configs
+  port: 443
+  server: 95.181.174.31
+  skip-cert-verify: false
+  sni: slack.com
+  type: hysteria2
 - auth: dailyconfigs
   name: '[Hysteria2] dailyconfigs-IPv4'
   obfs: salamander
@@ -1356,6 +1366,16 @@ proxies:
     headers:
       Host: ocost-dy.wmlefl.cc
     path: "/Telegram\U0001F1E8\U0001F1F3"
+- cipher: rc4-md5
+  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202509031722041-UO2JxEthna.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  type: ss
 - cipher: aes-256-gcm
   name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   password: 8a6ca14c0936
@@ -1371,13 +1391,13 @@ proxies:
   server: 137.220.142.150
   type: ss
 - cipher: rc4-md5
-  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  name: "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   password: efanccyun
   plugin: obfs
   plugin-opts:
     host: 202509031722041-UO2JxEthna.download.microsoft.com
     mode: http
-  port: 8766
+  port: 8774
   server: cn01.efan8867801.xyz
   type: ss
 - cipher: aes-256-gcm
@@ -1393,16 +1413,6 @@ proxies:
     tls: true
   port: 443
   server: 156.251.179.135
-  type: ss
-- cipher: rc4-md5
-  name: "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202509031722041-UO2JxEthna.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
   type: ss
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -1452,6 +1462,7 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] @Daily_Configs IPv4 #2'
   - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #2'
   - "[Hysteria2] @Daily_Configs (\u2022\u02CB _ \u02CA\u2022)"
@@ -1552,10 +1563,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0073'
   - '[Trojan] US_speednode_0074'
   - '[Trojan] US_speednode_0075'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
@@ -1603,6 +1614,7 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] @Daily_Configs IPv4 #2'
   - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #2'
   - "[Hysteria2] @Daily_Configs (\u2022\u02CB _ \u02CA\u2022)"
@@ -1703,10 +1715,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0073'
   - '[Trojan] US_speednode_0074'
   - '[Trojan] US_speednode_0075'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -1757,6 +1769,7 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] @Daily_Configs IPv4 #2'
   - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #2'
   - "[Hysteria2] @Daily_Configs (\u2022\u02CB _ \u02CA\u2022)"
@@ -1857,10 +1870,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0073'
   - '[Trojan] US_speednode_0074'
   - '[Trojan] US_speednode_0075'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -1922,6 +1935,7 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] @Daily_Configs IPv4 #2'
   - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #2'
   - "[Hysteria2] @Daily_Configs (\u2022\u02CB _ \u02CA\u2022)"
@@ -2022,10 +2036,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0073'
   - '[Trojan] US_speednode_0074'
   - '[Trojan] US_speednode_0075'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -2089,6 +2103,7 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] @Daily_Configs IPv4 #2'
   - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #2'
   - "[Hysteria2] @Daily_Configs (\u2022\u02CB _ \u02CA\u2022)"
@@ -2189,10 +2204,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0073'
   - '[Trojan] US_speednode_0074'
   - '[Trojan] US_speednode_0075'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
@@ -2241,6 +2256,7 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] @Daily_Configs IPv4 #2'
   - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #2'
   - "[Hysteria2] @Daily_Configs (\u2022\u02CB _ \u02CA\u2022)"
@@ -2341,10 +2357,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0073'
   - '[Trojan] US_speednode_0074'
   - '[Trojan] US_speednode_0075'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
@@ -2394,6 +2410,7 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] @Daily_Configs IPv4 #2'
   - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #2'
   - "[Hysteria2] @Daily_Configs (\u2022\u02CB _ \u02CA\u2022)"
@@ -2494,10 +2511,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0073'
   - '[Trojan] US_speednode_0074'
   - '[Trojan] US_speednode_0075'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -2556,6 +2573,7 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] @Daily_Configs IPv4'
   - '[Hysteria2] @Daily_Configs IPv4 #1'
+  - '[Hysteria2] @Daily_Configs IPv4 #2'
   - '[Hysteria2] dailyconfigs-IPv4'
   - '[Hysteria2] @FreakConfig #2'
   - "[Hysteria2] @Daily_Configs (\u2022\u02CB _ \u02CA\u2022)"
@@ -2656,10 +2674,10 @@ proxy-groups:
   - '[Trojan] US_speednode_0073'
   - '[Trojan] US_speednode_0074'
   - '[Trojan] US_speednode_0075'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
