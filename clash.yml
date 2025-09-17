@@ -4,14 +4,6 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- auth: fabd2b79-693a-4a37-827c-6d299e8813b1
-  name: "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
-  password: fabd2b79-693a-4a37-827c-6d299e8813b1
-  port: 443
-  server: 133.18.163.202
-  skip-cert-verify: false
-  sni: www.microsoft.com
-  type: hysteria2
 - auth: 10822856-7452-43ec-b35b-6f24ea33530f
   name: "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   obfs: salamander
@@ -391,52 +383,31 @@ proxies:
   tls: false
   type: vmess
   uuid: c53d41d1-7d56-43ce-9994-408780c6476a
-- name: '[Trojan] CN_speednode_0004'
-  password: 2fd0d127-266d-4d0b-b453-f94659a132fc
-  port: 12000
-  server: 106.75.134.1
-  skip-cert-verify: false
-  sni: aliyun.com
-  type: trojan
-- name: '[Vless] DE_speednode_0009'
+- name: '[Vless] US_speednode_0025'
   network: ws
-  port: 443
-  server: hdfynpv2d1.farvaharforever.com
-  servername: hdfynpv2d1.farvaharforever.com
+  port: 2053
+  server: 141.101.120.100
+  servername: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: e959d53c-91e9-459d-a332-d59ae89b3b4c
-  ws-opts:
-    headers:
-      Host: hdfynpv2d1.farvaharforever.com
-    path: /Iyq035lnud9R8ruNNrqGxZZ2fp=chrome
-- name: '[Vless] NL_speednode_0017'
-  network: ws
-  port: 80
-  server: 185.18.184.66
-  servername: hello.96xckkzx.workers.dev
-  skip-cert-verify: false
-  tls: false
-  type: vless
   uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
   ws-opts:
     headers:
-      Host: hello.96xckkzx.workers.dev
-    path: /?ed=2048fp=chrome
-- name: '[Vless] NL_speednode_0020'
+      Host: 1749734195126.wk.by.ktff.ssl.com.kokk.cn.aliyun.cdnktff.pp.ua
+    path: /telegram@V2ray_Alpha/?ed=2048fp=chrome
+- name: '[Trojan] US_speednode_0026'
   network: ws
-  port: 80
-  server: 185.18.184.66
-  servername: hello.96xckkzx.workers.dev
+  password: Aimer
+  port: 2053
+  server: 167.68.4.199
   skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: d342d11e-d424-4583-b36e-524ab1f0afa4
+  sni: epge.muarua.filegear-sg.me
+  type: trojan
   ws-opts:
     headers:
-      Host: hello.96xckkzx.workers.dev
-    path: "/\U0001F512"
+      Host: epge.muarua.filegear-sg.me
+    path: /?ed=2560
 - cipher: rc4-md5
   name: "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   password: efanccyun
@@ -446,30 +417,6 @@ proxies:
     mode: http
   port: 8774
   server: cn01.efan8867801.xyz
-  type: ss
-- cipher: rc4-md5
-  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202509121565513-hDcp24etDx.download.microsoft.com
-    mode: http
-  port: 8766
-  server: cn01.efan8867801.xyz
-  type: ss
-- cipher: aes-256-gcm
-  name: "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  password: 2b5fad3874e5
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: hk6v1.dsjsapp.com
-    mode: websocket
-    mux: true
-    path: /aqwshiog
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 156.251.179.135
   type: ss
 - cipher: aes-256-gcm
   name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
@@ -485,12 +432,35 @@ proxies:
   port: 443
   server: 137.220.142.139
   type: ss
+- cipher: aes-256-gcm
+  name: "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  password: 2b5fad3874e5
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: hk6v1.dsjsapp.com
+    mode: websocket
+    mux: true
+    path: /aqwshiog
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 156.251.179.135
+  type: ss
+- cipher: rc4-md5
+  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202509121565513-hDcp24etDx.download.microsoft.com
+    mode: http
+  port: 8766
+  server: cn01.efan8867801.xyz
+  type: ss
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
@@ -546,19 +516,16 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
   - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - '[Trojan] CN_speednode_0004'
-  - '[Vless] DE_speednode_0009'
-  - '[Vless] NL_speednode_0017'
-  - '[Vless] NL_speednode_0020'
+  - '[Vless] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
@@ -614,14 +581,12 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
   - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - '[Trojan] CN_speednode_0004'
-  - '[Vless] DE_speednode_0009'
-  - '[Vless] NL_speednode_0017'
-  - '[Vless] NL_speednode_0020'
+  - '[Vless] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -629,7 +594,6 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
@@ -685,14 +649,12 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
   - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - '[Trojan] CN_speednode_0004'
-  - '[Vless] DE_speednode_0009'
-  - '[Vless] NL_speednode_0017'
-  - '[Vless] NL_speednode_0020'
+  - '[Vless] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -711,7 +673,6 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
@@ -767,14 +728,12 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
   - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - '[Trojan] CN_speednode_0004'
-  - '[Vless] DE_speednode_0009'
-  - '[Vless] NL_speednode_0017'
-  - '[Vless] NL_speednode_0020'
+  - '[Vless] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -795,7 +754,6 @@ proxy-groups:
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
@@ -851,20 +809,17 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
   - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - '[Trojan] CN_speednode_0004'
-  - '[Vless] DE_speednode_0009'
-  - '[Vless] NL_speednode_0017'
-  - '[Vless] NL_speednode_0020'
+  - '[Vless] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
@@ -920,21 +875,18 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
   - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - '[Trojan] CN_speednode_0004'
-  - '[Vless] DE_speednode_0009'
-  - '[Vless] NL_speednode_0017'
-  - '[Vless] NL_speednode_0020'
+  - '[Vless] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
@@ -990,14 +942,12 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
   - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - '[Trojan] CN_speednode_0004'
-  - '[Vless] DE_speednode_0009'
-  - '[Vless] NL_speednode_0017'
-  - '[Vless] NL_speednode_0020'
+  - '[Vless] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -1013,7 +963,6 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @Mr_Config_Group\u270C\uFE0F"
   - "[Hysteria2] \u2192 @Hddify"
   - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
@@ -1069,14 +1018,12 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F7|@ripaojiedian 2"
   - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian 2"
-  - '[Trojan] CN_speednode_0004'
-  - '[Vless] DE_speednode_0009'
-  - '[Vless] NL_speednode_0017'
-  - '[Vless] NL_speednode_0020'
+  - '[Vless] US_speednode_0025'
+  - '[Trojan] US_speednode_0026'
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
