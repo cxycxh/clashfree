@@ -4,9 +4,17 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
+- auth: dongtaiwang.com
+  name: "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  password: dongtaiwang.com
+  port: 35205
+  server: 104.168.10.176
+  skip-cert-verify: false
+  sni: apple.com
+  type: hysteria2
 - auth: 3QlSMKyqLp
-  name: "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
-    \u062A\u0648..."
+  name: "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
+    \u062A..."
   password: 3QlSMKyqLp
   port: 443
   server: android.yas-nowin.ir
@@ -72,8 +80,7 @@ proxies:
   sni: de.youyacloud.me
   type: hysteria2
 - auth: Telegram--%3E%40Ln2Ray
-  name: "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee"
+  name: '[Hysteria2] Join -> Telegram: @V2Gatee'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram--%3E%40Ln2Ray
@@ -115,8 +122,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   type: hysteria2
 - auth: Yet-Another-Public-Config-1
-  name: "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
+  name: '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -134,8 +140,7 @@ proxies:
   sni: yue-ru.yuetoto.net
   type: hysteria2
 - auth: dongtaiwang.com
-  name: "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
+  name: '[Hysteria2] Join -> Telegram: @V2Gatee #2'
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
@@ -456,6 +461,20 @@ proxies:
       Host: 2020.dnss-mobile.ir
     path: /fp=chrome
 - cipher: aes-256-gcm
+  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  password: 8808e9f11454
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp5v1.lingjfjkm002.com
+    mode: websocket
+    mux: false
+    path: /nvcnjrmkggoy
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 137.220.142.139
+  type: ss
+- cipher: aes-256-gcm
   name: "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   password: 2b5fad3874e5
   plugin: v2ray-plugin
@@ -489,27 +508,14 @@ proxies:
   port: 8766
   server: cn01.efan8867801.xyz
   type: ss
-- cipher: aes-256-gcm
-  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  password: 8808e9f11454
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jp5v1.lingjfjkm002.com
-    mode: websocket
-    mux: false
-    path: /nvcnjrmkggoy
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 137.220.142.139
-  type: ss
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
-    \u062A\u0648..."
+  - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
+    ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
@@ -518,18 +524,15 @@ proxy-groups:
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee'
   - '[Hysteria2] @V2RAYNG_1378'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -563,16 +566,17 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0044'
   - '[Vless] US_speednode_0045'
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
-  - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
-    \u062A\u0648..."
+  - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
+    ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
@@ -581,18 +585,15 @@ proxy-groups:
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee'
   - '[Hysteria2] @V2RAYNG_1378'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -626,10 +627,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0044'
   - '[Vless] US_speednode_0045'
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -637,8 +638,9 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
-    \u062A\u0648..."
+  - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
+    ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
@@ -647,18 +649,15 @@ proxy-groups:
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee'
   - '[Hysteria2] @V2RAYNG_1378'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -692,10 +691,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0044'
   - '[Vless] US_speednode_0045'
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -714,8 +713,9 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
-    \u062A\u0648..."
+  - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
+    ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
@@ -724,18 +724,15 @@ proxy-groups:
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee'
   - '[Hysteria2] @V2RAYNG_1378'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -769,10 +766,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0044'
   - '[Vless] US_speednode_0045'
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -800,8 +797,9 @@ proxy-groups:
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
-  - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
-    \u062A\u0648..."
+  - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
+    ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
@@ -810,18 +808,15 @@ proxy-groups:
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee'
   - '[Hysteria2] @V2RAYNG_1378'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -855,17 +850,18 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0044'
   - '[Vless] US_speednode_0045'
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
-    \u062A\u0648..."
+  - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
+    ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
@@ -874,18 +870,15 @@ proxy-groups:
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee'
   - '[Hysteria2] @V2RAYNG_1378'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -919,18 +912,19 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0044'
   - '[Vless] US_speednode_0045'
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
-    \u062A\u0648..."
+  - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
+    ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
@@ -939,18 +933,15 @@ proxy-groups:
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee'
   - '[Hysteria2] @V2RAYNG_1378'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -984,10 +975,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0044'
   - '[Vless] US_speednode_0045'
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -1003,8 +994,9 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "[Hysteria2] @EXPRESSVPN_420 \u27A0 \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
-    \u062A\u0648..."
+  - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
+    ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
@@ -1013,18 +1005,15 @@ proxy-groups:
   - '[Hysteria2] @IRAN_V2RAY1 #1'
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee'
   - '[Hysteria2] @V2RAYNG_1378'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #1"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #1'
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
-  - "[Hysteria2] \U0001D5DD\U0001D5FC\U0001D5F6\U0001D5FB \u27A0 \U0001D413\U0001D41E\
-    \U0001D425\U0001D41E\U0001D420\U0001D42B\U0001D41A\U0001D426: @V2Gatee #2"
+  - '[Hysteria2] Join -> Telegram: @V2Gatee #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -1058,10 +1047,10 @@ proxy-groups:
   - '[Vless] US_speednode_0035'
   - '[Vless] US_speednode_0044'
   - '[Vless] US_speednode_0045'
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
