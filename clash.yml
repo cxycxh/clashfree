@@ -12,6 +12,14 @@ proxies:
   skip-cert-verify: false
   sni: apple.com
   type: hysteria2
+- auth: fabd2b79-693a-4a37-827c-6d299e8813b1
+  name: "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
+  password: fabd2b79-693a-4a37-827c-6d299e8813b1
+  port: 443
+  server: 133.18.163.202
+  skip-cert-verify: false
+  sni: www.microsoft.com
+  type: hysteria2
 - auth: 3QlSMKyqLp
   name: "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
     \u062A..."
@@ -44,6 +52,13 @@ proxies:
   password: 6803bc9b-1157-431b-8f73-970a6deb741f
   port: 29854
   server: fra-nb-02.linlujs.pw
+  skip-cert-verify: false
+  type: hysteria2
+- auth: 682c7978-e3eb-44e0-924c-607144495681
+  name: '[Hysteria2] telegram-@vpnserverrr'
+  password: 682c7978-e3eb-44e0-924c-607144495681
+  port: 24568
+  server: fra-nb-01.linlujs.pw
   skip-cert-verify: false
   type: hysteria2
 - auth: 70197404-7b40-45e4-bb9c-8bc8995012ae
@@ -172,7 +187,7 @@ proxies:
   sni: www.bing.com
   type: hysteria2
 - auth: f872db91-57c2-41c7-aad0-561b4cb674bf
-  name: '[Hysteria2] telegram-@ISVvpn #1'
+  name: '[Hysteria2] telegram-@ISVvpn #2'
   password: f872db91-57c2-41c7-aad0-561b4cb674bf
   port: 25684
   server: us-nb-01.linlujs.pw
@@ -182,7 +197,7 @@ proxies:
   name: "[SS] tg\u9891\u9053:@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 18.159.61.225
+  server: 18.185.56.207
   type: ss
 - alterId: 2
   cipher: auto
@@ -207,12 +222,17 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  port: 57405
-  server: 103.224.80.73
+  network: ws
+  port: 41311
+  server: xiaoniu.v.jsqcdn.bid
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 282bc2b9-8aaf-400a-86eb-1cf981a8a1da
+  uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e
+  ws-opts:
+    headers:
+      Host: img14.360buyimg.com
+    path: /obj
 - name: "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -220,12 +240,28 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
+- alterId: 0
+  cipher: auto
+  name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  port: 57586
+  server: 45.89.233.236
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 862d48d2-115b-432d-8115-f5aaa1a4b186
 - name: "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   password: 253bc477d4e43c209f2d427272968280
   port: 443
   server: 160.16.236.32
   skip-cert-verify: false
   sni: www.nintendogames.net
+  type: trojan
+- name: "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  password: 90f45c05-917f-3b1b-a582-899cfe4cf7b3
+  port: 16327
+  server: auto.wgnmdgfw.com
+  skip-cert-verify: false
+  sni: eplcgame.com
   type: trojan
 - cipher: rc4-md5
   name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
@@ -253,20 +289,12 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
-  network: ws
-  port: 41315
-  server: a.lyazzz.online
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: c76b20d5-7f82-4990-9687-4bde24397493
-  ws-opts:
-    headers:
-      Host: img14.360buyimg.com
-    path: /obj
+- cipher: aes-256-cfb
+  name: "[SS] \U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
+  password: f8f7aCzcPKbsF8p3
+  port: 989
+  server: 154.90.63.177
+  type: ss
 - name: "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   password: 253bc477d4e43c209f2d427272968280
   port: 2045
@@ -295,20 +323,6 @@ proxies:
     headers:
       Host: baidu.com
     path: /oooo
-- alterId: 0
-  cipher: auto
-  name: "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  network: ws
-  port: 41317
-  server: a.lyazzz.online
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: c76b20d5-7f82-4990-9687-4bde24397493
-  ws-opts:
-    headers:
-      Host: img14.360buyimg.com
-    path: /obj
 - cipher: rc4-md5
   name: "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   password: efanccyun
@@ -337,13 +351,22 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  port: 57405
-  server: 103.224.80.73
+  name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  port: 57586
+  server: 45.89.233.236
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 282bc2b9-8aaf-400a-86eb-1cf981a8a1da
+  uuid: 862d48d2-115b-432d-8115-f5aaa1a4b186
+- alterId: 0
+  cipher: auto
+  name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
+  port: 24939
+  server: 38.147.188.112
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 928408df-3114-4b57-b852-f8d120ce056c
 - name: '[Vless] AT_speednode_0001'
   network: ws
   port: 2053
@@ -709,20 +732,6 @@ proxies:
       Host: dl5-us4-cdn.fastfilecdn.org
     path: /
 - cipher: aes-256-gcm
-  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
-  password: 8808e9f11454
-  plugin: v2ray-plugin
-  plugin-opts:
-    host: jp5v1.lingjfjkm002.com
-    mode: websocket
-    mux: false
-    path: /nvcnjrmkggoy
-    skip-cert-verify: false
-    tls: true
-  port: 443
-  server: 137.220.142.139
-  type: ss
-- cipher: aes-256-gcm
   name: "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   password: 2b5fad3874e5
   plugin: v2ray-plugin
@@ -737,24 +746,38 @@ proxies:
   server: 156.251.179.135
   type: ss
 - cipher: rc4-md5
-  name: "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
-  password: efanccyun
-  plugin: obfs
-  plugin-opts:
-    host: 202509121565513-d3qOpZwqIw.download.microsoft.com
-    mode: http
-  port: 8774
-  server: cn01.efan8867801.xyz
-  type: ss
-- cipher: rc4-md5
   name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-d3qOpZwqIw.download.microsoft.com
+    host: 202509121565513-HpWeCj5Hza.download.microsoft.com
     mode: http
   port: 8766
   server: cn01.efan8867801.xyz
+  type: ss
+- cipher: rc4-md5
+  name: "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  password: efanccyun
+  plugin: obfs
+  plugin-opts:
+    host: 202509121565513-HpWeCj5Hza.download.microsoft.com
+    mode: http
+  port: 8774
+  server: cn01.efan8867801.xyz
+  type: ss
+- cipher: aes-256-gcm
+  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
+  password: 8808e9f11454
+  plugin: v2ray-plugin
+  plugin-opts:
+    host: jp5v1.lingjfjkm002.com
+    mode: websocket
+    mux: false
+    path: /nvcnjrmkggoy
+    skip-cert-verify: false
+    tls: true
+  port: 443
+  server: 137.220.142.139
   type: ss
 proxy-groups:
 - name: "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -762,11 +785,13 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] telegram-@vpnserverrr'
   - "[Hysteria2] \U0001F1E9\U0001F1EA DE-telegram-@ISVvpn  \U0001F310 \u0644\u0648\
     \u06A9\u06CC\u0634\u0646:..."
   - "[Hysteria2] \U0001F1FA\U0001F1F8 usa-telegram-@ISVvpn"
@@ -787,27 +812,29 @@ proxy-groups:
     ... #2"
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
-  - '[Hysteria2] telegram-@ISVvpn #1'
+  - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
+  - "[SS] \U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - '[Vless] AT_speednode_0001'
   - '[Vless] BG_speednode_0002'
   - '[Vless] DE_speednode_0005'
@@ -836,20 +863,22 @@ proxy-groups:
   - '[Vless] SG_speednode_0031'
   - '[Vless] US_speednode_0034'
   - '[Vless] US_speednode_0036'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
   - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] telegram-@vpnserverrr'
   - "[Hysteria2] \U0001F1E9\U0001F1EA DE-telegram-@ISVvpn  \U0001F310 \u0644\u0648\
     \u06A9\u06CC\u0634\u0646:..."
   - "[Hysteria2] \U0001F1FA\U0001F1F8 usa-telegram-@ISVvpn"
@@ -870,27 +899,29 @@ proxy-groups:
     ... #2"
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
-  - '[Hysteria2] telegram-@ISVvpn #1'
+  - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
+  - "[SS] \U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - '[Vless] AT_speednode_0001'
   - '[Vless] BG_speednode_0002'
   - '[Vless] DE_speednode_0005'
@@ -919,10 +950,10 @@ proxy-groups:
   - '[Vless] SG_speednode_0031'
   - '[Vless] US_speednode_0034'
   - '[Vless] US_speednode_0036'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -931,11 +962,13 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] telegram-@vpnserverrr'
   - "[Hysteria2] \U0001F1E9\U0001F1EA DE-telegram-@ISVvpn  \U0001F310 \u0644\u0648\
     \u06A9\u06CC\u0634\u0646:..."
   - "[Hysteria2] \U0001F1FA\U0001F1F8 usa-telegram-@ISVvpn"
@@ -956,27 +989,29 @@ proxy-groups:
     ... #2"
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
-  - '[Hysteria2] telegram-@ISVvpn #1'
+  - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
+  - "[SS] \U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - '[Vless] AT_speednode_0001'
   - '[Vless] BG_speednode_0002'
   - '[Vless] DE_speednode_0005'
@@ -1005,10 +1040,10 @@ proxy-groups:
   - '[Vless] SG_speednode_0031'
   - '[Vless] US_speednode_0034'
   - '[Vless] US_speednode_0036'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -1028,11 +1063,13 @@ proxy-groups:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] telegram-@vpnserverrr'
   - "[Hysteria2] \U0001F1E9\U0001F1EA DE-telegram-@ISVvpn  \U0001F310 \u0644\u0648\
     \u06A9\u06CC\u0634\u0646:..."
   - "[Hysteria2] \U0001F1FA\U0001F1F8 usa-telegram-@ISVvpn"
@@ -1053,27 +1090,29 @@ proxy-groups:
     ... #2"
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
-  - '[Hysteria2] telegram-@ISVvpn #1'
+  - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
+  - "[SS] \U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - '[Vless] AT_speednode_0001'
   - '[Vless] BG_speednode_0002'
   - '[Vless] DE_speednode_0005'
@@ -1102,10 +1141,10 @@ proxy-groups:
   - '[Vless] SG_speednode_0031'
   - '[Vless] US_speednode_0034'
   - '[Vless] US_speednode_0036'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -1114,8 +1153,11 @@ proxy-groups:
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
@@ -1124,11 +1166,13 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] telegram-@vpnserverrr'
   - "[Hysteria2] \U0001F1E9\U0001F1EA DE-telegram-@ISVvpn  \U0001F310 \u0644\u0648\
     \u06A9\u06CC\u0634\u0646:..."
   - "[Hysteria2] \U0001F1FA\U0001F1F8 usa-telegram-@ISVvpn"
@@ -1149,27 +1193,29 @@ proxy-groups:
     ... #2"
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
-  - '[Hysteria2] telegram-@ISVvpn #1'
+  - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
+  - "[SS] \U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - '[Vless] AT_speednode_0001'
   - '[Vless] BG_speednode_0002'
   - '[Vless] DE_speednode_0005'
@@ -1198,21 +1244,23 @@ proxy-groups:
   - '[Vless] SG_speednode_0031'
   - '[Vless] US_speednode_0034'
   - '[Vless] US_speednode_0036'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] telegram-@vpnserverrr'
   - "[Hysteria2] \U0001F1E9\U0001F1EA DE-telegram-@ISVvpn  \U0001F310 \u0644\u0648\
     \u06A9\u06CC\u0634\u0646:..."
   - "[Hysteria2] \U0001F1FA\U0001F1F8 usa-telegram-@ISVvpn"
@@ -1233,27 +1281,29 @@ proxy-groups:
     ... #2"
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
-  - '[Hysteria2] telegram-@ISVvpn #1'
+  - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
+  - "[SS] \U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - '[Vless] AT_speednode_0001'
   - '[Vless] BG_speednode_0002'
   - '[Vless] DE_speednode_0005'
@@ -1282,10 +1332,10 @@ proxy-groups:
   - '[Vless] SG_speednode_0031'
   - '[Vless] US_speednode_0034'
   - '[Vless] US_speednode_0036'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
@@ -1293,11 +1343,13 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] telegram-@vpnserverrr'
   - "[Hysteria2] \U0001F1E9\U0001F1EA DE-telegram-@ISVvpn  \U0001F310 \u0644\u0648\
     \u06A9\u06CC\u0634\u0646:..."
   - "[Hysteria2] \U0001F1FA\U0001F1F8 usa-telegram-@ISVvpn"
@@ -1318,27 +1370,29 @@ proxy-groups:
     ... #2"
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
-  - '[Hysteria2] telegram-@ISVvpn #1'
+  - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
+  - "[SS] \U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - '[Vless] AT_speednode_0001'
   - '[Vless] BG_speednode_0002'
   - '[Vless] DE_speednode_0005'
@@ -1367,10 +1421,10 @@ proxy-groups:
   - '[Vless] SG_speednode_0031'
   - '[Vless] US_speednode_0034'
   - '[Vless] US_speednode_0036'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -1387,11 +1441,13 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "[Hysteria2] \U0001F1FA\U0001F1F8 United States_Los Angeles_hy2_... #3"
+  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
+  - '[Hysteria2] telegram-@vpnserverrr'
   - "[Hysteria2] \U0001F1E9\U0001F1EA DE-telegram-@ISVvpn  \U0001F310 \u0644\u0648\
     \u06A9\u06CC\u0634\u0646:..."
   - "[Hysteria2] \U0001F1FA\U0001F1F8 usa-telegram-@ISVvpn"
@@ -1412,27 +1468,29 @@ proxy-groups:
     ... #2"
   - "[Hysteria2] @vpnserverrr\U0001F448\U0001F3FB"
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
-  - '[Hysteria2] telegram-@ISVvpn #1'
+  - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C4|@ripaojiedian"
-  - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C5|@ripaojiedian"
+  - "[SS] \U0001F1F0\U0001F1F7 \u97E9\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[VMess] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - '[Vless] AT_speednode_0001'
   - '[Vless] BG_speednode_0002'
   - '[Vless] DE_speednode_0005'
@@ -1461,10 +1519,10 @@ proxy-groups:
   - '[Vless] SG_speednode_0031'
   - '[Vless] US_speednode_0034'
   - '[Vless] US_speednode_0036'
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
