@@ -189,7 +189,7 @@ proxies:
   name: "[SS] tg\u9891\u9053:@ripaojiedian"
   password: amazonskr05
   port: 443
-  server: 18.185.56.207
+  server: 54.72.237.123
   type: ss
 - alterId: 2
   cipher: auto
@@ -214,17 +214,12 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  network: ws
-  port: 41311
-  server: xiaoniu.v.jsqcdn.bid
+  port: 44601
+  server: 43.247.135.86
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: bd64d2a3-76a1-407f-af7f-bdcdcb78d21e
-  ws-opts:
-    headers:
-      Host: img14.360buyimg.com
-    path: /obj
+  uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
 - name: "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -232,15 +227,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  port: 57586
-  server: 45.89.233.236
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 862d48d2-115b-432d-8115-f5aaa1a4b186
 - name: "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   password: 253bc477d4e43c209f2d427272968280
   port: 443
@@ -248,20 +234,6 @@ proxies:
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- alterId: 0
-  cipher: auto
-  http-opts:
-    method: GET
-    path:
-    - /
-  name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
-  network: http
-  port: 24939
-  server: 38.147.188.112
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 928408df-3114-4b57-b852-f8d120ce056c
 - name: "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   password: 90f45c05-917f-3b1b-a582-899cfe4cf7b3
   port: 16327
@@ -357,22 +329,13 @@ proxies:
   type: ss
 - alterId: 0
   cipher: auto
-  name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  port: 57586
-  server: 45.89.233.236
+  name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
+  port: 44601
+  server: 43.247.135.86
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 862d48d2-115b-432d-8115-f5aaa1a4b186
-- alterId: 0
-  cipher: auto
-  name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian 2"
-  port: 24939
-  server: 38.147.188.112
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 928408df-3114-4b57-b852-f8d120ce056c
+  uuid: 3bff49e6-b2e2-44ce-801f-06eab407e8bd
 - name: '[Vless] AT_speednode_0001'
   network: ws
   port: 2053
@@ -998,13 +961,13 @@ proxies:
       Host: websocket.network.www.speedtest.net.flutter.dev.russia.python.js.elmahstyle.xyz.
     path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
 - cipher: rc4-md5
-  name: "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-HpWeCj5Hza.download.microsoft.com
+    host: 202509242154338-Zr8tJCX9sq.download.microsoft.com
     mode: http
-  port: 8774
+  port: 8766
   server: cn01.efan8867801.xyz
   type: ss
 - cipher: aes-256-gcm
@@ -1036,13 +999,13 @@ proxies:
   server: 156.251.179.135
   type: ss
 - cipher: rc4-md5
-  name: "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  name: "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   password: efanccyun
   plugin: obfs
   plugin-opts:
-    host: 202509121565513-HpWeCj5Hza.download.microsoft.com
+    host: 202509242154338-Zr8tJCX9sq.download.microsoft.com
     mode: http
-  port: 8766
+  port: 8774
   server: cn01.efan8867801.xyz
   type: ss
 proxy-groups:
@@ -1083,9 +1046,7 @@ proxy-groups:
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
@@ -1099,8 +1060,7 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - '[Vless] AT_speednode_0001'
   - '[Vless] AU_speednode_0002'
   - '[Vless] BG_speednode_0004'
@@ -1149,10 +1109,10 @@ proxy-groups:
   - '[Vless] US_speednode_0072'
   - '[Vless] US_speednode_0073'
   - '[Vless] US_speednode_0075'
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
@@ -1190,9 +1150,7 @@ proxy-groups:
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
@@ -1206,8 +1164,7 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - '[Vless] AT_speednode_0001'
   - '[Vless] AU_speednode_0002'
   - '[Vless] BG_speednode_0004'
@@ -1256,10 +1213,10 @@ proxy-groups:
   - '[Vless] US_speednode_0072'
   - '[Vless] US_speednode_0073'
   - '[Vless] US_speednode_0075'
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -1300,9 +1257,7 @@ proxy-groups:
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
@@ -1316,8 +1271,7 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - '[Vless] AT_speednode_0001'
   - '[Vless] AU_speednode_0002'
   - '[Vless] BG_speednode_0004'
@@ -1366,10 +1320,10 @@ proxy-groups:
   - '[Vless] US_speednode_0072'
   - '[Vless] US_speednode_0073'
   - '[Vless] US_speednode_0075'
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -1421,9 +1375,7 @@ proxy-groups:
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
@@ -1437,8 +1389,7 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - '[Vless] AT_speednode_0001'
   - '[Vless] AU_speednode_0002'
   - '[Vless] BG_speednode_0004'
@@ -1487,10 +1438,10 @@ proxy-groups:
   - '[Vless] US_speednode_0072'
   - '[Vless] US_speednode_0073'
   - '[Vless] US_speednode_0075'
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -1499,12 +1450,9 @@ proxy-groups:
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
@@ -1545,9 +1493,7 @@ proxy-groups:
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
@@ -1561,8 +1507,7 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - '[Vless] AT_speednode_0001'
   - '[Vless] AU_speednode_0002'
   - '[Vless] BG_speednode_0004'
@@ -1611,10 +1556,10 @@ proxy-groups:
   - '[Vless] US_speednode_0072'
   - '[Vless] US_speednode_0073'
   - '[Vless] US_speednode_0075'
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
@@ -1653,9 +1598,7 @@ proxy-groups:
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
@@ -1669,8 +1612,7 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - '[Vless] AT_speednode_0001'
   - '[Vless] AU_speednode_0002'
   - '[Vless] BG_speednode_0004'
@@ -1719,10 +1661,10 @@ proxy-groups:
   - '[Vless] US_speednode_0072'
   - '[Vless] US_speednode_0073'
   - '[Vless] US_speednode_0075'
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
@@ -1762,9 +1704,7 @@ proxy-groups:
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
@@ -1778,8 +1718,7 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - '[Vless] AT_speednode_0001'
   - '[Vless] AU_speednode_0002'
   - '[Vless] BG_speednode_0004'
@@ -1828,10 +1767,10 @@ proxy-groups:
   - '[Vless] US_speednode_0072'
   - '[Vless] US_speednode_0073'
   - '[Vless] US_speednode_0075'
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -1880,9 +1819,7 @@ proxy-groups:
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian"
   - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
@@ -1896,8 +1833,7 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD4|@ripaojiedian"
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2FHK|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
   - '[Vless] AT_speednode_0001'
   - '[Vless] AU_speednode_0002'
   - '[Vless] BG_speednode_0004'
@@ -1946,10 +1882,10 @@ proxy-groups:
   - '[Vless] US_speednode_0072'
   - '[Vless] US_speednode_0073'
   - '[Vless] US_speednode_0075'
-  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
+  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
   - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
-  - "[SS] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian 2"
+  - "[SS] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian 2"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
