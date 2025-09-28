@@ -4,14 +4,6 @@ log-level: info
 mode: Rule
 port: 7890
 proxies:
-- auth: fabd2b79-693a-4a37-827c-6d299e8813b1
-  name: "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
-  password: fabd2b79-693a-4a37-827c-6d299e8813b1
-  port: 443
-  server: 133.18.163.202
-  skip-cert-verify: false
-  sni: www.microsoft.com
-  type: hysteria2
 - auth: 20050105zhu
   name: '[Hysteria2] @FreakConfig'
   password: 20050105zhu
@@ -19,6 +11,14 @@ proxies:
   server: 204.44.110.129
   skip-cert-verify: false
   sni: www.bing.com
+  type: hysteria2
+- auth: 2b67ONZROv%2BfRVMxB94BSw%3D%3D
+  name: "[Hysteria2] r\u2661ya"
+  password: 2b67ONZROv%2BfRVMxB94BSw%3D%3D
+  port: 443
+  server: 5.231.70.79
+  skip-cert-verify: false
+  sni: bing.com
   type: hysteria2
 - auth: 3QlSMKyqLp
   name: "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\
@@ -161,9 +161,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   type: hysteria2
 - auth: Yet-Another-Public-Config-1
-  name: "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\
-    \u06CC\u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\
-    \u0627... #1"
+  name: "[Hysteria2] r\u2661ya #2"
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -195,7 +193,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   type: hysteria2
 - auth: dongtaiwang.com
-  name: '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
+  name: "[Hysteria2] r\u2661ya #3"
   password: dongtaiwang.com
   port: 5355
   server: 51.159.111.32
@@ -739,8 +737,8 @@ proxy-groups:
   proxies:
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig'
+  - "[Hysteria2] r\u2661ya"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
@@ -761,14 +759,12 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - '[Hysteria2] @FreakConfig 2'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
-  - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
-    \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
-    ... #1"
+  - "[Hysteria2] r\u2661ya #2"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #2"
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
+  - "[Hysteria2] r\u2661ya #3"
   - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
@@ -820,8 +816,8 @@ proxy-groups:
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   proxies:
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig'
+  - "[Hysteria2] r\u2661ya"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
@@ -842,14 +838,12 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - '[Hysteria2] @FreakConfig 2'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
-  - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
-    \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
-    ... #1"
+  - "[Hysteria2] r\u2661ya #2"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #2"
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
+  - "[Hysteria2] r\u2661ya #3"
   - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
@@ -904,8 +898,8 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig'
+  - "[Hysteria2] r\u2661ya"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
@@ -926,14 +920,12 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - '[Hysteria2] @FreakConfig 2'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
-  - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
-    \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
-    ... #1"
+  - "[Hysteria2] r\u2661ya #2"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #2"
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
+  - "[Hysteria2] r\u2661ya #3"
   - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
@@ -999,8 +991,8 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig'
+  - "[Hysteria2] r\u2661ya"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
@@ -1021,14 +1013,12 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - '[Hysteria2] @FreakConfig 2'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
-  - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
-    \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
-    ... #1"
+  - "[Hysteria2] r\u2661ya #2"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #2"
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
+  - "[Hysteria2] r\u2661ya #3"
   - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
@@ -1091,8 +1081,8 @@ proxy-groups:
   proxies:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig'
+  - "[Hysteria2] r\u2661ya"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
@@ -1113,14 +1103,12 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - '[Hysteria2] @FreakConfig 2'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
-  - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
-    \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
-    ... #1"
+  - "[Hysteria2] r\u2661ya #2"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #2"
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
+  - "[Hysteria2] r\u2661ya #3"
   - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
@@ -1173,8 +1161,8 @@ proxy-groups:
   proxies:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig'
+  - "[Hysteria2] r\u2661ya"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
@@ -1195,14 +1183,12 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - '[Hysteria2] @FreakConfig 2'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
-  - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
-    \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
-    ... #1"
+  - "[Hysteria2] r\u2661ya #2"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #2"
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
+  - "[Hysteria2] r\u2661ya #3"
   - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
@@ -1256,8 +1242,8 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig'
+  - "[Hysteria2] r\u2661ya"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
@@ -1278,14 +1264,12 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - '[Hysteria2] @FreakConfig 2'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
-  - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
-    \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
-    ... #1"
+  - "[Hysteria2] r\u2661ya #2"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #2"
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
+  - "[Hysteria2] r\u2661ya #3"
   - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
@@ -1348,8 +1332,8 @@ proxy-groups:
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
-  - "[Hysteria2] Channel id: @ShadowProxy66\U0001F1EF\U0001F1F5"
   - '[Hysteria2] @FreakConfig'
+  - "[Hysteria2] r\u2661ya"
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
@@ -1370,14 +1354,12 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - '[Hysteria2] @FreakConfig 2'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
-  - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
-    \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
-    ... #1"
+  - "[Hysteria2] r\u2661ya #2"
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
   - "[Hysteria2] \u06A9\u0627\u0646\u0641\u06CC\u06AF \u0647\u0627\u06CC \u0628\u06CC\
     \u0634\u062A\u0631 \u062F\u0631 \u0686\u0646\u0644 \u062A\u0644\u06AF\u0631\u0627\
     ... #2"
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #2'
+  - "[Hysteria2] r\u2661ya #3"
   - '[Hysteria2] telegram-@ISVvpn #2'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
