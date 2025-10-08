@@ -398,30 +398,32 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  port: 18366
-  server: 43.247.134.213
+  port: 23203
+  server: 103.224.80.27
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c
-- name: "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
+  uuid: 6990d803-ccc0-49fb-b73d-55c913bc7e85
+- name: '[Trojan] JP_speednode_0032'
   password: 253bc477d4e43c209f2d427272968280
   port: 443
-  server: 58.152.25.23
+  server: 60.83.190.248
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
-  password: 2338a604-dc6a-4470-bc7d-947e462a3cfd
-  port: 30002
-  server: lazy.rsqpq.cn
+- alterId: 0
+  cipher: auto
+  name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  port: 10002
+  server: 36.139.201.35
   skip-cert-verify: false
-  sni: lazy.rsqpq.cn
-  type: trojan
+  tls: false
+  type: vmess
+  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
 - name: "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   password: 253bc477d4e43c209f2d427272968280
-  port: 4431
-  server: 221.128.195.218
+  port: 443
+  server: 58.152.25.205
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -439,54 +441,45 @@ proxies:
     headers:
       Host: ocbc.com
     path: /oooo
-- name: "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+- name: '[Trojan] JP_speednode_0034'
   password: 253bc477d4e43c209f2d427272968280
-  port: 3271
-  server: 36.156.102.88
+  port: 4451
+  server: 160.16.136.130
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   password: 253bc477d4e43c209f2d427272968280
-  port: 1331
-  server: 160.16.144.208
+  port: 1801
+  server: 36.156.102.88
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+- name: '[Trojan] NL_speednode_0047'
   password: 253bc477d4e43c209f2d427272968280
-  port: 26295
-  server: 36.156.102.86
+  port: 443
+  server: 38.180.249.152
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   password: 253bc477d4e43c209f2d427272968280
-  port: 2200
-  server: 182.237.0.26
-  skip-cert-verify: false
-  sni: www.nintendogames.net
-  type: trojan
-- alterId: 0
-  cipher: auto
-  name: "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  port: 49513
-  server: laeg.hsymanuscript.top
-  skip-cert-verify: false
-  tls: false
-  type: vmess
-  uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
-- name: "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  password: 253bc477d4e43c209f2d427272968280
-  port: 4234
+  port: 1085
   server: 153.121.39.240
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
-- name: "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+- name: '[Trojan] CN_speednode_0018'
   password: 253bc477d4e43c209f2d427272968280
-  port: 1177
-  server: 182.237.0.26
+  port: 6752
+  server: 36.156.102.88
+  skip-cert-verify: false
+  sni: www.nintendogames.net
+  type: trojan
+- name: '[Trojan] CN_speednode_0017'
+  password: 253bc477d4e43c209f2d427272968280
+  port: 1572
+  server: 36.156.102.88
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -499,28 +492,35 @@ proxies:
 - alterId: 0
   cipher: auto
   name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  port: 18366
-  server: 43.247.134.213
+  port: 23203
+  server: 103.224.80.27
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: ccc37b1b-4ef0-430c-b1e1-20bf96fcff8c
-- name: "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  password: 2338a604-dc6a-4470-bc7d-947e462a3cfd
-  port: 30002
-  server: lazy.rsqpq.cn
-  skip-cert-verify: false
-  type: trojan
+  uuid: 6990d803-ccc0-49fb-b73d-55c913bc7e85
 - alterId: 0
   cipher: auto
-  name: "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
-  port: 49513
-  server: laeg.hsymanuscript.top
+  name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  port: 10002
+  server: 36.139.201.35
   skip-cert-verify: false
   tls: false
   type: vmess
-  uuid: 55a374b6-3108-4b65-a987-a0926ddbfba6
-- name: '[Vless] AU_speednode_0003'
+  uuid: 8d717e5a-dab5-4b99-af4f-ea29ef8eebed
+- name: '[Vless] AE_speednode_0001'
+  network: ws
+  port: 2096
+  server: 185.158.133.43
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 01997b9d-a1f7-e188-981a-c665b723cfef
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets
+- name: '[Vless] AU_speednode_0005'
   network: ws
   port: 2096
   server: 185.207.197.253
@@ -533,7 +533,33 @@ proxies:
     headers:
       Host: vlesspro.llengcugit.sbs
     path: /Telegram@freecodes/?ed=2560security=tls
-- name: '[Vless] AU_speednode_0004'
+- name: '[Vless] AU_speednode_0006'
+  network: ws
+  port: 2096
+  server: 185.207.196.44
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippetssecurity=tls
+- name: '[Vless] AU_speednode_0007'
+  network: ws
+  port: 2096
+  server: 185.207.197.253
+  servername: vlesspro.llengcugit.sbs
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 6e433a29-22ac-4061-ae8b-f1731715d0d9
+  ws-opts:
+    headers:
+      Host: vlesspro.llengcugit.sbs
+    path: /Telegramsecurity=tlssecurity=tls
+- name: '[Vless] AU_speednode_0008'
   network: ws
   port: 2096
   server: 185.207.197.253
@@ -546,7 +572,163 @@ proxies:
     headers:
       Host: vlesspro.llengcugit.sbs
     path: /Telegramsecurity=tls
-- name: '[Trojan] SG_speednode_0023'
+- name: '[Vless] BR_speednode_0009'
+  network: ws
+  port: 443
+  server: 185.133.35.95
+  servername: d-us4.djwstlsweb.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 52ed75e2-70a2-41a0-b258-58ca4b200be9
+  ws-opts:
+    headers:
+      Host: d-us4.djwstlsweb.top
+    path: /djjc/us4fp=ios
+- name: '[Vless] BR_speednode_0010'
+  network: ws
+  port: 443
+  server: 185.133.35.95
+  servername: d-us3.djwstlsweb.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 52ed75e2-70a2-41a0-b258-58ca4b200be9
+  ws-opts:
+    headers:
+      Host: d-us3.djwstlsweb.top
+    path: /djjc/us3fp=ios
+- name: '[Vless] BR_speednode_0011'
+  network: ws
+  port: 443
+  server: 185.133.35.95
+  servername: d-jp1.djwstlsweb.top
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 52ed75e2-70a2-41a0-b258-58ca4b200be9
+  ws-opts:
+    headers:
+      Host: d-jp1.djwstlsweb.top
+    path: /djjc/jp1fp=safari
+- name: '[Vless] DE_speednode_0019'
+  network: ws
+  port: 443
+  server: 91.149.223.242
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+- name: '[Vless] FR_speednode_0021'
+  network: ws
+  port: 2096
+  server: 185.7.240.32
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippetssecurity=tls
+- name: '[Vless] IN_speednode_0027'
+  network: ws
+  port: 443
+  server: 65.20.82.22
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+- name: '[Vless] JP_speednode_0033'
+  network: ws
+  port: 1443
+  server: 140.238.62.82
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+- name: '[Vless] LV_speednode_0040'
+  network: ws
+  port: 443
+  server: 138.124.182.204
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443fp=chrome
+- name: '[Vless] NL_speednode_0042'
+  network: ws
+  port: 8000
+  server: 176.222.53.140
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443security=tls
+- name: '[Vless] NL_speednode_0043'
+  network: ws
+  port: 8000
+  server: 176.222.53.140
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+- name: '[Vless] NL_speednode_0044'
+  network: ws
+  port: 443
+  server: 146.103.33.38
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 01996549-6892-dbf0-0453-f700236936bd
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+- name: '[Vless] NL_speednode_0046'
+  network: ws
+  port: 443
+  server: 91.201.113.193
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+- name: '[Trojan] SG_speednode_0050'
   network: ws
   password: wb6368
   port: 2087
@@ -558,20 +740,46 @@ proxies:
     headers:
       Host: hsdgbuys.pages.dev
     path: /
-- name: '[Vless] US_speednode_0025'
+- name: '[Vless] SG_speednode_0052'
   network: ws
-  port: 2087
-  server: 188.114.97.11
-  servername: Xlz767V2Ray.PAGEs.DEv
+  port: 80
+  server: test.sachix.online
+  servername: speedtest.net
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 522d0d20-40a3-49d8-af63-37c347b184ed
+  ws-opts:
+    headers:
+      Host: speedtest.net
+    path: /
+- name: '[Vless] SG_speednode_0053'
+  network: ws
+  port: 80
+  server: test.sachix.online
+  servername: test.sachix.online
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: 522d0d20-40a3-49d8-af63-37c347b184ed
+  ws-opts:
+    headers:
+      Host: test.sachix.online
+    path: /
+- name: '[Vless] US_speednode_0054'
+  network: ws
+  port: 443
+  server: 162.159.43.92
+  servername: juzi.634676.xyz
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: b9b8cf4c-29a3-4288-9c6c-8811dc37beec
+  uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
   ws-opts:
     headers:
-      Host: Xlz767V2Ray.PAGEs.DEv
-    path: /bethzrzkz5ljs32v?ed=2560fp=chrome
-- name: '[Vless] US_speednode_0026'
+      Host: juzi.634676.xyz
+    path: /?ed=2560fp=chrome
+- name: '[Vless] US_speednode_0055'
   network: ws
   port: 443
   server: 104.16.246.85
@@ -585,101 +793,8 @@ proxies:
       Host: juzi.634676.xyz
     path: /?ed=2560fp=chrome
 - alpn:
-  - http/1.1
-  name: '[Vless] US_speednode_0027'
-  network: ws
-  port: 443
-  server: 188.114.97.3
-  servername: paS-kaLE-AGhA.pageS.deV
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: f2e486f9-1697-4be6-be59-6c4fb42c7a24
-  ws-opts:
-    headers:
-      Host: paS-kaLE-AGhA.pageS.deV
-    path: /Telegram@V2ray_Alpha/?ed=2560fp=randomized
-- name: '[Vless] US_speednode_0028'
-  network: ws
-  port: 443
-  server: 172.66.47.15
-  servername: GgGgr.PaGES.dEV
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 9368b093-d790-4096-9d8a-1265e82f9e2f
-  ws-opts:
-    headers:
-      Host: GgGgr.PaGES.dEV
-    path: /Telegram@ShadowProxy66/?ed=2560fp=chrome
-- name: '[Vless] US_speednode_0029'
-  network: ws
-  port: 443
-  server: 172.66.44.118
-  servername: ConFIgmr.PaGeS.dEV
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 63005378-e32e-4e23-bc6e-84812f147a6f
-  ws-opts:
-    headers:
-      Host: ConFIgmr.PaGeS.dEV
-    path: /VrChX4o5oasIm4In?ed=2560fp=chrome
-- name: '[Vless] US_speednode_0030'
-  network: ws
-  port: 443
-  server: registry.cyou
-  servername: sni.wwxgxn.cfd
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 01995fbf-d383-154f-98a0-5ff16ca40a79
-  ws-opts:
-    headers:
-      Host: sni.wwxgxn.cfd
-    path: /snippetsfp=chrome
-- name: '[Vless] US_speednode_0031'
-  network: ws
-  port: 443
-  server: 162.159.43.92
-  servername: juzi.634676.xyz
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 0c0537c3-f0fb-40e6-bd59-f5038e1855ed
-  ws-opts:
-    headers:
-      Host: juzi.634676.xyz
-    path: /?ed=2560fp=chrome
-- name: '[Vless] US_speednode_0032'
-  network: ws
-  port: 443
-  server: creativecommons.org
-  servername: nigan.pages.dev
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 032dae6d-6f5f-4fba-ba18-ccdc43ee8e19
-  ws-opts:
-    headers:
-      Host: nigan.pages.dev
-    path: /socks5://51.210.111.216:33123fp=randomized
-- name: '[Vless] US_speednode_0033'
-  network: ws
-  port: 443
-  server: 172.66.47.15
-  servername: GgGgr.PaGES.dEV
-  skip-cert-verify: false
-  tls: true
-  type: vless
-  uuid: 9368b093-d790-4096-9d8a-1265e82f9e2f
-  ws-opts:
-    headers:
-      Host: GgGgr.PaGES.dEV
-    path: /Telegram@proxy_mtm/?ed=2560fp=chrome
-- alpn:
   - h3
-  name: '[Vless] US_speednode_0034'
+  name: '[Vless] US_speednode_0059'
   network: ws
   port: 2083
   server: 162.159.142.252
@@ -692,45 +807,110 @@ proxies:
     headers:
       Host: fei.634676.xyz
     path: /?ed=2560fp=random
-- name: '[Vless] US_speednode_0035'
+- name: '[Vless] US_speednode_0062'
   network: ws
   port: 443
-  server: 104.16.43.245
-  servername: kawaiifreevpn-7ds.pages.dev
+  server: registry.cyou
+  servername: sni.wwxgxn.cfd
   skip-cert-verify: false
   tls: true
   type: vless
-  uuid: 9dd24d01-2b7a-4bd8-8c76-129d6ca89b8c
+  uuid: 01995fbf-d383-154f-98a0-5ff16ca40a79
   ws-opts:
     headers:
-      Host: kawaiifreevpn-7ds.pages.dev
-    path: /fp=chrome
-- name: '[Vless] US_speednode_0036'
+      Host: sni.wwxgxn.cfd
+    path: /snippetsfp=chrome
+- name: '[Vless] US_speednode_0064'
   network: ws
-  port: 2082
-  server: www.speedtest.net
-  servername: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
+  port: 2096
+  server: 166.62.111.32
+  servername: kejiland.freewarp.eu.org
   skip-cert-verify: false
   tls: false
   type: vless
-  uuid: 4388c3d9-5a6d-413c-917c-cad7c87f0c77
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
   ws-opts:
     headers:
-      Host: novinsoft.ir.oradoshop.com.persiangsm.ir.digikala.com.abadis.ir.shad.ir.divar.ir.downloadly.com.aparat.com.cafebazar.ir.varzesh3.com.ninisite.com.abadis.ir.bama.ir.p30download.ir.telewebion.bmi.ir.shad.ir.mayket.com.ninisite.top.
-    path: /@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn-@spikevpn?ed=2082
-- name: '[Trojan] US_speednode_0037'
+      Host: kejiland.freewarp.eu.org
+    path: /snippetssecurity=tls
+- name: '[Vless] US_speednode_0065'
   network: ws
-  password: YwuvGJk36B
-  port: 2053
-  server: creativecommons.org
+  port: 2096
+  server: 209.46.30.44
+  servername: kejiland.freewarp.eu.org
   skip-cert-verify: false
-  sni: kotlet.arshiacomplus.dpdns.org
+  tls: false
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippetssecurity=tls
+- name: '[Vless] US_speednode_0067'
+  network: ws
+  port: 2096
+  server: 170.114.45.44
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: true
+  type: vless
+  uuid: 12345678-1234-1234-1234-123456789123
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippetsfp=chrome
+- name: '[Vless] US_speednode_0068'
+  network: ws
+  port: 2096
+  server: 103.133.1.32
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippetssecurity=tls
+- name: '[Vless] US_speednode_0069'
+  network: ws
+  port: 2096
+  server: 199.34.229.32
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippetsfpsecurity=tls
+- name: '[Vless] US_speednode_0071'
+  network: ws
+  port: 443
+  server: 198.46.143.134
+  servername: kejiland.freewarp.eu.org
+  skip-cert-verify: false
+  tls: false
+  type: vless
+  uuid: b65f4df7-f6af-42b2-877a-cef33f21675e
+  ws-opts:
+    headers:
+      Host: kejiland.freewarp.eu.org
+    path: /snippets/ip=proxyip.fxxk.dedyn.io:443?ed=2560security=tls
+- name: '[Trojan] US_speednode_0072'
+  network: ws
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
+  skip-cert-verify: false
+  sni: nodes.830901.xyz
   type: trojan
   ws-opts:
     headers:
-      Host: kotlet.arshiacomplus.dpdns.org
-    path: /yamtekodasayahhh
-- name: '[Vless] US_speednode_0038'
+      Host: nodes.830901.xyz
+    path: /?ed=2560
+- name: '[Vless] US_speednode_0073'
   network: ws
   port: 80
   server: mstr.fastly80.hosting-ip.com
@@ -743,19 +923,18 @@ proxies:
     headers:
       Host: Gn8656.io
     path: /admin
-- name: '[Vless] US_speednode_0039'
+- name: '[Trojan] US_speednode_0074'
   network: ws
-  port: 80
-  server: 172.66.156.81
-  servername: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.
+  password: iwangjie
+  port: 15805
+  server: 158.101.11.204
   skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: dacf0561-ff27-491c-8583-df7bc63f28a4
+  sni: nodes.830901.xyz
+  type: trojan
   ws-opts:
     headers:
-      Host: websocket.network.www.speedtest.net.flutter.dev.russia.python.vegaskala.com.
-    path: /@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy
+      Host: nodes.830901.xyz
+    path: /
 - cipher: aes-256-gcm
   name: "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   password: ccf426f1fe78
@@ -826,39 +1005,52 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - '[Trojan] JP_speednode_0032'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - '[Trojan] JP_speednode_0034'
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - '[Trojan] NL_speednode_0047'
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - '[Trojan] CN_speednode_0018'
+  - '[Trojan] CN_speednode_0017'
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
-  - '[Vless] AU_speednode_0003'
-  - '[Vless] AU_speednode_0004'
-  - '[Trojan] SG_speednode_0023'
-  - '[Vless] US_speednode_0025'
-  - '[Vless] US_speednode_0026'
-  - '[Vless] US_speednode_0027'
-  - '[Vless] US_speednode_0028'
-  - '[Vless] US_speednode_0029'
-  - '[Vless] US_speednode_0030'
-  - '[Vless] US_speednode_0031'
-  - '[Vless] US_speednode_0032'
-  - '[Vless] US_speednode_0033'
-  - '[Vless] US_speednode_0034'
-  - '[Vless] US_speednode_0035'
-  - '[Vless] US_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Vless] US_speednode_0039'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - '[Vless] AE_speednode_0001'
+  - '[Vless] AU_speednode_0005'
+  - '[Vless] AU_speednode_0006'
+  - '[Vless] AU_speednode_0007'
+  - '[Vless] AU_speednode_0008'
+  - '[Vless] BR_speednode_0009'
+  - '[Vless] BR_speednode_0010'
+  - '[Vless] BR_speednode_0011'
+  - '[Vless] DE_speednode_0019'
+  - '[Vless] FR_speednode_0021'
+  - '[Vless] IN_speednode_0027'
+  - '[Vless] JP_speednode_0033'
+  - '[Vless] LV_speednode_0040'
+  - '[Vless] NL_speednode_0042'
+  - '[Vless] NL_speednode_0043'
+  - '[Vless] NL_speednode_0044'
+  - '[Vless] NL_speednode_0046'
+  - '[Trojan] SG_speednode_0050'
+  - '[Vless] SG_speednode_0052'
+  - '[Vless] SG_speednode_0053'
+  - '[Vless] US_speednode_0054'
+  - '[Vless] US_speednode_0055'
+  - '[Vless] US_speednode_0059'
+  - '[Vless] US_speednode_0062'
+  - '[Vless] US_speednode_0064'
+  - '[Vless] US_speednode_0065'
+  - '[Vless] US_speednode_0067'
+  - '[Vless] US_speednode_0068'
+  - '[Vless] US_speednode_0069'
+  - '[Vless] US_speednode_0071'
+  - '[Trojan] US_speednode_0072'
+  - '[Vless] US_speednode_0073'
+  - '[Trojan] US_speednode_0074'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - interval: 300
@@ -915,39 +1107,52 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - '[Trojan] JP_speednode_0032'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - '[Trojan] JP_speednode_0034'
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - '[Trojan] NL_speednode_0047'
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - '[Trojan] CN_speednode_0018'
+  - '[Trojan] CN_speednode_0017'
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
-  - '[Vless] AU_speednode_0003'
-  - '[Vless] AU_speednode_0004'
-  - '[Trojan] SG_speednode_0023'
-  - '[Vless] US_speednode_0025'
-  - '[Vless] US_speednode_0026'
-  - '[Vless] US_speednode_0027'
-  - '[Vless] US_speednode_0028'
-  - '[Vless] US_speednode_0029'
-  - '[Vless] US_speednode_0030'
-  - '[Vless] US_speednode_0031'
-  - '[Vless] US_speednode_0032'
-  - '[Vless] US_speednode_0033'
-  - '[Vless] US_speednode_0034'
-  - '[Vless] US_speednode_0035'
-  - '[Vless] US_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Vless] US_speednode_0039'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - '[Vless] AE_speednode_0001'
+  - '[Vless] AU_speednode_0005'
+  - '[Vless] AU_speednode_0006'
+  - '[Vless] AU_speednode_0007'
+  - '[Vless] AU_speednode_0008'
+  - '[Vless] BR_speednode_0009'
+  - '[Vless] BR_speednode_0010'
+  - '[Vless] BR_speednode_0011'
+  - '[Vless] DE_speednode_0019'
+  - '[Vless] FR_speednode_0021'
+  - '[Vless] IN_speednode_0027'
+  - '[Vless] JP_speednode_0033'
+  - '[Vless] LV_speednode_0040'
+  - '[Vless] NL_speednode_0042'
+  - '[Vless] NL_speednode_0043'
+  - '[Vless] NL_speednode_0044'
+  - '[Vless] NL_speednode_0046'
+  - '[Trojan] SG_speednode_0050'
+  - '[Vless] SG_speednode_0052'
+  - '[Vless] SG_speednode_0053'
+  - '[Vless] US_speednode_0054'
+  - '[Vless] US_speednode_0055'
+  - '[Vless] US_speednode_0059'
+  - '[Vless] US_speednode_0062'
+  - '[Vless] US_speednode_0064'
+  - '[Vless] US_speednode_0065'
+  - '[Vless] US_speednode_0067'
+  - '[Vless] US_speednode_0068'
+  - '[Vless] US_speednode_0069'
+  - '[Vless] US_speednode_0071'
+  - '[Trojan] US_speednode_0072'
+  - '[Vless] US_speednode_0073'
+  - '[Trojan] US_speednode_0074'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1007,39 +1212,52 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - '[Trojan] JP_speednode_0032'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - '[Trojan] JP_speednode_0034'
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - '[Trojan] NL_speednode_0047'
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - '[Trojan] CN_speednode_0018'
+  - '[Trojan] CN_speednode_0017'
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
-  - '[Vless] AU_speednode_0003'
-  - '[Vless] AU_speednode_0004'
-  - '[Trojan] SG_speednode_0023'
-  - '[Vless] US_speednode_0025'
-  - '[Vless] US_speednode_0026'
-  - '[Vless] US_speednode_0027'
-  - '[Vless] US_speednode_0028'
-  - '[Vless] US_speednode_0029'
-  - '[Vless] US_speednode_0030'
-  - '[Vless] US_speednode_0031'
-  - '[Vless] US_speednode_0032'
-  - '[Vless] US_speednode_0033'
-  - '[Vless] US_speednode_0034'
-  - '[Vless] US_speednode_0035'
-  - '[Vless] US_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Vless] US_speednode_0039'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - '[Vless] AE_speednode_0001'
+  - '[Vless] AU_speednode_0005'
+  - '[Vless] AU_speednode_0006'
+  - '[Vless] AU_speednode_0007'
+  - '[Vless] AU_speednode_0008'
+  - '[Vless] BR_speednode_0009'
+  - '[Vless] BR_speednode_0010'
+  - '[Vless] BR_speednode_0011'
+  - '[Vless] DE_speednode_0019'
+  - '[Vless] FR_speednode_0021'
+  - '[Vless] IN_speednode_0027'
+  - '[Vless] JP_speednode_0033'
+  - '[Vless] LV_speednode_0040'
+  - '[Vless] NL_speednode_0042'
+  - '[Vless] NL_speednode_0043'
+  - '[Vless] NL_speednode_0044'
+  - '[Vless] NL_speednode_0046'
+  - '[Trojan] SG_speednode_0050'
+  - '[Vless] SG_speednode_0052'
+  - '[Vless] SG_speednode_0053'
+  - '[Vless] US_speednode_0054'
+  - '[Vless] US_speednode_0055'
+  - '[Vless] US_speednode_0059'
+  - '[Vless] US_speednode_0062'
+  - '[Vless] US_speednode_0064'
+  - '[Vless] US_speednode_0065'
+  - '[Vless] US_speednode_0067'
+  - '[Vless] US_speednode_0068'
+  - '[Vless] US_speednode_0069'
+  - '[Vless] US_speednode_0071'
+  - '[Trojan] US_speednode_0072'
+  - '[Vless] US_speednode_0073'
+  - '[Trojan] US_speednode_0074'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
@@ -1110,39 +1328,52 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - '[Trojan] JP_speednode_0032'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - '[Trojan] JP_speednode_0034'
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - '[Trojan] NL_speednode_0047'
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - '[Trojan] CN_speednode_0018'
+  - '[Trojan] CN_speednode_0017'
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
-  - '[Vless] AU_speednode_0003'
-  - '[Vless] AU_speednode_0004'
-  - '[Trojan] SG_speednode_0023'
-  - '[Vless] US_speednode_0025'
-  - '[Vless] US_speednode_0026'
-  - '[Vless] US_speednode_0027'
-  - '[Vless] US_speednode_0028'
-  - '[Vless] US_speednode_0029'
-  - '[Vless] US_speednode_0030'
-  - '[Vless] US_speednode_0031'
-  - '[Vless] US_speednode_0032'
-  - '[Vless] US_speednode_0033'
-  - '[Vless] US_speednode_0034'
-  - '[Vless] US_speednode_0035'
-  - '[Vless] US_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Vless] US_speednode_0039'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - '[Vless] AE_speednode_0001'
+  - '[Vless] AU_speednode_0005'
+  - '[Vless] AU_speednode_0006'
+  - '[Vless] AU_speednode_0007'
+  - '[Vless] AU_speednode_0008'
+  - '[Vless] BR_speednode_0009'
+  - '[Vless] BR_speednode_0010'
+  - '[Vless] BR_speednode_0011'
+  - '[Vless] DE_speednode_0019'
+  - '[Vless] FR_speednode_0021'
+  - '[Vless] IN_speednode_0027'
+  - '[Vless] JP_speednode_0033'
+  - '[Vless] LV_speednode_0040'
+  - '[Vless] NL_speednode_0042'
+  - '[Vless] NL_speednode_0043'
+  - '[Vless] NL_speednode_0044'
+  - '[Vless] NL_speednode_0046'
+  - '[Trojan] SG_speednode_0050'
+  - '[Vless] SG_speednode_0052'
+  - '[Vless] SG_speednode_0053'
+  - '[Vless] US_speednode_0054'
+  - '[Vless] US_speednode_0055'
+  - '[Vless] US_speednode_0059'
+  - '[Vless] US_speednode_0062'
+  - '[Vless] US_speednode_0064'
+  - '[Vless] US_speednode_0065'
+  - '[Vless] US_speednode_0067'
+  - '[Vless] US_speednode_0068'
+  - '[Vless] US_speednode_0069'
+  - '[Vless] US_speednode_0071'
+  - '[Trojan] US_speednode_0072'
+  - '[Vless] US_speednode_0073'
+  - '[Trojan] US_speednode_0074'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
@@ -1151,11 +1382,10 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
   type: select
@@ -1214,39 +1444,52 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - '[Trojan] JP_speednode_0032'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - '[Trojan] JP_speednode_0034'
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - '[Trojan] NL_speednode_0047'
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - '[Trojan] CN_speednode_0018'
+  - '[Trojan] CN_speednode_0017'
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
-  - '[Vless] AU_speednode_0003'
-  - '[Vless] AU_speednode_0004'
-  - '[Trojan] SG_speednode_0023'
-  - '[Vless] US_speednode_0025'
-  - '[Vless] US_speednode_0026'
-  - '[Vless] US_speednode_0027'
-  - '[Vless] US_speednode_0028'
-  - '[Vless] US_speednode_0029'
-  - '[Vless] US_speednode_0030'
-  - '[Vless] US_speednode_0031'
-  - '[Vless] US_speednode_0032'
-  - '[Vless] US_speednode_0033'
-  - '[Vless] US_speednode_0034'
-  - '[Vless] US_speednode_0035'
-  - '[Vless] US_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Vless] US_speednode_0039'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - '[Vless] AE_speednode_0001'
+  - '[Vless] AU_speednode_0005'
+  - '[Vless] AU_speednode_0006'
+  - '[Vless] AU_speednode_0007'
+  - '[Vless] AU_speednode_0008'
+  - '[Vless] BR_speednode_0009'
+  - '[Vless] BR_speednode_0010'
+  - '[Vless] BR_speednode_0011'
+  - '[Vless] DE_speednode_0019'
+  - '[Vless] FR_speednode_0021'
+  - '[Vless] IN_speednode_0027'
+  - '[Vless] JP_speednode_0033'
+  - '[Vless] LV_speednode_0040'
+  - '[Vless] NL_speednode_0042'
+  - '[Vless] NL_speednode_0043'
+  - '[Vless] NL_speednode_0044'
+  - '[Vless] NL_speednode_0046'
+  - '[Trojan] SG_speednode_0050'
+  - '[Vless] SG_speednode_0052'
+  - '[Vless] SG_speednode_0053'
+  - '[Vless] US_speednode_0054'
+  - '[Vless] US_speednode_0055'
+  - '[Vless] US_speednode_0059'
+  - '[Vless] US_speednode_0062'
+  - '[Vless] US_speednode_0064'
+  - '[Vless] US_speednode_0065'
+  - '[Vless] US_speednode_0067'
+  - '[Vless] US_speednode_0068'
+  - '[Vless] US_speednode_0069'
+  - '[Vless] US_speednode_0071'
+  - '[Trojan] US_speednode_0072'
+  - '[Vless] US_speednode_0073'
+  - '[Trojan] US_speednode_0074'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
@@ -1304,39 +1547,52 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - '[Trojan] JP_speednode_0032'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - '[Trojan] JP_speednode_0034'
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - '[Trojan] NL_speednode_0047'
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - '[Trojan] CN_speednode_0018'
+  - '[Trojan] CN_speednode_0017'
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
-  - '[Vless] AU_speednode_0003'
-  - '[Vless] AU_speednode_0004'
-  - '[Trojan] SG_speednode_0023'
-  - '[Vless] US_speednode_0025'
-  - '[Vless] US_speednode_0026'
-  - '[Vless] US_speednode_0027'
-  - '[Vless] US_speednode_0028'
-  - '[Vless] US_speednode_0029'
-  - '[Vless] US_speednode_0030'
-  - '[Vless] US_speednode_0031'
-  - '[Vless] US_speednode_0032'
-  - '[Vless] US_speednode_0033'
-  - '[Vless] US_speednode_0034'
-  - '[Vless] US_speednode_0035'
-  - '[Vless] US_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Vless] US_speednode_0039'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - '[Vless] AE_speednode_0001'
+  - '[Vless] AU_speednode_0005'
+  - '[Vless] AU_speednode_0006'
+  - '[Vless] AU_speednode_0007'
+  - '[Vless] AU_speednode_0008'
+  - '[Vless] BR_speednode_0009'
+  - '[Vless] BR_speednode_0010'
+  - '[Vless] BR_speednode_0011'
+  - '[Vless] DE_speednode_0019'
+  - '[Vless] FR_speednode_0021'
+  - '[Vless] IN_speednode_0027'
+  - '[Vless] JP_speednode_0033'
+  - '[Vless] LV_speednode_0040'
+  - '[Vless] NL_speednode_0042'
+  - '[Vless] NL_speednode_0043'
+  - '[Vless] NL_speednode_0044'
+  - '[Vless] NL_speednode_0046'
+  - '[Trojan] SG_speednode_0050'
+  - '[Vless] SG_speednode_0052'
+  - '[Vless] SG_speednode_0053'
+  - '[Vless] US_speednode_0054'
+  - '[Vless] US_speednode_0055'
+  - '[Vless] US_speednode_0059'
+  - '[Vless] US_speednode_0062'
+  - '[Vless] US_speednode_0064'
+  - '[Vless] US_speednode_0065'
+  - '[Vless] US_speednode_0067'
+  - '[Vless] US_speednode_0068'
+  - '[Vless] US_speednode_0069'
+  - '[Vless] US_speednode_0071'
+  - '[Trojan] US_speednode_0072'
+  - '[Vless] US_speednode_0073'
+  - '[Trojan] US_speednode_0074'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
@@ -1395,39 +1651,52 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - '[Trojan] JP_speednode_0032'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - '[Trojan] JP_speednode_0034'
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - '[Trojan] NL_speednode_0047'
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - '[Trojan] CN_speednode_0018'
+  - '[Trojan] CN_speednode_0017'
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
-  - '[Vless] AU_speednode_0003'
-  - '[Vless] AU_speednode_0004'
-  - '[Trojan] SG_speednode_0023'
-  - '[Vless] US_speednode_0025'
-  - '[Vless] US_speednode_0026'
-  - '[Vless] US_speednode_0027'
-  - '[Vless] US_speednode_0028'
-  - '[Vless] US_speednode_0029'
-  - '[Vless] US_speednode_0030'
-  - '[Vless] US_speednode_0031'
-  - '[Vless] US_speednode_0032'
-  - '[Vless] US_speednode_0033'
-  - '[Vless] US_speednode_0034'
-  - '[Vless] US_speednode_0035'
-  - '[Vless] US_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Vless] US_speednode_0039'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - '[Vless] AE_speednode_0001'
+  - '[Vless] AU_speednode_0005'
+  - '[Vless] AU_speednode_0006'
+  - '[Vless] AU_speednode_0007'
+  - '[Vless] AU_speednode_0008'
+  - '[Vless] BR_speednode_0009'
+  - '[Vless] BR_speednode_0010'
+  - '[Vless] BR_speednode_0011'
+  - '[Vless] DE_speednode_0019'
+  - '[Vless] FR_speednode_0021'
+  - '[Vless] IN_speednode_0027'
+  - '[Vless] JP_speednode_0033'
+  - '[Vless] LV_speednode_0040'
+  - '[Vless] NL_speednode_0042'
+  - '[Vless] NL_speednode_0043'
+  - '[Vless] NL_speednode_0044'
+  - '[Vless] NL_speednode_0046'
+  - '[Trojan] SG_speednode_0050'
+  - '[Vless] SG_speednode_0052'
+  - '[Vless] SG_speednode_0053'
+  - '[Vless] US_speednode_0054'
+  - '[Vless] US_speednode_0055'
+  - '[Vless] US_speednode_0059'
+  - '[Vless] US_speednode_0062'
+  - '[Vless] US_speednode_0064'
+  - '[Vless] US_speednode_0065'
+  - '[Vless] US_speednode_0067'
+  - '[Vless] US_speednode_0068'
+  - '[Vless] US_speednode_0069'
+  - '[Vless] US_speednode_0071'
+  - '[Trojan] US_speednode_0072'
+  - '[Vless] US_speednode_0073'
+  - '[Trojan] US_speednode_0074'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
@@ -1495,39 +1764,52 @@ proxy-groups:
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
+  - '[Trojan] JP_speednode_0032'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
   - "[VMess] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
-  - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
+  - '[Trojan] JP_speednode_0034'
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
-  - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
+  - '[Trojan] NL_speednode_0047'
   - "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
-  - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
+  - '[Trojan] CN_speednode_0018'
+  - '[Trojan] CN_speednode_0017'
   - "[SS] \U0001F1FB\U0001F1F3 \u8D8A\u5357|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian 2"
-  - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
-  - "[VMess] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
-  - '[Vless] AU_speednode_0003'
-  - '[Vless] AU_speednode_0004'
-  - '[Trojan] SG_speednode_0023'
-  - '[Vless] US_speednode_0025'
-  - '[Vless] US_speednode_0026'
-  - '[Vless] US_speednode_0027'
-  - '[Vless] US_speednode_0028'
-  - '[Vless] US_speednode_0029'
-  - '[Vless] US_speednode_0030'
-  - '[Vless] US_speednode_0031'
-  - '[Vless] US_speednode_0032'
-  - '[Vless] US_speednode_0033'
-  - '[Vless] US_speednode_0034'
-  - '[Vless] US_speednode_0035'
-  - '[Vless] US_speednode_0036'
-  - '[Trojan] US_speednode_0037'
-  - '[Vless] US_speednode_0038'
-  - '[Vless] US_speednode_0039'
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian 2"
+  - '[Vless] AE_speednode_0001'
+  - '[Vless] AU_speednode_0005'
+  - '[Vless] AU_speednode_0006'
+  - '[Vless] AU_speednode_0007'
+  - '[Vless] AU_speednode_0008'
+  - '[Vless] BR_speednode_0009'
+  - '[Vless] BR_speednode_0010'
+  - '[Vless] BR_speednode_0011'
+  - '[Vless] DE_speednode_0019'
+  - '[Vless] FR_speednode_0021'
+  - '[Vless] IN_speednode_0027'
+  - '[Vless] JP_speednode_0033'
+  - '[Vless] LV_speednode_0040'
+  - '[Vless] NL_speednode_0042'
+  - '[Vless] NL_speednode_0043'
+  - '[Vless] NL_speednode_0044'
+  - '[Vless] NL_speednode_0046'
+  - '[Trojan] SG_speednode_0050'
+  - '[Vless] SG_speednode_0052'
+  - '[Vless] SG_speednode_0053'
+  - '[Vless] US_speednode_0054'
+  - '[Vless] US_speednode_0055'
+  - '[Vless] US_speednode_0059'
+  - '[Vless] US_speednode_0062'
+  - '[Vless] US_speednode_0064'
+  - '[Vless] US_speednode_0065'
+  - '[Vless] US_speednode_0067'
+  - '[Vless] US_speednode_0068'
+  - '[Vless] US_speednode_0069'
+  - '[Vless] US_speednode_0071'
+  - '[Trojan] US_speednode_0072'
+  - '[Vless] US_speednode_0073'
+  - '[Trojan] US_speednode_0074'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 rules:
