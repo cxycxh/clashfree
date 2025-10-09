@@ -55,6 +55,22 @@ proxies:
   skip-cert-verify: false
   sni: de.eyucdn.xyz
   type: hysteria2
+- auth: 4e231218-04c8-44ce-b72d-5c1bbcfc3a94
+  name: '[Hysteria2] @FreakConfig'
+  password: 4e231218-04c8-44ce-b72d-5c1bbcfc3a94
+  port: 30000
+  server: nl1.oomz.ru
+  skip-cert-verify: false
+  sni: bing.com
+  type: hysteria2
+- auth: 571ec94e-613c-430a-93de-397d3d237475
+  name: '[Hysteria2] @FreakConfig #1'
+  password: 571ec94e-613c-430a-93de-397d3d237475
+  port: 22157
+  server: hshl.huasuan666.top
+  skip-cert-verify: false
+  sni: hshl.huasuan666.top
+  type: hysteria2
 - auth: 5f4ba37a-bb3c-4f8e-962e-850f624ad131
   name: '[Hysteria2] @Daily_Configs #1'
   password: 5f4ba37a-bb3c-4f8e-962e-850f624ad131
@@ -185,7 +201,7 @@ proxies:
   sni: de.youyacloud.me
   type: hysteria2
 - auth: Telegram--%3E%40Ln2Ray
-  name: '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  name: '[Hysteria2] @FreakConfig #3'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram--%3E%40Ln2Ray
@@ -265,6 +281,14 @@ proxies:
   server: 103.249.133.79
   skip-cert-verify: false
   sni: microsoft.com
+  type: hysteria2
+- auth: c232f411-96b5-4b07-b2f7-66a434725ffb
+  name: '[Hysteria2] @FreakConfig 2'
+  password: c232f411-96b5-4b07-b2f7-66a434725ffb
+  port: 23891
+  server: 108.165.213.197
+  skip-cert-verify: false
+  sni: fus01.mistea.top
   type: hysteria2
 - auth: c3054d61-c708-4594-9797-f50acd24de2a
   name: "[Hysteria2] @sunflowerplato\U0001F33B #2"
@@ -994,6 +1018,8 @@ proxy-groups:
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
+  - '[Hysteria2] @FreakConfig'
+  - '[Hysteria2] @FreakConfig #1'
   - '[Hysteria2] @Daily_Configs #1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
@@ -1012,7 +1038,7 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - "[Hysteria2] @sunflowerplato\U0001F33B #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
@@ -1022,6 +1048,7 @@ proxy-groups:
   - '[Hysteria2] MCI-@IRAN_V2RAY1'
   - '[Hysteria2] @Daily_Configs #6'
   - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] @sunflowerplato\U0001F33B #2"
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
@@ -1100,6 +1127,8 @@ proxy-groups:
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
+  - '[Hysteria2] @FreakConfig'
+  - '[Hysteria2] @FreakConfig #1'
   - '[Hysteria2] @Daily_Configs #1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
@@ -1118,7 +1147,7 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - "[Hysteria2] @sunflowerplato\U0001F33B #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
@@ -1128,6 +1157,7 @@ proxy-groups:
   - '[Hysteria2] MCI-@IRAN_V2RAY1'
   - '[Hysteria2] @Daily_Configs #6'
   - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] @sunflowerplato\U0001F33B #2"
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
@@ -1209,6 +1239,8 @@ proxy-groups:
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
+  - '[Hysteria2] @FreakConfig'
+  - '[Hysteria2] @FreakConfig #1'
   - '[Hysteria2] @Daily_Configs #1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
@@ -1227,7 +1259,7 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - "[Hysteria2] @sunflowerplato\U0001F33B #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
@@ -1237,6 +1269,7 @@ proxy-groups:
   - '[Hysteria2] MCI-@IRAN_V2RAY1'
   - '[Hysteria2] @Daily_Configs #6'
   - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] @sunflowerplato\U0001F33B #2"
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
@@ -1329,6 +1362,8 @@ proxy-groups:
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
+  - '[Hysteria2] @FreakConfig'
+  - '[Hysteria2] @FreakConfig #1'
   - '[Hysteria2] @Daily_Configs #1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
@@ -1347,7 +1382,7 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - "[Hysteria2] @sunflowerplato\U0001F33B #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
@@ -1357,6 +1392,7 @@ proxy-groups:
   - '[Hysteria2] MCI-@IRAN_V2RAY1'
   - '[Hysteria2] @Daily_Configs #6'
   - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] @sunflowerplato\U0001F33B #2"
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
@@ -1451,6 +1487,8 @@ proxy-groups:
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
+  - '[Hysteria2] @FreakConfig'
+  - '[Hysteria2] @FreakConfig #1'
   - '[Hysteria2] @Daily_Configs #1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
@@ -1469,7 +1507,7 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - "[Hysteria2] @sunflowerplato\U0001F33B #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
@@ -1479,6 +1517,7 @@ proxy-groups:
   - '[Hysteria2] MCI-@IRAN_V2RAY1'
   - '[Hysteria2] @Daily_Configs #6'
   - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] @sunflowerplato\U0001F33B #2"
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
@@ -1558,6 +1597,8 @@ proxy-groups:
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
+  - '[Hysteria2] @FreakConfig'
+  - '[Hysteria2] @FreakConfig #1'
   - '[Hysteria2] @Daily_Configs #1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
@@ -1576,7 +1617,7 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - "[Hysteria2] @sunflowerplato\U0001F33B #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
@@ -1586,6 +1627,7 @@ proxy-groups:
   - '[Hysteria2] MCI-@IRAN_V2RAY1'
   - '[Hysteria2] @Daily_Configs #6'
   - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] @sunflowerplato\U0001F33B #2"
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
@@ -1666,6 +1708,8 @@ proxy-groups:
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
+  - '[Hysteria2] @FreakConfig'
+  - '[Hysteria2] @FreakConfig #1'
   - '[Hysteria2] @Daily_Configs #1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
@@ -1684,7 +1728,7 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - "[Hysteria2] @sunflowerplato\U0001F33B #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
@@ -1694,6 +1738,7 @@ proxy-groups:
   - '[Hysteria2] MCI-@IRAN_V2RAY1'
   - '[Hysteria2] @Daily_Configs #6'
   - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] @sunflowerplato\U0001F33B #2"
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
@@ -1783,6 +1828,8 @@ proxy-groups:
   - "[Hysteria2] @EXPRESSVPN_420 -> \u0647\u0645\u0647 \u0627\u067E\u0631\u0627\u062A\
     ..."
   - '[Hysteria2] All--@IRAN_V2RAY1'
+  - '[Hysteria2] @FreakConfig'
+  - '[Hysteria2] @FreakConfig #1'
   - '[Hysteria2] @Daily_Configs #1'
   - '[Hysteria2] WI-FI--@IRAN_V2RAY1'
   - '[Hysteria2] telegram-@ISVvpn'
@@ -1801,7 +1848,7 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1'
   - "[Hysteria2] @sunflowerplato\U0001F33B #1"
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
-  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] All-@IRAN_V2RAY1 #2'
   - '[Hysteria2] @Daily_Configs #4'
   - '[Hysteria2] All-@IRAN_V2RAY1 #3'
@@ -1811,6 +1858,7 @@ proxy-groups:
   - '[Hysteria2] MCI-@IRAN_V2RAY1'
   - '[Hysteria2] @Daily_Configs #6'
   - '[Hysteria2] @Daily_Configs #7'
+  - '[Hysteria2] @FreakConfig 2'
   - "[Hysteria2] @sunflowerplato\U0001F33B #2"
   - '[Hysteria2] @Daily_Configs #9'
   - '[Hysteria2] @Daily_Configs #10'
