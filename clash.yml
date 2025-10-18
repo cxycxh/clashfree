@@ -258,7 +258,7 @@ proxies:
   sni: gavazn.55994421.xyz
   type: hysteria2
 - auth: Telegram--%3E%40Ln2Ray
-  name: '[Hysteria2] @FreakConfig #3'
+  name: '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
   obfs: salamander
   obfs-password: Telegram-->@Ln2Ray
   password: Telegram--%3E%40Ln2Ray
@@ -268,7 +268,7 @@ proxies:
   sni: gavazn.55994421.xyz
   type: hysteria2
 - auth: Yet-Another-Public-Config-1
-  name: "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #3"
+  name: "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #2"
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -278,7 +278,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   type: hysteria2
 - auth: Yet-Another-Public-Config-1
-  name: "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #5"
+  name: "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #3"
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -288,7 +288,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   type: hysteria2
 - auth: Yet-Another-Public-Config-1
-  name: "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #8"
+  name: '[Hysteria2] @FreakConfig #5'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -298,17 +298,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   type: hysteria2
 - auth: Yet-Another-Public-Config-1
-  name: "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #10"
-  obfs: salamander
-  obfs-password: Yet-Another-Public-Config-1
-  password: Yet-Another-Public-Config-1
-  port: 35200
-  server: yapc-1.adamhayward.co.uk
-  skip-cert-verify: false
-  sni: YAPC-1.afshin.ir
-  type: hysteria2
-- auth: Yet-Another-Public-Config-1
-  name: "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #13"
+  name: '[Hysteria2] @Daily_Configs #10'
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -318,7 +308,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   type: hysteria2
 - auth: Yet-Another-Public-Config-1
-  name: "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #15"
+  name: "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #5"
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -328,7 +318,7 @@ proxies:
   sni: YAPC-1.afshin.ir
   type: hysteria2
 - auth: Yet-Another-Public-Config-1
-  name: "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #17"
+  name: "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #6"
   obfs: salamander
   obfs-password: Yet-Another-Public-Config-1
   password: Yet-Another-Public-Config-1
@@ -421,14 +411,6 @@ proxies:
   server: 80.85.241.237
   skip-cert-verify: false
   sni: stackoverflow.com
-  type: hysteria2
-- auth: zanzendegiazadi
-  name: '[Hysteria2] @Daily_Configs #15'
-  password: zanzendegiazadi
-  port: 443
-  server: 103.249.133.79
-  skip-cert-verify: false
-  sni: ubuntu.com
   type: hysteria2
 - cipher: aes-256-cfb
   name: "[SS] tg\u9891\u9053:@ripaojiedian"
@@ -853,6 +835,16 @@ proxies:
     headers:
       Host: joss.krikkrik.xyz
     path: /Free-VPN-CF-Geo-Project/AE5
+- cipher: chacha20-ietf-poly1305
+  name: "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
+  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
+  plugin: obfs
+  plugin-opts:
+    host: 4a81070:6193
+    mode: tls
+  port: 2377
+  server: 5.44.249.42
+  type: ss
 - cipher: aes-256-gcm
   name: "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   password: ccf426f1fe78
@@ -883,16 +875,6 @@ proxies:
   plugin: obfs
   plugin-opts:
     host: 874b20d:48331
-    mode: tls
-  port: 2377
-  server: 5.44.249.42
-  type: ss
-- cipher: chacha20-ietf-poly1305
-  name: "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
-  password: t0srmdxrm3xyjnvqz9ewlxb2myq7rjuv
-  plugin: obfs
-  plugin-opts:
-    host: 4a81070:6193
     mode: tls
   port: 2377
   server: 5.44.249.42
@@ -934,14 +916,13 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] @FreakConfig #3'
+  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #2"
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #3"
+  - '[Hysteria2] @FreakConfig #5'
+  - '[Hysteria2] @Daily_Configs #10'
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #5"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #8"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #10"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #13"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #15"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #17"
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #6"
   - "[Hysteria2] \U0001F1EC\U0001F1E7 - GB - @freeOnlineVPN #1"
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] @sunflowerplato\U0001F33B"
@@ -952,7 +933,6 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] Tel:@Daily_Configs'
   - '[Hysteria2] Telegram: @Daily_Configs'
-  - '[Hysteria2] @Daily_Configs #15'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -994,10 +974,10 @@ proxy-groups:
   - '[Vless] RU_speednode_0036'
   - '[Vless] RU_speednode_0039'
   - '[Trojan] US_speednode_0054'
+  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian 2"
-  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   type: select
 - interval: 300
   name: "\u267B\uFE0F \u81EA\u52A8\u9009\u62E9"
@@ -1034,14 +1014,13 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] @FreakConfig #3'
+  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #2"
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #3"
+  - '[Hysteria2] @FreakConfig #5'
+  - '[Hysteria2] @Daily_Configs #10'
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #5"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #8"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #10"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #13"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #15"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #17"
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #6"
   - "[Hysteria2] \U0001F1EC\U0001F1E7 - GB - @freeOnlineVPN #1"
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] @sunflowerplato\U0001F33B"
@@ -1052,7 +1031,6 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] Tel:@Daily_Configs'
   - '[Hysteria2] Telegram: @Daily_Configs'
-  - '[Hysteria2] @Daily_Configs #15'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -1094,10 +1072,10 @@ proxy-groups:
   - '[Vless] RU_speednode_0036'
   - '[Vless] RU_speednode_0039'
   - '[Trojan] US_speednode_0054'
+  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian 2"
-  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
 - name: "\U0001F3A5 NETFLIX"
@@ -1137,14 +1115,13 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] @FreakConfig #3'
+  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #2"
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #3"
+  - '[Hysteria2] @FreakConfig #5'
+  - '[Hysteria2] @Daily_Configs #10'
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #5"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #8"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #10"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #13"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #15"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #17"
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #6"
   - "[Hysteria2] \U0001F1EC\U0001F1E7 - GB - @freeOnlineVPN #1"
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] @sunflowerplato\U0001F33B"
@@ -1155,7 +1132,6 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] Tel:@Daily_Configs'
   - '[Hysteria2] Telegram: @Daily_Configs'
-  - '[Hysteria2] @Daily_Configs #15'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -1197,10 +1173,10 @@ proxy-groups:
   - '[Vless] RU_speednode_0036'
   - '[Vless] RU_speednode_0039'
   - '[Trojan] US_speednode_0054'
+  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian 2"
-  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
   proxies:
@@ -1251,14 +1227,13 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] @FreakConfig #3'
+  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #2"
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #3"
+  - '[Hysteria2] @FreakConfig #5'
+  - '[Hysteria2] @Daily_Configs #10'
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #5"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #8"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #10"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #13"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #15"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #17"
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #6"
   - "[Hysteria2] \U0001F1EC\U0001F1E7 - GB - @freeOnlineVPN #1"
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] @sunflowerplato\U0001F33B"
@@ -1269,7 +1244,6 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] Tel:@Daily_Configs'
   - '[Hysteria2] Telegram: @Daily_Configs'
-  - '[Hysteria2] @Daily_Configs #15'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -1311,10 +1285,10 @@ proxy-groups:
   - '[Vless] RU_speednode_0036'
   - '[Vless] RU_speednode_0039'
   - '[Trojan] US_speednode_0054'
+  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian 2"
-  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
   proxies:
@@ -1366,14 +1340,13 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] @FreakConfig #3'
+  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #2"
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #3"
+  - '[Hysteria2] @FreakConfig #5'
+  - '[Hysteria2] @Daily_Configs #10'
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #5"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #8"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #10"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #13"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #15"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #17"
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #6"
   - "[Hysteria2] \U0001F1EC\U0001F1E7 - GB - @freeOnlineVPN #1"
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] @sunflowerplato\U0001F33B"
@@ -1384,7 +1357,6 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] Tel:@Daily_Configs'
   - '[Hysteria2] Telegram: @Daily_Configs'
-  - '[Hysteria2] @Daily_Configs #15'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -1426,10 +1398,10 @@ proxy-groups:
   - '[Vless] RU_speednode_0036'
   - '[Vless] RU_speednode_0039'
   - '[Trojan] US_speednode_0054'
+  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian 2"
-  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
   proxies:
@@ -1467,14 +1439,13 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] @FreakConfig #3'
+  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #2"
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #3"
+  - '[Hysteria2] @FreakConfig #5'
+  - '[Hysteria2] @Daily_Configs #10'
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #5"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #8"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #10"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #13"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #15"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #17"
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #6"
   - "[Hysteria2] \U0001F1EC\U0001F1E7 - GB - @freeOnlineVPN #1"
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] @sunflowerplato\U0001F33B"
@@ -1485,7 +1456,6 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] Tel:@Daily_Configs'
   - '[Hysteria2] Telegram: @Daily_Configs'
-  - '[Hysteria2] @Daily_Configs #15'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -1527,10 +1497,10 @@ proxy-groups:
   - '[Vless] RU_speednode_0036'
   - '[Vless] RU_speednode_0039'
   - '[Trojan] US_speednode_0054'
+  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian 2"
-  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
   proxies:
@@ -1569,14 +1539,13 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] @FreakConfig #3'
+  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #2"
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #3"
+  - '[Hysteria2] @FreakConfig #5'
+  - '[Hysteria2] @Daily_Configs #10'
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #5"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #8"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #10"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #13"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #15"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #17"
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #6"
   - "[Hysteria2] \U0001F1EC\U0001F1E7 - GB - @freeOnlineVPN #1"
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] @sunflowerplato\U0001F33B"
@@ -1587,7 +1556,6 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] Tel:@Daily_Configs'
   - '[Hysteria2] Telegram: @Daily_Configs'
-  - '[Hysteria2] @Daily_Configs #15'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -1629,10 +1597,10 @@ proxy-groups:
   - '[Vless] RU_speednode_0036'
   - '[Vless] RU_speednode_0039'
   - '[Trojan] US_speednode_0054'
+  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian 2"
-  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   proxies:
@@ -1680,14 +1648,13 @@ proxy-groups:
   - '[Hysteria2] All-@IRAN_V2RAY1 #1'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] @FreakConfig #3'
+  - '[Hysteria2] WI-FI--@IRAN_V2RAY1 #1'
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #2"
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #3"
+  - '[Hysteria2] @FreakConfig #5'
+  - '[Hysteria2] @Daily_Configs #10'
   - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #5"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #8"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #10"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #13"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #15"
-  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #17"
+  - "[Hysteria2] \U0001F1F3\U0001F1F1 - NL - @freeOnlineVPN #6"
   - "[Hysteria2] \U0001F1EC\U0001F1E7 - GB - @freeOnlineVPN #1"
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] @sunflowerplato\U0001F33B"
@@ -1698,7 +1665,6 @@ proxy-groups:
   - '[Hysteria2] @Daily_Configs #14'
   - '[Hysteria2] Tel:@Daily_Configs'
   - '[Hysteria2] Telegram: @Daily_Configs'
-  - '[Hysteria2] @Daily_Configs #15'
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
@@ -1740,10 +1706,10 @@ proxy-groups:
   - '[Vless] RU_speednode_0036'
   - '[Vless] RU_speednode_0039'
   - '[Trojan] US_speednode_0054'
+  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57614|@ripaojiedian 2"
   - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57615|@ripaojiedian 2"
-  - "[SS] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57613|@ripaojiedian 2"
   type: select
 rules:
 - "DOMAIN-SUFFIX,local,\U0001F3AF \u5168\u7403\u76F4\u8FDE"
