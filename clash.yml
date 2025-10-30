@@ -62,6 +62,13 @@ proxies:
   skip-cert-verify: false
   sni: d.eans.top
   type: hysteria2
+- auth: 4a25ab9e-66e3-435a-97a4-276b5c3a1947
+  name: '[Hysteria2] All-@V2rayAlpha--3'
+  password: 4a25ab9e-66e3-435a-97a4-276b5c3a1947
+  port: 443
+  server: hk.xn--9kqw1xbnu.shop
+  skip-cert-verify: false
+  type: hysteria2
 - auth: 4ba709e6-6186-412d-a79d-bf256c7df57c
   name: '[Hysteria2] All-@V2rayAlpha--7'
   password: 4ba709e6-6186-412d-a79d-bf256c7df57c
@@ -326,14 +333,6 @@ proxies:
   skip-cert-verify: false
   sni: www.bing.com
   type: hysteria2
-- auth: 934766f0-204c-42be-8cf7-9afc2a8b5eaf
-  name: '[Hysteria2] WiFi-@V2rayAlpha--5'
-  password: 934766f0-204c-42be-8cf7-9afc2a8b5eaf
-  port: 22156
-  server: hsyg.huasuan666.top
-  skip-cert-verify: false
-  sni: hsyg.huasuan666.top
-  type: hysteria2
 - auth: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
   name: "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   password: 9772ecf2-6732-4bfb-a8b1-f48af577c76c
@@ -349,6 +348,14 @@ proxies:
   server: els1.dimoyun.top
   skip-cert-verify: false
   sni: els1.dimoyun.top
+  type: hysteria2
+- auth: MxiGoEDnLJELZicwCXwsADPdF4
+  name: '[Hysteria2] All-@V2rayAlpha--2 #1'
+  password: MxiGoEDnLJELZicwCXwsADPdF4
+  port: 29609
+  server: 43.201.45.216
+  skip-cert-verify: false
+  sni: bing.com
   type: hysteria2
 - auth: Telegram--%3E%40Ln2Ray
   name: '[Hysteria2] @FreakConfig #3'
@@ -472,7 +479,7 @@ proxies:
   sni: hl01.mistea.top
   type: hysteria2
 - auth: c232f411-96b5-4b07-b2f7-66a434725ffb
-  name: '[Hysteria2] @meli_proxyy #8'
+  name: '[Hysteria2] All-@V2rayAlpha--1'
   password: c232f411-96b5-4b07-b2f7-66a434725ffb
   port: 23892
   server: 38.45.89.97
@@ -592,6 +599,20 @@ proxies:
   port: 443
   server: 103.103.245.158
   type: ss
+- alterId: 2
+  cipher: auto
+  name: "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
+  network: ws
+  port: 80
+  server: 95811783-t02f40-t4nxvc-1p1b.hk.p5pv.com
+  skip-cert-verify: false
+  tls: false
+  type: vmess
+  uuid: 279b8588-616b-11ed-a8bf-f23c91cfbbc9
+  ws-opts:
+    headers:
+      Host: broadcastlv.chat.bilibili.com
+    path: /
 - name: "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   password: BxceQaOe
   port: 194
@@ -613,6 +634,12 @@ proxies:
   tls: false
   type: vmess
   uuid: 4f8db425-47ac-420e-b2d7-6e85bbc25562
+- name: "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
+  password: 267a9510-4ff5-4ffb-afaa-52e15423dadb
+  port: 21874
+  server: 36.103.168.7
+  skip-cert-verify: false
+  type: trojan
 - name: "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   password: BxceQaOe
   port: 401
@@ -622,28 +649,28 @@ proxies:
 - name: "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   password: bca467b8c15211d189008a93c7519d3b
   port: 1332
-  server: 160.16.144.208
+  server: 221.128.195.8
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
 - name: "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
   password: bca467b8c15211d189008a93c7519d3b
-  port: 3161
-  server: 160.16.144.208
+  port: 4452
+  server: 160.16.63.16
   skip-cert-verify: false
-  sni: www.baidu.com
+  sni: www.nintendogames.net
   type: trojan
 - name: "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u5761|@ripaojiedian"
   password: bca467b8c15211d189008a93c7519d3b
   port: 2283
-  server: 160.16.138.24
+  server: 221.128.195.8
   skip-cert-verify: false
-  sni: www.baidu.com
+  sni: www.nintendogames.net
   type: trojan
 - name: "[Trojan] \U0001F1F8\U0001F1EC \u65B0\u52A0\u57612|@ripaojiedian"
   password: bca467b8c15211d189008a93c7519d3b
-  port: 5041
-  server: 160.16.138.24
+  port: 5321
+  server: 153.121.39.240
   skip-cert-verify: false
   sni: www.nintendogames.net
   type: trojan
@@ -690,7 +717,7 @@ proxies:
   type: trojan
 - name: "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
   password: BxceQaOe
-  port: 27409
+  port: 13198
   server: 36.150.215.236
   skip-cert-verify: false
   type: trojan
@@ -1131,6 +1158,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--15'
   - '[Hysteria2] MCI-@V2rayAlpha--2'
   - '[Hysteria2] https://t.me/Selinc'
+  - '[Hysteria2] All-@V2rayAlpha--3'
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--10'
   - '[Hysteria2] telegram--MTMVPN 18'
@@ -1164,9 +1192,9 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--8 #2'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] WiFi-@V2rayAlpha--5'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] All-@V2rayAlpha--6 #1'
+  - '[Hysteria2] All-@V2rayAlpha--2 #1'
   - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] @FreakConfig #4'
   - '[Hysteria2] telegram--MTMVPN10'
@@ -1181,7 +1209,7 @@ proxy-groups:
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] \u2705 @vistav2ray  \U0001F448\U0001F448\u06A9\u0627\u0646\u0627\u0644\
     \ \u0645\u0627"
-  - '[Hysteria2] @meli_proxyy #8'
+  - '[Hysteria2] All-@V2rayAlpha--1'
   - '[Hysteria2] WiFi-@V2rayAlpha--7'
   - "[Hysteria2] @sunflowerplato\U0001F33B #3"
   - '[Hysteria2] WiFi-@V2rayAlpha--6'
@@ -1197,9 +1225,11 @@ proxy-groups:
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
@@ -1256,6 +1286,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--15'
   - '[Hysteria2] MCI-@V2rayAlpha--2'
   - '[Hysteria2] https://t.me/Selinc'
+  - '[Hysteria2] All-@V2rayAlpha--3'
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--10'
   - '[Hysteria2] telegram--MTMVPN 18'
@@ -1289,9 +1320,9 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--8 #2'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] WiFi-@V2rayAlpha--5'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] All-@V2rayAlpha--6 #1'
+  - '[Hysteria2] All-@V2rayAlpha--2 #1'
   - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] @FreakConfig #4'
   - '[Hysteria2] telegram--MTMVPN10'
@@ -1306,7 +1337,7 @@ proxy-groups:
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] \u2705 @vistav2ray  \U0001F448\U0001F448\u06A9\u0627\u0646\u0627\u0644\
     \ \u0645\u0627"
-  - '[Hysteria2] @meli_proxyy #8'
+  - '[Hysteria2] All-@V2rayAlpha--1'
   - '[Hysteria2] WiFi-@V2rayAlpha--7'
   - "[Hysteria2] @sunflowerplato\U0001F33B #3"
   - '[Hysteria2] WiFi-@V2rayAlpha--6'
@@ -1322,9 +1353,11 @@ proxy-groups:
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
@@ -1384,6 +1417,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--15'
   - '[Hysteria2] MCI-@V2rayAlpha--2'
   - '[Hysteria2] https://t.me/Selinc'
+  - '[Hysteria2] All-@V2rayAlpha--3'
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--10'
   - '[Hysteria2] telegram--MTMVPN 18'
@@ -1417,9 +1451,9 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--8 #2'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] WiFi-@V2rayAlpha--5'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] All-@V2rayAlpha--6 #1'
+  - '[Hysteria2] All-@V2rayAlpha--2 #1'
   - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] @FreakConfig #4'
   - '[Hysteria2] telegram--MTMVPN10'
@@ -1434,7 +1468,7 @@ proxy-groups:
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] \u2705 @vistav2ray  \U0001F448\U0001F448\u06A9\u0627\u0646\u0627\u0644\
     \ \u0645\u0627"
-  - '[Hysteria2] @meli_proxyy #8'
+  - '[Hysteria2] All-@V2rayAlpha--1'
   - '[Hysteria2] WiFi-@V2rayAlpha--7'
   - "[Hysteria2] @sunflowerplato\U0001F33B #3"
   - '[Hysteria2] WiFi-@V2rayAlpha--6'
@@ -1450,9 +1484,11 @@ proxy-groups:
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
@@ -1523,6 +1559,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--15'
   - '[Hysteria2] MCI-@V2rayAlpha--2'
   - '[Hysteria2] https://t.me/Selinc'
+  - '[Hysteria2] All-@V2rayAlpha--3'
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--10'
   - '[Hysteria2] telegram--MTMVPN 18'
@@ -1556,9 +1593,9 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--8 #2'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] WiFi-@V2rayAlpha--5'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] All-@V2rayAlpha--6 #1'
+  - '[Hysteria2] All-@V2rayAlpha--2 #1'
   - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] @FreakConfig #4'
   - '[Hysteria2] telegram--MTMVPN10'
@@ -1573,7 +1610,7 @@ proxy-groups:
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] \u2705 @vistav2ray  \U0001F448\U0001F448\u06A9\u0627\u0646\u0627\u0644\
     \ \u0645\u0627"
-  - '[Hysteria2] @meli_proxyy #8'
+  - '[Hysteria2] All-@V2rayAlpha--1'
   - '[Hysteria2] WiFi-@V2rayAlpha--7'
   - "[Hysteria2] @sunflowerplato\U0001F33B #3"
   - '[Hysteria2] WiFi-@V2rayAlpha--6'
@@ -1589,9 +1626,11 @@ proxy-groups:
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
@@ -1643,9 +1682,11 @@ proxy-groups:
   - "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian 2"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   - "\U0001F530 \u8282\u70B9\u9009\u62E9"
@@ -1661,6 +1702,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--15'
   - '[Hysteria2] MCI-@V2rayAlpha--2'
   - '[Hysteria2] https://t.me/Selinc'
+  - '[Hysteria2] All-@V2rayAlpha--3'
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--10'
   - '[Hysteria2] telegram--MTMVPN 18'
@@ -1694,9 +1736,9 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--8 #2'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] WiFi-@V2rayAlpha--5'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] All-@V2rayAlpha--6 #1'
+  - '[Hysteria2] All-@V2rayAlpha--2 #1'
   - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] @FreakConfig #4'
   - '[Hysteria2] telegram--MTMVPN10'
@@ -1711,7 +1753,7 @@ proxy-groups:
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] \u2705 @vistav2ray  \U0001F448\U0001F448\u06A9\u0627\u0646\u0627\u0644\
     \ \u0645\u0627"
-  - '[Hysteria2] @meli_proxyy #8'
+  - '[Hysteria2] All-@V2rayAlpha--1'
   - '[Hysteria2] WiFi-@V2rayAlpha--7'
   - "[Hysteria2] @sunflowerplato\U0001F33B #3"
   - '[Hysteria2] WiFi-@V2rayAlpha--6'
@@ -1727,9 +1769,11 @@ proxy-groups:
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
@@ -1787,6 +1831,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--15'
   - '[Hysteria2] MCI-@V2rayAlpha--2'
   - '[Hysteria2] https://t.me/Selinc'
+  - '[Hysteria2] All-@V2rayAlpha--3'
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--10'
   - '[Hysteria2] telegram--MTMVPN 18'
@@ -1820,9 +1865,9 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--8 #2'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] WiFi-@V2rayAlpha--5'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] All-@V2rayAlpha--6 #1'
+  - '[Hysteria2] All-@V2rayAlpha--2 #1'
   - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] @FreakConfig #4'
   - '[Hysteria2] telegram--MTMVPN10'
@@ -1837,7 +1882,7 @@ proxy-groups:
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] \u2705 @vistav2ray  \U0001F448\U0001F448\u06A9\u0627\u0646\u0627\u0644\
     \ \u0645\u0627"
-  - '[Hysteria2] @meli_proxyy #8'
+  - '[Hysteria2] All-@V2rayAlpha--1'
   - '[Hysteria2] WiFi-@V2rayAlpha--7'
   - "[Hysteria2] @sunflowerplato\U0001F33B #3"
   - '[Hysteria2] WiFi-@V2rayAlpha--6'
@@ -1853,9 +1898,11 @@ proxy-groups:
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
@@ -1914,6 +1961,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--15'
   - '[Hysteria2] MCI-@V2rayAlpha--2'
   - '[Hysteria2] https://t.me/Selinc'
+  - '[Hysteria2] All-@V2rayAlpha--3'
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--10'
   - '[Hysteria2] telegram--MTMVPN 18'
@@ -1947,9 +1995,9 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--8 #2'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] WiFi-@V2rayAlpha--5'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] All-@V2rayAlpha--6 #1'
+  - '[Hysteria2] All-@V2rayAlpha--2 #1'
   - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] @FreakConfig #4'
   - '[Hysteria2] telegram--MTMVPN10'
@@ -1964,7 +2012,7 @@ proxy-groups:
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] \u2705 @vistav2ray  \U0001F448\U0001F448\u06A9\u0627\u0646\u0627\u0644\
     \ \u0645\u0627"
-  - '[Hysteria2] @meli_proxyy #8'
+  - '[Hysteria2] All-@V2rayAlpha--1'
   - '[Hysteria2] WiFi-@V2rayAlpha--7'
   - "[Hysteria2] @sunflowerplato\U0001F33B #3"
   - '[Hysteria2] WiFi-@V2rayAlpha--6'
@@ -1980,9 +2028,11 @@ proxy-groups:
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
@@ -2050,6 +2100,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--15'
   - '[Hysteria2] MCI-@V2rayAlpha--2'
   - '[Hysteria2] https://t.me/Selinc'
+  - '[Hysteria2] All-@V2rayAlpha--3'
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--10'
   - '[Hysteria2] telegram--MTMVPN 18'
@@ -2083,9 +2134,9 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--8 #2'
   - '[Hysteria2] @FreakConfig #2'
   - '[Hysteria2] @FreakConfig #2 2'
-  - '[Hysteria2] WiFi-@V2rayAlpha--5'
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #1"
   - '[Hysteria2] All-@V2rayAlpha--6 #1'
+  - '[Hysteria2] All-@V2rayAlpha--2 #1'
   - '[Hysteria2] @FreakConfig #3'
   - '[Hysteria2] @FreakConfig #4'
   - '[Hysteria2] telegram--MTMVPN10'
@@ -2100,7 +2151,7 @@ proxy-groups:
   - "[Hysteria2] @AblNet7 \U0001F1FA\U0001F1F8 \u673A\u573A\u63A8\u8350 #2"
   - "[Hysteria2] \u2705 @vistav2ray  \U0001F448\U0001F448\u06A9\u0627\u0646\u0627\u0644\
     \ \u0645\u0627"
-  - '[Hysteria2] @meli_proxyy #8'
+  - '[Hysteria2] All-@V2rayAlpha--1'
   - '[Hysteria2] WiFi-@V2rayAlpha--7'
   - "[Hysteria2] @sunflowerplato\U0001F33B #3"
   - '[Hysteria2] WiFi-@V2rayAlpha--6'
@@ -2116,9 +2167,11 @@ proxy-groups:
   - "[SS] tg\u9891\u9053:@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F|@ripaojiedian"
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian"
+  - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F3|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F4|@ripaojiedian"
   - "[Trojan] \U0001F1ED\U0001F1F0 \u9999\u6E2F5|@ripaojiedian"
   - "[VMess] \U0001F1ED\U0001F1F0 \u9999\u6E2F6|@ripaojiedian"
+  - "[Trojan] \U0001F1E8\U0001F1F3 \u53F0\u6E7E|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C2|@ripaojiedian"
   - "[Trojan] \U0001F1EF\U0001F1F5 \u65E5\u672C3|@ripaojiedian"
