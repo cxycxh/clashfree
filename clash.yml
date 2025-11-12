@@ -244,6 +244,16 @@ proxies:
   skip-cert-verify: false
   sni: jnir.pichondan.com
   type: hysteria2
+- auth: 6202ab997f570a6a180ae980b41f5789
+  name: "[Hysteria2] r\u2661ya"
+  obfs: salamander
+  obfs-password: '@JavidnamanIran-Javid-SHAH-King-Reza-Pahlavi'
+  password: 6202ab997f570a6a180ae980b41f5789
+  port: 989
+  server: dir.lightnright.com
+  skip-cert-verify: false
+  sni: jnir-x.pichondan.com
+  type: hysteria2
 - auth: 680210f5-3b5f-4947-9983-e508a15cf169
   name: '[Hysteria2] All-@V2rayAlpha--7'
   obfs: salamander
@@ -796,47 +806,49 @@ proxies:
   skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] CN_speednode_0009'
+- name: '[Trojan] HK_speednode_0004'
   password: BxceQaOe
-  port: 38799
-  server: 36.151.251.38
-  skip-cert-verify: false
-  sni: t.me/ripaojiedian
-  type: trojan
-- name: '[Trojan] CN_speednode_0012'
-  password: BxceQaOe
-  port: 38799
-  server: 36.151.251.38
+  port: 4569
+  server: 116.49.237.130
   skip-cert-verify: false
   sni: t.me%2Fripaojiedian
   type: trojan
-- name: '[Trojan] HK_speednode_0023'
-  password: BxceQaOe
-  port: 443
-  server: 203.198.122.129
-  skip-cert-verify: false
-  sni: 203.198.122.129
-  type: trojan
-- name: '[Vless] SI_speednode_0026'
+- name: '[Trojan] NL_speednode_0006'
   network: ws
+  password: c2d6a850-7e35-44f5-ab9f-8299f6f8c72b
   port: 443
-  server: fl-3-direct.djarbnet.ru
-  servername: fl-3-direct.djarbnet.ru
+  server: 194.147.115.149
   skip-cert-verify: false
-  tls: false
-  type: vless
-  uuid: cc67ca7f-064e-4117-ac31-a66d5728a11c
+  sni: joss.dus.biz.id
+  type: trojan
   ws-opts:
     headers:
-      Host: fl-3-direct.djarbnet.ru
-    path: /getupdatessecurity=tls
-- name: '[Trojan] US_speednode_0028'
-  password: telegram-id-directvpn
-  port: 22223
-  server: 51.45.27.162
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/194.147.115.149=443
+- name: '[Trojan] PL_speednode_0007'
+  network: ws
+  password: 49d416e1-4cec-41e1-bff6-3748c466f275
+  port: 8443
+  server: 45.144.48.158
   skip-cert-verify: false
-  sni: trojan.burgerip.co.uk
+  sni: joss.dus.biz.id
   type: trojan
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/45.144.48.158=8443
+- name: '[Trojan] RU_speednode_0009'
+  network: ws
+  password: 14d6efcf-b0d3-4054-9d4e-e1347e3ceaa2
+  port: 2053
+  server: 213.159.208.88
+  skip-cert-verify: false
+  sni: joss.dus.biz.id
+  type: trojan
+  ws-opts:
+    headers:
+      Host: joss.dus.biz.id
+    path: /Free-VPN-CF-Geo-Project/213.159.208.88=2053
 - cipher: aes-256-gcm
   name: "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   password: ccf426f1fe78
@@ -884,6 +896,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--11'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #1'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #3'
+  - "[Hysteria2] r\u2661ya"
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--8 #1'
   - '[Hysteria2] All-@V2ray_Alpha--2 #1'
@@ -955,11 +968,10 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - '[Trojan] CN_speednode_0009'
-  - '[Trojan] CN_speednode_0012'
-  - '[Trojan] HK_speednode_0023'
-  - '[Vless] SI_speednode_0026'
-  - '[Trojan] US_speednode_0028'
+  - '[Trojan] HK_speednode_0004'
+  - '[Trojan] NL_speednode_0006'
+  - '[Trojan] PL_speednode_0007'
+  - '[Trojan] RU_speednode_0009'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - interval: 300
@@ -993,6 +1005,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--11'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #1'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #3'
+  - "[Hysteria2] r\u2661ya"
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--8 #1'
   - '[Hysteria2] All-@V2ray_Alpha--2 #1'
@@ -1064,11 +1077,10 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - '[Trojan] CN_speednode_0009'
-  - '[Trojan] CN_speednode_0012'
-  - '[Trojan] HK_speednode_0023'
-  - '[Vless] SI_speednode_0026'
-  - '[Trojan] US_speednode_0028'
+  - '[Trojan] HK_speednode_0004'
+  - '[Trojan] NL_speednode_0006'
+  - '[Trojan] PL_speednode_0007'
+  - '[Trojan] RU_speednode_0009'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -1105,6 +1117,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--11'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #1'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #3'
+  - "[Hysteria2] r\u2661ya"
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--8 #1'
   - '[Hysteria2] All-@V2ray_Alpha--2 #1'
@@ -1176,11 +1189,10 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - '[Trojan] CN_speednode_0009'
-  - '[Trojan] CN_speednode_0012'
-  - '[Trojan] HK_speednode_0023'
-  - '[Vless] SI_speednode_0026'
-  - '[Trojan] US_speednode_0028'
+  - '[Trojan] HK_speednode_0004'
+  - '[Trojan] NL_speednode_0006'
+  - '[Trojan] PL_speednode_0007'
+  - '[Trojan] RU_speednode_0009'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\u26D4\uFE0F \u5E7F\u544A\u62E6\u622A"
@@ -1228,6 +1240,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--11'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #1'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #3'
+  - "[Hysteria2] r\u2661ya"
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--8 #1'
   - '[Hysteria2] All-@V2ray_Alpha--2 #1'
@@ -1299,11 +1312,10 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - '[Trojan] CN_speednode_0009'
-  - '[Trojan] CN_speednode_0012'
-  - '[Trojan] HK_speednode_0023'
-  - '[Vless] SI_speednode_0026'
-  - '[Trojan] US_speednode_0028'
+  - '[Trojan] HK_speednode_0004'
+  - '[Trojan] NL_speednode_0006'
+  - '[Trojan] PL_speednode_0007'
+  - '[Trojan] RU_speednode_0009'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F30F \u56FD\u5185\u5A92\u4F53"
@@ -1349,6 +1361,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--11'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #1'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #3'
+  - "[Hysteria2] r\u2661ya"
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--8 #1'
   - '[Hysteria2] All-@V2ray_Alpha--2 #1'
@@ -1420,11 +1433,10 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - '[Trojan] CN_speednode_0009'
-  - '[Trojan] CN_speednode_0012'
-  - '[Trojan] HK_speednode_0023'
-  - '[Vless] SI_speednode_0026'
-  - '[Trojan] US_speednode_0028'
+  - '[Trojan] HK_speednode_0004'
+  - '[Trojan] NL_speednode_0006'
+  - '[Trojan] PL_speednode_0007'
+  - '[Trojan] RU_speednode_0009'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F4F2 \u7535\u62A5\u4FE1\u606F"
@@ -1459,6 +1471,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--11'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #1'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #3'
+  - "[Hysteria2] r\u2661ya"
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--8 #1'
   - '[Hysteria2] All-@V2ray_Alpha--2 #1'
@@ -1530,11 +1543,10 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - '[Trojan] CN_speednode_0009'
-  - '[Trojan] CN_speednode_0012'
-  - '[Trojan] HK_speednode_0023'
-  - '[Vless] SI_speednode_0026'
-  - '[Trojan] US_speednode_0028'
+  - '[Trojan] HK_speednode_0004'
+  - '[Trojan] NL_speednode_0006'
+  - '[Trojan] PL_speednode_0007'
+  - '[Trojan] RU_speednode_0009'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F34E \u82F9\u679C\u670D\u52A1"
@@ -1570,6 +1582,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--11'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #1'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #3'
+  - "[Hysteria2] r\u2661ya"
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--8 #1'
   - '[Hysteria2] All-@V2ray_Alpha--2 #1'
@@ -1641,11 +1654,10 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - '[Trojan] CN_speednode_0009'
-  - '[Trojan] CN_speednode_0012'
-  - '[Trojan] HK_speednode_0023'
-  - '[Vless] SI_speednode_0026'
-  - '[Trojan] US_speednode_0028'
+  - '[Trojan] HK_speednode_0004'
+  - '[Trojan] NL_speednode_0006'
+  - '[Trojan] PL_speednode_0007'
+  - '[Trojan] RU_speednode_0009'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 - name: "\U0001F3AF \u5168\u7403\u76F4\u8FDE"
@@ -1690,6 +1702,7 @@ proxy-groups:
   - '[Hysteria2] All-@V2rayAlpha--11'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #1'
   - '[Hysteria2] MCi--@IRAN_V2RAY1 #3'
+  - "[Hysteria2] r\u2661ya"
   - '[Hysteria2] All-@V2rayAlpha--7'
   - '[Hysteria2] All-@V2rayAlpha--8 #1'
   - '[Hysteria2] All-@V2ray_Alpha--2 #1'
@@ -1761,11 +1774,10 @@ proxy-groups:
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD2|@ripaojiedian"
   - "[Trojan] \U0001F1FA\U0001F1F8 \u7F8E\u56FD3|@ripaojiedian"
-  - '[Trojan] CN_speednode_0009'
-  - '[Trojan] CN_speednode_0012'
-  - '[Trojan] HK_speednode_0023'
-  - '[Vless] SI_speednode_0026'
-  - '[Trojan] US_speednode_0028'
+  - '[Trojan] HK_speednode_0004'
+  - '[Trojan] NL_speednode_0006'
+  - '[Trojan] PL_speednode_0007'
+  - '[Trojan] RU_speednode_0009'
   - "[SS] \U0001F1ED\U0001F1F0 \u9999\u6E2F2|@ripaojiedian 2"
   type: select
 rules:
